@@ -1,0 +1,104 @@
+Documentazione CyberTronic 500 
+Modulo Visual Basic
+
+Lista moduli componenti
+
+Segue la lista dei moduli sorgente del progetto Cyber500 - cartella cyb500n/Versione (versione)/Source
+versione : 9.6.x
+
+La lista è stata divisa per funzione in :
+
+Gestione Componenti : moduli di implementazione componenti
+	Gestione degli oggetti componenti l'impianto
+
+Gestione Funzioni : moduli di implementazione funzioni
+	Gestione delle funzioni eseguibili 
+
+Gestione Parametri
+	Funzioni di gestione lettura e scrittura dei parametri dell'impianto
+
+Altri Moduli
+	Vari moduli di minore imposrtanza
+
+
+
+Gestione Componenti : moduli di implementazione componenti
+----------------------------------------------------------------------------
+Module=NetWork; NetWork.bas
+Module=GestioneCisterneCommon; GestioneCisterneCommon.bas
+Module=GestioneCisternePLC; GestioneCisterneTipo5.bas
+Module=GestioneCisterneSingole; GestioneCisterne.bas
+Module=ModPID; ModPID.bas
+Module=GestioneLivelliSiliFillerVaglio; GestioneLivelliSiliFillerVaglio.bas
+Module=GestioneAmperometri; GestioneAmperometri.bas
+Module=GestioneViatop; Viatop.bas
+Module=GestioneFiltro; GestioneFiltroESonde.bas
+Module=GestionePredNastriC; GestionePredNastriC.bas
+Module=GestioneRiciclato; GestioneRiciclato.bas
+Module=GestioneSiloS7; GestioneSilo.bas
+Module=GestioneSiwarex; GestioneSiwarex.bas
+Module=GestionePredosatori; GestionePredosatori.bas
+Module=GestioneAquablack; GestioneAquablack.bas
+Module=GestioneSiloGenerale; GestioneSiloGenerale.bas
+Module=GestioneMotori; GestioneMotori.bas
+Module=GestioneDosaggio; GestioneDosaggio.bas
+Module=GestioneBruciatore; ControlloBruc.bas
+Module=BrucAuto; BrucAuto.bas
+
+Gestione Funzioni : moduli di implementazione funzioni
+----------------------------------------------------------------------------
+Module=GestioneCodaMateriale; GestioneCodaMateriale.bas
+Module=GestioneOreLavoro; GestioneOreLavoro.bas
+Module=Configurazione; Configurazione.bas
+Module=GestioneAdditivi; GestioneAdditivi.bas
+Module=GestioneJob; GestioneJob.bas
+Module=ImpastiManuali; MemManuale.bas
+Module=GestioneGrafica; GestioneGrafica.bas
+Module=GestioneTrend; Trend.bas
+Module=GestioneComandiVari; GestioneCmdDeoSoffioAntiadVib.bas
+Module=GestioneAllarmi; IconeAllarmi.bas
+
+Gestione Parametri
+--------------------------------------------------------
+Module=ParaTabTrend; ParaTabTrend.bas
+Module=ParaTabGeneral; ParaTabGeneral.bas
+Module=ParaTabLeg; ParaTabLeg.bas
+Module=ParaTabVarie; ParaTabVarie.bas
+Module=ParaTabAmp; ParaTabAmp.bas
+Module=ParaTabCist; ParaTabCist.bas
+Module=ParaTabMotor; ParaTabMotor.bas
+Module=ParaTabPred; ParaTabPred.bas
+Module=ParaTabSilo; ParaTabSilo.bas
+Module=ParaTabDos; ParaTabComp.bas
+Module=ParaTab; ParaTab.bas
+Module=ParaTabAquablack; ParaTabAquablack.bas
+Module=ParaTabAdd; ParaTabAdd.bas
+Module=ParaTabBruc; ParaTabBruc.bas
+Module=ParaTabDebug; ParaTabDebug.bas
+Module=ParaTabSchiumato; ParaTabSchiumato.bas
+Module=ParaTabComandi; ParaTabComandi.bas
+
+Moduli da verificare (rif. Maiorana)
+--------------------------------------------------------
+Module=GestioneHelp; Help.bas
+Module=CodaCircolare; CodaCircolare.bas
+Module=GestioneLCPC; GestioneLCPC.bas
+Module=Stampante; Printer.bas
+Module=ControlliVari; ControlliVari.bas
+Module=ControlloDatiInseriti; ControlloDatiInseriti.bas
+
+Altri Moduli
+--------------------------------------------------------
+Module=GestioneBit; GestioneBit.bas
+Module=GestioneCaratteri; GestioneCaratteri.bas
+Module=Registro; Registro.bas
+Module=BusSytem; BusSytem.bas
+Module=GestioneDataBase; DataBase.bas
+Module=GestioneFile; GestioneFile.bas
+Module=GestioneLog; GestioneLog.bas
+Module=Security; Security.bas
+Module=GestioneCaldaie; GestioneCaldaie.bas
+Module=ModuleShowForm; ModuleShowForm.bas
+Module=GestioneMessaggistica; GestioneMessaggistica.bas
+Module=GestioneLingue; GestioneLingue.bas
+Module=Stampe; Stampe.bas

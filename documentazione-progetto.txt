@@ -1,0 +1,171 @@
+Documentazione CyberTronic 500 - Visual Basic
+-------------------------------------------------------------------------------------
+L'applicazione è sviluppata in Visual Basic 6
+
+/root
+├───Exe           Eseguibili e lista plctags
+├───Grafica       Immagini utilizzate 
+│   └───Source    Immagini utilizzate in formato pdn
+├───InstallDat    Traduziolni
+├───Resources     Immagini
+├───Source        Sorgenti Visual Basic (.bas / .frm / .cls)
+└───SQL           Backup Database
+
+
+Componenti
+
+Un impianto è composto logicamente dai seguenti moduli:
+
+Predosaggio
+Cisterne
+Filtro
+Tamburo 
+Vaglio
+Dosaggio
+Silos
+
+Ogni modulo è a sua volta composto da altri modul componenti quali motori, nastri, bilance, bruciatore, valvole, sensori, attuatori, mescolatore, navetta...
+
+La logica di funzionamento dei componenti dell'impianto è quasi completamente gestita dal PLC attraverso gli I/O digitali e analogici.
+L'interazione con l'utente e la presentazione dello stato dei moduli e del funzionamento dell'impianto, nonchè una parte di logica, è gestita da software applicativo.
+Tale software applicativo è suddiviso, dal punto di vista dello sviluppo, in modulo Visual Basic 6 (VB6) e moduli C#.
+Il modulo VB6 in particolare si occupa della presentazione visuale dello stato dell'impianto e nella gestione di gran parte dell'interazione dell'utente con l'impiato medesimo (HMI).
+
+Componenti dell'applicazione VB6
+L'applicazione VB6 è suddivisa in moduli sorgente (estensione .bas) e moduli di gestione forms (estensione .frm)
+
+Moduli sorgente componenti il progetto e loro sommaria descrizione
+I moduli sorgenti componenti il progetto possono essere suddivisi logicamente in :
+
+	Gestione Comunicazione con il PLC : modulo di comunicazione con il PLC
+	----------------------------------------------------------------------------
+	NetWork.bas
+	
+	Gestione Componenti : moduli di implementazione componenti
+	----------------------------------------------------------------------------
+	GestioneCisterneCommon.bas
+	GestioneCisterneTipo5.bas
+	GestioneCisterne.bas
+	ModPID.bas
+	GestioneLivelliSiliFillerVaglio.bas
+	GestioneAmperometri.bas
+	Viatop.bas
+	GestioneFiltroESonde.bas
+	GestionePredNastriC.bas
+	GestioneRiciclato.bas
+	GestioneSilo.bas
+	GestioneSiwarex.bas
+	GestionePredosatori.bas
+	GestioneAquablack.bas
+	GestioneSiloGenerale.bas
+	GestioneMotori.bas
+	GestioneDosaggio.bas
+	ControlloBruc.bas
+	BrucAuto.bas
+
+	Gestione Funzioni : moduli di implementazione funzioni
+	----------------------------------------------------------------------------
+	GestioneCodaMateriale.bas
+	GestioneOreLavoro.bas
+	Configurazione.bas
+	GestioneAdditivi.bas
+	GestioneJob.bas
+	MemManuale.bas
+	GestioneGrafica
+	Trend.bas
+	GestioneCmdDeoSoffioAntiadVib.bas
+	GestioneAllarmiIconeAllarmi.bas
+
+	Gestione Parametri
+	--------------------------------------------------------
+	ParaTabTrend.bas
+	ParaTabGeneral.bas
+	ParaTabLeg.bas
+	ParaTabVarie.bas
+	ParaTabAmp.bas
+	ParaTabCist.bas
+	ParaTabMotor.bas
+	ParaTabPred.bas
+	ParaTabSilo.bas
+	ParaTabComp.bas
+	ParaTab.bas
+	ParaTabAquablack.bas
+	ParaTabAdd.bas
+	ParaTabBruc.bas
+	ParaTabDebug.bas
+	ParaTabSchiumato.bas
+	ParaTabComandi.bas
+
+	Moduli generici
+	--------------------------------------------------------
+	Help.bas
+	CodaCircolare.bas
+	GestioneLCPC.bas
+	Printer.bas
+	ControlliVari.bas
+	ControlloDatiInseriti.bas
+	GestioneBit.bas
+	GestioneCaratteri.bas
+	Registro.bas
+	BusSytem.bas
+	DataBase.bas
+	GestioneFile.bas
+	GestioneLog.bas
+	Security.bas
+	GestioneCaldaie.bas
+	ModuleShowForm.bas
+	GestioneMessaggistica.bas
+	GestioneLingue.bas
+	Stampe.bas
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+Colloquio con il PLC
+
+All'interno del file CP240.frm 
+
+Funzione chiamata quando cambia una variabile PLC 
+Private Sub opcData_OnDataChanged(ByVal bOkay As Integer, ByVal ChangedItems As OPCDataItems)
+
+    MancanzaComunicazione = False
+'    CP240.tmrRicTrasNET(3).enabled = False '20150109
+
+    Call PlcInDigitali
+    Call PlcInAnalogici
+    Call GestioneStatoDosaggio
+
+'20150505
+    If CistGestione.Gestione = GestioneSemplificata Then
+        Call LeggiDatiPLCCisterneBitumeRid
+    End If
+'
+    Call SiloS7Leggi(False)
+
+End Sub
+
+
+
+
+
+Allegati : 
+-------------------------------------------------------------------------------------
+moduli-vb.txt             : moduli componenti il progetto
+objects-vb.txt            : oggetti utilizzati
+classes-vb.txt            : classi utilizzate
+forms-vb.txt              : forms 
+lista-funzioni-bas.txt    : procedure contenute nei moduli .bas (sorgenti vb)
+lista-funzioni-frm.txt    : procedure contenute nei moduli .frm (forms e callbacks)

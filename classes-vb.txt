@@ -1,0 +1,8 @@
+Class=MD5; clsMD5.cls
+Class=Parameter; Parameter.cls
+Class=Configuration; Configuration.cls
+Class=XmlManager; XmlManager.cls
+Class=XmlJobs; XmlJobs.cls
+DeleteClass1=Netti
+DeleteClass2=NettiAgg
+DeleteClass3=NettiAgg
