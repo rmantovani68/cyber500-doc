@@ -1,0 +1,96 @@
+BusSytem.bas
+	Public Type PlcRack
+CodaCircolare.bas
+	Public Type FifoMaterialeType
+	Public Type CqType
+Configurazione.bas
+	Public Type BilanciaType
+	Public Type BilanciaViatopScarMixerType
+	Public Type BilanciaExtType
+	Public Type BilanciaStatusType
+ControlliVari.bas)
+	Public Type TemporizzatoreStandardType
+	Public Type ValvolaAutoManRitardata
+ControlloBruc.bas
+	Public Type ModulatoreType
+	Public Type TypeGestioneFumiTamburo
+	Public Type TypeGestioneVelocitaTamburo
+GestioneAmperometri.bas
+	Public Type AmperometroType
+GestioneAquablack.bas
+	Public Type Aquablack_Recipe
+	Public Type Aquablack_Digital_Type
+	Public Type Aquablack_HMI_PLC_Type
+	Public Type AquablackAlarmType
+	Public Type AquablackParametersType
+GestioneCaldaie.bas)
+	Public Type OggettoCaldaia
+	Public Type ProgrammazioneRiscaldamentiGiornalieri
+	Public Type OggettoPompaAuxCald
+GestioneCisterneCommon.bas
+	Public Type MotoreS7
+	Public Type PIDCisterne
+	Public Type GestioneCisterne
+	Public Type ContalitriType
+	Public Type OggettoValvolaPLC
+GestioneCisterneTipo5.bas
+	Public Type OggettoCisterna
+	Public Type OggettoDBScambioDatiCisterneVecchiaStruttura
+	Public Type OggettoDBScambioDatiCisterne
+GestioneCmdDeoSoffioAntiadVib.bas
+	Public Type ComandoType
+GestioneCodaMateriale.bas
+	Public Type Antiadesivo
+GestioneDosaggio.bas
+	Public Type ComponenteType
+	Public Type ComponenteContalitriType
+	Public Type TypeRicettaS7
+	Public Type RicettaTramogge
+	Public Type BilanciaPnComboType
+GestioneFiltroESonde.bas
+	Public Type RegolazioneMinMax
+GestioneJob.bas
+	Public Type TipoJob
+GestioneLingue.bas
+	Public Type SiwarexErrorCode
+	Public Type SiwarexErrorType
+GestioneMotori.bas
+	Public Type MotorePausaLavoro
+	Public Type MotoreType
+	Public Type TamburoType
+GestionePredNastriC.bas
+	Public Type TolleranzaNastro
+GestionePredosatori.bas
+	Public Type SetPredosatoreType
+	Public Type PidType
+	Public Type CurvaPredosatoreType
+	Public Type GraficoPredosatoreType
+	Public Type MotorePredosatoreType
+	Public Type PredosatoreType
+	Public Type FeederVibratorWorkingCycle_TYPE
+GestioneSiloGenerale.bas
+	Public Type SiloType
+	Public Type DatoSiloMsgPlusType
+	Public Type Semaforo_Type
+	Public Type DeodoranteSilo
+GestioneSiwarex.bas
+	Public Type SiwarexConfigurationType
+	Public Type SiwarexLetturaDI
+Help.bas
+	Public Type HH_AKLINK
+	Public Type HH_FTS_QUERY
+IconeAllarmi.bas
+	Public Type AllarmiDosaggioType
+MemManuale.bas
+	Public Type ScManualeComponente
+NetWork.bas
+	Public Type AnalogType
+ParaTabAquablack.bas
+	Public Type ParaTabAquablackColumnType
+ParaTabSchiumato.bas
+	Public Type PlcSchiumatoType
+Printer.bas
+	Public Type DOCINFO
+Trend.bas
+	Public Type trend
+	Public Type TrendProfilo
