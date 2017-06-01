@@ -1,0 +1,93 @@
+  	BusSytem.bas	
+		Public Enum PlcRackEnum
+  	Configurazione.bas	
+		Public Enum EnumGestioneFiller
+		Public Enum ScambioTuboPienoEnum
+		Public Enum UsersEnum
+		Public Enum ScaleID
+  	ControlliVari.bas	
+		Public Enum TemperatureEnum
+  	ControlloBruc.bas	
+		Public Enum ModulatoreStatusEnum
+		Public Enum CodiceColoriCasellaTemp
+  	CP240.frm	
+		Public Enum StatusBarPanel
+		Public Enum TopBarButtonEnum
+		Public Enum TopBarButtonSecondaryEnum
+  	FormAquablack.frm	
+		Public Enum AqTopBarButtonEnum
+		Public Enum AqStatusBar
+  	GestioneAmperometri.bas	
+		Public Enum AmperometroEnum
+  	GestioneAquablack.bas	
+		Public Enum PlcAquablackType
+		Public Enum AquablackTuboContenuto
+  	GestioneCisterneCommon.bas	
+		Public Enum StatoValvola
+		Public Enum TipiGestioneCiterneEnum
+		Public Enum ListaOperazioniCircuito
+		Public Enum PlcTagCisterneEnum
+		Public Enum PlcTagCisterneRidottoEnum
+		Public Enum ValvoleBitumeEnum
+		Public Enum ValvoleEmulsioneEnum
+		Public Enum ValvoleCombustibileEnum
+  	GestioneCisterneTipo5.bas	
+		Public Enum TipoValvolaEnum
+  	GestioneCmdDeoSoffioAntiadVib.bas	
+		Public Enum ComandiVariEnum
+  	GestioneDosaggio.bas	
+		Public Enum ComponenteEnum
+		Public Enum ComponenteGraficaEnum
+		Public Enum AdditiviEnum
+		Public Enum enumStatoValvolaBitumeEsterno
+		Public Enum ScarichiEnum
+		Public Enum StatusDosaggio
+		Public Enum BilancePnTypeEnum
+		Public Enum BilancePnCommandEnum
+  	GestioneFile.bas	
+		Public Enum mceIDLPaths
+  	GestioneGrafica.bas	
+		Public Enum StatoPulsantePlus
+  	GestioneJob.bas	
+		Public Enum EnumComandoJobCS
+		Public Enum EnumSpecJobCS
+		Public Enum EnumComandoJobVB
+		Public Enum EnumStatoJobCS
+		Public Enum EnumStatoJobVB
+  	GestioneLingue.bas	
+		Public Enum Languages
+		Public Enum PlusLanguages
+  	GestioneMessaggistica.bas	
+		Public Enum Messaggistica
+  	GestioneMotori.bas	
+		Public Enum MotorManagementEnum
+		Public Enum MotorSequenceEnum
+		Public Enum MotoriEnum
+		Public Enum FuelType
+		Public Enum AvviamentoMotoriRidottoEnum
+		Public Enum StatusMotori '20161014
+  	GestionePredNastriC.bas	
+		Public Enum NastriPredosatori
+  	GestionePredosatori.bas	
+		Public Enum CambioSetPredosatoreType
+		Public Enum StatoPredosatoreType
+		Public Enum BilanciaNastro
+  	GestioneSilo.bas	
+		Public Enum SiloStateType
+  	GestioneSiwarex.bas	
+		Public Enum SiwarexEnum
+  	Help.bas	
+		Public Enum HHACT_
+		Public Enum HHWIN_NAVTYPE_
+		Public Enum HH_TAB_
+		Public Enum HelpContextID
+  	NetWork.bas	
+		Public Enum AnalogEnum
+		Public Enum QualityEnum
+		Public Enum PlcTagEnum
+  	Parameter.cls	
+		Public Enum ParamTypeEnum
+  	ParaTabSchiumato.bas	
+		Public Enum PlcSchiumatoEnum
+  	Trend.bas	
+		Public Enum TrendType

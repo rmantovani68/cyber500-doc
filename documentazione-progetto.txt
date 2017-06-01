@@ -24,7 +24,7 @@ Vaglio
 Dosaggio
 Silos
 
-Ogni modulo è a sua volta composto da altri modul componenti quali motori, nastri, bilance, bruciatore, valvole, sensori, attuatori, mescolatore, navetta...
+Ogni modulo è a sua volta composto da altri modul componenti quali motori, nastri, elevatori, bilance, bruciatore, valvole, sensori, attuatori, mescolatore, navetta...
 
 La logica di funzionamento dei componenti dell'impianto è quasi completamente gestita dal PLC attraverso gli I/O digitali e analogici.
 L'interazione con l'utente e la presentazione dello stato dei moduli e del funzionamento dell'impianto, nonchè una parte di logica, è gestita da software applicativo.
@@ -35,6 +35,7 @@ Componenti dell'applicazione VB6
 L'applicazione VB6 è suddivisa in moduli sorgente (estensione .bas) e moduli di gestione forms (estensione .frm)
 
 Moduli sorgente componenti il progetto e loro sommaria descrizione
+
 I moduli sorgenti componenti il progetto possono essere suddivisi logicamente in :
 
 	Gestione Comunicazione con il PLC : modulo di comunicazione con il PLC
