@@ -1,0 +1,1220 @@
+Lista delle Sub e edelle funzioni peresenti nel progetto
+--------------------------------------------------------
+
+AvviamentoComandi.frm
+	Public Sub UpdatePulsantiForm()
+AvviamentoMotori.frm
+	Public Sub UpdateManagement(managemode As MotorManagementEnum)
+	Public Sub VisualizzaMotoreAcceso(motore As Integer)
+	Public Sub ShowMe(ByRef parente As Form)
+	Public Sub AggiornaOreMotori()
+	Public Sub CambioMod()
+	Public Sub UpdatePulsantiForm()
+	Public Sub DebugMotore(motore As Integer)
+	Public Sub ForzPLC(motore As Integer, valore As Boolean)
+BrucAuto.bas
+	Public Sub GestSetRegBruciatore2()
+	Public Sub GestRegolazioneBruciatore(tamburo As Integer)
+	Public Sub AttivaUscitePerRegolazioneEss(verso As Integer, smSec As Long, tamburo As Integer)
+clsMD5.cls
+	Public Function DigestFileToHexStr(FileName As String) As String
+	Public Function DigestStrToHexStr(SourceString As String) As String
+	Private Function StringToArray(InString As String) As Byte()
+	Public Function GetValues() As String
+	Private Function LongToString(Num As Long) As String
+	Public Sub MD5Init()
+	Public Sub MD5Final()
+	Public Sub MD5Update(InputLen As Long, InputBuffer() As Byte)
+	Private Function FF(a As Long, _
+	Private Function GG(a As Long, _
+	Private Function HH(a As Long, _
+	Private Function II(a As Long, _
+	Function LongLeftRotate(value As Long, bits As Long) As Long
+	Private Function LongOverflowAdd(Val1 As Long, Val2 As Long) As Long
+	Private Function LongOverflowAdd4(Val1 As Long, Val2 As Long, val3 As Long, val4 As Long) As Long
+	Private Function UnsignedToLong(value As Double) As Long
+	Private Function LongToUnsigned(value As Long) As Double
+CodaCircolare.bas
+	Public Function CqInit(ByRef cq As CqType, maxItems As Integer) As Boolean
+	Public Function CqAdd(ByRef cq As CqType, ByRef materiale As FifoMaterialeType) As Boolean
+	Public Function CqRemove(ByRef cq As CqType, ByRef materiale As FifoMaterialeType) As Boolean
+	Public Function CqRemoveIf(ByRef cq As CqType, ByRef materiale As FifoMaterialeType) As Boolean
+	Public Function CqEmpty(ByRef cq As CqType) As Boolean
+	Public Function CqAmount(ByRef cq As CqType) As Double
+Configuration.cls
+	Public Sub FileReload()
+	Public Function GetParameterValue(Section As String, Paragraph As String, SubParagraph As String, Param As String, Optional defaultValue As String) As String
+	Public Function SetParameterValue(Section As String, Paragraph As String, SubParagraph As String, Param As String, Value As Variant) As Boolean
+Configurazione.bas
+	Public Declare Function CreateMutex Lib "kernel32" Alias "CreateMutexA" (lpMutexAttributes As Any, ByVal bInitialOwner As Long, ByVal lpName As String) As Long
+	Public Declare Function ReleaseMutex Lib "kernel32" (ByVal hMutex As Long) As Long
+	Public Declare Function CloseHandle Lib "kernel32" (ByVal hObject As Long) As Long
+	Public Declare Function ShellExecute Lib "SHELL32.DLL" Alias "ShellExecuteA" ( _
+	Public Declare Function SetLocaleInfo& Lib "kernel32" Alias "SetLocaleInfoA" (ByVal Locale As Long, ByVal LCType As Long, ByVal lpLCData As String)
+	Public Sub VisualizzaBarraPulsantiCP240(Ena As Boolean)
+	Public Sub PlcInviaParametri()
+ControlliVari.bas
+	Public Declare Function RecupHandleBureau Lib "User32" Alias "GetDesktopWindow" () As Long
+	Public Declare Function NextWindow Lib "User32" Alias "GetWindow" (ByVal hWnd As Long, ByVal wCmd As Long) As Long
+	Public Declare Function GetWindowText Lib "User32" Alias "GetWindowTextA" (ByVal hWnd As Long, ByVal lpString As String, ByVal cch As Long) As Long
+	Declare Function GetUserName Lib "ADVAPI32.dll" Alias "GetUserNameA" (ByVal lpbuffer As String, nSize As Long) As Long
+	Public Function Pixel2Twips(pixel As Integer) As Integer
+	Public Sub ScriviOra()
+	Public Function Binary2Integer(s As String) As Integer
+	Public Function Integer2Binary(n As Integer) As String
+	Public Function DatoCorretto(Dato As String, decimali As Integer, min As Double, max As Double, predefinito As Double, Optional lost As Integer) As Variant
+	Public Function VerificaTextEdit( _
+	Public Function Long2Bit(numero As Long) As String
+	Function DlookUp(ByVal NomeCampo As String, ByVal Tabella As String, ByVal CriterioConfronto As String, Optional NomeCampo2 As String, Optional CriterioConfronto2 As String) As Variant
+	Public Function Null2Qualcosa(valore)
+	Public Function Null2zero(valore As String) As Double
+	Public Function String2Double(valore As String) As Double
+	Public Function ControlloChiaveHL() As Boolean
+	Function DlookUpExt(ByVal NomeCampo As String, ByVal Tabella As String, ByVal CriterioConfronto As String, ByVal NomeCampo2 As String) As Variant
+	Public Sub Lampeggio(ByRef oggetto As Object, ColoreOff, ColoreOn, enable As Boolean)
+	Public Function RicavaWhere(s As String) As String
+	Public Function ScalaturaUnitaAnalogIN(Unita As Long, LimiteScalaMax As Long, LimiteScalaMin As Long) As Long
+	Public Function ScalaturaUnitaAnalogINConNegativi(Unita As Long, LimiteScalaMax As Long, LimiteScalaMin As Long) As Long
+	Public Function ScalaturaUnitaAnalogIN_Double(Unita As Long, LimiteScalaMax As Long, LimiteScalaMin As Long) As Double
+	Public Sub VerificaEvacuazioneFiltroDMR()
+	Public Sub VerificaEvacuazioneSiloFiller()
+	Public Sub EvacuazioneFiltroDMR_change()
+	Public Function FileExist(FileName As String) As Boolean
+	Public Function PathExist(path As String) As Boolean
+	Public Sub CreatePath(ByVal path As String)
+	Public Function BoolToCheck(Value As Boolean) As Integer
+	Public Sub PressioneAriaImpianto_change()
+	Public Function BassaTempBitume(runTimeStop As Boolean) As Boolean
+	Public Sub Temporizzatore2Tempi(TempoLavoro As Long, TempoSosta As Long, AppTempo As Single, LavoroExec As Boolean, SostaExec As Boolean, uscita As Boolean, Abilitazione As Boolean, ErrTimer As Boolean)
+	Public Sub AttivazioneSirena(attiva As Boolean)
+	Public Function BooleanModificato( _
+	Public Function ByteModificato( _
+	Public Function IntegerModificato( _
+	Public Function LongModificato( _
+	Public Function DoubleModificato( _
+	Public Sub TemporizzatoreStandard(ScalaTempo As Integer, Tempo As Long, AppTempo As Single, _
+	Public Sub GestioneValvolaPreseparatoreAnello()
+	Public Sub GestioneValvolaPreseparatore()
+	Public Function LimitaValore(valore As Long, min As Long, max As Long) As Long
+	Public Function LimitaValoreSng(valore As Single, min As Single, max As Single) As Single
+	Public Function LimitaValoreDbl(valore As Double, min As Double, max As Double) As Double
+	Public Function TimeToMillisecond() As String
+	Public Function ConvertiTempoS7toSEC(valore As String) As Long
+	Public Function ConvertiTempoSECtoS7(ByVal valore As Long, Optional MilliSec As Long) As String
+	Public Function ConvertiTempoMilliSECtoS7(MilliSec As Long) As String
+	Public Function Null2String(valore) As String
+	Public Function String2Bool(Value As String) As Boolean
+	Public Function String2Long(Value As String) As Long
+	Public Function String2Int(Value As String) As Integer
+	Public Function Long2BitChar(numero As Long, Caratteri As Integer) As String
+	Public Function Bit2Long(valore As String) As Long
+	Public Function LogaritmoBASE(numero As Double, Base As Double)
+	Public Function ParteDecimale(numero As Double, NumeroCifre As Integer)
+	Public Function ConvertiTimer() As Long
+	Public Sub SetStartUpPosition(ByRef Form As Form, Optional monitor As Integer)
+	Public Function CheckLabelDato(oggetto As Object, minimo As Variant, massimo As Variant, default As Variant) As Boolean
+	Public Sub CP240StatusBar_Change(Panel As StatusBarPanel, statologico As Variant)
+	Public Sub PbarNettoPesata(ByRef componente As ComponenteType, valorebilancia As Double, Optional valorediretto As Double, Optional manuale As Boolean)
+	Public Sub InitPbarNettoPesata(componentestart As ComponenteGraficaEnum, componentelast As ComponenteGraficaEnum)
+	Public Sub RefreshPbarNettoPesate()
+ControlloBruc.bas
+	Public Sub FiammaBruciatorePresente_change(tamburo As Integer)
+	Public Sub BloccoFiammaBruciatore_change(tamburo As Integer)
+	Public Sub PressioneInsufficienteOlioCombustibile_change(tamburo As Integer)
+	Public Sub ImpulsiContalitriCombustibile_change(tamburo As Integer)
+	Public Sub TempSondaAggiuntivaUscitaTamburo_change()
+	Public Sub TempIngressoTamburo_change()
+	Public Sub AggiornaTemperaturaTorre()
+	Public Sub TempTorre_change(Index As Integer, temperatura As Long)
+	Public Sub TempEntrataFiltro_change()
+	Public Sub AltaTemperaturaFiltroSw()
+	Public Sub TempUscitaFiltro_change()
+	Public Sub TempSottoMesc_change()
+	Public Sub ModulatoreBruciatore_change(tamburo As Integer)
+	Public Sub ModulatoreAspFiltro_change()
+	Public Sub LetturaDepressioneBruciatore(tamburo As Integer, depressioneBruciatore As Long, plcInAnalogici_Fatta As Boolean)
+	Public Sub LetturaScivoloTamburo(tamburo As Integer, temperaturaScivolo As Long, plcInAnalogici_Fatta As Boolean)
+	Public Sub ModulatoreFumiTamburo_change(tamburo As Integer)
+	Public Sub AllarmeCombustibile(tamburo As Integer, inizializza As Boolean)
+	Public Sub AllarmePerditaValvoleBruc_change(tamburo As Integer)
+	Public Sub AllarmePerditaValvoleBrucOC_change(tamburo As Integer)
+	Public Sub AllarmePressioneBrucAlta_change(tamburo As Integer)
+	Public Sub SicurezzaTempOlioComb_change(tamburo As Integer)
+	Public Sub OlioCombInTemperatura_change(tamburo As Integer)
+	Public Sub PosizioneModulatoreAriaFredda_change()
+	Public Sub StartBruciatoreDaPLC_change(tamburo As Integer)
+	Public Sub ValoreLettoTempScivolo_change(tamburo As Integer)
+	Public Sub ValoreLettoDepressioneBruc_change(tamburo As Integer)
+	Public Sub ControlliFiammaBruciatore(tamburo As Integer)
+	Public Sub ArrestoBrucTempoX(tamburo As Integer)
+	Public Sub BruciatoreInManuale(tamburo As Integer)
+	Public Sub GestioneModulatoreBruc(tamburo As Integer)
+	Public Sub RegolazioneAriaAspiratore()
+	Public Sub ModoRegolazioneDepressioneFiltroConDepressTamburo()
+	Public Sub ModoRegolazioneDepressioneFiltroConDepressFiltroIN()
+	Public Sub RegolazioneAriaFredda()
+	Public Function DurataImpulsoAriaFredda(DeltaTemperatura As Integer) As Integer
+	Public Sub RegolazioneImpulsoAriaFredda(UpDown As Integer, DeltaTemperatura As Integer)
+	Public Sub BruciatoreModulatore_change(tamburo As Integer)
+	Public Sub FiltroModulatore_change()
+	Public Sub AriaTamburoModulatore_change(tamburo As Integer, apre As Boolean, chiude As Boolean)
+	Public Sub AriaFreddaFiltroModulatore_change()
+	Public Sub GestioneFunzAutomaticoBruc(tamburo As Integer)
+	Public Sub StopBruciatoreTamburo(tamburo As Integer)
+	Public Sub ControlloBloccoBruciatore(tamburo As Integer)
+	Public Sub StopBruciatore(tamburo As Integer)
+	Public Sub StartBruciatore(tamburo As Integer)
+	Public Function BrucInAccensione(tamburo As Integer) As Boolean
+	Public Sub ControlloCadutaTamburoFiamma(tamburo As Integer)
+	Public Sub ConteggioTempoArrestoBruciatore(tamburo As Integer)
+	Public Function ValoreForchetta(valore As Double, min As Double, max As Double, SoloPositivo As Boolean) As Double
+	Public Function VerificaCondizioniAvviamentoBruciatore(tamburo As Integer, aCaldo As Boolean) As Long
+	Public Sub BruciatorePosizioneAccensione_change(tamburo As Integer)
+	Public Sub CompressoreBruciatorePressioneInsuff_change()
+	Public Sub TempFumiTamburo_change(tamburo As Integer)
+	Public Sub AltaTemperaturaFumiTamburo(tamburo As Integer)
+	Public Sub DeflettoreAntincendioTamburo_change(tamburo As Integer)
+	Public Sub ArrestoBrucITT()
+	Public Sub PortaModASetAvvioCaldo(tamburo As Integer)
+	Public Function PortaModulatoreASet(target As Long, letturaposizione As Long, Tolleranza As Integer, ByRef fatto As Boolean) As ModulatoreStatusEnum
+	Public Sub TempScambComb_change()
+	Public Sub AbilitaAvvCaldo()
+	Public Sub AggiornaGraficaValvolaCombustibile_Change()
+ControlloDatiInseriti.bas
+	Public Function RoundNumber(numero As Variant, NumeroDecimali As Integer) As Variant
+	Public Sub DatoInteger(ByRef Dato As Object, ByVal numeroCaratteri As Integer, ByVal negativo As Boolean)
+	Public Sub DatoVirgola(ByRef Dato As Object, ByVal numeroCaratteri As Integer, ByVal NumeroDecimali As Integer, ByVal negativo As Boolean)
+	Public Sub DatoNomeRicetta(ByRef Dato As Object)
+CP240.frm
+	Private Declare Function SendMessage Lib "user32.dll" Alias _
+	Public Sub AssegnaTraduzioni()
+	Public Sub VisualizzaErroreComunicazione(Stato As Boolean)
+	Public Sub VisualizzaStatoComunicazione()
+	Public Sub AbilitaDosaggioManuale(refreshInvPCL As Boolean)
+	Public Sub SetUpBruciatore(tamburo As Integer)
+	Public Sub SetDownBruciatore(tamburo As Integer)
+	Public Sub RefreshBenna()
+	Public Sub ShowBenna(carica As Boolean)
+	Public Sub AbilitaCalibrazione()
+	Public Sub AbilitaInversionePCL()
+	Public Sub ManageTopBarButton(Button As Integer)
+	Public Sub uscita()
+	Public Sub UpdatePulsantiForm()
+	Public Sub EnableCliente(visibility As Boolean)
+	Public Sub ComandiGestioneFumiTamburo(cmd_down As Boolean, cmd_up As Boolean)
+	Public Sub AnalogicheGestioneFumiTamburo(perc_mod As Long, dep_vaglio As Long)
+	Public Sub ComandiGestioneVelTamburo(cmd_down As Boolean, cmd_up As Boolean)
+	Public Sub AnalogicheGestioneVelTamburo(perc_mod As Long)
+	Public Sub AggiustaMonitor()
+	Public Sub GestioneDirezioneJolly()
+DataBase.bas
+	Public Sub SqlServerApri()
+	Public Sub SqlServerChiudi()
+	Private Function SqlServerComando( _
+	Public Function SqlServerCompatta() As Boolean
+	Public Function SqlServerCancellaTrendData(dataInizio As Date) As Boolean
+	Public Sub EseguiSQL(Stringa As String)
+FormAquablack.frm
+	Public Sub UpdatePulsantiForm()
+FormAvvRidotto.frm
+	Public Sub UpdatePulsantiForm()
+FormPIDBruc.frm
+	'Private Function FormPIDBruc_IsModified()
+	Public Sub UpdatePulsantiForm()
+	Public Sub SetLblDebug(Index As Integer, str As String)
+FormProgRiscaldamentiCaldaie.frm
+	Public Sub AggiornaGraficaProgrammazione()
+	Public Sub UpdatePulsantiForm()
+FrmCalcolaImpasti.frm
+	Private Function NumeroImpastiCalcolato(totale As Double, Impasto As Integer) As Double
+	Public Sub UpdatePulsantiForm()
+FrmCalibBilCamion.frm
+	Public Sub UpdatePulsantiForm()
+FrmComandiCisterne.frm
+	Public Sub UpdatePulsantiForm()
+FrmInversionePCL.frm
+	Public Sub ShowMe(Modo As Integer, ByRef parent As Form)
+	Public Sub ControllaPCL(Index)
+	Public Sub UpdatePulsantiForm()
+FrmMessaggioAvviso1.frm
+	Public Sub AbilitaTest(abilita As Boolean)
+	Public Sub ShowMe(Modo As Integer, ByRef parent As Form)
+	Public Sub ControllaNastri(motore As Integer)
+	Private Function ControlliOK(startMotor As Boolean) As Long
+	Public Sub ControlloPredosatore(start As Boolean)
+	Public Sub MemorizzaValoriPredosatori()
+	Public Sub RiportaValoriPredosatori()
+	Public Sub ControlloMotoriDuranteTestPredosatori()
+	Public Sub UpdatePulsantiForm()
+FrmNetti.frm
+	Public Sub DatiStatusBil_Change()
+	Public Sub RefreshTagDatiStatusBil()
+	Public Sub UpdatePulsantiForm()
+frmNewValue.frm
+	Private Function ControlloOK(newValue As Variant, minValue As Variant, maxValue As Variant) As Boolean
+	Public Function InputDoubleValue(ByRef parent As Form, oldValue As Double, minValue As Double, maxValue As Double) As Double
+	Public Function InputLongValue(ByRef parent As Form, oldValue As Long, minValue As Long, maxValue As Long) As Long
+	Public Function InputStringValue(ByRef parent As Form, oldValue As String) As String
+FrmSchiumatura.frm
+	Public Sub ShowMe(ByVal Modo As Integer, ByRef parente As Form)
+	Public Sub AggiornaStatoSchiumato()
+FrmSiloGenerale.frm
+	Private Function IsModified() As Boolean
+	Public Sub CmdStart_Click()
+	Public Sub PasswordLevel()
+	Public Sub CmdStop_MouseDown(Button As Integer, Shift As Integer, x As Single, Y As Single)
+	Public Sub CmdSyncroBennaAsse_Click(Index As Integer)
+	Public Sub PosizionaSili()
+	Public Sub ShowMe(ByRef parente As Form)
+	Public Sub ColoraSilo(silo As Integer, siloAttivo As Boolean, ritornoSilo As Boolean)
+	Public Sub SiloS7VisualizzaPosSili()
+	Public Sub UpdatePulsantiForm()
+FrmSiwarexPara.frm
+	Public Function BilanciaAttiva() As Integer
+	Public Sub ShowMe(Modo As Integer, ByRef parent As Form, bilancia As Integer)
+	Public Sub PasswordLevel()
+	Private Function IsModified() As Boolean
+	Public Sub TxtDR3_Change(Index As Integer)
+	Public Sub TxtDR3_LostFocus(Index As Integer)
+	Public Sub TxtDR5_Change(Index As Integer)
+	Public Sub TxtDR5_LostFocus(Index As Integer)
+	Public Sub UpdatePulsantiForm()
+FrmStatoPredosatore.frm
+	Public Sub AggiornaVolumetricoPonderale()
+	Public Sub ShowMe(Modo As Integer, ByRef parent As Form)
+	Public Sub UpdatePulsantiForm()
+FrmTaraBilancePN.frm
+	Public Sub PasswordLevel()
+	Public Sub ShowMe(Modo As Integer, ByRef parent As Form)
+	Public Sub UpdatePulsantiForm()
+	Public Sub SetVisibleReset(ByVal newActiveUser As UsersEnum)
+GestioneAdditivi.bas
+	Public Sub AdditivoAcqua(inMoto As Boolean)
+	Public Sub AdditivoSacchi(inMoto As Boolean)
+	Public Sub AdditivoNelMixer(inMoto As Boolean)
+	Public Sub AdditivoNellaBacinella(inMoto As Boolean)
+	Public Sub ScaricoAcqua_change()
+	Public Sub ScaricoAdditivo_change(additivo As Integer)
+	Public Sub GestioneAdditivoSacchi()
+	Public Sub AntiadesivoScivoloScaricoBilanciaRAP_change()
+	Public Sub AntiadesivoScivoloScaricoBilanciaRAP(inMoto As Boolean)
+	Public Sub PesataViatopScarMixer_change(Index As Integer)
+	Public Sub ScaricoViatopScarMixer_change(Index As Integer)
+	Public Sub BilanciaViatopScarMixerPeso_change(Index As Integer)
+	Public Sub GestioneSicurezzaViatopScarMixer(Index As Integer)
+	Public Sub GestioneImmagineCompressoreViatopScarMixer(Index As Integer)
+GestioneAmperometri.bas
+	Public Sub ValoreAmperometri_change(amp As Integer)
+	Public Sub ValoreAmperometriBar_change(amp As Integer)
+	Public Function FiltroAmperometro(amp As Integer, Value As Integer) As Integer
+GestioneAquablack.bas
+	Public Sub PLCAquablack_InviaParametri()
+	Public Sub PLCAquablack_LeggiTag()
+	Public Sub PLCAquablack_ScriviTag()
+	Public Sub ValvolaAquablack_Stato(valvola As Image, feedback As Boolean, comando As Boolean)
+	Public Sub PompaAquablack_Stato(pompa As Image, feedback As Boolean, comando As Boolean, Optional Errore As Boolean)
+	Public Sub LineaAquablack_Stato(tubo As Line, Stato As AquablackTuboContenuto)
+	Public Sub AQ_Valvola_H2O_Change()
+	Public Sub AQ_Valvola_Purge_Change()
+	Public Sub AQ_Valvola_Trickle_Change()
+	Public Sub AQ_Pompa_H2O_Change()
+	Public Sub AQ_Livello_Serbatoio_Change()
+	Public Sub AQ_Gestione_StatoTubi()
+	Public Sub AQ_SchiumaturaAttiva_Change()
+	Public Sub AQ_Manual_Mode_Change()
+	Public Sub AQ_PLCConnection_Change()
+	Public Sub AQ_Auto_Mode_Change()
+	Public Sub AQ_Reset_Comandi()
+	Public Sub AQ_Ciclo()
+	Public Sub AQ_StatoPulsantiForm()
+	Public Sub ControllaAquablackAllarmi(ByRef IdDescrizione As Integer, ByRef IndirizzoPLC As String)
+	Public Function PlcAquablackConnessione(connetti As Boolean) As Boolean
+	Public Function PlcAquablackConnesso() As Boolean
+GestioneBit.bas
+	Public Function SetBit(InByte As Byte, Bit As Byte) As Byte
+	Public Function ClearBit(InByte As Byte, Bit As Byte) As Byte
+	Public Function IsBitSet(InByte As Byte, Bit As Byte) As Boolean
+	Public Function ToggleBit(InByte As Byte, Bit As Byte) As Byte
+	Public Function RShift(ByVal lThis As Long, ByVal lBits As Long) As Long
+	Public Function LShift(ByVal lThis As Long, ByVal lBits As Long) As Long
+	Public Sub Init()
+GestioneCaldaie.bas
+	Public Sub CaldaieCaricaImmagini()
+	Public Sub LeggiDatiDaCaldaie()
+	Public Sub InizializzaCaldaie()
+	Public Sub CaldVisualizzaErroriValvole(indice As Integer, ErroriIn As Boolean, ErroriOut As Boolean)
+	Public Sub CaldVisualizzaFiamma(indice As Integer, blocco As Boolean, BruciatoreOn As Boolean, SecondaFiammaOn As Boolean)
+	Public Sub CaldVisualizzaStatoLED(indice As Integer)
+	Public Sub CaldVisualizzaStart(indice As Integer)
+	Public Sub CaldVisualizzaCircOlio(indice As Integer)
+	Public Sub VisualizzaSicurezzaTemperaturaOlio(indice As Integer, SicurezzaTemperaturaOlio As Boolean)
+	Public Sub CaldVisualizzaValvolaUscita(indice As Integer, aperta As Boolean, chiusa As Boolean, allarme As Boolean)
+	Public Sub CaldVisualizzaValvolaEntrata(indice As Integer, aperta As Boolean, chiusa As Boolean, allarme As Boolean)
+	Public Sub CaldVisualizzaPompaCirc(indice As Integer, PompaCircOn As Boolean, PompaCircScattoTermica As Boolean)
+	Public Sub CaldVisualizzaTemperatura(indice As Integer, ByVal Value As Double)
+	Public Sub VisualizzaStarPumpAuxCAld(indice As Integer)
+	Public Sub VisualizzaGraficaPumpAuxCAld(indice As Integer, ritorno As Boolean, erroriPresenti As Integer)
+	Public Sub LoopGraficaCaldaie()
+	Public Sub CaldSetTemperatura(Index As Integer)
+	Public Sub CaldSetDeltaTemperatura()
+	Public Sub CaldSetTimerPompa()
+	Public Sub CaldAccettaErrore(accetta As Boolean)
+	Public Function ControllaCaldaieAllarmi(ByRef IdDescrizione As Integer, ByRef CodiceAllarme As String)
+	Public Sub SalvaFileRiscaldamenti()
+	Public Sub WriteFileRiscaldamenti()
+	Public Sub ReadFileRiscaldamenti()
+	Public Function IsModifiedRiscaldamenti() As Boolean
+	Public Sub SetProgrammazioneRiscaldamenti()
+	Public Sub SetInclusioneOrologio()
+GestioneCaratteri.bas
+	Public Sub ImpostaCharSet()
+	Public Sub CarattereOccidentale(ByRef NomeForm As Object)
+	Public Sub ImpostaCarattereOccidentaleControl(ByRef controllo As Control)
+	Public Sub ImpostaCarattereOccidentale(ByRef Nome As Object)
+	Public Sub ImpostaCarattereRussoControl(ByRef controllo As Control)
+	Public Sub ImpostaCarattereRusso(ByRef Nome As Object)
+	Public Function DataInglese(data As String) As String
+	Public Function SostituisciCaratteri(S As String, Char1 As String, Char2 As String) As String
+GestioneCisterne.bas
+	Public Sub CisterneLeggiDatiPLC()
+	Public Sub CisterneScriviDatiPLC()
+	Public Sub CistInizializza()
+	Public Sub CistVisualizzaValvolaUscita1(cisterna As Integer, aperta As Boolean, chiusa As Boolean, allarme As Boolean)
+	Public Sub CistVisualizzaValvolaUscita2(cisterna As Integer, aperta As Boolean, chiusa As Boolean, allarme As Boolean)
+	Public Sub CistVisualizzaValvolaEntrata1(cisterna As Integer, aperta As Boolean, chiusa As Boolean, allarme As Boolean)
+	Public Sub CistVisualizzaUscita(cisterna As Integer)
+	Public Sub CistVisualizzaSelezione(cisterna As Integer)
+	Public Sub CistVisualizzaErrore(cisterna As Integer)
+	Public Sub CistVisualizzaIdle(cisterna As Integer)
+	Public Sub CistVisualizzaAttesa(cisterna As Integer)
+	Public Sub CistVisualizzaCarico(cisterna As Integer)
+	Public Sub CistVisualizzaRicircolo(cisterna As Integer, aperta As Boolean, chiusa As Boolean, allarme As Boolean)
+	Public Sub CistVisualizzaTravaso(cisternaSrc As Integer, cisternaDst As Integer)
+	Public Sub CistVisualizzaLivello(cisterna As Integer, ByVal percento As Integer, ByVal tons As Double)
+	Public Sub CistVisualizzaTemperatura(cisterna As Integer, ByVal Value As Double)
+	Public Sub VisualizzaAgitatoreCisterne(cisterna As Integer, acceso As Boolean)
+GestioneCisterneCommon.bas
+	Public Sub CreaTagCisterneS7_Ver9()
+	Public Sub LeggiDatiRegolazioneTempCisterne()
+	Public Sub ScriviDatiRegolazioneTempCisterne()
+	Public Sub AggiornaGrafPIDCisterne()
+	Public Sub ScriviDatiComandiAuxCisterneOnOff(ByVal indice As Integer, ByVal avvio As Boolean)
+	Public Sub LeggiDatiComandiAuxCisterneOnOff(ByVal indice As Integer, ByRef uscita As Boolean, ByRef termica As Boolean)
+	Public Sub LeggiDatiPidComandiCisterne(indice As Integer)
+	Public Sub ScriviDatiPidComandiCisterne(indice As Integer)
+	Public Sub InviaComandiAgitatori(indice As Integer, Stato As Boolean)
+	Public Sub CistAccettaErrore(accetta As Boolean)
+	Public Sub CistShowMenu(Index As Integer)
+	Public Sub CistSetTemperatura(Index As Integer)
+	Public Sub CistSetMateriale(Index As Integer)
+	Public Sub CistConnessionePLC()
+	Public Sub CistAzzeramentoTara(cisterna As Integer)
+	Public Sub CistGestioneLoop()
+	Public Sub CisterneCaricaImmagini()
+	Public Sub GestioneMaterialeCisterneRidotto()
+	Public Sub GestioneStatoCisterneRidotto()
+	Public Sub CompilaListaCistDosaggio()
+	Public Function VerificaMaterialeCistDosaggio(numcisternaselezionata As Integer, listacisternevalidepcl As String) As Boolean
+	Public Sub EnableComboMatCP240(visibility As Boolean)
+GestioneCisterneTipo5.bas
+	Public Sub AggiornaGraficaStatoCisternaCombust(cisterna As Integer)
+	Public Sub AggiornaGraficaStatoCisterna(cisterna As Integer)
+	Public Sub ScriviDatiPLCCisterne()
+	Public Sub ScriviDatiPLCCisterneRid()
+	Public Sub CisterneInviaParametri()
+	Public Sub LeggiDatiPLCCisterneBitume()
+	Public Sub AggiornamentoGraficaOperazioniCisterne()
+	Public Sub LeggiDatiPLCCisterneEmulsione()
+	Public Sub LeggiDatiPLCCisterneCombustibile()
+	Public Sub CaricaParametriCisterne()
+	Public Sub ControllaCisterneAllarmi(ByRef IdDescrizione As Integer, ByRef CodiceAllarme As String)
+	Public Sub GestioneMUPComandiCisterne(indice As Integer)
+	Public Sub GestioneMDownComandiCisterne(indice As Integer)
+	Public Sub GestioneComboCisterne(indice As Integer)
+	Public Function CalcolaCodiceOperazioneCisterna(OperazioneCircuito As Integer, Selezione As Integer) As Integer
+	Public Sub PompaCircuitoLegante_Change(ritorno As Boolean, CodiceAllarme As Integer, ByRef immagine As Object)
+	Public Sub GraficaValvolaStandard_Change(valvola As Integer, ByRef immagine As Object, TipoValvola As TipoValvolaEnum)
+	Public Sub LeggiDatiPLCCisterneBitumeRid()
+	Public Sub ControllaCisterneAllarmiRidotto(ByRef IdDescrizione As Integer, ByRef CodiceAllarme As String)
+GestioneCmdDeoSoffioAntiadVib.bas
+	Public Sub RitornoOkComandi()
+	Public Sub GestioneBottoniCmdVari(ByVal Index As ComandiVariEnum, alarmReset As Boolean)
+	Public Sub SetComandoUscita(comando As ComandiVariEnum, uscita As Boolean)
+	Public Sub RitornoComando_change(comando As ComandiVariEnum)
+	Public Sub SetComandoRitorno(comando As ComandiVariEnum, ritorno As Boolean)
+	Public Sub VerificaTermicaComando(comando As ComandiVariEnum, valoretermica As Boolean)
+	Public Function VerificaComando(comando As ComandiVariEnum) As Boolean
+	Public Sub AvvioAutomaticoComandiAux()
+	Public Sub GestioneVibratoriESoffi(NumPred As Integer, riciclato As Boolean)
+	Public Sub AutoOnVibratoriPredosatori()
+GestioneCodaMateriale.bas
+	Public Sub GcmCodaInerti_timer()
+	Public Sub GcmCodaRiciclato_timer()
+	Public Sub GcmCodaTamburoParallelo_timer()
+GestioneDosaggio.bas
+	Public Sub VagliatoNonVagliato_change()
+	Public Sub ScambioTuboTroppoPieno_Change()
+	Public Sub DeflTramScivScarBilRic_change()
+	Public Sub Grafica_DeflTramScivScarBilRic()
+	Public Sub ScambioFillerRecuperoInApporto_Change()
+	Public Sub ArrestoPCLInDosaggio()
+	Public Sub AzzeramentoDatiTrasRic()
+	Public Sub BitSpruzzato_change()
+	Public Sub ValorePortinaBitume_change(portinaBitume As Integer)
+	Public Sub ContalitriErroreTimeOutAvvio_change()
+	Public Sub ContalitriErroreTimeOutArresto_change()
+	Public Sub ConsensoScaricoBilance_change()
+	Public Sub MescolazioneInCorso_change()
+	Public Function CalcoloTotaleImpasto() As Double
+	Public Sub DatiResiduiNetti()
+	Public Sub PosizionaDeflettoreVaglio()
+	Public Sub RiempiBufferAggregatiFiller()
+	Public Sub RiempiBufferViatopScarMixer()
+	Public Sub AzzeraBufferViatopScarMixer()
+	Public Sub RiempiBufferKgVoli()
+	Public Sub BitumeInSpruzzatura_change()
+	Public Sub SetDosaggioScarico()
+	Public Sub SegnalaCambioRicettaAlPlc()
+	Public Sub ScaricoAggregati_change()
+	Public Sub PortinaNV_change()
+	Public Sub PortinaAgg_change(portina As Integer)
+	Public Sub PesataRAP_Change()
+	Public Sub BilanciaInertiPortinaAperta_change()
+	Public Sub BilanciaInertiPortinaChiusa_change()
+	Public Sub ScaricoFiller_change()
+	Public Sub BilanciaFillerPortinaChiusa_change()
+	Public Sub RAPSiwaInPesata_change()
+	Public Sub SetSelezioneCircuitoBitume2(bitume2 As Boolean)
+	Public Sub ScambiaPompaCircLegante()
+	Public Sub RichiamoRicettaDos()
+	Public Sub RiempieBufferPortine(rs As adodb.Recordset, ByRef arrayPortine() As RicettaTramogge)
+	Public Sub CfgPortineScaricoAgg()
+	Public Sub ArrestoEmergenzaDosaggio()
+	Public Sub GraficaTempoMescolazione()
+	Public Sub CalcoloProgressImpasto()
+	Public Sub FuoriTollBitume_change()
+	Public Sub FuoriTollAggregati_change()
+	Public Sub FuoriTollFiller_change()
+	Public Sub FuoriTollRiciclato_change()
+	Public Sub FuoriTollViatop_change()
+	Public Sub FuoriTollContalitri_change()
+	Public Sub TempoMescolazione_change()
+	Public Sub AggiornaGraficaScaricoMescolatore()
+	Public Sub MescolatoreAperto_change()
+	Public Sub MescolatoreChiuso_change()
+	Public Sub SommaComponenti()
+	Public Sub TimeOutDosaggio()
+	Public Sub SetDimensioneImpastoKg(nuovaDimensione As Long)
+	Public Function RiduzioneImpastoCasoSacchi(ByRef min As Integer, ByRef passo As Integer) As Boolean
+	Public Function VerificaRiduzioneImpastoCasoSacchi(ByRef riduzione As Integer, inIncremento As Boolean) As Boolean
+	Public Sub SetRiduzioneImpasto(nuovaRiduzione As Integer)
+	Public Sub ControlloLivelliAltiTramogge()
+	Public Sub DeflettoreNonPassa_change()
+	Public Sub GestioneBitumeGravita()
+	Public Sub RinfrescaOrigineDatiDosaggio(NomeRicDosSel As String)
+	Public Sub RinfrescaNomeRicDosaggio()
+	Public Sub DosaggioInCorso_change()
+	Public Sub Valv3VieSpruzzatriceVersoTorre_Change()
+	Public Sub Valv3VieBitume2Emulsione_Change()
+	Public Sub RinfrescaOrigineDatiClienti(NomeCliente As String)
+	Public Sub RinfrescaOrigineDatiClientiCamion(NomeCliente As String)
+	Public Sub RefillTargheCamion()
+	Public Function ControlloCondizioniStartDosaggio() As Boolean
+	Public Sub ScaricoBitume_change(gravita As Boolean)
+	Public Sub ComandoScaricoMixer_change()
+	Public Sub CalcolaTempoCiclo()
+	Public Sub BitumeDaCircuitoMarini_change()
+	Public Sub BitumeDaCircuitoEsterno_change()
+	Public Sub GestioneDosaggioBitumeEsterno()
+	Public Sub BilAgg_change()
+	Public Sub BilTamponeRiciclato_change()
+	Public Sub BilFiller_change()
+	Public Sub BilRAP_Change()
+	Public Sub BilRAPSiwa_change()
+	Public Sub BilBit_change()
+	Public Sub InvioFormulaDosaggio()
+	Public Sub CalcolaVelocitaInvertPesateFillerManuale()
+	Public Sub AggiornaVelocitaInvertPesateFiller(KgF1 As Double, KgF2 As Double, KgF3 As Double)
+	Public Sub PosizionaBitume123()
+	Public Sub SetCicliDosaggioDaEseguire(ByVal cicli As Long)
+	Public Sub CicliDosaggioEseguiti_change()
+	Public Sub AbilitazioneCambioRicetta(abilita As Boolean)
+	Public Sub CambioRicettaPrenotato_change()
+	Public Sub GestioneStatoDosaggio()
+	Public Sub AggiornaSetKgCP240()
+	Public Sub LeggiNettiResiduiCP240()
+	Public Function RicalcolaSetRicetta(SetOLD As Double, KgImpasto As Long, PercBitume As Double, KgNew As Long) As Double
+	Public Sub ForzaSetAggregati(Index As Integer)
+	Public Sub ForzaSetFiller(Index As Integer)
+	Public Sub ForzaSetTempi(Optional soloagg_ric As Boolean)
+	Public Sub TrasformaRicettaS7()
+	Public Sub AggiornaOrdinePesateForzato()
+	Public Sub InizializzaComponenti()
+	Public Sub ComponenteInit( _
+	Public Sub StatoAccoppiataDisplay(ByRef componente As ComponenteType, Stato As Boolean)
+	Public Sub ComponenteSetDisplay(ByRef componente As ComponenteType, Optional decimalDigit As Integer)
+	Public Sub ComponenteSet(ByRef componente As ComponenteType, Value As Double)
+	Public Sub ComponenteSetCalcolato(ByRef componente As ComponenteType, Value As Double)
+	Public Sub ComponenteTemperatura(ByRef componente As ComponenteType, Value As Double)
+	Public Sub ComponenteLivello(ByRef componente As ComponenteType, Value As Integer)
+	Public Sub ComponenteInPesata(ByRef componente As ComponenteType, Value As Boolean)
+	Public Sub LivelloTeoricoIn(ByRef componente As ComponenteType, Value As Double)
+	Public Sub ComponentePesoOut(ByRef componente As ComponenteType, Value As Double)
+	Public Sub LivelloTeoricoOut(ByRef componente As ComponenteType, Value As Double)
+	Public Sub PulsanteStopCicliDosaggio()
+	Public Sub GestioneCambioRicettaDosaggio()
+	Public Function ImpastoPeso() As Long
+	Public Function GrandezzaImpastoPLC() As Integer
+	Public Sub PressioneAriaInsufficente_change()
+	Public Sub TemperaturaLegante_change(indiceEtichetta As Integer, temperatura As Long)
+	Public Sub PosizionaDeflettoreByPassTamburoParallelo()
+	Public Sub GestioneDeflettoreByPassTamburoParallelo()
+	Public Sub BilAdditivoBacCNT_change()
+	Public Sub LetturaPesoMescolatore()
+	Public Sub ScritturaPesoMescolatore()
+	Public Sub VerificaRitornoPesataFiller(componente As Integer, comando As Boolean, ritorno As Boolean)
+	Public Function VerificaSetSicurezzeBilance() As Boolean
+	Public Sub SelezionaRicettaDosaggio()
+	Public Sub SelectDosingRecipeByCS(IdRecipe As Long)
+	Public Sub SelectClienteByCS(IdCliente As Long)
+	Public Sub PosizionaAdditivi()
+	Public Sub RefreshDatiFormNetti()
+	Public Sub StatusCalibrazioneBilPN()
+	Public Sub AggiornaGraficaFlomac_Change()
+	Public Function AdditivoFlomacInserito() As Boolean
+	Public Sub StartDosaggio()
+	Public Sub PulsanteControlloPortineManuale(Optional automatico As Boolean)
+	Public Sub DosaggioAutoMan(auto As Boolean)
+	Public Sub LeggiNettiParziali()
+GestioneFile.bas
+	Private Declare Function SHGetSpecialFolderPath Lib "SHELL32.DLL" Alias "SHGetSpecialFolderPathA" (ByVal hWnd As Long, ByVal lpszPath As String, ByVal nFolder As Integer, ByVal fCreate As Boolean) As Boolean
+	Private Declare Function GetPrivateProfileStringA Lib "kernel32" (ByVal sectionName As String, ByVal keyName As String, ByVal defaultValue As String, ByVal Value As String, ByVal valueSize As Long, ByVal FileName As String) As Long
+	Private Declare Function WritePrivateProfileStringA Lib "kernel32" (ByVal sectionName As String, ByVal keyName As String, ByVal Value As String, ByVal FileName As String) As Long
+	Public Function FileGetValue( _
+	Public Sub FileSetValue( _
+	Public Function GetSystemFolder(ByVal systemFolder As mceIDLPaths) As String
+	Public Function GetPlantInfoString(info As String, default As String) As String
+	Public Sub SetPlantInfoString(info As String, Value As String)
+	Public Function GetPlantInfoNumber(info As String, default As Long) As Long
+	Public Sub SetPlantInfoNumber(info As String, Value As Long)
+GestioneFiltroESonde.bas
+	Public Function Sonda_mA(valore As Long, max As Long, min As Long, mA_4_20 As Boolean) As Long
+	Public Function Sonda_mA_Dbl(valore As Long, max As Long, min As Long, mA_4_20 As Boolean) As Double
+	Public Function SondaDbl_mA(valore As Double, max As Double, min As Double, mA_4_20 As Boolean) As Double
+	Public Function GestioneAspirazioneFiltro()
+	Public Sub GestioneAspirazioneFiltroInPreventilazione()
+	Public Function ConversioneTemperatura(ValorePLC As Long, ByVal Temp As TemperatureEnum, ByVal fatto As Boolean) As Boolean
+	Public Function NormalizzazioneA100(valoreLetto As Integer, MassimoScala As Integer, MinimoScala As Integer, MassimoPLC As Integer, MinimoPLC As Integer) As Integer
+	Public Function NormalizzazioneA100Dbl(valoreLetto As Double, MassimoScala As Double, MinimoScala As Double, MassimoPLC As Double, MinimoPLC As Double) As Double
+	Public Sub ResettaTimerGestioneFiltro()
+	Public Sub ManualeFiltroManiche()
+	Public Sub AutomaticoFiltroManiche()
+	Public Sub AutomaticoAriaFreddaFiltro()
+	Public Sub ManualeAriaFreddaFiltro()
+	Public Sub GestioneLivelliFiltroDMR()
+	Public Sub ErroreLivelloAltoFiller()
+	Public Sub AltaTemperaturaFiltro_change()
+	Public Sub ValvolaPreseparatoreAnelloRitorno_change()
+	Public Sub ValvolaPreseparatoreRitorno_change()
+	Public Sub VisualizzaPuliziaFiltro()
+	Public Sub SiloFillerLivello(silo As Integer, Value As Long)
+	Public Sub SiloFillerEstrazione(silo As Integer, Value As Boolean)
+	Public Sub DepressioneFiltro_change()
+	Public Sub DepressioneFiltroIN_change()
+	Public Sub ManualeModulatoreFumiTamburo(tamburo As Integer)
+	Public Sub AutomaticoModulatoreFumiTamburo(tamburo As Integer)
+	Public Sub SetManualeFillerizzazione(manuale As Boolean)
+	Public Sub AbortFillerizzazione()
+	Public Sub StopFillerizzazione()
+	Public Sub GestioneFillerizzazione()
+	Public Sub StartMotoreFillerizzazioneF1F2(VelocitaPercento As Integer)
+GestioneGrafica.bas
+	Public Sub IconaStatoManAutoErr(ByRef oggetto As Object, stato As IconaPulsAutoManErr)
+	Public Sub ColoreCasellaTemperatura(ByRef oggetto As Object, codicecolori As Integer)
+	Public Sub DisponiPulsantiPlusForm(Form As Object, idStart As Integer, idEnd As Integer, PulsTwip As Boolean, FormTwip As Boolean, Optional align As Integer)
+	Public Function PlusSuffissoFileImgPulsanteForm(stato As StatoPulsantePlus) As String
+GestioneJob.bas
+	Public Sub ApplicaJob()
+	Public Sub PreStartJob()
+	Public Sub CambioPredosJob()
+	Public Sub CambioDosJob()
+	Public Sub CicloJob()
+	Public Function EnumStatoJobVB_ToString(varenum As EnumStatoJobVB) As String
+	Public Function EnumSpecJobCS_ToString(varenum As EnumSpecJobCS) As String
+	Public Function EnumComandoJobCS_ToString(varenum As EnumComandoJobCS) As String
+	Public Sub StartJob()
+	Public Sub StopJob()
+	Public Sub StopEmergenzaJob()
+	Public Sub StopPredJob()
+	Public Sub InitJob(job As TipoJob)
+	Public Sub UpdateCtrlDosPredosCP240(statojob As EnumStatoJobVB)
+GestioneLCPC.bas
+	Public Function CambiaChar(Stringa As String, CharOLD As String, CharNEW As String) As String
+	Public Function CreaCRC(Pacchetto As String) As String
+	Function CRC16(s As String) As Long
+	Public Sub AttivaTimerLCPC()
+	Public Sub VisualizzaStatoLCPC(stato As Boolean)
+	Public Function LCPC_ZERO(s As String) As String
+	Public Function CreaPacchetto5sec() As String
+	Public Function CreaPacchetto1sec() As String
+	Public Function CalcolaTh(Ramsey As Integer, SetPerc As Integer) As String
+	Public Function Calcola_Kg_m(NumPred As Integer) As String
+	Public Function Calcola_m_min(NumPred As Integer) As String
+	Public Function ConvertiTh2Kgm(Ramsey As Integer) As String
+	Function ControleCrc(ByVal Taille%, ByVal CRC_1&, ByVal CRC_2&, ByVal CRC_3&) As Boolean
+	Public Sub ScriviLogWindQual(Trama As String, TipoTrama As String)
+GestioneLingue.bas
+	Public Function GetUserTranslationsFileName() As String
+	Public Function GetInstallTranslationsFileName() As String
+	Public Function GetColumnTranslation() As Integer
+	Public Sub ReadTranslations()
+	Public Function WriteTranslations(NomeFoglio As String, row As Long, newText As String) As Boolean
+	Public Function LoadXLSString(numero As Long) As String
+	Public Sub CaricaTraduzioni()
+	Public Function SiwarexGetError(typeNum As Integer, Code As Integer, ByRef errorCode As SiwarexErrorCode) As Boolean
+	Public Function ConvertPlusLanguages(plusSelectedLanguage As PlusLanguages)
+GestioneLivelliSiliFillerVaglio.bas
+	Public Sub ValoreLivelloSiloFiller_change(silo As Integer)
+	Public Sub LivelliDigitaliSiloFiller()
+	Public Sub LivelloTramoggia_change(tramoggia As Integer)
+	Public Function CocleaFillerApportoDaAccendere(accendi As Boolean) As Boolean
+	Public Sub LivelloFillerApporto_change()
+	Public Function CocleaFillerRecuperoDaAccendere(accendi As Boolean) As Boolean
+	Public Sub LivelloFillerRecupero_change()
+	Public Sub ComandoPesataFiller_change(filler As Integer)
+	Public Function CambioRicettaSenzaF2toF2() As Boolean
+	Public Function CambioRicettaSenzaF3toF3() As Boolean
+	Public Sub LivelloFillerApporto2_change()
+	Public Function CocleaFillerApporto2DaAccendere(accendi As Boolean) As Boolean
+	Public Sub APBScambioFillerRecuperoInApporto_Change(comando As Boolean)
+	Public Sub APBScambioTuboTroppoPienoF1F2_Change(comando As Boolean)
+GestioneLog.bas
+	Public Sub LogInserisci(Errore As Boolean, funzione As String, ByVal Descrizione As String)
+	Public Function LogFunction(nomeFunzione As String, Inizio As Boolean, Optional timerInizioEsterno As Long) As Long
+GestioneMessaggistica.bas
+	Public Sub ComunicazioneConManutenzioni()
+	Public Sub InitConnection()
+	Public Sub SendMessagetoPlus(item As String, Value As String)
+	Public Sub GetMessage(messageReceived As String)
+	Public Sub StopMessaging()
+	Public Function PlusForceStopFinish() As Boolean
+	Public Sub SetActiveUser(ByVal newActiveUser As UsersEnum)
+	Public Sub LeggiMessaggioJobXML(messaggio As String)
+	Public Sub InviaMessaggioQuantitaJobXml(Quantita As Double, tipo As EnumComandoJobVB)
+	Public Sub InviaMessaggioFineJobXml()
+	Public Sub InviaMessaggioJobEmergenzaXml()
+GestioneMotori.bas
+	Public Sub MotoreRitornoTermica(motore As Integer)
+	Public Sub MotoreSicurezza_change(motore As Integer)
+	Public Sub MotoreRitorno_change(motore As Integer)
+	Public Sub MotoreRitornoReale_change(motore As Integer)
+	Public Sub SetMotoreRitorno(motore As Integer, valore As Boolean)
+	Public Sub SetMotoreRitornoReale(motore As Integer, valore As Boolean)
+	Public Sub SetMotoreRitornoIndietro(motore As Integer, valore As Boolean)
+	Public Sub SetMotoreAllarme(motore As Integer, valore As Integer)
+	Public Sub SetMotoreBlocco(motore As Integer, valore As Boolean)
+	Public Sub SetMotoreForzatoAcceso(motore As Integer, valore As Boolean)
+	Public Sub SetMotoreForzatoSpento(motore As Integer, valore As Boolean)
+	Public Function MotoreAcceso(motore As Integer) As Boolean
+	Public Function MotoreCocleaPreseparatriceAcceso() As Boolean
+	Public Function MotoreCocleaPreseparatriceErrore() As Boolean
+	Public Function MotoreCocleaRecuperoAcceso() As Boolean
+	Public Function MotoreCocleaRecuperoErrore() As Boolean
+	Public Sub MotoreAggiornaGrafica(motore As Integer)
+	Public Sub MotoreUscita_change(motore As Integer, Optional CambioStato_per_PausaLavoro As Boolean)
+	Public Sub NMSetMotoreUscita(ByVal motore As Integer, valore As Boolean)
+	Public Sub NMSetMotoreUscitaInv(ByVal motore As Integer, valore As Boolean)
+	Public Sub NMSetMotoreForzato(ByVal motore As Integer)
+	Public Sub SetMotoreForzatoDarwin(motore As Integer, valore As Boolean)
+	Public Sub SetMotoreUscita(ByVal motore As Integer, valore As Boolean, Optional CambioStato_per_PausaLavoro As Boolean)
+	Public Sub PulsanteManualePremuto()
+	Public Sub RimettiAutomaticoMotori()
+	Public Sub ControlloPuliziaFiltro()
+	Public Sub AccendiVaglioCambioRicetta()
+	Public Function CambioRicettaNVtoV() As Boolean
+	Public Sub ControlloMixerDosaggioStart()
+	Public Sub GestioneVaglio()
+	Public Sub ControlloAsservimenti()
+	Public Sub MotoriInAutomatico_change()
+	Public Sub InizioAttesaStopAutomaticoMotori()
+	Public Sub FineAttesaStopAutomaticoMotori()
+	Public Sub AvvioStopAutomaticoMotori()
+	Public Sub SetMotorManagement(newMotorManagement As MotorManagementEnum)
+	Public Sub UpdateManagement(newMotorManagement As MotorManagementEnum)
+	Public Sub MotorManagementPlc_change()
+	Public Sub MotorManagementPlcTroppoPienoNV_change()
+	Public Sub MotorManagementPlcSirena_change()
+	'Public Sub MotorManagementPlcCountDown_change()
+	Public Sub MotorManagementPlcCountDown_change(motoreChanged As Boolean)
+	Public Function MotoriInAutomatico() As Boolean
+	Public Function VerificaMotore(ByRef motore As MotoreType, criterioAllarme As String) As Boolean
+	Public Function VerificaMotorePred(ByRef motore As MotorePredosatoreType, criterioAllarme As String) As Boolean
+	Public Sub VerificaMotoriAccesi()
+	Public Sub ChkAvvioMotoriFillerizzazione(motore As Integer, comando As Boolean)
+	Public Sub AggiornaGraficaValvolaTSF_Change()
+	Public Sub GestionePulsantiTipoFunzMot(Stato As Boolean)
+	Public Sub AbilitaPulsFormInversione()
+	Public Sub GraficaDustFix()
+	Public Sub DimensionaFiamma(tamburo As Integer)
+GestioneOreLavoro.bas
+	Public Sub AzzeraOreLavoroMotori(motore As Integer, totale As Boolean)
+	Public Sub CalcolaOreLavoroMotori()
+	Public Sub LeggeFileOreLavoro()
+GestionePredNastriC.bas
+	Public Sub DatiSetPredosaggi()
+	Public Sub AvviamentoGestionePredosatori()
+	Public Function ControlloPredAutomatico(nastro As Byte) As Boolean
+	Public Function PredosatoriVerginiAccesi() As Boolean
+	Public Function PredosatoriRiciclatiAccesi() As Boolean
+	Public Sub GestioneStopPredosatori()
+	Public Function ControllaRicettaPredVuota()
+	Public Sub AvvioPredAutomatico()
+	Public Sub PreparazioneAvvPred()
+	Public Function PredosatoreSetCalcolato(ByRef Pred As PredosatoreType, portataTeorica As Double) As Integer
+	Public Function ValoreUscitaAnalogicaPred(riciclato As Boolean, ValoreSet As Integer, ValoreSetReale As Integer) As Double
+	Public Sub PulsanteStopPred()
+	Public Sub RichiamoRicettaPredos()
+	Public Sub AggiornaProssimaRicettaPredos()
+	Public Sub PassaInManualePredosatori()
+	Public Function PredosatoriRicConBilancia() As Boolean
+	Public Sub VisualizzaPortateNastri()
+	Public Sub StartPredosatori_change()
+	Public Sub LeggeFileUmiditaPredosatore()
+	Public Sub LeggeFileUmiditaPredosatoreRic()
+	Public Sub RinfrescaOrigineDatiPredosaggio(NomeRicPredSel As String, Optional AggiornaCP240 As Boolean)
+	Public Sub RinfrescaNomeRicPreDosaggio()
+	Public Sub NastroRicRegolazionePonderale()
+	Public Sub PesoNastroInerti_change()
+	Public Sub PesoNastroInerti()
+	Public Sub PesoNastroRiciclato_change()
+	Public Sub PesoNastroRiciclatoParDrum_change()
+	Public Sub PesoNastroRiciclato()
+	Public Sub PesoNastroRiciclatoParDrum()
+	Public Function SelezioneRicettaPredosaggioCambiata() As Boolean
+	Public Function PrimoPredosatoreDelNastro(nastro As NastriPredosatori) As Integer
+	Public Sub GestioneConsumi()
+	Public Sub ResetTotalizzatoriNastri(nastro As Integer)
+GestionePredosatori.bas
+	Public Sub VisualizzaPredosatoriImpostati()
+	Public Sub VisualizzaPredosatoriRicImpostati()
+	Public Sub PredosatoreInizializza()
+	Public Sub PredosatoreUscita_change(ByVal predosatore As Integer)
+	Public Sub SetPredosatoreUscita(ByVal predosatore As Integer, valore As Boolean)
+	Public Sub CalcolaNumeroPredosatoreSiwarex()
+	Public Sub PredosatoreRitorno_change(ByVal predosatore As Integer)
+	Public Sub PredosatoreRicUscita_change(ByVal predosatore As Integer)
+	Public Sub SetPredosatoreRicUscita(ByVal predosatore As Integer, valore As Boolean)
+	Public Sub PredosatoreRiciclatoRitorno_change(ByVal predosatore As Integer)
+	Public Sub PredosatoreMinimoVuoto_change(ByVal predosatore As Integer)
+	Public Sub PredosatoreRiciclatoMinimoVuoto_change(ByVal predosatore As Integer)
+	Public Function PredosatoriCalcoloUmiditaTotaleTmp(Umidita() As Double, tutti As Boolean) As Double
+	Public Function PredosatoriCalcoloUmiditaTotale(tutti As Boolean) As Double
+	Public Function PredosatoriRiciclatoCalcoloUmiditaTotaleTmp(Umidita() As Double, Index As Integer) As Double
+	Public Function PredosatoriRiciclatoCalcoloUmiditaTotale(Index As Integer) As Double
+	Public Sub RitardoVibratorePredVuoto()
+	Public Sub RitardoSoffioPredVuoto()
+	Public Sub TermicaPredosatori_change()
+	Private Function PredosatoreRitardato(ByRef Pred As PredosatoreType) As Boolean
+	Public Function PredosatoreOttieniSet(riciclato As Boolean, ByVal predosatore As Integer) As Integer
+	Public Sub PredosatoreCambiaSet(riciclato As Boolean, ByVal predosatore As Integer, valore As Integer, cambioManuale As Boolean)
+	Public Function PIDcontroller( _
+	Public Sub PredosatoreInVolumetrico(riciclato As Boolean, predosatore As Integer, attivo As Boolean)
+	Public Sub PredosatoreVerificaSet(ByRef Pred As PredosatoreType, forza As Boolean)
+	Public Sub PredosatoriSet_timer()
+	Public Sub PredosatoreManuale(riciclato As Boolean, predosatore As Integer, start As Boolean, forza As Boolean)
+	Public Sub PredosatoriInStartAutomatico(start As Boolean)
+	Public Sub PredosatoriInManuale()
+	Public Sub PredosatoriRicalcolaSet()
+	Public Function PredosatoriAccesi(riciclato As Boolean, nastro As Integer) As Boolean
+	Public Sub PredosatoriArrestoImmediato(riciclato As Boolean, nastro As Integer)
+	Public Sub VisualizzaRiduzioneProduzione()
+	Public Sub SetRiduzioneProduzione(nuovaRiduzione As Integer)
+	Public Function CalcolaSetNastri(Index As Integer) As Double
+	Public Function PredosatoreOttieniMaterialeLogId(ByRef Pred As PredosatoreType) As Long
+	Public Function PredosatoreOttieniNome(ByRef Pred As PredosatoreType) As String
+	Public Function PredosatoreOttieniPortata(ByRef Pred As PredosatoreType) As Integer
+	Public Sub GestioneStoricoPredosaggioAggiungi()
+	Public Sub GestioneStoricoPredosaggio()
+	Public Sub ChkResetColorMateriali()
+	Public Function ChkCoherenceMaterial(IdPredosaggio)
+	Public Sub SelectFeederRecipeByCS(IdRecipe As Long)
+	Public Function ControlloCondizioniStartPreDosaggio() As Boolean
+	Public Sub StartPreDosaggio()
+GestioneRiciclato.bas
+	Public Sub DatiSetPredRiciclato()
+	Public Sub DatiSetPredRiciclatoParDrum()
+	Public Sub AvviaElevatoreRiciclato()
+	Public Sub GestioneRiciclatoInTramoggia()
+	Public Sub ControlloPosizioneDeflVaglio()
+	Public Sub AspiraFumiFresatoFreddo_change(comando As Boolean)
+	Public Sub AspiraFumiFresatoFreddoContinuo()
+	Public Sub GestioneAspFresatoFreddo()
+	Public Sub GestioneBilanciaRAPSiwa()
+	Public Sub CheckDeflettoreRiciclato()
+	Public Sub SetDeflettoreRiciclato(nuovoComando As Boolean)
+	Public Sub AggiornaDeflettoreRiciclato()
+	Public Sub AggiornaDeflettoreRiciclatoAnelloElevRic()
+	Public Sub GestioneDeflettoreMulino()
+	Public Sub GestioneRifrantumazioneRiciclato()
+	Public Sub TermicaRifrantumazione_change()
+	Public Sub LivelloTramoggiaRic_change()
+	Public Sub ModulatoreDeflettoreAnelloApre(comando As Boolean)
+	Public Sub ModulatoreDeflettoreAnelloChiude(comando As Boolean)
+	Public Sub PosizioneModulatoreDeflettoreAnello_change()
+	Public Sub VerificaNastroDeflettoreAnello()
+	Public Sub VisualizzaNastroDeflettoreAnello()
+	Public Sub GestioneSicurezzaBilanciaRAP()
+	Public Sub RAPInScarico_Change()
+	Public Sub RAPSiwaInScarico_Change()
+GestioneSilo.bas
+	Public Function DefinisciTAG_Silo() As Integer
+	Public Sub SiloS7Leggi(forza As Boolean)
+	Public Sub SiloS7Scrivi()
+	Public Sub ScriviDestinazioneSilo(destinazione As Integer)
+	'Public Sub SiloS7VerificaAbilitazioni()
+	Public Function SiloS7GetPosizioneSilo(asse As Integer, silo As String) As Double
+	Public Sub SiloS7ShowPosition()
+	Private Function SiloImmagineStato(siyncroOn As Boolean, fcAperto As Boolean, piena As Boolean) As String
+	Public Sub SiloS7GestioneAllarmi(ByRef IdDescrizione As Integer, ByRef IndirizzoPLC As String)
+	Public Sub SiloS7InviaParametri()
+	Public Sub SiloS7ScriviPosizioni()
+	Public Sub ResetCmdSilo()
+	Public Sub CalcoloQuotePosGraficaSiloS7()
+	Public Function Linearizza(valore As Double, K1min As Double, K2max As Double, LoLim As Double, HiLim As Double) As Double
+	Public Sub SiloS7WarnigEvent()
+	Public Sub SetStatoSiloS7AutoMan()
+	Public Sub SetStatoSiloS7Jog()
+	Public Sub SetStatoSiloS7Stop()
+	Public Sub SetSiloS7Start()
+	Public Sub SiloS7IconStatusUpdate()
+	Public Sub AbilitaOggettiSiloS7(full As Boolean)
+GestioneSiloGenerale.bas
+	Public Sub CelleSiloValoreLetto_change(silo As Integer)
+	Public Sub VisualizzaSiloPieno(silo As Integer)
+	Public Sub AttivazioneSilo(silo As Integer, siloAttivo As Boolean, ritornoSilo As Boolean)
+	Public Sub VisualizzaSiloAttivo(usaFrmSilo As Boolean)
+	Public Sub ValoreTempSilo_change(silo As Integer, temperatura As Long)
+	Public Sub SiloGenerale()
+	Public Function ShowConfermaCambioSilo() As Boolean
+	Public Sub LetturaTemperaturaSilo_change()
+	Public Sub MessaggioSiloToPlus(DatoSilo As DatoSiloMsgPlusType, Optional NumeroTelescarico As Integer)
+	Public Sub NavettaPosizioneCarico_change()
+	Public Function VerificaEsistenzaSilo(silo As Integer) As Boolean
+	Public Function GetSiloFromConfigSilo(Index As Integer) As String
+	Public Function PlcToSiloVB(indice As Integer) As Integer
+	Public Function SiloVBToPlc(indice As Integer) As Integer
+	Public Function GetSiloIndex(silo As String) As Integer
+	Public Function GetSiloString(silo As Integer) As String
+	Public Function GetSiloHexCode(silo As String) As String
+	Public Function SiloConfig2Combo(silo As String) As String
+	Public Sub PosizionaSiliCP240()
+	Public Sub AggiornaPesoSilo(DestinazioneSilo As Integer)
+	Public Sub PortinaScaricoSilo_Change(NumeroSiloScaricato As Integer)
+	Public Sub SegnalazioneScaricoBennaNavetta(InScarico As Boolean)
+	Public Sub SegnalazioneBennaSu(BennaSu As Boolean)
+	Public Sub VerificaSirenaLivelloAlto(indice As Integer)
+	Public Sub LivelloAltoScomparto_change(indice As Integer)
+	Public Sub TelescarichiSilo_Change(silo As Integer)
+	Public Sub CaricoSilo_change(silo As Integer)
+	Public Sub TelescaricoSilo_change(scomparto As Integer)
+	Public Sub CelleSiloScriviTXT(NumeroModuloSilo As Integer)
+	Public Sub SiloScriviTXTSenzaCelle(scomparto As Integer) '20151202 NUOVA GESTIONE SILI DEPOSITO
+	Public Sub CelleSiloLeggiTXT(NumeroModuloSilo As Integer)
+	Public Sub SiloLeggiTXTSenzaCelle(scomparto As Integer) '20151202 NUOVA GESTIONE SILI DEPOSITO
+	Public Sub CelleSiloLeggiTXTCamion()
+	Public Sub CelleSiloScriviTXTCamion()
+	Public Sub CelleSiloInizializza()
+	Public Function AzzeraSeNegativo(valore As Variant) As Variant
+	Public Function CalcolaNumeroModuliSilo(Stringa) As Integer
+	Public Function RicavaDestinazioniDaModuloSilo(NumeroModulo As Integer, StringaConfigurazione As String) As String
+	Public Function ScompartiSiliPC_a_PLC(ByVal scomparto As Integer) As Integer   '20151202 NUOVA GESTIONE SILI DEPOSITO
+	Public Function ScompartiSiliPLC_a_PC(ByVal scomparto As Integer) As Integer  '20151202 NUOVA GESTIONE SILI DEPOSITO
+	Public Function ScompartiCompattaSalta(ByVal scomparto As Integer) As Integer  '20151202 NUOVA GESTIONE SILI DEPOSITO
+	Public Function ScompartiCompatta(ByVal scomparto As Integer) As Integer  '20151202 NUOVA GESTIONE SILI DEPOSITO
+	Public Function RicavaModuloSiloDaDestinazione(destinazione As Integer) As Integer
+	Public Function DestinazioneSiloAppartieneModuloSilo(destinazione As Integer, NumeroModulo As Integer) As Boolean
+	Public Sub ScaricoSiloSenzaCelleCarico(Peso As String)
+	Public Sub PesoCamion_change()
+	Public Sub AggiornaAnalogicaPesaCamion_change()
+	'Public Sub MessaggioCamionToPlus(DatoSilo As DatoSiloMsgPlusType, Optional NumeroTelescarico As Integer)
+	Public Sub RegistraScaricoSiloDB()
+	Public Function GetIdDosaggioLOGScarico(IdDosaggioAct As Integer) As Integer
+	Public Sub AggiornaImgSemaforo(verde As Boolean, attesa As Boolean, semaforo As Boolean)
+	Public Function GetDescrFromIdDosaggioLOG(IdDosaggioAct As Double) As String
+	Public Function GetIdDosaggioLogFromIdDosaggio(IdDosaggioAct As Double) As Integer
+	Public Sub PosizioneDeodorante()
+GestioneSiwarex.bas
+	Public Sub SiwarexLeggiDaFile(siwarexIndex As SiwarexEnum)
+	Public Sub SiwarexLeggiTutteDaFile()
+	Public Sub SiwarexScriviSuFile(siwarexIndex As SiwarexEnum)
+	Public Sub AttivaComandoSiwarex(siwarexIndex As SiwarexEnum)
+	Public Sub SiwarexInviaParametriPlc(siwarexIndex As SiwarexEnum, NumDR As Integer)
+	Public Function PredosatoriSiwarex() As Boolean
+	Public Function AssociaSiwarexPredosatori()
+	Public Sub INVIA_DatiRapSiwa(Optional AvvioProgramma As Boolean)
+	Public Function DefinisciTAG_LOG_COMANDI_SIWA5() As Integer
+	Public Sub LeggiDatiDaSiwarex(step As Integer, bilancia As SiwarexEnum)
+	Public Sub FileToSiwa(siwarexIndex As SiwarexEnum)
+	Public Sub SiwaToFile(siwarexIndex As SiwarexEnum)
+Help.bas
+	Public Declare Function HTMLHelp Lib "hhctrl.ocx" Alias "HtmlHelpA" (ByVal hWnd As Long, ByVal lpHelpFile As String, ByVal wCommand As Long, dwData As Any) As Long
+	Public Function VisualizzaHelp(ByRef parent As Form, ByVal contextID As Long) As Boolean
+IconeAllarmi.bas
+	Public Sub ControlloAllarmi()
+	Public Sub ControllaTemperatureAllarmi(ByRef IdDescrizione As Integer, ByRef IndirizzoPLC As String)
+	Public Sub BloccoSpruzzaturaAltaTemp_change()
+	Public Function SogliaSuperata(valore As Integer, Soglia As Integer, AoB As String) As Integer
+	Public Sub ControllaPortineAllarmi(ByRef IdDescrizione As Integer, ByRef IndirizzoPLC As String)
+	Public Sub GestioneSicurezzeBilance(ByRef IdDescrizione As Integer, ByRef IndirizzoPLC As String)
+	Public Sub AzzeraAllarmiSospesi()
+	Public Sub AllarmeTemporaneoFull(codiceNumerico As Integer, Codice As String, presente As Boolean, controlla As Boolean)
+	Public Sub AllarmeTemporaneo(Codice As String, presente As Boolean)
+	Public Sub ControllaIngressiAllarmi()
+	Public Sub IngressoAllarmePresente(indice As Integer, valore As Boolean)
+	Public Sub SetAllarmePresente(Codice As String, presente As Boolean)
+	Public Sub DB61_GestioneAllarmi(ByRef IdDescrizione As Integer, ByRef IndirizzoPLC As String)
+	Private Function AllarmePompeCircolazioneLegante() As Boolean
+	Public Function FuncAllarmeSlittamentoMotore(allsensore As Boolean, ritmotore As Boolean, ByRef orastartallarme As Long, temporitallarme As Long) As Boolean
+MemManuale.bas
+	Public Sub ResettaTimerAggregatiMan()
+	Public Sub ResettaTimerFillerMan()
+	Public Sub ResettaTimerBitumeMan()
+	Public Sub ResettaTimerRiciclatoMan()
+	Public Sub ResettaTimerViatopMan()
+	Public Sub ResettaTimerViatopScarMixer1Man()
+	Public Sub ResettaTimerViatopScarMixer2Man()
+	Public Sub MemorizzaManualiDB()
+	Public Sub ResetVariabiliImpaManuali()
+	Public Sub AbilitaPulsantiPortineMan(stato As Boolean)
+	Public Sub MemPesiAggManEmergenzaDosaggio()
+	Public Sub MemPesiFillManEmergenzaDosaggio()
+	Public Sub MemPesiBitManEmergenzaDosaggio()
+	Public Sub MemPesiViatopManEmergenzaDosaggio()
+MessageBox.frm
+	Public Sub ShowMe( _
+	Public Sub WaitingBox(inAttesa As Boolean)
+ModPID.bas
+	Public Sub RegolatorePID_1(ByRef blnResetPID As Boolean, ByVal dblKp As Double, _
+	Public Sub RegolatorePID_2(ByRef blnResetPID As Boolean, ByVal dblKp As Double, _
+	Public Sub RegolatorePID_3(ByRef blnResetPID As Boolean, ByVal dblKp As Double, _
+ModuleShowForm.bas
+	Public Declare Function IsWindowVisible Lib "User32" (ByVal hWnd As Long) As Boolean
+	Public Declare Function ShowWindow Lib "User32" (ByVal hWnd As Long, ByVal nCmdShow As Long) As Long
+	Public Function ShowMsgBox( _
+NetWork.bas
+	Public Function LoadOPCTags(ByVal plc As String, ByRef OPCDataCtrl As OPCDataControl)
+	Public Sub PlcEffettuaConnessione()
+	Public Sub InizializzaConnessione()
+	Public Function IsPlcConnected(ByRef opcDC As OPCDataControl) As Boolean
+	Public Function GetQuality(quality As Long) As QualityEnum
+	Function GetQualityAsString(quality As Long)
+	Public Function ConversioneUnitaPT100(valore As Integer) As String
+	Public Function ConversioneUnita10V(valore As Integer) As String
+	Public Function ConversioneUnita0_20mA(valore As Integer) As String
+	Public Function ConversioneUnita4_20mA(valore As Integer) As String
+	Public Sub PlcOutAnalogici()
+	Public Sub PlcInAnalogici()
+	Public Sub PlcOutDigitali()
+	Public Sub PlcInDigitali()
+	Public Sub PlcCommunicationError()
+	Public Sub Main()
+	Public Function VideataPrincipale()
+	Public Sub SetPlusCommunicationBroken(isBroken As Boolean, Optional firstTime As Boolean)
+	Public Sub InviaParaPesaCamion()
+	Public Sub CheckContenutoSili()
+ParaTab.bas
+	Public Sub ParametriApply()
+	Public Sub ParametriReadFile()
+	Public Sub SendParametersFromPLC()
+ParaTabAdd.bas
+	Public Function ParaTabAdd_ReadFile() As Boolean
+	Public Sub ParaTabAdd_Apply()
+ParaTabAmp.bas
+	Public Function ParaTabAmp_ReadFile() As Boolean
+	Public Sub ParaTabAmp_Apply()
+ParaTabAquablack.bas
+	Public Sub ParaTabAquablack_ReadFile()
+	Public Sub ParaTabAquablack_Apply()
+ParaTabBruc.bas
+	Public Function ParaTabBruc_ReadFile() As Boolean
+	Public Sub ParaTabBruc_Apply()
+	Private Function String2Fuel(fuel As String) As FuelType
+ParaTabCist.bas
+	Public Function ParaTabCist_ReadFile() As Boolean
+	Public Sub LeggiFileCisternaSingola(cisterna As Integer, Paragraph As String)
+	Public Sub LeggiFileCisterne()
+	Public Function ParaTabCist_WriteFile() As Boolean
+	Public Sub ParaTabCist_Apply()
+ParaTabComandi.bas
+	Public Function ParaTabComandi_ReadFile() As Boolean
+	Public Sub ParaTabComandi_Apply()
+	Public Sub CaricaTestiComandi()
+ParaTabComp.bas
+	Public Function ParaTabDos_ReadFile() As Boolean
+	Public Sub ParaTabDos_Apply()
+	Public Sub LeggeFileParDosVar()
+	Public Sub LeggeFileParBilCamion()
+	Public Sub ScriveFileParBilCamion()
+ParaTabGeneral.bas
+	Public Function ParaTabGeneral_ReadFile() As Boolean
+	Public Sub ParaTabGeneral_Apply()
+ParaTabLeg.bas
+	Public Function ParaTabLeg_ReadFile() As Boolean
+	Public Sub ParaTabLeg_Apply()
+ParaTabMotor.bas
+	Public Function ParaTabMotor_ReadFile() As Boolean
+	Public Sub ParaTabMotor_Apply()
+	Public Sub CaricaTestiMotori()
+ParaTabPred.bas
+	Public Function ParaTabPred_ReadFile() As Boolean
+	Public Sub ParaTabPred_Apply()
+	Public Sub CaricaDatiGrafPredosatore(ByRef Pred As PredosatoreType)
+	Public Sub PlcGriglieVibranti()
+	Public Sub LeggiUmiditaPredSQL()
+ParaTabSchiumato.bas
+	Public Function ParaTabSchiumato_ReadFile() As Boolean
+	Public Sub PlcSchiumatoInviaParametri()
+	Public Sub ParaTabSchiumato_Apply()
+	Public Function PlcSchiumatoConnessione(connetti As Boolean) As Boolean
+	Public Function PlcSchiumatoConnesso() As Boolean
+	Public Function PLCSchiumatoOnError() As Boolean
+	Public Sub PLCSchiumato_Timer()
+	Public Function PLCSchiumatoLetturaDB() As Boolean
+	Public Function PLCSchiumatoGestionePompaSoft() As Boolean
+	Public Function PLCSchiumatoValv3VieBitume_Norm_Soft(FC_Norm As Boolean, FC_Soft As Boolean)
+	Public Function PlcSchiumatoAllarme(ByVal ID As Integer, ByVal allarme As Long) As Boolean
+	Public Function PlcSchiumatoAllarmeAccetta() As Boolean
+	Public Function PLCSchiumatoAbilitaCiclo()
+	Public Function PLCSchiumatoSetAbilitaCiclo()
+	Public Function PLCSchiumatoAutomatico() As Boolean
+	Public Function PLCSchiumatoSetAutomaticoCiclo(automatico As Boolean) As Boolean
+	Public Function PLCSchiumatoSetAutomaticoMotori(automatico As Boolean) As Boolean
+	Public Function PLCSchiumatoSetRicetta( _
+	Public Function PLCSchiumatoPesoAggregati(ByVal Peso As Double) As Boolean
+	Public Function PLCSchiumatoScaricoAggregati(ByVal scarico As Boolean) As Boolean
+	Public Function PLCSchiumatoCircuitoAcqua() As Boolean
+	Public Function PLCSchiumatoPompaAcqua() As Boolean
+	Public Function PLCSchiumatoManualePompaAcqua(start As Boolean) As Boolean
+	Public Function PLCSchiumatoValvAcqua() As Boolean
+	Public Function PLCSchiumatoManualeValvAcqua(start As Boolean) As Boolean
+	Public Function PLCSchiumatoValvImmissAcqua() As Boolean
+	Public Function PLCSchiumatoCircuitoBitume() As Boolean
+	Public Function PLCSchiumatoPompaBitume() As Boolean
+	Public Function PLCSchiumatoManualePompaBitume(start As Boolean) As Boolean
+	Public Function PLCSchiumatoVersoPompaBitume() As Boolean
+	Public Function PLCSchiumatoInversionePompaBitume() As Boolean
+	Public Function PLCSchiumatoValvBitume() As Boolean
+	Public Function PLCSchiumatoManualeValvBitume(start As Boolean) As Boolean
+	Public Function PLCSchiumatoValvImmissBitume() As Boolean
+	Public Function PLCSchiumatoManualeValvImmissBitume(start As Boolean) As Boolean
+	Public Function PLCSchiumatoManualeValvImmissH20(start As Boolean) As Boolean
+	Public Function PLCSchiumatoSetBitumeHard() As Boolean
+	Public Function PLCSchiumatoPercentoBitumeHard() As Boolean
+	Public Function PLCSchiumatoSetPercentoBitumeHard(percento As Double) As Boolean
+	Public Function PLCSchiumatoRitardoBitumeHard() As Boolean
+	Public Function PLCSchiumatoSetRitardoBitumeHard(secondi As Integer) As Boolean
+	Public Function PLCSchiumatoSetTolleranzaBitumeHard(Tolleranza As Double) As Boolean
+	Public Function PLCSchiumatoSetTolleranzaBitumeSoft(Tolleranza As Double) As Boolean
+	Public Sub PLCSchiumatoSetFineScaricoBitume(Fine As Boolean)
+	Public Sub PLCSchiumatoFineScaricoBitume()
+	Public Function PLCSchiumatoDosaggioBitumeHard() As Boolean
+	Public Function PLCSchiumatoValvImmissSolvente() As Boolean
+	Public Function PLCSchiumatoManualeValvImmissSolvente(start As Boolean) As Boolean
+	Public Function PLCSchiumatoCircuitoBitumeSoft() As Boolean
+	Public Function PLCSchiumatoPompaBitumeSoft() As Boolean
+	Public Function PLCSchiumatoManualePompaBitumeSoft(start As Boolean) As Boolean
+	Public Function PLCSchiumatoVersoPompaBitumeSoft() As Boolean
+	Public Function PLCSchiumatoInversionePompaBitumeSoft() As Boolean
+	Public Function PLCSchiumatoValvBitumeSoft() As Boolean
+	Public Function PLCSchiumatoManualeValvBitumeSoft(start As Boolean) As Boolean
+	Public Function PLCSchiumatoValvImmissBitumeSoft() As Boolean
+	Public Function PLCSchiumatoManualeValvImmissBitumeSoft(start As Boolean) As Boolean
+	Public Function PLCSchiumatoSetBitumeSoft() As Boolean
+	Public Function PLCSchiumatoPercentoBitumeSoft() As Boolean
+	Public Function PLCSchiumatoSetPercentoBitumeSoft(percento As Double) As Boolean
+	Public Function PLCSchiumatoRitardoBitumeSoft() As Boolean
+	Public Function PLCSchiumatoSetRitardoBitumeSoft(secondi As Integer) As Boolean
+	Public Function PLCSchiumatoDosaggioBitumeSoft() As Boolean
+	Public Function PLCSchiumatoCircuitoRampa() As Boolean
+	Public Function PlcSchiumatoControllaB_Hard_sec(TempoMin As Long, TempoMax As Long) As Double
+ParaTabSilo.bas
+	Public Function ParaTabSilo_ReadFile() As Boolean
+	Public Sub ParaTabSilo_Apply()
+	Public Sub ReadPositioneSiloFromXml()
+	Public Sub WritePositioneSiloToXml()
+ParaTabTrend.bas
+	Public Function ParaTabTrend_ReadFile() As Boolean
+	Public Sub ParaTabTrend_Apply()
+ParaTabVarie.bas
+	Public Function ParaTabVarie_ReadFile() As Boolean
+	Public Sub ParaTabVarie_Apply()
+Printer.bas
+	Public Declare Function GetProfileString Lib "kernel32.dll" Alias "GetProfileStringA" (ByVal lpAppName As String, ByVal lpKeyName As String, ByVal lpDefault As String, ByVal lpReturnedString As String, ByVal nSize As Long) As Long
+	Public Declare Function GetPrinterApi Lib "winspool.drv" Alias "GetPrinterA" (ByVal hPrinter As Long, ByVal Level As Long, buffer As Long, ByVal pbSize As Long, pbSizeNeeded As Long) As Long
+	Public Declare Function OpenPrinter Lib "winspool.drv" Alias "OpenPrinterW" (ByVal pPrinterName As Long, ByRef phPrinter As Long, Optional ByVal pDefault As Long) As Long
+	Public Declare Function ClosePrinter Lib "winspool.drv" (ByVal hPrinter As Long) As Long
+	Public Declare Function EndDocPrinter Lib "winspool.drv" (ByVal hPrinter As Long) As Long '20150708
+	Public Declare Function EndPagePrinter Lib "winspool.drv" (ByVal hPrinter As Long) As Long
+	Public Declare Function StartDocPrinter Lib "winspool.drv" Alias "StartDocPrinterA" (ByVal hPrinter As Long, ByVal Level As Long, pDocInfo As DOCINFO) As Long
+	Public Declare Function StartPagePrinter Lib "winspool.drv" (ByVal hPrinter As Long) As Long
+	Public Declare Function WritePrinter Lib "winspool.drv" (ByVal hPrinter As Long, pBuf As Any, ByVal cdBuf As Long, pcWritten As Long) As Long
+	Public Function StringFromPointer(lpString As Long, lMaxLength As Long) As String
+	Public Function IsPrinterReady(ByRef PrinterName As String) As Boolean
+	Public Function GetDefaultPrinter() As Printer
+Registro.bas
+	Private Declare Function RegCreateKeyEx Lib "ADVAPI32.dll" Alias "RegCreateKeyExA" ( _
+	Private Declare Function RegOpenKeyEx Lib "ADVAPI32.dll" Alias "RegOpenKeyExA" ( _
+	Private Declare Function RegSetValueEx Lib "ADVAPI32.dll" Alias "RegSetValueExA" ( _
+	Private Declare Function RegQueryValueEx Lib "ADVAPI32.dll" Alias "RegQueryValueExA" ( _
+	Private Declare Function RegSetValueExNum Lib "ADVAPI32.dll" Alias "RegSetValueExA" ( _
+	Private Declare Function RegQueryValueExNum Lib "ADVAPI32.dll" Alias "RegQueryValueExA" ( _
+	Private Declare Function RegCloseKey Lib "ADVAPI32.dll" (ByVal hKey As Long) As Long
+	Public Function RegistroCrea(path As String) As Long
+	Public Function RegistroApri(path As String) As Long
+	Public Function RegistroLeggiStringa(hKey As Long, chiave As String) As String
+	Public Function RegistroScriviStringa(hKey As Long, chiave As String, valore As String) As Boolean
+	Public Function RegistroLeggiNumero(hKey As Long, chiave As String) As Long
+	Public Function RegistroScriviNumero(hKey As Long, chiave As String, valore As Long) As Boolean
+	Public Function RegistroChiudi(hKey As Long) As Boolean
+Stampe.bas
+	Public Sub StampaOgniDosaggio(ByRef rstStoricoImpasto As adodb.Recordset)
+	Public Sub StampaOgniDosaggioEnd()
+	Public Sub StampaOgniDosaggioInviaStampa(nomedoc As String, stingastampa As String)
+	Private Function StampaOgniDosaggioFormatta(Contatore As Integer, valore As String, Caratteri As Integer, last As Boolean) As String
+Trend.bas
+	Public Sub TrendInizializza()
+	Public Function TrendProfiloInserisci(ByVal indice As TrendType) As Boolean
+	Public Function TrendProfiloElimina() As Boolean
+	Public Sub TrendCampionamento()
+	Private Function TrendCampionamentoInserisci( _
+	Public Function TrendCampionamentoInserisciEvento( _
+	Public Function TrendMaxDataCampionamento() As Date
+	Public Sub TrendVerificaData()
+	Public Sub TrendSetRunTimeCs(pen As Integer, add As Boolean)
+Viatop.bas
+	Public Sub BilanciaViatopPeso_change()
+	Public Sub GestioneSicurezzaViatop()
+	Public Sub ValoreLivelloMinViatop_change()
+	Public Sub SegnalazioneLivelloMinViatop(attivo As Boolean)
+	Public Sub CicloneMinViatop_Change()
+	Public Sub ScaricoBilanciaViatopChiuso_change()
+	Public Sub ScaricoCicloneViatopChiuso_Change()
+	Public Sub ComandoVentolaViatop_Change()
+	Public Sub ComandoPesataViatop_Change()
+	Public Sub ComandoScaricoBilanciaViatop_Change()
+	Public Sub ComandoScaricoCicloneViatop_Change()
+XmlJobs.cls
+	Private Function SelectParameterSection(ByVal paramSection As String) As IXMLDOMNode
+	Public Function ParameterExists(ByVal Section As String, ByVal paramCode As String) As Boolean
+	Public Function SectionExists(ByVal Section As String) As Boolean
+	Public Function GetValue(ByVal Section As String, ByVal paramCode As String) As Variant
+	Public Function Reload()
+	Private Function GetAttribute(ByRef parameterNode As IXMLDOMNode, ByVal Code As String) As IXMLDOMAttribute
+	Public Function ParameterGetValue(ByVal paramCode As String, ByVal attribCode) As Variant
+XmlManager.cls
+	Private Function SelectParameterParagraph(ByVal paramSection As String, ByVal paramParagraph As String, ByVal paramSubParagraph As String, ByVal paramCode As String) As IXMLDOMNode
+	Private Function GetAttribute(ByRef parameterNode As IXMLDOMNode, ByVal Code As String) As IXMLDOMAttribute
+	Public Function ParameterExists(ByVal Section As String, ByVal Paragraph As String, ByVal SubParagraph As String, ByVal Param As String) As Boolean
+	Public Function GetValue(ByVal Section As String, ByVal Paragraph As String, ByVal SubParagraph As String, ByVal paramCode As String) As String
+	Public Function SetValue(ByVal Section As String, ByVal Paragraph As String, ByVal SubParagraph As String, ByVal paramCode As String, ByVal Value As Variant) As Boolean
+	Public Function Reload()

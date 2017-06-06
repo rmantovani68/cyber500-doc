@@ -1,0 +1,580 @@
+<!doctype html public "-//IETF//DTD HTML//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="Text/html; charset=iso-8859-1">
+  <meta name="Author" content = "m.stamenov" >
+  <meta name="GENERATOR" content="VBDOX [2.0.20]" >
+<!-- Sitemap 1.0 -->
+</head>
+<body>
+<ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="MAP">
+<param name="Local" value="MAP.html">
+</object>
+<ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="AvvComandi">
+<param name="Local" value="AvvComandi.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="AvvMotori">
+<param name="Local" value="AvvMotori.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="BrucAuto">
+<param name="Local" value="BrucAuto.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="BusSytem">
+<param name="Local" value="BusSytem.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="CodaCircolare">
+<param name="Local" value="CodaCircolare.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="Configuration">
+<param name="Local" value="Configuration.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="Configurazione">
+<param name="Local" value="Configurazione.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ControlliVari">
+<param name="Local" value="ControlliVari.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ControlloDatiInseriti">
+<param name="Local" value="ControlloDatiInseriti.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="CP240">
+<param name="Local" value="CP240.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FormAquablack">
+<param name="Local" value="FormAquablack.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FormAvvRidotto">
+<param name="Local" value="FormAvvRidotto.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FormPIDBruc">
+<param name="Local" value="FormPIDBruc.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FormProgRiscaldamentiCaldaie">
+<param name="Local" value="FormProgRiscaldamentiCaldaie.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmCalcolaImpasti">
+<param name="Local" value="FrmCalcolaImpasti.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmCalibBilCamion">
+<param name="Local" value="FrmCalibBilCamion.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmComandiCisterne">
+<param name="Local" value="FrmComandiCisterne.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmGestioneTimer">
+<param name="Local" value="FrmGestioneTimer.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmInversionePCL">
+<param name="Local" value="FrmInversionePCL.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmNetti">
+<param name="Local" value="FrmNetti.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmNewValue">
+<param name="Local" value="FrmNewValue.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmSchiumatura">
+<param name="Local" value="FrmSchiumatura.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmSiloGenerale">
+<param name="Local" value="FrmSiloGenerale.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmSiwarexPara">
+<param name="Local" value="FrmSiwarexPara.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmStatoPredosatori">
+<param name="Local" value="FrmStatoPredosatori.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmTaraBilancePN">
+<param name="Local" value="FrmTaraBilancePN.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="FrmTestPredosatori">
+<param name="Local" value="FrmTestPredosatori.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneAdditivi">
+<param name="Local" value="GestioneAdditivi.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneAllarmi">
+<param name="Local" value="GestioneAllarmi.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneAmperometri">
+<param name="Local" value="GestioneAmperometri.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneAquablack">
+<param name="Local" value="GestioneAquablack.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneBit">
+<param name="Local" value="GestioneBit.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneBruciatore">
+<param name="Local" value="GestioneBruciatore.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneCaldaie">
+<param name="Local" value="GestioneCaldaie.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneCaratteri">
+<param name="Local" value="GestioneCaratteri.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneCisterneCommon">
+<param name="Local" value="GestioneCisterneCommon.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneCisternePLC">
+<param name="Local" value="GestioneCisternePLC.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneCisterneSingole">
+<param name="Local" value="GestioneCisterneSingole.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneCodaMateriale">
+<param name="Local" value="GestioneCodaMateriale.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneComandiVari">
+<param name="Local" value="GestioneComandiVari.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneDataBase">
+<param name="Local" value="GestioneDataBase.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneDosaggio">
+<param name="Local" value="GestioneDosaggio.html">
+</object>
+<ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ControlloCondizioniStartDosaggio">
+<param name="Local" value="GestioneDosaggio.ControlloCondizioniStartDosaggio.html">
+<param name="ImageNumber" value="11">
+</object>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneFile">
+<param name="Local" value="GestioneFile.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneFiltro">
+<param name="Local" value="GestioneFiltro.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneGrafica">
+<param name="Local" value="GestioneGrafica.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneHelp">
+<param name="Local" value="GestioneHelp.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneJob">
+<param name="Local" value="GestioneJob.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneLCPC">
+<param name="Local" value="GestioneLCPC.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneLingue">
+<param name="Local" value="GestioneLingue.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneLivelliSiliFillerVaglio">
+<param name="Local" value="GestioneLivelliSiliFillerVaglio.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneLog">
+<param name="Local" value="GestioneLog.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneMessaggistica">
+<param name="Local" value="GestioneMessaggistica.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneMotori">
+<param name="Local" value="GestioneMotori.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneOreLavoro">
+<param name="Local" value="GestioneOreLavoro.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestionePredNastriC">
+<param name="Local" value="GestionePredNastriC.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestionePredosatori">
+<param name="Local" value="GestionePredosatori.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneRiciclato">
+<param name="Local" value="GestioneRiciclato.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneSiloGenerale">
+<param name="Local" value="GestioneSiloGenerale.html">
+</object>
+<ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="RegistraScaricoSiloDB">
+<param name="Local" value="GestioneSiloGenerale.RegistraScaricoSiloDB.html">
+<param name="ImageNumber" value="11">
+</object>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneSiloS7">
+<param name="Local" value="GestioneSiloS7.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneSiwarex">
+<param name="Local" value="GestioneSiwarex.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneTrend">
+<param name="Local" value="GestioneTrend.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GestioneViatop">
+<param name="Local" value="GestioneViatop.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ImpastiManuali">
+<param name="Local" value="ImpastiManuali.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="MD5">
+<param name="Local" value="MD5.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="MessageBox">
+<param name="Local" value="MessageBox.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ModPID">
+<param name="Local" value="ModPID.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ModuleShowForm">
+<param name="Local" value="ModuleShowForm.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="NetWork">
+<param name="Local" value="NetWork.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="Parameter">
+<param name="Local" value="Parameter.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTab">
+<param name="Local" value="ParaTab.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabAdd">
+<param name="Local" value="ParaTabAdd.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabAmp">
+<param name="Local" value="ParaTabAmp.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabAquablack">
+<param name="Local" value="ParaTabAquablack.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabBruc">
+<param name="Local" value="ParaTabBruc.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabCist">
+<param name="Local" value="ParaTabCist.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabComandi">
+<param name="Local" value="ParaTabComandi.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabDos">
+<param name="Local" value="ParaTabDos.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabGeneral">
+<param name="Local" value="ParaTabGeneral.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabLeg">
+<param name="Local" value="ParaTabLeg.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabMotor">
+<param name="Local" value="ParaTabMotor.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabPred">
+<param name="Local" value="ParaTabPred.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabSchiumato">
+<param name="Local" value="ParaTabSchiumato.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabSilo">
+<param name="Local" value="ParaTabSilo.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabTrend">
+<param name="Local" value="ParaTabTrend.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParaTabVarie">
+<param name="Local" value="ParaTabVarie.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="Registro">
+<param name="Local" value="Registro.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="Stampante">
+<param name="Local" value="Stampante.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="Stampe">
+<param name="Local" value="Stampe.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="XmlJobs">
+<param name="Local" value="XmlJobs.html">
+</object>
+<ul>
+</ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="XmlManager">
+<param name="Local" value="XmlManager.html">
+</object>
+<ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="GetValue">
+<param name="Local" value="XmlManager.GetValue.html">
+<param name="ImageNumber" value="11">
+</object>
+<li> <object type="text/sitemap">
+<param name="Name" value="ParameterExists">
+<param name="Local" value="XmlManager.ParameterExists.html">
+<param name="ImageNumber" value="11">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+</body>
+</html>

@@ -1,0 +1,507 @@
+[Root]
+Most Recent Package=Unificata
+
+
+[Package|Pacchetto di installazione standard 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Ultima Installazione
+
+[Package|Pacchetto di installazione standard 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=Yes
+Text=No
+Jet 2.x=Yes
+Paradox=No
+
+[Package|Pacchetto di installazione standard 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=
+
+[Package|Pacchetto di installazione standard 1|Files Found]
+
+[Package|Pacchetto di installazione standard 1|Files Released]
+SSCSDK32.DLL=
+Crystal=
+
+[Package|Pacchetto di installazione standard 1|Missing Dependency Information]
+C:\Programmi\File comuni\System\ado\msado25.tlb=
+
+[Package|Pacchetto di installazione standard 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSDATGRD.OCX=
+C:\WINNT\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\MSCOMCT2.OCX=
+C:\WINNT\system32\MSADODC.OCX=
+C:\WINNT\system32\MSCHRT20.OCX=
+C:\WINNT\system32\COMDLG32.OCX=
+
+[Package|Pacchetto di installazione standard 1|Files Added]
+c:\winnt\system32\crystl32.oca=
+c:\winnt\system32\crystl32.dep=
+c:\winnt\system32\mscomm32.oca=
+c:\winnt\system32\mscomm32.dep=
+c:\winnt\system32\msmapi.srg=
+c:\winnt\system32\msmapi32.dep=
+c:\winnt\system32\msmapi32.ocx=
+
+[Package|Pacchetto di installazione standard 1|Files Removed]
+
+[Package|Pacchetto di installazione standard 1|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6IT.DLL=Yes
+C:\Programmi\File comuni\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\MSJET35.DLL=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\MSREPL35.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\WINNT\system32\MSCOMIT.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\CMDLGIT.DLL=Yes
+C:\WINNT\system32\gauge32.ocx=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\WINNT\system32\mfc40loc.dll=Yes
+C:\WINNT\system32\MSCHRT20.OCX=Yes
+C:\WINNT\system32\MSCH2IT.DLL=Yes
+C:\WINNT\system32\DBLIST32.OCX=Yes
+C:\WINNT\system32\DBLSTIT.DLL=Yes
+C:\WINNT\system32\dbgrid32.ocx=Yes
+C:\WINNT\system32\DBGRDIT.DLL=Yes
+C:\WINNT\system32\anibtn32.ocx=Yes
+C:\WINNT\system32\crystl32.ocx=Yes
+C:\WINNT\system32\crpe32.dll=Yes
+C:\WINNT\system32\implode.dll=Yes
+C:\WINNT\system32\crpaig32.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\mfc42.dll=Yes
+C:\WINNT\Crystal\crxlat32.dll=Yes
+C:\WINNT\Crystal\p2bbde.dll=Yes
+C:\WINNT\system32\p2bbnd.dll=Yes
+C:\WINNT\system32\p2bdao.dll=Yes
+C:\WINNT\Crystal\p2bxbse.dll=Yes
+C:\WINNT\system32\p2ctdao.dll=Yes
+C:\WINNT\system32\p2irdao.dll=Yes
+C:\WINNT\Crystal\p2sifmx.dll=Yes
+C:\WINNT\system32\p2smon.dll=Yes
+C:\WINNT\system32\p2sodbc.dll=Yes
+C:\WINNT\Crystal\p2sora7.dll=Yes
+C:\WINNT\Crystal\p2ssql.dll=Yes
+C:\WINNT\Crystal\p2ssyb10.dll=Yes
+C:\WINNT\Crystal\p2soledb.dll=Yes
+C:\WINNT\Crystal\u2ddisk.dll=Yes
+C:\WINNT\Crystal\u2dmapi.dll=Yes
+C:\WINNT\Crystal\u2dnotes.dll=Yes
+C:\WINNT\Crystal\u2dpost.dll=Yes
+C:\WINNT\Crystal\u2dvim.dll=Yes
+C:\WINNT\Crystal\u2dapp.dll=Yes
+C:\WINNT\Crystal\u2fcr.dll=Yes
+C:\WINNT\Crystal\u2fhtml.dll=Yes
+C:\WINNT\Crystal\u2fodbc.dll=Yes
+C:\WINNT\Crystal\u2frec.dll=Yes
+C:\WINNT\Crystal\u2frtf.dll=Yes
+C:\WINNT\Crystal\u2fsepv.dll=Yes
+C:\WINNT\Crystal\u2ftext.dll=Yes
+C:\WINNT\Crystal\u2fwks.dll=Yes
+C:\WINNT\Crystal\u2fwordw.dll=Yes
+C:\WINNT\Crystal\u2fxls.dll=Yes
+C:\WINNT\Crystal\u25dts.dll=Yes
+C:\WINNT\Crystal\u25store.dll=Yes
+C:\WINNT\Crystal\u25total.dll=Yes
+C:\WINNT\Crystal\u2l2000.dll=Yes
+C:\WINNT\Crystal\u2lbar.dll=Yes
+C:\WINNT\Crystal\u2lcom.dll=Yes
+C:\WINNT\Crystal\u2ldts.dll=Yes
+C:\WINNT\Crystal\u2lsamp1.dll=Yes
+C:\WINNT\Crystal\u252000.dll=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\STDFTIT.DLL=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\ADODCIT.DLL=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSCC2IT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCIT.DLL=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\DATGDIT.DLL=Yes
+C:\WINNT\system32\MSHFLXGD.OCX=Yes
+C:\WINNT\system32\MSHFGIT.DLL=Yes
+C:\WINNT\system32\MSEXCL35.dll=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\crystl32.oca=Yes
+C:\WINNT\system32\crystl32.dep=Yes
+C:\WINNT\system32\MSCOMM32.oca=Yes
+C:\WINNT\system32\MSCOMM32.DEP=Yes
+C:\Programmi\File comuni\System\ado\msado25.tlb=Yes
+C:\WINNT\system32\MSMAPI.SRG=Yes
+C:\WINNT\system32\MSMAPI32.DEP=Yes
+C:\WINNT\system32\MSMAPI32.OCX=Yes
+C:\WINNT\system32\MSMPIIT.DLL=Yes
+F:\Installazione CP240\ComCP240.exe=Yes
+
+[Package|Pacchetto di installazione standard 1|Configure Registry Files]
+Applicable=No
+
+[Package|Pacchetto di installazione standard 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Pacchetto di installazione standard 1|Install Locations]
+C:\Temp\ComCP240.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6IT.DLL=$(WinSysPath)
+C:\Programmi\File comuni\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMIT.DLL=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\CMDLGIT.DLL=$(WinSysPath)
+C:\WINNT\system32\gauge32.ocx=$(WinSysPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPath)
+C:\WINNT\system32\mfc40loc.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCH2IT.DLL=$(WinSysPath)
+C:\WINNT\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBLSTIT.DLL=$(WinSysPath)
+C:\WINNT\system32\dbgrid32.ocx=$(WinSysPath)
+C:\WINNT\system32\DBGRDIT.DLL=$(WinSysPath)
+C:\WINNT\system32\anibtn32.ocx=$(WinSysPath)
+C:\WINNT\system32\crystl32.ocx=$(WinSysPath)
+C:\WINNT\system32\crpe32.dll=$(WinSysPath)
+C:\WINNT\system32\implode.dll=$(AppPath)
+C:\WINNT\system32\crpaig32.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPath)
+C:\WINNT\system32\mfc42.dll=$(WinSysPath)
+C:\WINNT\Crystal\crxlat32.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2bbde.dll=$(WinSysPath)
+C:\WINNT\system32\p2bbnd.dll=$(WinSysPath)
+C:\WINNT\system32\p2bdao.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2bxbse.dll=$(WinSysPath)
+C:\WINNT\system32\p2ctdao.dll=$(WinSysPath)
+C:\WINNT\system32\p2irdao.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2sifmx.dll=$(WinSysPath)
+C:\WINNT\system32\p2smon.dll=$(WinSysPath)
+C:\WINNT\system32\p2sodbc.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2sora7.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2ssql.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2ssyb10.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2soledb.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dnotes.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dpost.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dvim.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dapp.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fcr.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fhtml.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fodbc.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2frec.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2frtf.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2ftext.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fwks.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fwordw.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fxls.dll=$(WinSysPath)
+C:\WINNT\Crystal\u25dts.dll=$(AppPath)
+C:\WINNT\Crystal\u25store.dll=$(AppPath)
+C:\WINNT\Crystal\u25total.dll=$(AppPath)
+C:\WINNT\Crystal\u2l2000.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2lbar.dll=$(AppPath)
+C:\WINNT\Crystal\u2lcom.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2ldts.dll=$(AppPath)
+C:\WINNT\Crystal\u2lsamp1.dll=$(AppPath)
+C:\WINNT\Crystal\u252000.dll=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTIT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\ADODCIT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2IT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCIT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDIT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSHFGIT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSEXCL35.dll=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Install CP240\ComCP240.exe=$(AppPath)
+C:\WINNT\system32\crystl32.oca=$(AppPath)
+C:\WINNT\system32\crystl32.dep=$(AppPath)
+C:\WINNT\system32\MSCOMM32.oca=$(AppPath)
+C:\WINNT\system32\MSCOMM32.DEP=$(AppPath)
+D:\Nuova InstCP240\ComCP240.exe=$(AppPath)
+C:\Programmi\File comuni\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSMAPI.SRG=$(AppPath)
+C:\WINNT\system32\MSMAPI32.DEP=$(AppPath)
+C:\WINNT\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMPIIT.DLL=$(WinSysPath)
+F:\Installazione CP240\ComCP240.exe=$(AppPath)
+
+[Package|Pacchetto di installazione standard 1|Configure Shared Files]
+Applicable=Yes
+C:\Temp\ComCP240.exe=Yes
+C:\WINNT\system32\implode.dll=Yes
+C:\WINNT\Crystal\u25dts.dll=Yes
+C:\WINNT\Crystal\u25store.dll=Yes
+C:\WINNT\Crystal\u25total.dll=Yes
+C:\WINNT\Crystal\u2lbar.dll=Yes
+C:\WINNT\Crystal\u2ldts.dll=Yes
+C:\WINNT\Crystal\u2lsamp1.dll=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Install CP240\ComCP240.exe=Yes
+C:\WINNT\system32\crystl32.oca=Yes
+C:\WINNT\system32\crystl32.dep=Yes
+C:\WINNT\system32\MSCOMM32.oca=Yes
+C:\WINNT\system32\MSCOMM32.DEP=Yes
+D:\Nuova InstCP240\ComCP240.exe=No
+C:\WINNT\system32\MSMAPI.SRG=Yes
+C:\WINNT\system32\MSMAPI32.DEP=Yes
+F:\Installazione CP240\ComCP240.exe=No
+
+[Package|Pacchetto di installazione standard 1|Distribution]
+Type=single
+Size=
+Title=ComCP240
+
+[Package|Pacchetto di installazione standard 1|IconGroups]
+Group0=ComCP240
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Pacchetto di installazione standard 1|ComCP240]
+Icon1=ComCP240.exe
+Title1=ComCP240
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Pacchetto di installazione standard 1|Package]
+PackageFolder=F:\Ultima Installazione
+ProjectFolder=F:\Progetti\Lavoro\CP240
+ServerSideCab=
+File1=F:\Ultima Installazione\setup.exe
+File2=F:\Ultima Installazione\Setup.Lst
+File3=F:\Ultima Installazione\ComCP240.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Unificata|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Progetti\Rete\CP240_v4.0.0\Pacchetto
+
+[Package|Unificata|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+
+[Package|Unificata|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Unificata|Files Found]
+
+[Package|Unificata|Files Released]
+
+[Package|Unificata|Missing Dependency Information]
+C:\WINNT\system32\portstatus.OCX=
+C:\WINNT\system32\soaxcmn30.ocx=
+C:\Programmi\Softing\OPCActiveX\V31x\bin\soaex30.ocx=
+C:\Programmi\Softing\OPCActiveX\V31x\bin\soaxc30.ocx=
+C:\Programmi\File comuni\System\ado\msado25.tlb=
+C:\WINNT\system32\hlvdd.dll=
+
+[Package|Unificata|Out-of-Date Dependency Information]
+
+[Package|Unificata|Files Added]
+
+[Package|Unificata|Files Removed]
+
+[Package|Unificata|Files In Project]
+D:\Progetti\Rete\CP240_v4.0.0\Cyb500N.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6IT.DLL=Yes
+C:\WINNT\system32\hlvdd.dll=Yes
+C:\Programmi\File comuni\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\MSJET35.DLL=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\MSREPL35.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\Programmi\File comuni\System\ado\msado25.tlb=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\STDFTIT.DLL=Yes
+C:\WINNT\system32\MSDBRPTR.DLL=Yes
+C:\WINNT\system32\DBRPRIT.DLL=Yes
+C:\Programmi\File comuni\designer\MSDERUN.DLL=Yes
+C:\Programmi\Softing\OPCActiveX\V31x\bin\soaxc30.ocx=Yes
+C:\Programmi\Softing\OPCActiveX\V31x\bin\soaex30.ocx=Yes
+C:\WINNT\system32\soaxcmn30.ocx=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\WINNT\system32\MSCOMIT.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\WINNT\system32\CMDLGIT.DLL=Yes
+C:\WINNT\system32\gauge32.ocx=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\WINNT\system32\mfc40loc.dll=Yes
+C:\WINNT\system32\MSCHRT20.OCX=Yes
+C:\WINNT\system32\MSCH2IT.DLL=Yes
+C:\WINNT\system32\DBLIST32.OCX=Yes
+C:\WINNT\system32\DBLSTIT.DLL=Yes
+C:\WINNT\system32\DBGRID32.OCX=Yes
+C:\WINNT\system32\DBGRDIT.DLL=Yes
+C:\WINNT\system32\anibtn32.ocx=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\ADODCIT.DLL=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSCC2IT.DLL=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\WINNT\system32\MSCMCIT.DLL=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\DATGDIT.DLL=Yes
+C:\WINNT\system32\MSHFLXGD.OCX=Yes
+C:\WINNT\system32\MSHFGIT.DLL=Yes
+C:\WINNT\system32\portstatus.OCX=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Unificata|Configure Registry Files]
+Applicable=No
+
+[Package|Unificata|Configure Remote Servers]
+Applicable=No
+
+[Package|Unificata|Install Locations]
+D:\Progetti\Rete\CP240_v4.0.0\Cyb500N.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6IT.DLL=$(WinSysPath)
+C:\WINNT\system32\hlvdd.dll=$(WinSysPath)
+C:\Programmi\File comuni\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Programmi\File comuni\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTIT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINNT\system32\DBRPRIT.DLL=$(WinSysPath)
+C:\Programmi\File comuni\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Programmi\Softing\OPCActiveX\V31x\bin\soaxc30.ocx=$(WinSysPath)
+C:\Programmi\Softing\OPCActiveX\V31x\bin\soaex30.ocx=$(WinSysPath)
+C:\WINNT\system32\soaxcmn30.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMIT.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\CMDLGIT.DLL=$(WinSysPath)
+C:\WINNT\system32\gauge32.ocx=$(WinSysPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPath)
+C:\WINNT\system32\mfc40loc.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCH2IT.DLL=$(WinSysPath)
+C:\WINNT\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBLSTIT.DLL=$(WinSysPath)
+C:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBGRDIT.DLL=$(WinSysPath)
+C:\WINNT\system32\anibtn32.ocx=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\ADODCIT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2IT.DLL=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCMCIT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDIT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSHFGIT.DLL=$(WinSysPath)
+C:\WINNT\system32\portstatus.OCX=$(WinSysPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Unificata|Configure Shared Files]
+Applicable=Yes
+D:\Progetti\Rete\CP240_v4.0.0\Cyb500N.exe=No
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Unificata|Distribution]
+Type=single
+Size=
+Title=Installazione Unificata
+
+[Package|Unificata|IconGroups]
+Group0=Com CP240
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Unificata|Com CP240]
+Icon1=Cyb500N.exe
+Title1=Com CP240
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Unificata|Package]
+PackageFolder=D:\Progetti\Rete\CP240_v4.0.0\Pacchetto
+ProjectFolder=D:\Progetti\Rete\CP240_v4.0.0
+ServerSideCab=
+File1=D:\Progetti\Rete\CP240_v4.0.0\Pacchetto\setup.exe
+File2=D:\Progetti\Rete\CP240_v4.0.0\Pacchetto\Setup.Lst
+File3=D:\Progetti\Rete\CP240_v4.0.0\Pacchetto\Cyb500N.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

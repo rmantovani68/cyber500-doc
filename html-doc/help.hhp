@@ -1,0 +1,117 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=MAP.chm
+Contents file=contents.hhc
+Default Window=Help Viewer
+Default topic=MAP.html
+Display compile progress=No
+Full-text search=Yes
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=MAP
+
+[WINDOWS]
+Help Viewer=,"contents.hhc","index.hhk","MAP.html","MAP.html",,,,,0x33520,,0x10387e,,,,,,,,0
+
+[FILES]
+backsdk3.css
+backsdk4.css
+seealso.gif
+requirements.gif
+filter.gif
+langref.js
+linkcss.js
+MAP.html
+AvvComandi.html
+AvvMotori.html
+BrucAuto.html
+BusSytem.html
+CodaCircolare.html
+Configuration.html
+Configurazione.html
+ControlliVari.html
+ControlloDatiInseriti.html
+CP240.html
+FormAquablack.html
+FormAvvRidotto.html
+FormPIDBruc.html
+FormProgRiscaldamentiCaldaie.html
+FrmCalcolaImpasti.html
+FrmCalibBilCamion.html
+FrmComandiCisterne.html
+FrmGestioneTimer.html
+FrmInversionePCL.html
+FrmNetti.html
+FrmNewValue.html
+FrmSchiumatura.html
+FrmSiloGenerale.html
+FrmSiwarexPara.html
+FrmStatoPredosatori.html
+FrmTaraBilancePN.html
+FrmTestPredosatori.html
+GestioneAdditivi.html
+GestioneAllarmi.html
+GestioneAmperometri.html
+GestioneAquablack.html
+GestioneBit.html
+GestioneBruciatore.html
+GestioneCaldaie.html
+GestioneCaratteri.html
+GestioneCisterneCommon.html
+GestioneCisternePLC.html
+GestioneCisterneSingole.html
+GestioneCodaMateriale.html
+GestioneComandiVari.html
+GestioneDataBase.html
+GestioneDosaggio.html
+GestioneFile.html
+GestioneFiltro.html
+GestioneGrafica.html
+GestioneHelp.html
+GestioneJob.html
+GestioneLCPC.html
+GestioneLingue.html
+GestioneLivelliSiliFillerVaglio.html
+GestioneLog.html
+GestioneMessaggistica.html
+GestioneMotori.html
+GestioneOreLavoro.html
+GestionePredNastriC.html
+GestionePredosatori.html
+GestioneRiciclato.html
+GestioneSiloGenerale.html
+GestioneSiloS7.html
+GestioneSiwarex.html
+GestioneTrend.html
+GestioneViatop.html
+ImpastiManuali.html
+MD5.html
+MessageBox.html
+ModPID.html
+ModuleShowForm.html
+NetWork.html
+Parameter.html
+ParaTab.html
+ParaTabAdd.html
+ParaTabAmp.html
+ParaTabAquablack.html
+ParaTabBruc.html
+ParaTabCist.html
+ParaTabComandi.html
+ParaTabDos.html
+ParaTabGeneral.html
+ParaTabLeg.html
+ParaTabMotor.html
+ParaTabPred.html
+ParaTabSchiumato.html
+ParaTabSilo.html
+ParaTabTrend.html
+ParaTabVarie.html
+Registro.html
+Stampante.html
+Stampe.html
+XmlJobs.html
+XmlManager.html
+
+[INFOTYPES]
+

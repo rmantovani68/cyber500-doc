@@ -1,3 +1,5 @@
+Lista dei tipi (strutture dati) presenti nel progetto
+-----------------------------------------------------
 BusSytem.bas
 	Public Type PlcRack
 CodaCircolare.bas
