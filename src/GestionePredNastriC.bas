@@ -1147,13 +1147,13 @@ End Sub
 
 Public Sub PesoNastroRiciclato()
 
-'    Dim tonH As Integer
+	'    Dim tonH As Integer
     Dim tonH As Single
     Dim nuovoPeso As Single
     Dim predosatore As Integer
-'    Dim valoreInt As Integer
+	'    Dim valoreInt As Integer
     Dim valoreSng As Single
-'
+	'
     Dim nuovopesoteorico As Single '20151106
     Dim tonHteorico As Single '20151106
     Dim Criterio As String '20151106
@@ -1257,11 +1257,11 @@ End Sub
 
 Public Sub PesoNastroRiciclatoParDrum()
 
-'    Dim tonH As Integer
+	'    Dim tonH As Integer
     Dim tonH As Single
     Dim nuovoPeso As Integer
     Dim predosatore As Integer
-'    Dim valoreInt As Integer
+	'    Dim valoreInt As Integer
     'Dim valoreSng As Single
 
     On Error GoTo Errore
@@ -1348,8 +1348,8 @@ End Function
 'Case RiciclatoJolly = 2
 'Si considera che i predosatori su jolly siano sempre gli ultimi e dichiarati sul freddo
 Public Function PrimoPredosatoreDelNastro(nastro As NastriPredosatori) As Integer
-'Dim numDiPredSuJolly As Integer
-'Dim predosatore As Integer
+	'Dim numDiPredSuJolly As Integer
+	'Dim predosatore As Integer
 
     Select Case nastro
 

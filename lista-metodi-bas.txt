@@ -1,4 +1,4 @@
-Lista delle Sub e edelle funzioni peresenti nel progetto
+Lista delle Sub e edelle funzioni presenti nel progetto
 --------------------------------------------------------
 
 AvviamentoComandi.frm

@@ -829,77 +829,6 @@ Public Sub ConsensoScaricoBilance_change()
 End Sub
 
 ''Gestione della segnalazione di MESCOLAZIONE.
-'Public Sub MescolazioneInCorso_change()
-'
-'    Dim Criterio  As String
-'    Dim posizione As Integer
-'
-'
-'    On Error GoTo Errore
-'
-'    If (MescolazioneInCorso) Then
-'
-'        Criterio = "DO011"
-'        posizione = DlookUpExt("IndirizzoPLC", "CodificaAllarmi", Criterio, "IdDescrizione")
-'        IngressoAllarmePresente posizione, False
-'        Criterio = "DO013"
-'        posizione = DlookUpExt("IndirizzoPLC", "CodificaAllarmi", Criterio, "IdDescrizione")
-'        IngressoAllarmePresente posizione, False
-'
-'
-'        AssorbimentoMixer = ListaAmperometri(AmperometroMescolatore_1).valore
-'        'Campiona anche nel trend
-'        Call TrendCampionamentoInserisciEvento(TrendAmperometroMixer, DateTime.Now, CDbl(AssorbimentoMixer))
-'
-'        CP240.LblMescolazione.Visible = True
-'        CP240.lblEtichetta(184).Visible = True
-'
-'        If BitumeGravita Then
-'            CP240.LblKgDosaggio(2).caption = CLng(SommaAggregati + SommaFiller + NettoViatopBuffer(0) + RoundNumber(CP240.OPCData.items(PLCTAG_GravitaNettoB1Kg).Value, 1) + RoundNumber(CP240.OPCData.items(PLCTAG_GravitaNettoB2Kg).Value, 1))
-'        Else
-'            If CP240.AdoDosaggio.Recordset.Fields("SetBitumeHard").Value > 0 Then
-'                CP240.LblKgDosaggio(2).caption = CLng(SommaAggregati + SommaFiller + NettoViatopBuffer(0) + RoundNumber(CP240.OPCData.items(PLCTAG_NettoBitume1).Value, 1) + RoundNumber(CP240.OPCDataSchiumato.items(NettoBitumeSoft_idx).Value, 1) + RoundNumber(CP240.OPCDataSchiumato.items(NettoBitumeHard_idx).Value, 1))
-'            Else
-'                CP240.LblKgDosaggio(2).caption = CLng(SommaAggregati + SommaFiller + NettoViatopBuffer(0) + RoundNumber(CP240.OPCData.items(PLCTAG_NettoBitume1).Value, 1))
-'            End If
-'        End If
-'
-'        'Aggiungo il peso del bitume contalitri e dal RAP_SIWAREX
-'        If InclusioneAddContalitri Then
-'            CP240.LblKgDosaggio(2).caption = CP240.LblKgDosaggio(2).caption + RoundNumber(CP240.OPCData.items(PLCTAG_ContalitriNettoKg).Value, 0)
-'        End If
-'        If AbilitaRAPSiwa Then
-'            CP240.LblKgDosaggio(2).caption = CP240.LblKgDosaggio(2).caption + RoundNumber(CP240.OPCData.items(PLCTAG_DB101_SIWA_BATCH_NETTO).Value, 0)
-'            NettoRAPSiwaBuffer = NettoRAPSiwa
-'            ComponentePesoOut DosaggioRAPSiwa, CDbl(NettoRAPSiwaBuffer)
-'        End If
-'        If AbilitaRAP Then
-'            CP240.LblKgDosaggio(2).caption = CP240.LblKgDosaggio(2).caption + NettoRAPBuffer
-'            ComponentePesoOut DosaggioRAP, CDbl(NettoRAPBuffer)
-'        End If
-'
-'        If InclusioneAcqua Then
-'            CP240.LblKgDosaggio(2).caption = CP240.LblKgDosaggio(2).caption + val(CP240.LblAdd(5).caption)
-'        End If
-'
-'        CP240.ImgMotor(0).Visible = True
-''
-''20160729
-'        If CP240.AdoDosaggio.Recordset.Fields("AquablackSet") > 0 Then
-'            Aquablack_HMI_PLC.FROM_HMI_Start = True
-'        Else
-'            Aquablack_HMI_PLC.FROM_HMI_Stop = True
-'        End If
-''
-'    Else
-'        CP240.LblMescolazione.Visible = False
-'        CP240.lblEtichetta(184).Visible = False
-'    End If
-'
-'    Exit Sub
-'Errore:
-'    LogInserisci True, "DOS-012", CStr(Err.Number) + " [" + Err.description + "]"
-'End Sub
 Public Sub MescolazioneInCorso_change()
 
     Dim Criterio  As String
@@ -1451,8 +1380,6 @@ End Sub
 
 
 Public Sub PesataRAP_Change()
-
-
     On Errore GoTo Errore
     
     ComponenteInPesata DosaggioRAP, RAPInPesata
@@ -1889,8 +1816,7 @@ Errore:
 End Sub
 
 Public Sub ArrestoEmergenzaDosaggio()
-
-'20151103
+	'20151103
     If DosaggioInCorso Then
         MemImpastoAutoScaricatoMan = True '20151103
     End If
@@ -1971,7 +1897,7 @@ End Sub
 
 
 Public Sub CalcoloProgressImpasto()
-'Dim silo As Integer
+	'Dim silo As Integer
 
     On Error GoTo Errore
 
@@ -3524,275 +3450,6 @@ Public Sub RefillTargheCamion()
 End Sub
 '
 
-'Public Function ControlloCondizioniStartDosaggio_OLD() As Boolean
-'
-'    'STAMPA CONTINUA
-'    Dim lReturn As Long
-'    Dim lDoc As Long
-'    Dim MyDocInfo As DOCINFO
-''20150513
-'    Dim MaterialeokPCL1 As Boolean
-'    Dim MaterialeokPCL2 As Boolean
-''
-'    Dim rstStoricoImpasto As New adodb.Recordset
-'    '
-'
-'    On Error GoTo Errore
-'
-'    ControlloCondizioniStartDosaggio = False
-'
-'    'Controllo che il filler sia in tara
-'    If BilanciaFiller.Peso > BilanciaFiller.Tara Then
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(LoadXLSString(180), vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-'
-'    'Controllo che gli aggregati siano in tara
-'    If BilanciaAggregati.Peso > BilanciaAggregati.Tara Then
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(LoadXLSString(179), vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-'
-'    'Controllo che il riciclato sia in tara
-'    If BilanciaRAP.Peso > BilanciaRAP.Tara Then
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(LoadXLSString(1469), vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-'
-'    'Controllo che il viatop sia in tara
-'    If BilanciaViatop.Peso > BilanciaViatop.Tara Then
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(LoadXLSString(582), vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-''
-'    'Controllo che il compressore sia acceso
-'    If Not ListaMotori(MotoreCompressore).ritorno Then
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(LoadXLSString(580), vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-'
-'    'Controllo destinazione silo inserita
-'    If (DestinazioneSilo = 0) Then
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(LoadXLSString(181), vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-'
-'    'Controllo motore mixer
-'    If (Not ListaMotori(MotoreMescolatore).ritorno) Then
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(LoadXLSString(182), vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-'
-'    'Controllo che con il viatop in ricetta il ciclone non contenga materiale
-'    If (Not CicloneMinViatop And CP240.OPCData.items(PLCTAG_SetViatop1).Value <> 0) Then
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(LoadXLSString(829), vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-'    '
-'
-'    'Controllo bitume esterno
-'    If InclusioneBitumeEsterno Then
-'        If (Not Pcl1AutoOn And Not ListaMotori(MotorePCL).ritorno And Not StatoValvolaManCircuitoBitume = CircuitoMarini) Then
-'            If val(CP240.AdoDosaggioScarico.Recordset.Fields("Bitume1").Value) + val(CP240.AdoDosaggioScarico.Recordset.Fields("Bitume2").Value) > 0 Then
-'                AllarmeCicalino = True
-'                Call ShowMsgBox(MotPCLNoOk, vbOKOnly, vbExclamation, -1, -1, True)
-'                AllarmeCicalino = False
-'                Exit Function
-'            End If
-'        End If
-'        If StatoValvolaManCircuitoBitume = Indefinito Or StatoValvolaManCircuitoBitume = Errore Then
-'            AllarmeCicalino = True
-'            Call ShowMsgBox(LoadXLSString(1048), vbOKOnly, vbExclamation, -1, -1, True)
-'            AllarmeCicalino = False
-'            Exit Function
-'        End If
-'    Else
-'        If val(CP240.AdoDosaggioScarico.Recordset.Fields("Bitume1").Value) + val(CP240.AdoDosaggioScarico.Recordset.Fields("Bitume2").Value) > 0 Then
-'            'Ricetta con bitume
-'            If _
-'                (Not Pcl1AutoOn And (val(CP240.AdoDosaggioScarico.Recordset.Fields("Bitume1").Value) > 0) And Not ValvolaBitumeEmulsioneSelezioneEmulsione And Not ListaMotori(MotorePCL).ritorno) Or _
-'                (Not Pcl2AutoOn And (val(CP240.AdoDosaggioScarico.Recordset.Fields("Bitume2").Value) > 0) And Not ValvolaBitumeEmulsioneSelezioneEmulsione And Not ListaMotori(MotorePCL2).ritorno) Or _
-'                ((val(CP240.AdoDosaggioScarico.Recordset.Fields("Bitume1").Value) > 0) And ValvolaBitumeEmulsioneSelezioneEmulsione And Not ListaMotori(MotorePompaEmulsione).ritorno) Or _
-'                ((val(CP240.AdoDosaggioScarico.Recordset.Fields("Bitume2").Value) > 0) And ValvolaBitumeEmulsioneSelezioneEmulsione And Not ListaMotori(MotorePompaEmulsione).ritorno) _
-'            Then
-'                'PCL non è in moto
-'                AllarmeCicalino = True
-'                Call ShowMsgBox(MotPCLNoOk, vbOKOnly, vbExclamation, -1, -1, True)
-'                AllarmeCicalino = False
-'                Exit Function
-'            End If
-'            '
-''20150704
-'            If (val(CP240.AdoDosaggioScarico.Recordset.Fields("Bitume1").Value) And BassaTemperaturaBitume(0)) _
-'                Or (val(CP240.AdoDosaggioScarico.Recordset.Fields("Bitume2").Value) And BassaTemperaturaBitume(1)) _
-'            Then
-'                AllarmeCicalino = True
-'                Call ShowMsgBox(LoadXLSString(384), vbOKOnly, vbExclamation, -1, -1, True)
-'                AllarmeCicalino = False
-'                Exit Function
-'            End If
-''
-'
-'        End If
-'    End If
-'
-'    If InclusioneBitume3 And (CP240.AdoDosaggio.Recordset.Fields("SetBitumeSoft").Value > 0) Then
-''20160606
-''        If Not ListaMotori(MotorePCL3).uscita Then
-'        If ListaMotori(MotorePCL3).presente And Not ListaMotori(MotorePCL3).ComandoManuale Then
-''
-'            If Not ListaMotori(MotorePCL3).ritorno Then
-'                'PCL non è in moto
-'                AllarmeCicalino = True
-'                Call ShowMsgBox(MotPCLNoOk, vbOKOnly, vbExclamation, -1, -1, True)
-'                AllarmeCicalino = False
-'                Exit Function
-'            End If
-'        End If
-'    End If
-'
-''20150513
-'    'controllo selezione bitume coerente
-'    If (CistGestione.Gestione = GestioneSemplificata) Then
-'        MaterialeokPCL1 = (VerificaMaterialeCistDosaggio(DBScambioDatiCisterneBitume.RidottoSelezioneAttualeCisternaBitumePCL1, ListaCisterneValideDosaggioPCL1))
-'        MaterialeokPCL2 = (VerificaMaterialeCistDosaggio(DBScambioDatiCisterneBitume.RidottoSelezioneAttualeCisternaBitumePCL2, ListaCisterneValideDosaggioPCL2))
-'
-'        If ((Not MaterialeokPCL1) And (MaterialeDosaggioPCL1 <> "")) _
-'            Or ((Not MaterialeokPCL2) And (MaterialeDosaggioPCL2 <> "")) Then
-'            AllarmeCicalino = True
-'            Call ShowMsgBox(LoadXLSString(1510), vbOKOnly, vbExclamation, -1, -1, True)
-'            AllarmeCicalino = False
-'            Exit Function
-'        End If
-'    End If
-''
-'
-'    'Controllo pressione aria
-'    If (PressioneAriaInsufficente) Then
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(NoAria, vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-'
-'    'Controllo assorbimento del mescolatore
-'    '20161212
-'    'If (ListaAmperometri(0).Inclusione And ListaAmperometri(0).valore > ListaAmperometri(0).sogliaMin) Then
-'    If ( _
-'        ListaAmperometri(AmperometroMescolatore_1).inclusione And _
-'        ListaAmperometri(AmperometroMescolatore_1).valore > ListaAmperometri(AmperometroMescolatore_1).sogliaMin _
-'    ) Then
-'    '
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(LoadXLSString(616) & " " & ListaMotori(MotoreMescolatore).Descrizione, vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-'
-'    'Controllo la selezione del Bitume1 o Bitume2 come da ricetta
-'    If Not BitumeGravita And AbilitaSelettoreBitume1 Then
-'        If DosaggioLeganti(0).set <> 0 Then
-'            If ScambioBitume2 = 1 Then
-'                AllarmeCicalino = True
-'                Call ShowMsgBox(LoadXLSString(613), vbOKOnly, vbExclamation, -1, -1, True)
-'                AllarmeCicalino = False
-'                Exit Function
-'            End If
-'        End If
-'        If DosaggioLeganti(1).set <> 0 Then
-'            If ScambioBitume2 = 0 Then
-'                AllarmeCicalino = True
-'                Call ShowMsgBox(LoadXLSString(613), vbOKOnly, vbExclamation, -1, -1, True)
-'                AllarmeCicalino = False
-'                Exit Function
-'            End If
-'        End If
-'    End If
-'
-'    Call ScambiaPompaCircLegante
-'
-'    'Controllo ricetta inserita
-'    If CP240.adoComboDosaggio.text = "" Then
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(InsRicettaDos, vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-'
-'    'Controllo inserimento numero cicli
-'    If (CicliDosaggioDaEseguire = 0) Then
-'        AllarmeCicalino = True
-'        Call ShowMsgBox(InsNumeroCicli, vbOKOnly, vbExclamation, -1, -1, True)
-'        AllarmeCicalino = False
-'        Exit Function
-'    End If
-'
-''20160729
-'    If Not CP240.AdoDosaggioNext.Recordset.EOF Then
-'        If ((Not PlcAquablackConnesso And (CP240.AdoDosaggioNext.Recordset.Fields("AquablackSet").Value > 0)) Or Aquablack_Digital.AquablackStatoManuale) And InclusioneAquablack Then
-'            AllarmeCicalino = True
-'            Call ShowMsgBox(LoadXLSString(1527), vbOKOnly, vbExclamation, -1, -1, True)
-'            AllarmeCicalino = False
-'            Exit Function
-'        End If
-'    End If
-''
-'
-'    If Not VerificaSetSicurezzeBilance Then
-'        Exit Function
-'    End If
-'
-'    'STAMPA CONTINUA
-'    If (InclusioneStampaOgniDosaggio And IsPrinterReady(StampaOgniDosaggioNomeStampante)) Then
-'
-''        Set Printer = StampanteContinua
-'''20150706
-''
-''        'imposta handler di stampa valido per tutto il job
-''        If lhPrinter = 0 Then
-''            lReturn = OpenPrinter(StrPtr(StampaOgniDosaggioNomeStampante), lhPrinter, 0)
-''        End If
-''
-'
-''        MyDocInfo.pDocName = "batch_record"
-''        MyDocInfo.pOutputFile = vbNullString
-''        MyDocInfo.pDatatype = vbNullString
-'''20150707
-'''        lDoc = StartDocPrinter(lhPrinter, 1, MyDocInfo)
-''        Call StartPagePrinter(lhPrinter)
-'
-'        StampaOgniDosaggioRicetta = ""
-''        StampaOgniDosaggioRicetta = CP240.AdoDosaggio.Recordset.Fields("Descrizione").Value
-''
-'    End If
-'    '
-'
-'    ControlloCondizioniStartDosaggio = True
-'    Exit Function
-'
-'Errore:
-'
-'    AllarmeCicalino = True
-'    Call ShowMsgBox(ControllareRiprovare, vbOKOnly, vbExclamation, -1, -1, True)
-'    AllarmeCicalino = False
-'
-'End Function
 
 Public Function ControlloCondizioniStartDosaggio() As Boolean
 
@@ -4146,10 +3803,9 @@ Errore:
 End Sub
 
 Public Sub GestioneDosaggioBitumeEsterno()
-
-'gestione della pompa legante con valvola manuale 3 vie di selezione circuito esterno o Marini:
-'- in modo esterno, la pompa circolazione NON deve funzionare
-'- in modo Marini il funzionamento della pompa e' normale
+	'gestione della pompa legante con valvola manuale 3 vie di selezione circuito esterno o Marini:
+	'- in modo esterno, la pompa circolazione NON deve funzionare
+	'- in modo Marini il funzionamento della pompa e' normale
 
     On Error GoTo Errore
 
@@ -4424,7 +4080,7 @@ Public Sub InvioFormulaDosaggio()
         Exit Sub
     End If
 
-errorPosition = 0
+	errorPosition = 0
 
     With CP240
 
@@ -4487,7 +4143,7 @@ errorPosition = 0
             .OPCData.items(PLCTAG_MemTorSelRicNV2).Value = False
         End If
 
-errorPosition = 1
+	errorPosition = 1
 
         '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         'Non ancora implementati
@@ -4554,7 +4210,7 @@ errorPosition = 1
 '            .OPCData.items(PLCTAG_OrdineDosA8).Value = CInt(0)
 '        End If
         
-errorPosition = 2
+	errorPosition = 2
 
         '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         'Non ancora implementato
@@ -4634,7 +4290,7 @@ errorPosition = 2
         End If
         '
         
-errorPosition = 3
+	errorPosition = 3
 
         IndiceCampo = 1
         For indice = PLCTAG_SetF1 To PLCTAG_SetF3                           'Set Filler 1..3
@@ -4688,7 +4344,7 @@ errorPosition = 3
         'Tempo ritardo scarico filler
         .OPCData.items(PLCTAG_TimerScF).Value = CSng(.AdoDosaggioNext.Recordset.Fields("TempoRitardoScaricoFiller").Value)
 
-errorPosition = 4
+	errorPosition = 4
 
         If (AbilitaSelettoreBitume1) Then
             If Not BitumeGravita Then
@@ -4743,7 +4399,7 @@ errorPosition = 4
         '.OPCData.Items(PLCTAG_SpruzzataLenta4).value = CSng(ValoreTODO)        'Impostazione spruzzata lenta legante 4
         '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
-errorPosition = 5
+	errorPosition = 5
 
         IndiceCampo = 0
         If CSng(.AdoDosaggioNext.Recordset.Fields("Bitume1").Value) > 0 Then
@@ -4804,7 +4460,7 @@ errorPosition = 5
         '.OPCData.Items(PLCTAG_ResB4Scarico).value = CSng(ValoreTODO)      'Residuo bitume 4 in scarico
         '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
-errorPosition = 6
+	errorPosition = 6
 
         'Residuo bitume 1 in pesata
         If Not BitumeGravita And .OPCData.items(PLCTAG_SetB1).Value > 0 Then
@@ -4849,7 +4505,7 @@ errorPosition = 6
             End If
         End If
 
-errorPosition = 7
+	errorPosition = 7
 
         If Bitume2InBlending Then
             .OPCData.items(PLCTAG_AbilitaBlendingBitume).Value = False
@@ -4924,7 +4580,7 @@ errorPosition = 7
         MaterialeDosaggioPCL2 = .AdoDosaggioNext.Recordset.Fields("Bitume2Associato").Value
 '
 
-errorPosition = 8
+	errorPosition = 8
 
         '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         'Dosaggio riciclato
@@ -5005,10 +4661,10 @@ errorPosition = 8
         .OPCData.items(PLCTAG_SetAdd1Mix).Value = longTmp
         '
         
-errorPosition = 9
+	errorPosition = 9
         
         If Not DosaggioInCorso Then
-'            CP240.LblAdd(2).caption = RoundNumber(CLng(.AdoDosaggioNext.Recordset.Fields("Additivo-Tempo1").Value * RiduzioneImpasto * 10) / 1000, 1)
+	'       CP240.LblAdd(2).caption = RoundNumber(CLng(.AdoDosaggioNext.Recordset.Fields("Additivo-Tempo1").Value * RiduzioneImpasto * 10) / 1000, 1)
             CP240.LblAdd(2).caption = KgAddMesc
             BufferKgAddMesc(2) = CP240.LblAdd(2).caption
         End If
@@ -5028,10 +4684,10 @@ errorPosition = 9
         
         KgAddBac = (CSng(.AdoDosaggioNext.Recordset.Fields("AdditivoTempo2").Value) * (CSng(KgImpastoAdattatoBitume) / CSng(100) * ((SetPercBitumePLC(PLCTAG_SetB1) + SetPercBitumePLC(PLCTAG_SetB2)) / 100)))
         
-'20150608
-'        .OPCData.items(PLCTAG_SetAdd2PesB).Value = (KgAddBac / CSng(PortataAddMescolatore * DensAddMixer) * 1000)
+	'20150608
+	'   .OPCData.items(PLCTAG_SetAdd2PesB).Value = (KgAddBac / CSng(PortataAddMescolatore * DensAddMixer) * 1000)
         .OPCData.items(PLCTAG_SetAdd2PesB).Value = (KgAddBac / CSng(PortataAddBacinella * AdditivoBacinella.densita) * 1000)
-'
+	'
 
         If Not DosaggioInCorso Then
             .LblAdd(3).caption = RoundNumber(KgAddBac, 1)
@@ -5060,7 +4716,7 @@ errorPosition = 9
         'Scarico sacchi prima o dopo bitume
         .OPCData.items(PLCTAG_SacchiPrimaDopoBitume).Value = CSng(.AdoDosaggioNext.Recordset.Fields("AddPrimaDopo").Value)
         
-errorPosition = 10
+	errorPosition = 10
 
         If Not DosaggioInCorso Then
             CP240.LblKgAddSacchi.caption = Round(CP240.AdoDosaggioNext.Recordset.Fields("NumSacchi").Value * (RiduzioneImpasto / 100), 0) * CP240.AdoDosaggioNext.Recordset.Fields("Pesosacco").Value
@@ -5113,7 +4769,7 @@ errorPosition = 10
         .OPCData.items(PLCTAG_ContalitriTempoStab).Value = CInt(.AdoDosaggioNext.Recordset.Fields("StabilizzazioneContalitri").Value)
         .OPCData.items(PLCTAG_ContalitriRitardoScarico).Value = CInt(.AdoDosaggioNext.Recordset.Fields("RitardoContalitri").Value)
                 
-errorPosition = 11
+	errorPosition = 11
         '20160405
         If (InclusioneAddContalitri) Then
             AdditivoBacinella.voloKg = CDbl(.AdoDosaggioNext.Recordset.Fields("ResiduoAddBacCNTReal").Value)   '20160401
@@ -5174,7 +4830,7 @@ errorPosition = 11
             BufferAbilitaCicloRC(2) = BufferAbilitaCicloRC(1)
         End If
 
-errorPosition = 12
+	errorPosition = 12
 
         If Not DosaggioInCorso Then
             .LblAdd(5).caption = RoundNumber((TempoMilliSec / 1000) * PortataAcqua, 0)
@@ -5228,12 +4884,12 @@ errorPosition = 12
         .OPCData.items(PLCTAG_DO_ScambioB1).Value = ((.AdoDosaggioNext.Recordset.Fields("Bitume2").Value > 0) And InclusioneBitume2 And (Not AbilitaSelettoreBitume1) And (Not InclusioneBacinella2))
         .OPCData.items(PLCTAG_DO_ScambioB2).Value = (InclusioneBitume3 And ceSoft)
 
-errorPosition = 13
+	errorPosition = 13
 
-'20150704
-'Debug.Print "CYBERTRONIC_PLUS PLCTAG_NM_B1_Scambio"
-'Debug.Print "CYBERTRONIC_PLUS PLCTAG_NM_B2_Scambio"
-'
+	'20150704
+	'Debug.Print "CYBERTRONIC_PLUS PLCTAG_NM_B1_Scambio"
+	'Debug.Print "CYBERTRONIC_PLUS PLCTAG_NM_B2_Scambio"
+	'
         If (InclusioneBitume3 And ceSoft) Then
             .OPCData.items(PLCTAG_FondoScalaBilB).Value = CSng(GSetBSoft)
             .OPCData.items(PLCTAG_TaraMaxB).Value = TaraBitumeSoft
@@ -5566,8 +5222,8 @@ End Sub
 
 Public Sub SetCicliDosaggioDaEseguire(ByVal cicli As Long)
 
-'20170120
-'    If (CicliDosaggioDaEseguire <> cicli) Then
+	'20170120
+	'    If (CicliDosaggioDaEseguire <> cicli) Then
 
         CicliDosaggioDaEseguire = cicli
         CP240.TxtCicloDos.text = CStr(CicliDosaggioDaEseguire)

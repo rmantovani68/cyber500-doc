@@ -487,9 +487,9 @@ End Sub
 
 '   Dispone i predosatori sul nastro 1
 Private Sub DisposizionePredNC1(i As Integer)
-Dim TopPredosatori As Integer
-Dim TopNastro As Integer
-Dim K As Integer
+	Dim TopPredosatori As Integer
+	Dim TopNastro As Integer
+	Dim K As Integer
 
     If ListaMotori(MotoreNastroCollettore3).presente Then
         TopPredosatori = 690
@@ -534,9 +534,9 @@ End Sub
 
 '   Dispone i predosatori sul nastro 2
 Private Sub DisposizionePredNC2(i As Integer)
-Dim TopPredosatori As Integer
-Dim TopNastro As Integer
-Dim K As Integer
+	Dim TopPredosatori As Integer
+	Dim TopNastro As Integer
+	Dim K As Integer
 
     If ListaMotori(MotoreNastroCollettore3).presente Then
         TopPredosatori = 523
@@ -573,9 +573,9 @@ End Sub
 
 '   Sistema i predosatori nel nastro 3
 Private Sub DisposizionePredNC3(i As Integer)
-Dim TopPredosatori As Integer
-Dim TopNastro As Integer
-Dim K As Integer
+	Dim TopPredosatori As Integer
+	Dim TopNastro As Integer
+	Dim K As Integer
     
     If ListaMotori(MotoreNastroCollettore3).presente Then
         TopPredosatori = 387
@@ -1535,13 +1535,7 @@ Private Sub PredosatoreProssimoSet(ByRef Pred As PredosatoreType, forzaTempi As 
 
 End Sub
 
-Public Function PIDcontroller( _
-    ByRef pid As PidType, _
-    ByVal uscitaTeorica As Double, _
-    ByVal ValoreTeorico As Double, _
-    ByRef uscitaReale As Double, _
-    ByVal valoreReale As Double _
-) As Double
+Public Function PIDcontroller(ByRef pid As PidType, ByVal uscitaTeorica As Double, ByVal ValoreTeorico As Double, ByRef uscitaReale As Double, ByVal valoreReale As Double) As Double
 
     Dim Ki As Double    'per il momento la dichiaro così. In futuro sostituirà la Ti nel FrmParametri
     Dim Kd As Double    'per il momento la dichiaro così. In futuro sostituirà la Td nel FrmParametri

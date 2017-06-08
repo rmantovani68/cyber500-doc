@@ -25,9 +25,9 @@ End Sub
 'Questa Funzione Gestisce La regolazione e Le Funzioni Del Bruciatore dell'essiccatore.
 Private Sub GestSetRegBruciatore()
 
-'------------------------------------
-'   ATTENZIONE: TAMBURO PRINCIPALE  '
-'------------------------------------
+	'------------------------------------
+	'   ATTENZIONE: TAMBURO PRINCIPALE  '
+	'------------------------------------
 
     Dim indice As Integer
     Dim numPredAttivi As Integer
@@ -335,9 +335,9 @@ End Sub
 'Questa Funzione Gestisce La regolazione e Le Funzioni Del Bruciatore dell'essiccatore.
 Public Sub GestSetRegBruciatore2()
 
-'------------------------------------
-'   ATTENZIONE: TAMBURO PARALLELO   '
-'------------------------------------
+	'------------------------------------
+	'   ATTENZIONE: TAMBURO PARALLELO   '
+	'------------------------------------
 
     Dim indice As Integer
     Dim numPredAttivi As Integer

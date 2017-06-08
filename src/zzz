@@ -1,0 +1,238 @@
+BrucAuto.bas
+BusSytem.bas
+   15 - Public Enum PlcRackEnum
+    4 - Public Type PlcRack
+CodaCircolare.bas
+   12 - Public Type CqType
+   11 - Public Type FifoMaterialeType
+Configurazione.bas
+   25 - Public Enum ScaleID
+   21 - Public Type BilanciaViatopScarMixerType
+   19 - Public Type BilanciaExtType
+   11 - Public Type BilanciaType
+    9 - Public Type BilanciaStatusType
+    6 - Public Enum UsersEnum
+    5 - Public Enum EnumGestioneFiller
+    4 - Public Enum ScambioTuboPienoEnum
+ControlliVari.bas
+   34 - Public Enum TemperatureEnum
+   11 - Public Type ValvolaAutoManRitardata
+   11 - Private Type SYSTEMTIME
+    8 - Public Type TemporizzatoreStandardType
+ControlloBruc.bas
+    7 - Public Type TypeGestioneVelocitaTamburo
+    7 - Public Type ModulatoreType
+    6 - Public Type TypeGestioneFumiTamburo
+    4 - Public Enum ModulatoreStatusEnum
+    4 - Public Enum CodiceColoriCasellaTemp
+ControlloDatiInseriti.bas
+DataBase.bas
+GestioneAdditivi.bas
+GestioneAmperometri.bas
+  112 - Public Enum AmperometroEnum
+   19 - Public Type AmperometroType
+GestioneAquablack.bas
+  272 - Public Type AquablackParametersType
+  261 - Public Enum PlcAquablackType
+   45 - Public Type Aquablack_HMI_PLC_Type
+   29 - Public Type AquablackAlarmType
+   10 - Public Type Aquablack_Digital_Type
+    7 - Public Type Aquablack_Recipe
+    6 - Public Enum AquablackTuboContenuto
+GestioneBit.bas
+GestioneCaldaie.bas
+   46 - Public Type OggettoCaldaia
+    9 - Public Type ProgrammazioneRiscaldamentiGiornalieri
+    6 - Public Type OggettoPompaAuxCald
+GestioneCaratteri.bas
+GestioneCisterne.bas
+GestioneCisterneCommon.bas
+ 3620 - Public Enum PlcTagCisterneEnum
+  410 - Public Enum PlcTagCisterneRidottoEnum
+   37 - Public Type GestioneCisterne
+   29 - Public Enum ValvoleBitumeEnum
+   21 - Public Type OggettoValvolaPLC
+   16 - Public Enum ValvoleEmulsioneEnum
+   14 - Public Enum ListaOperazioniCircuito
+   12 - Public Enum ValvoleCombustibileEnum
+   10 - Public Type PIDCisterne
+    9 - Public Type MotoreS7
+    7 - Public Type ContalitriType
+    4 - Public Enum TipiGestioneCiterneEnum
+    4 - Public Enum StatoValvola
+GestioneCisterneTipo5.bas
+  113 - Public Type OggettoCisterna
+   45 - Public Type OggettoDBScambioDatiCisterne
+   33 - Public Type OggettoDBScambioDatiCisterneVecchiaStruttura
+    9 - Public Enum TipoValvolaEnum
+GestioneCmdDeoSoffioAntiadVib.bas
+   35 - Public Enum ComandiVariEnum
+   26 - Public Type ComandoType
+GestioneCodaMateriale.bas
+    6 - Public Type Antiadesivo
+GestioneDosaggio.bas
+   48 - Public Type ComponenteType
+   28 - Public Enum ComponenteEnum
+   25 - Public Enum ComponenteGraficaEnum
+   17 - Public Type ComponenteContalitriType
+   15 - Public Enum ScarichiEnum
+   14 - Public Type RicettaTramogge
+    9 - Public Enum BilancePnTypeEnum
+    8 - Public Type BilanciaPnComboType
+    6 - Public Enum BilancePnCommandEnum
+    6 - Public Enum AdditiviEnum
+    5 - Public Enum StatusDosaggio
+    5 - Public Enum enumStatoValvolaBitumeEsterno
+    3 - Public Type TypeRicettaS7
+GestioneFile.bas
+   31 - Public Enum mceIDLPaths
+GestioneFiltroESonde.bas
+    3 - Public Type RegolazioneMinMax
+GestioneGrafica.bas
+    5 - Public Enum StatoPulsantePlus
+GestioneJob.bas
+   19 - Public Type TipoJob
+    7 - Public Enum EnumStatoJobVB
+    7 - Public Enum EnumComandoJobVB
+    5 - Public Enum EnumStatoJobCS
+    5 - Public Enum EnumComandoJobCS
+    4 - Public Enum EnumSpecJobCS
+GestioneLCPC.bas
+GestioneLingue.bas
+   19 - Public Enum Languages
+   14 - Public Enum PlusLanguages
+    4 - Public Type SiwarexErrorType
+    4 - Public Type SiwarexErrorCode
+GestioneLivelliSiliFillerVaglio.bas
+GestioneLog.bas
+GestioneMessaggistica.bas
+   96 - Public Enum Messaggistica
+GestioneMotori.bas
+  137 - Public Type TamburoType
+  120 - Public Enum MotoriEnum
+   93 - Public Type MotoreType
+   15 - Public Type MotorePausaLavoro
+    8 - Public Enum MotorManagementEnum
+    7 - Public Enum MotorSequenceEnum
+    7 - Public Enum AvviamentoMotoriRidottoEnum
+    6 - Public Enum StatusMotori '20161014
+    4 - Public Enum FuelType
+GestioneOreLavoro.bas
+GestionePredNastriC.bas
+   10 - Public Enum NastriPredosatori
+    8 - Public Type TolleranzaNastro
+GestionePredosatori.bas
+  132 - Public Type PredosatoreType
+   60 - Public Type MotorePredosatoreType
+   24 - Public Type PidType
+   12 - Public Type SetPredosatoreType
+   11 - Public Type CurvaPredosatoreType
+    7 - Public Type GraficoPredosatoreType
+    7 - Public Enum StatoPredosatoreType
+    6 - Public Enum CambioSetPredosatoreType
+    5 - Public Enum BilanciaNastro
+    3 - Public Type FeederVibratorWorkingCycle_TYPE
+GestioneRiciclato.bas
+GestioneSilo.bas
+    5 - Public Enum SiloStateType
+GestioneSiloGenerale.bas
+   10 - Public Type SiloType
+    8 - Public Type DeodoranteSilo
+    6 - Public Type DatoSiloMsgPlusType
+    3 - Public Type Semaforo_Type
+GestioneSiwarex.bas
+   76 - Public Type SiwarexConfigurationType
+   11 - Public Enum SiwarexEnum
+    2 - Public Type SiwarexLetturaDI
+Help.bas
+   93 - Public Enum HelpContextID
+   27 - Public Enum HHACT_
+    9 - Public Type HH_FTS_QUERY
+    9 - Public Type HH_AKLINK
+    6 - Public Enum HHWIN_NAVTYPE_
+    6 - Public Enum HH_TAB_
+IconeAllarmi.bas
+    5 - Public Type AllarmiDosaggioType
+MemManuale.bas
+    6 - Public Type ScManualeComponente
+ModPID.bas
+ModuleShowForm.bas
+NetWork.bas
+ 9923 - Public Enum PlcTagEnum
+   11 - Public Enum AnalogEnum
+    7 - Public Enum QualityEnum
+    3 - Public Type AnalogType
+ParaTabAdd.bas
+ParaTabAmp.bas
+ParaTabAquablack.bas
+    8 - Public Type ParaTabAquablackColumnType
+ParaTab.bas
+ParaTabBruc.bas
+ParaTabCist.bas
+ParaTabComandi.bas
+ParaTabComp.bas
+ParaTabDebug.bas
+ParaTabGeneral.bas
+ParaTabLeg.bas
+ParaTabMotor.bas
+ParaTabPred.bas
+ParaTabSchiumato.bas
+  308 - Public Enum PlcSchiumatoEnum
+   99 - Public Type PlcSchiumatoType
+ParaTabSilo.bas
+ParaTabTrend.bas
+ParaTabVarie.bas
+Printer.bas
+   24 - Private Type PRINTER_INFO_2
+    4 - Public Type DOCINFO
+Registro.bas
+Security.bas
+Stampe.bas
+Trend.bas
+   37 - Public Enum TrendType
+   20 - Public Type TrendProfilo
+   18 - Public Type trend
+Viatop.bas
+AvviamentoComandi.frm
+    4 - Private Enum TopBarButtonEnum
+AvviamentoMotori.frm
+    9 - Private Enum TopBarButtonEnum
+CP240.frm
+   21 - Public Enum TopBarButtonEnum
+   17 - Public Enum StatusBarPanel
+   14 - Public Enum TopBarButtonSecondaryEnum
+    3 - Private Type POINTAPI
+FormAquablack.frm
+    8 - Public Enum AqTopBarButtonEnum
+    6 - Public Enum AqStatusBar
+FormAvvRidotto.frm
+    5 - Private Enum TopBarButtonEnum
+FormPIDBruc.frm
+    6 - Private Enum TopBarButtonEnum
+FormProgRiscaldamentiCaldaie.frm
+    5 - Private Enum TopBarButtonEnum
+FrmCalcolaImpasti.frm
+    6 - Private Enum TopBarButtonEnum
+FrmCalibBilCamion.frm
+    5 - Private Enum TopBarButtonEnum
+FrmComandiCisterne.frm
+    4 - Private Enum TopBarButtonEnum
+FrmGestioneTimer.frm
+FrmInversionePCL.frm
+    4 - Private Enum TopBarButtonEnum
+FrmMessaggioAvviso1.frm
+    7 - Private Enum TopBarButtonEnum
+FrmNetti.frm
+    5 - Private Enum TopBarButtonEnum
+frmNewValue.frm
+    4 - Private Enum EditEnum
+FrmSchiumatura.frm
+FrmSiloGenerale.frm
+    6 - Private Enum TopBarButtonEnum
+FrmSiwarexPara.frm
+    8 - Private Enum TopBarButtonEnum
+FrmStatoPredosatore.frm
+    4 - Private Enum TopBarButtonEnum
+FrmTaraBilancePN.frm
+    3 - Private Enum TopBarButtonEnum
+MessageBox.frm
