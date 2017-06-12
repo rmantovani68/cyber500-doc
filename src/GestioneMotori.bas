@@ -21,6 +21,7 @@ Public Enum MotorSequenceEnum
     StartAutoMotor4
     StopAutoMotor
 End Enum
+
 Public MotorSequence As MotorSequenceEnum
 Public SequenzaInCorso As Boolean
 '20151130
@@ -287,6 +288,7 @@ Public Type MotoreType
     TempoSoglia2Slittamento As Long
     '20161020
 End Type
+
 Public ListaMotori(1 To MAXNEWMOTORS) As MotoreType
 
 Public OrdineAvviamentoMotori(1 To MAXNEWMOTORS) As Integer

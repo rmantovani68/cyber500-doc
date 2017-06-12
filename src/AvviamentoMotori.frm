@@ -1,4 +1,4 @@
-VERSION 5.00
+	VERSION 5.00
 Object = "{F72CC888-5ADC-101B-A56C-00AA003668DC}#1.0#0"; "ANIBTN32.OCX"
 Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.2#0"; "MSCOMCTL.OCX"
 Begin VB.Form AvvMotori 
@@ -7620,7 +7620,7 @@ End Sub
 
 Public Sub VisualizzaMotoreAcceso(motore As Integer)
 
-'    Debug.Print "VisualizzaMotoreAcceso - " + CStr(motore) + " / "; CStr(MotoreAcceso(motore))
+	'    Debug.Print "VisualizzaMotoreAcceso - " + CStr(motore) + " / "; CStr(MotoreAcceso(motore))
 
     Dim eccecocleerec As Boolean
     Dim ecccoclepresep As Boolean
@@ -7930,67 +7930,6 @@ Private Sub imgPulsanteForm_Click(Index As Integer)
 End Sub
 
 
-'20170223
-''Cambio Modalità: nel caso di più coclee rec/presep le rendo cliccabili solo in forcing
-'Public Sub CambioMod(Index As MotorManagementEnum)
-'    If (ListaMotori(MotoreCoclea123_2).presente Or ListaMotori(MotoreCoclea123_3).presente Or ListaMotori(MotoreCoclea123_4).presente Or ListaMotori(MotoreCoclea123_5).presente) Then
-'        If (ListaMotori(MotoreCocleaPreseparatrice_2).presente Or ListaMotori(MotoreCocleaPreseparatrice_3).presente Or ListaMotori(MotoreCocleaPreseparatrice_4).presente Or ListaMotori(MotoreCocleaPreseparatrice_5).presente) Then
-'            Select Case Index
-'                Case MotorManagementEnum.AutomaticMotor
-'                    FrameAvvMotori(MotoreCoclea123_2).enabled = False
-'                    APButtonStartStopMotore(MotoreCoclea123_2 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCoclea123_3).enabled = False
-'                    APButtonStartStopMotore(MotoreCoclea123_3 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCoclea123_4).enabled = False
-'                    APButtonStartStopMotore(MotoreCoclea123_4 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCoclea123_5).enabled = False
-'                    APButtonStartStopMotore(MotoreCoclea123_5 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_2).enabled = False
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_2 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_3).enabled = False
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_3 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_4).enabled = False
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_4 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_5).enabled = False
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_5 - 1).enabled = False
-'                Case MotorManagementEnum.SemiAutomaticMotor
-'                    FrameAvvMotori(MotoreCoclea123_2).enabled = False
-'                    APButtonStartStopMotore(MotoreCoclea123_2 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCoclea123_3).enabled = False
-'                    APButtonStartStopMotore(MotoreCoclea123_3 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCoclea123_4).enabled = False
-'                    APButtonStartStopMotore(MotoreCoclea123_4 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCoclea123_5).enabled = False
-'                    APButtonStartStopMotore(MotoreCoclea123_5 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_2).enabled = False
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_2 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_3).enabled = False
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_3 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_4).enabled = False
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_4 - 1).enabled = False
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_5).enabled = False
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_5 - 1).enabled = False
-'                Case MotorManagementEnum.ForcingMotor
-'                    FrameAvvMotori(MotoreCoclea123_2).enabled = True
-'                    APButtonStartStopMotore(MotoreCoclea123_2 - 1).enabled = True
-'                    FrameAvvMotori(MotoreCoclea123_3).enabled = True
-'                    APButtonStartStopMotore(MotoreCoclea123_3 - 1).enabled = True
-'                    FrameAvvMotori(MotoreCoclea123_4).enabled = True
-'                    APButtonStartStopMotore(MotoreCoclea123_4 - 1).enabled = True
-'                    FrameAvvMotori(MotoreCoclea123_5).enabled = True
-'                    APButtonStartStopMotore(MotoreCoclea123_5 - 1).enabled = True
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_2).enabled = True
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_2 - 1).enabled = True
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_3).enabled = True
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_3 - 1).enabled = True
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_4).enabled = True
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_4 - 1).enabled = True
-'                    FrameAvvMotori(MotoreCocleaPreseparatrice_5).enabled = True
-'                    APButtonStartStopMotore(MotoreCocleaPreseparatrice_5 - 1).enabled = True
-'            End Select
-'        End If
-'    End If
-'End Sub
 Public Sub CambioMod()
     If (ListaMotori(MotoreCoclea123_2).presente) Then
         APButtonStartStopMotore(MotoreCoclea123_2 - 1).enabled = (MotorManagement = MotorManagementEnum.ForcingMotor)
