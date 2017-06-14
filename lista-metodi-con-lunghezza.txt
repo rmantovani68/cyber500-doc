@@ -405,7 +405,6 @@ GestioneDosaggio.bas
     5 - Public Sub AzzeraBufferViatopScarMixer()
     5 - Public Function AdditivoFlomacInserito() As Boolean
     2 - Public Sub AzzeramentoDatiTrasRic()
-
   104 - Public Sub ScaricoAggregati_change()
    71 - Public Sub RAPSiwaInPesata_change()
    66 - Public Sub TempoMescolazione_change()
@@ -455,8 +454,7 @@ GestioneDosaggio.bas
     7 - Public Sub BilanciaInertiPortinaChiusa_change()
     7 - Public Sub BilanciaInertiPortinaAperta_change()
     7 - Public Sub BilanciaFillerPortinaChiusa_change()
-	
-	
+
 
 GestioneFile.bas
    26 - Public Function FileGetValue( _

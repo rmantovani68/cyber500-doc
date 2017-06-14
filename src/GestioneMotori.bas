@@ -1639,7 +1639,7 @@ End Sub
 'Controlli fatti a LOOP!
 Public Sub ControlloAsservimenti()
 
-Dim i As Integer
+	Dim i As Integer
 
     On Error GoTo Errore
 
