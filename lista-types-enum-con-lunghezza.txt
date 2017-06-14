@@ -29,10 +29,10 @@ ControlloDatiInseriti.bas
 DataBase.bas
 GestioneAdditivi.bas
 GestioneAmperometri.bas
-  112 - Public Enum AmperometroEnum
+112 - Public Enum AmperometroEnum
    19 - Public Type AmperometroType
 GestioneAquablack.bas
-  272 - Public Type AquablackParametersType
+272 - Public Type AquablackParametersType
   261 - Public Enum PlcAquablackType
    45 - Public Type Aquablack_HMI_PLC_Type
    29 - Public Type AquablackAlarmType
@@ -41,6 +41,7 @@ GestioneAquablack.bas
     6 - Public Enum AquablackTuboContenuto
 GestioneBit.bas
 GestioneCaldaie.bas
+
    46 - Public Type OggettoCaldaia
     9 - Public Type ProgrammazioneRiscaldamentiGiornalieri
     6 - Public Type OggettoPompaAuxCald
@@ -61,11 +62,12 @@ GestioneCisterneCommon.bas
     4 - Public Enum TipiGestioneCiterneEnum
     4 - Public Enum StatoValvola
 GestioneCisterneTipo5.bas
-  113 - Public Type OggettoCisterna
+113 - Public Type OggettoCisterna
    45 - Public Type OggettoDBScambioDatiCisterne
    33 - Public Type OggettoDBScambioDatiCisterneVecchiaStruttura
     9 - Public Enum TipoValvolaEnum
-GestioneCmdDeoSoffioAntiadVib.bas
+GestioneCmd
+DeoSoffioAntiadVib.bas
    35 - Public Enum ComandiVariEnum
    26 - Public Type ComandoType
 GestioneCodaMateriale.bas
@@ -106,8 +108,10 @@ GestioneLingue.bas
 GestioneLivelliSiliFillerVaglio.bas
 GestioneLog.bas
 GestioneMessaggistica.bas
+
    96 - Public Enum Messaggistica
 GestioneMotori.bas
+
   137 - Public Type TamburoType
   120 - Public Enum MotoriEnum
    93 - Public Type MotoreType
