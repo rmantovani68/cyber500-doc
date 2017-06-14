@@ -103,12 +103,13 @@ Public QuotaMinGraficoSiloS7AsseX As Double
 Public QuotaMaxGraficoSiloS7AsseY As Double
 Public QuotaMinGraficoSiloS7AsseY As Double
 Public MemWidthshAreaGrPosNav As Double
+
 '
             
 
 Public Function DefinisciTAG_Silo() As Integer
-Dim i As Integer
-Dim DBNumber As String
+	Dim i As Integer
+	Dim DBNumber As String
     
     'Formato OPC server Softing
     'db<n>.dbx1.2:bool
@@ -402,22 +403,6 @@ Dim DBNumber As String
 
 End Function
 
-'20150420
-'Public Sub SiloS7Inizializza()
-'
-'    With CP240.OPCData
-'
-'        If InclusioneSiloS7 And .IsConnected Then
-'            .items(PLCTAG_SILOGEN_MANUALE).Value = False
-'            .items(PLCTAG_SILOGEN_AUTOMATICO).Value = False
-'            .items(PLCTAG_DB322_AbilitaJog).Value = False
-'            .items(PLCTAG_SILO2_AbilitaJog).Value = False
-'        End If
-'
-'    End With
-'
-'End Sub
-
 Public Sub SiloS7Leggi(forza As Boolean)
 
     On Error GoTo ERRORE
@@ -536,8 +521,8 @@ ERRORE:
 End Sub
 
 Public Sub SiloS7Scrivi()
-'Dim i As Integer
-'Dim indice As Integer
+	'Dim i As Integer
+	'Dim indice As Integer
 
     On Error GoTo ERRORE
     
@@ -553,20 +538,21 @@ Public Sub SiloS7Scrivi()
 ERRORE:
     LogInserisci True, "SS7-002", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
+
     
 Public Sub ScriviDestinazioneSilo(destinazione As Integer)
-'PLCTAG_DB310_WORK_Destinazione =  1 --> silo 1
-'                                   2 --> silo 2
-'                                   3 --> silo 3
-'                                   4 --> silo 4
-'                                   5 --> silo 5
-'                                   6 --> silo 6
-'                                   7 --> silo 7
-'                                   8 --> silo 8
-'                                   11--> silo D
-'                                   12--> silo R
-'                                   19--> Limite1 spruzzatura antiadesivo
-'                                   20--> Limite2 spruzzatura antiadesivo
+	'PLCTAG_DB310_WORK_Destinazione =  1 --> silo 1
+	'                                   2 --> silo 2
+	'                                   3 --> silo 3
+	'                                   4 --> silo 4
+	'                                   5 --> silo 5
+	'                                   6 --> silo 6
+	'                                   7 --> silo 7
+	'                                   8 --> silo 8
+	'                                   11--> silo D
+	'                                   12--> silo R
+	'                                   19--> Limite1 spruzzatura antiadesivo
+	'                                   20--> Limite2 spruzzatura antiadesivo
 
     Dim posizione As Double
     Dim posizione2 As Double
@@ -601,54 +587,6 @@ Public Sub ScriviDestinazioneSilo(destinazione As Integer)
 
 End Sub
 
-'20150420
-'Public Sub SiloS7VerificaAbilitazioni()
-'
-'    If CP240.OPCData.IsConnected And (SiloS7Manuale <> CP240.OPCData.items(PLCTAG_SILOGEN_MANUALE).Value Or SiloS7Automatico <> CP240.OPCData.items(PLCTAG_SILOGEN_AUTOMATICO).Value) Then
-'        If (SiloS7Automatico) Then
-'            Call IconaStatoManAutoErr(CP240.CmdAutoManSiloS7, automatico)
-'        ElseIf (SiloS7Manuale) Then
-'            Call IconaStatoManAutoErr(CP240.CmdAutoManSiloS7, manuale)
-'        Else
-'            Call IconaStatoManAutoErr(CP240.CmdAutoManSiloS7, triangologiallo)
-'        End If
-'    End If
-'
-'    With CP240.OPCData
-'
-'        If .IsConnected And (SiloS7Manuale <> .items(PLCTAG_SILOGEN_MANUALE).Value Or SiloS7Automatico <> .items(PLCTAG_SILOGEN_AUTOMATICO).Value) Then
-'            If (SiloS7Automatico) Then
-'                Call IconaStatoManAutoErr(CP240.CmdAutoManSiloS7, automatico)
-'            ElseIf (SiloS7Manuale) Then
-'                Call IconaStatoManAutoErr(CP240.CmdAutoManSiloS7, manuale)
-'            Else
-'                Call IconaStatoManAutoErr(CP240.CmdAutoManSiloS7, triangologiallo)
-'            End If
-'        End If
-'
-'        If .IsConnected Then
-'            If ( _
-'                .items(PLCTAG_DB302_ErroreComunicazione) Or _
-'                .items(PLCTAG_DB302_ErroreInverter) Or _
-'                .items(PLCTAG_DB302_NonProntoInverter) _
-'            ) Then
-'                SiloS7Manuale = False
-'                SiloS7Automatico = False
-'            Else
-'                SiloS7Manuale = .items(PLCTAG_SILOGEN_MANUALE).Value
-'                SiloS7Automatico = .items(PLCTAG_SILOGEN_AUTOMATICO).Value
-'            End If
-'
-'            SiloS7JogAbilitati = .items(PLCTAG_DB322_AbilitaJog).Value
-'
-'            If (FrmSiloGeneraleVisibile) Then
-'                Call FrmSiloGenerale.AbilitaOggettiSiloS7
-'            End If
-'        End If
-'
-'    End With
-'
-'End Sub
 
 
 Public Function SiloS7GetPosizioneSilo(asse As Integer, silo As String) As Double

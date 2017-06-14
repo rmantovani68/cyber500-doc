@@ -188,7 +188,7 @@ End Sub
 
 Public Sub SiwarexScriviSuFile(siwarexIndex As SiwarexEnum)
 
-Dim nomeFile As String
+	Dim nomeFile As String
 
     '   Legge i dati dal file
 
@@ -236,7 +236,7 @@ Public Sub AttivaComandoSiwarex(siwarexIndex As SiwarexEnum)
 End Sub
 
 Public Sub SiwarexInviaParametriPlc(siwarexIndex As SiwarexEnum, NumDR As Integer)
-Dim offset As Integer
+	Dim offset As Integer
     
     If (DEMO_VERSION) Then
         Exit Sub
@@ -409,7 +409,7 @@ Dim offset As Integer
 End Sub
 
 Public Function PredosatoriSiwarex() As Boolean
-'Verifica se tra i predosatori è stata usata una siwarex
+	'Verifica se tra i predosatori è stata usata una siwarex
 
     Dim indice As Integer
 
@@ -424,7 +424,7 @@ Public Function PredosatoriSiwarex() As Boolean
 End Function
 
 Public Function AssociaSiwarexPredosatori()
-'Associa le siwarex ai predosatori
+	'Associa le siwarex ai predosatori
 
     Dim indice As Integer
     Dim predosatore As Integer
@@ -476,8 +476,8 @@ Public Sub INVIA_DatiRapSiwa(Optional AvvioProgramma As Boolean)
 End Sub
 
 Public Function DefinisciTAG_LOG_COMANDI_SIWA5() As Integer
-Dim i As Integer
-Dim DBNumber As String
+	Dim i As Integer
+	Dim DBNumber As String
     
     'Formato OPC server Softing
     'db<n>.dbx1.2:bool
@@ -600,16 +600,16 @@ Public Sub SiwaToFile(siwarexIndex As SiwarexEnum)
         FrmSiwarexPara.TxtDR3(8).text = CStr(.SIWA_PERC_SOPRA_ZERO)
         FrmSiwarexPara.TxtDR3(9).text = CStr(.SIWA_TEMPO_CALIBRAZIONE)
 
-        .SIWA_DIGIT_ZERO_FILE = CDbl(FrmSiwarexPara.TxtDR3(0).text)
-        .SIWA_DIGIT_TARATURA_FILE = CDbl(FrmSiwarexPara.TxtDR3(1).text)
-        .SIWA_PESO_TARATURA_FILE = CDbl(FrmSiwarexPara.TxtDR3(2).text)
-        .SIWA_MILLIVOLT_FILE = CInt(FrmSiwarexPara.TxtDR3(3).text)
-        .SIWA_FILTRO_FREQ_FILE = CInt(FrmSiwarexPara.TxtDR3(4).text)
-        .SIWA_FILTRO_MEDIA_FILE = CInt(FrmSiwarexPara.TxtDR3(5).text)
-        .SIWA_AUTOZERO_FILE = CBool(FrmSiwarexPara.TxtDR3(6).text)
-        .SIWA_PERC_SOTTO_ZERO_FILE = CInt(FrmSiwarexPara.TxtDR3(7).text)
-        .SIWA_PERC_SOPRA_ZERO_FILE = CInt(FrmSiwarexPara.TxtDR3(8).text)
-        .SIWA_TEMPO_CALIBRAZIONE_FILE = CDbl(FrmSiwarexPara.TxtDR3(9).text)
+        .SIWA_DIGIT_ZERO_FILE         = CDbl (FrmSiwarexPara.TxtDR3(0).text)
+        .SIWA_DIGIT_TARATURA_FILE     = CDbl (FrmSiwarexPara.TxtDR3(1).text)
+        .SIWA_PESO_TARATURA_FILE      = CDbl (FrmSiwarexPara.TxtDR3(2).text)
+        .SIWA_MILLIVOLT_FILE          = CInt (FrmSiwarexPara.TxtDR3(3).text)
+        .SIWA_FILTRO_FREQ_FILE        = CInt (FrmSiwarexPara.TxtDR3(4).text)
+        .SIWA_FILTRO_MEDIA_FILE       = CInt (FrmSiwarexPara.TxtDR3(5).text)
+        .SIWA_AUTOZERO_FILE           = CBool(FrmSiwarexPara.TxtDR3(6).text)
+        .SIWA_PERC_SOTTO_ZERO_FILE    = CInt (FrmSiwarexPara.TxtDR3(7).text)
+        .SIWA_PERC_SOPRA_ZERO_FILE    = CInt (FrmSiwarexPara.TxtDR3(8).text)
+        .SIWA_TEMPO_CALIBRAZIONE_FILE = CDbl (FrmSiwarexPara.TxtDR3(9).text)
         
         'DR5
         FrmSiwarexPara.TxtDR5(0).text = CStr(.SIWA_IMPULSI_METRO)
@@ -617,10 +617,10 @@ Public Sub SiwaToFile(siwarexIndex As SiwarexEnum)
         FrmSiwarexPara.TxtDR5(2).text = CStr(.SIWA_CORREZIONE)
         FrmSiwarexPara.TxtDR5(3).text = CStr(.SIWA_MIN_TOTALIZING)
 
-        .SIWA_IMPULSI_METRO_FILE = CDbl(FrmSiwarexPara.TxtDR5(0).text)
-        .SIWA_LUNGHEZZA_FILE = CDbl(FrmSiwarexPara.TxtDR5(1).text)
-        .SIWA_CORREZIONE_FILE = CDbl(FrmSiwarexPara.TxtDR5(2).text)
-        .SIWA_MIN_TOTALIZING_FILE = CInt(FrmSiwarexPara.TxtDR5(3).text)
+        .SIWA_IMPULSI_METRO_FILE      = CDbl(FrmSiwarexPara.TxtDR5(0).text)
+        .SIWA_LUNGHEZZA_FILE          = CDbl(FrmSiwarexPara.TxtDR5(1).text)
+        .SIWA_CORREZIONE_FILE         = CDbl(FrmSiwarexPara.TxtDR5(2).text)
+        .SIWA_MIN_TOTALIZING_FILE     = CInt(FrmSiwarexPara.TxtDR5(3).text)
 
         SiwarexScriviSuFile (siwarexIndex)
     End With

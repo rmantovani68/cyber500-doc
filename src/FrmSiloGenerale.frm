@@ -4082,93 +4082,10 @@ Private Const SEZIONE As String = "Sili"
 '
 
 
-'20150420
-'Public Sub AbilitaOggettiSiloS7()
-'
-'    CmdApriBenna.enabled = (SiloS7InPosition And SiloS7Manuale And DestinazioneSilo > 0)
-'    CmdChiudiBenna.enabled = (SiloS7InPosition And SiloS7Manuale And DestinazioneSilo > 0)
-'    CmdDX.enabled = (SiloS7Manuale And DestinazioneSilo > 0)
-'    CmdSX.enabled = (SiloS7Manuale And DestinazioneSilo > 0)
-'    CmdSU.enabled = (SiloS7Manuale And DestinazioneSilo > 0)
-'    CmdGIU.enabled = (SiloS7Manuale And DestinazioneSilo > 0)
-'    CmdStart.enabled = SiloS7Automatico
-'    CmdSyncroBennaAsse(0).enabled = SiloS7Manuale
-'    CmdSyncroBennaAsse(1).enabled = SiloS7Manuale
-'    CP240.CmdStartSiloS7.enabled = SiloS7Automatico
-'    CP240.CmdSyncroBennaAsse(0).enabled = SiloS7Manuale
-'    CP240.CmdSyncroBennaAsse(1).enabled = SiloS7Manuale
-'
-'    CmdJogSX(0).enabled = SiloS7JogAbilitati
-'    CmdJogDX(0).enabled = SiloS7JogAbilitati
-'    CmdJogSX(1).enabled = SiloS7JogAbilitati
-'    CmdJogDX(1).enabled = SiloS7JogAbilitati
-'
-'    If (SiloS7Automatico) Then
-'
-'        CmdAutoMan.Picture = LoadResPicture("IDB_AUTOMATICO", vbResBitmap)
-'        CP240.CmdAutoManSiloS7.Picture = LoadResPicture("IDB_AUTOMATICO", vbResBitmap)
-'
-'    ElseIf (SiloS7Manuale) Then
-'
-'        CmdAutoMan.Picture = LoadResPicture("IDB_MANUALE", vbResBitmap)
-'        CP240.CmdAutoManSiloS7.Picture = LoadResPicture("IDB_MANUALE", vbResBitmap)
-'
-'    Else
-'
-'        CmdAutoMan.Picture = LoadResPicture("IDI_ESCLAMA", vbResIcon)
-'        CP240.CmdAutoManSiloS7.Picture = LoadResPicture("IDI_ESCLAMA", vbResIcon)
-'
-'    End If
-'
-'    If (SiloS7JogAbilitati) Then
-'        CmdEnableJog(0).Picture = LoadResPicture("IDB_MANUALE", vbResBitmap)
-'        CmdEnableJog(1).Picture = LoadResPicture("IDB_MANUALE", vbResBitmap)
-'    Else
-'        CmdEnableJog(0).Picture = LoadResPicture("IDB_AUTOMATICO", vbResBitmap)
-'        CmdEnableJog(1).Picture = LoadResPicture("IDB_AUTOMATICO", vbResBitmap)
-'    End If
-'
-'End Sub
-
-
-'20150420
-'Public Sub CmdAutoMan_Click()
 Private Sub CmdAutoMan_MouseDown(Button As Integer, Shift As Integer, x As Single, Y As Single)
     
     Call SetStatoSiloS7AutoMan
     
-'    If (ShowMsgBox(strSiNo, vbOKCancel, vbQuestion, -1, -1, True) = vbOK) Then
-'        If SiloS7JogAbilitati Then
-'            SiloS7JogAbilitati = Not SiloS7JogAbilitati
-'            CP240.OPCData.items(PLCTAG_DB322_AbilitaJog).Value = SiloS7JogAbilitati
-'            CP240.OPCData.items(PLCTAG_SILO2_AbilitaJog).Value = SiloS7JogAbilitati
-'        End If
-'
-'        If (Not SiloS7Automatico And Not SiloS7Manuale) Then
-'            SiloS7Automatico = False
-'        Else
-'            SiloS7Automatico = Not SiloS7Automatico
-'        End If
-'        SiloS7Manuale = Not SiloS7Automatico
-'
-'        CP240.OPCData.items(PLCTAG_SILOGEN_MANUALE).Value = SiloS7Manuale
-'        CP240.OPCData.items(PLCTAG_SILOGEN_AUTOMATICO).Value = SiloS7Automatico
-'
-'        If SiloS7Automatico Then
-'            CP240.OPCData.items(PLCTAG_SILOGEN_DISCESAMANUALEASSE).Value = False
-'            CP240.OPCData.items(PLCTAG_SILOGEN_SALITAMANUALEASSE).Value = False
-'            CP240.OPCData.items(PLCTAG_DB310_ManuApre).Value = False
-'            CP240.OPCData.items(PLCTAG_DB310_ManuChiude).Value = False
-'
-'            CP240.OPCData.items(PLCTAG_SILOGEN_DISCESAMANUALEASSE2).Value = False
-'            CP240.OPCData.items(PLCTAG_SILOGEN_SALITAMANUALEASSE2).Value = False
-'            CP240.OPCData.items(PLCTAG_SILO2_ManuApre).Value = False
-'            CP240.OPCData.items(PLCTAG_SILO2_ManuChiude).Value = False
-'        End If
-'
-'        Call AbilitaOggettiSiloS7
-'    End If
-
 End Sub
 
 Private Function IsModified() As Boolean
@@ -4242,39 +4159,6 @@ Private Sub CmdEnableJog_MouseDown(Index As Integer, Button As Integer, Shift As
 
     Call SetStatoSiloS7Jog
             
-'
-'        SiloS7JogAbilitati = Not SiloS7JogAbilitati
-'
-'        CP240.OPCData.items(PLCTAG_DB322_AbilitaJog).Value = SiloS7JogAbilitati
-'        CP240.OPCData.items(PLCTAG_SILO2_AbilitaJog).Value = SiloS7JogAbilitati
-'
-'        If SiloS7JogAbilitati Then
-'            'Simulo lo stop
-'            CP240.OPCData.items(PLCTAG_SILOGEN_MANUALE).Value = False
-'            CP240.OPCData.items(PLCTAG_SILOGEN_AUTOMATICO).Value = False
-'            SiloS7Automatico = False
-'            SiloS7Manuale = False
-'            CmdAutoMan.Picture = LoadResPicture("IDI_ESCLAMA", vbResIcon)
-'            CP240.CmdAutoManSiloS7.Picture = LoadResPicture("IDI_ESCLAMA", vbResIcon)
-'
-'            CP240.OPCData.items(PLCTAG_SILOGEN_DISCESAMANUALEASSE).Value = False
-'            CP240.OPCData.items(PLCTAG_SILOGEN_SALITAMANUALEASSE).Value = False
-'            CP240.OPCData.items(PLCTAG_DB310_ManuApre).Value = False
-'            CP240.OPCData.items(PLCTAG_DB310_ManuChiude).Value = False
-'            CP240.OPCData.items(PLCTAG_DB307_StartSyncro).Value = False
-'            CP240.OPCData.items(PLCTAG_DB307_StartPosi).Value = False
-'
-'            CP240.OPCData.items(PLCTAG_SILOGEN_DISCESAMANUALEASSE2).Value = False
-'            CP240.OPCData.items(PLCTAG_SILOGEN_SALITAMANUALEASSE2).Value = False
-'            CP240.OPCData.items(PLCTAG_SILO2_ManuApre).Value = False
-'            CP240.OPCData.items(PLCTAG_SILO2_ManuChiude).Value = False
-'            CP240.OPCData.items(PLCTAG_SILO2_StartSyncro).Value = False
-'            CP240.OPCData.items(PLCTAG_SILO2_StartPosi).Value = False
-'        End If
-'        '
-'
-'        Call AbilitaOggettiSiloS7
-'    End If
     
 End Sub
 
@@ -4451,41 +4335,10 @@ Private Sub CmdSiloS7SalvaPosAd2_Click(Index As Integer)
 End Sub
 
 '20150420
-'Public Sub CmdStop_Click()
 Public Sub CmdStop_MouseDown(Button As Integer, Shift As Integer, x As Single, Y As Single)
                
     Call SetStatoSiloS7Stop
-              
-'    If (ShowMsgBox(strSiNo, vbOKCancel, vbQuestion, -1, -1, True) = vbOK) Then
-'
-'        SiloStatusLock = True
-'
-'        SiloStatus = Warning
-'
-'        Call AbilitaOggettiSiloS7
-'
-'        CP240.OPCData.items(PLCTAG_SILOGEN_MANUALE).Value = False
-'        CP240.OPCData.items(PLCTAG_SILOGEN_AUTOMATICO).Value = False
-'        SiloS7Automatico = False
-'        SiloS7Manuale = False
-'        CmdAutoMan.Picture = LoadResPicture("IDI_ESCLAMA", vbResIcon)
-'        CP240.CmdAutoManSiloS7.Picture = LoadResPicture("IDI_ESCLAMA", vbResIcon)
-'
-'        CP240.OPCData.items(PLCTAG_SILOGEN_DISCESAMANUALEASSE).Value = False
-'        CP240.OPCData.items(PLCTAG_SILOGEN_SALITAMANUALEASSE).Value = False
-'        CP240.OPCData.items(PLCTAG_DB310_ManuApre).Value = False
-'        CP240.OPCData.items(PLCTAG_DB310_ManuChiude).Value = False
-'        CP240.OPCData.items(PLCTAG_DB307_StartSyncro).Value = False
-'        CP240.OPCData.items(PLCTAG_DB307_StartPosi).Value = False
-'
-'        CP240.OPCData.items(PLCTAG_SILOGEN_DISCESAMANUALEASSE2).Value = False
-'        CP240.OPCData.items(PLCTAG_SILOGEN_SALITAMANUALEASSE2).Value = False
-'        CP240.OPCData.items(PLCTAG_SILO2_ManuApre).Value = False
-'        CP240.OPCData.items(PLCTAG_SILO2_ManuChiude).Value = False
-'        CP240.OPCData.items(PLCTAG_SILO2_StartSyncro).Value = False
-'        CP240.OPCData.items(PLCTAG_SILO2_StartPosi).Value = False
-'    End If
-    
+              		  
 End Sub
 
 Private Sub CmdSU_Click()
@@ -4584,17 +4437,17 @@ Private Sub CmdChiudiBenna_Click()
 End Sub
 
 Public Sub PosizionaSili()
-'Posizionamento oggetti dei sili in FrmSiloGenerale
-'1. Botte silo              --> ImageSilo(1..12)
-'2. Numero silo             --> LblNumeroSilo(1..12)
-'3. Livello alto            --> imgLivAlto(1..12)
-'4. Scarico silo            --> imageScaricoSilo(1..12)
+	'Posizionamento oggetti dei sili in FrmSiloGenerale
+	'1. Botte silo              --> ImageSilo(1..12)
+	'2. Numero silo             --> LblNumeroSilo(1..12)
+	'3. Livello alto            --> imgLivAlto(1..12)
+	'4. Scarico silo            --> imageScaricoSilo(1..12)
 
-Dim i As Integer
-Dim numerosilo As Integer
-Dim Postop As Integer
-Dim PosLeft As Integer
-Dim Spaziatura As Integer
+	Dim i As Integer
+	Dim numerosilo As Integer
+	Dim Postop As Integer
+	Dim PosLeft As Integer
+	Dim Spaziatura As Integer
 
     'Nascondo tutti gli oggetti grafici utilizzati per la rappresentazione dei sili
     For i = 1 To MAXNUMSILI

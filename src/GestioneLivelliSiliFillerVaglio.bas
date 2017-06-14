@@ -83,10 +83,10 @@ Public Sub LivelliDigitaliSiloFiller()
     End If
     Call ValoreLivelloSiloFiller_change(0)
 
-'20150624
-'    If (GestioneFiller2 = 1 Or GestioneFiller2 = 2) Then
+	'20150624
+	'    If (GestioneFiller2 = 1 Or GestioneFiller2 = 2) Then
     If (GestioneFiller2 = FillerIncluso) Or (GestioneFiller2 = FillerSoloVisSilo) Then
-'
+	'
         If FCMaxSiloFiller2 Then       'Livello massimo Filler 2
             ValoreLivelloSiloFiller(1) = 100
         ElseIf FCMedSiloFiller2 Then   'Livello medio Filler 2
@@ -122,7 +122,7 @@ End Sub
 
 Public Sub LivelloTramoggia_change(tramoggia As Integer)
 
-Dim TramoggiaCP240 As Integer
+	Dim TramoggiaCP240 As Integer
 
     On Error GoTo Errore
 
@@ -408,20 +408,3 @@ Public Sub APBScambioTuboTroppoPienoF1F2_Change(comando As Boolean)
     End If
 
 End Sub
-'20151218
-'Public Sub SelezioneF23_change(value As Integer)
-'    On Error GoTo ERRORE
-'        Select Case value
-'            Case 1
-'                'priorità F3
-''                CP240.AniPushButtonDeflettore(16) = 2
-'                CP240.OPCData.items(PLCTAG_SelezioneF3).value = True
-'            Case 2
-'                'priorità F2
-''                CP240.AniPushButtonDeflettore(16) = 1
-'                CP240.OPCData.items(PLCTAG_SelezioneF3).value = False
-'        End Select
-'    Exit Sub
-'ERRORE:
-'    LogInserisci True, "LVL-008", CStr(Err.Number) + " [" + Err.description + "]"
-'End Sub

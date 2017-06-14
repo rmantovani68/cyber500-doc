@@ -1017,16 +1017,16 @@ End Function
 
 
 Public Sub TemporizzatoreStandard(ScalaTempo As Integer, Tempo As Long, AppTempo As Single, _
-TempoExec As Boolean, uscita As Boolean, Abilitazione As Boolean, ErrTimer As Boolean)
+	TempoExec As Boolean, uscita As Boolean, Abilitazione As Boolean, ErrTimer As Boolean)
 
-'**********************************************************************
-'Gestione di un timer standard per creare un ritardo all'inserzione
-'Servono 2 variabili di appoggio non volatili: AppTempo e TempoExec
-'La scala passata in ingresso e' selezionabile (secondi, minuti, ore)
-'I valori della ScalaTempo corrispondono a: 1=secondi, 2=minuti, 3=ore (max 23 ore 59 min 59 sec)
-'**********************************************************************
+	'**********************************************************************
+	'Gestione di un timer standard per creare un ritardo all'inserzione
+	'Servono 2 variabili di appoggio non volatili: AppTempo e TempoExec
+	'La scala passata in ingresso e' selezionabile (secondi, minuti, ore)
+	'I valori della ScalaTempo corrispondono a: 1=secondi, 2=minuti, 3=ore (max 23 ore 59 min 59 sec)
+	'**********************************************************************
 
-Dim AppoggioTempo As Single
+	Dim AppoggioTempo As Single
 
     On Error GoTo Errore
                         

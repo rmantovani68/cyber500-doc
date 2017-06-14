@@ -664,17 +664,17 @@ Public Function SiloConfig2Combo(silo As String) As String
 End Function
 
 Public Sub PosizionaSiliCP240()
-'Posizionamento oggetti dei sili in CP240
-'1. Botte silo              --> ImageSilo(1..12)
-'2. Bottone cambio silo     --> CmdSelezioneSilo(1..12)
-'3. Livello alto            --> imgLivAlto(1..12)
-'4. Scarico silo            --> imageScaricoSilo(1..12)
+	'Posizionamento oggetti dei sili in CP240
+	'1. Botte silo              --> ImageSilo(1..12)
+	'2. Bottone cambio silo     --> CmdSelezioneSilo(1..12)
+	'3. Livello alto            --> imgLivAlto(1..12)
+	'4. Scarico silo            --> imageScaricoSilo(1..12)
 
-Dim i As Integer
-Dim numerosilo As Integer
-Dim Postop As Integer
-Dim PosLeft As Integer
-Dim Spaziatura As Integer
+	Dim i As Integer
+	Dim numerosilo As Integer
+	Dim Postop As Integer
+	Dim PosLeft As Integer
+	Dim Spaziatura As Integer
 
     With CP240
     
@@ -939,10 +939,10 @@ Errore:
 End Sub
 
 Public Sub SegnalazioneBennaSu(BennaSu As Boolean)
-'    Dim i As Integer
-'    Dim Postop As Integer
-'    Dim PosLeft As Integer
-'    Dim Spaziatura As Integer
+	'    Dim i As Integer
+	'    Dim Postop As Integer
+	'    Dim PosLeft As Integer
+	'    Dim Spaziatura As Integer
 
     On Error GoTo Errore
 
@@ -1018,26 +1018,6 @@ Errore:
     LogInserisci True, "SIL-010", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
-'20151125 NUOVA GESTIONE SILI DEPOSITO
-'Public Sub LetturaPesoSili()
-'    Dim nomeFile As String
-'    Dim Index As Integer
-'
-'    nomeFile = UserDataPath + "Pesi Vari.ini"
-'    For Index = 1 To 12
-'        ListaSili(Index).TotaleKg = CLng(FileGetValue(nomeFile, "Sili", CStr(Index), 0))
-'        CP240.LblPesoSilo(Index).caption = Round(ListaSili(Index).TotaleKg / 1000, 2) '20150903
-'    Next
-'End Sub
-'
-'Public Sub ScritturaPesoSili(silo As Integer)
-'    Dim nomeFile As String
-'
-'    nomeFile = UserDataPath + "Pesi Vari.ini"
-'    FileSetValue nomeFile, "Sili", CStr(silo), CStr(ListaSili(silo).TotaleKg)
-'End Sub
-'20151125 NUOVA GESTIONE SILI DEPOSITO
-
 Public Sub TelescarichiSilo_Change(silo As Integer)
 
     On Error GoTo Errore
@@ -1050,50 +1030,6 @@ Public Sub TelescarichiSilo_Change(silo As Integer)
 Errore:
     LogInserisci True, "SIL-011", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
-'20151124 NUOVA GESTIONE SILI DEPOSITO
-'Public Sub CelleSiloConsenso_change(NumeroModuloSilo As Integer)
-'Dim PesoAttuale As Double
-'
-'    On Error GoTo Errore
-'
-'    PesoAttuale = CelleSiloValoreLetto(NumeroModuloSilo) - CelleSiloDetrarreTara(NumeroModuloSilo)
-'
-'    If CelleSiloConsensoCarico_IN(NumeroModuloSilo) And CelleSiloConsensoScarico_OUT(NumeroModuloSilo) Then
-'        If PesoAttuale < CelleSiloUltimoStabile(NumeroModuloSilo) Then
-'            'Ho scaricato dal silo
-'            'ListaSili(CelleSiloUltimoScaricoAperto).Peso = ListaSili(CelleSiloUltimoScaricoAperto).Peso + PesoAttuale - CelleSiloUltimoStabile(NumeroModuloSilo)
-'            CelleSiloScaricatoCamion = CelleSiloScaricatoCamion + CelleSiloUltimoStabile(NumeroModuloSilo) - PesoAttuale
-'            CP240.LblEtichetta(21).caption = RoundNumber(CelleSiloScaricatoCamion, 1)
-'
-'            If DestinazioneSilo <> 0 Then
-'                'pezza per controllare che l'indice CP240.LblPesoSilo() sia dentro il range
-'                If CelleSiloUltimoScaricoAperto < 1 Or CelleSiloUltimoScaricoAperto > 12 Then
-'                    CelleSiloUltimoScaricoAperto = DestinazioneSilo
-'                End If
-'                CP240.LblPesoSilo(CelleSiloUltimoScaricoAperto).caption = RoundNumber(ListaSili(CelleSiloUltimoScaricoAperto).Peso, 2) '20150903
-'            End If
-'        Else
-'            'Ho caricato nel silo
-'            If (DestinazioneSilo <> 0) Then
-'                If (DestinazioneSiloAppartieneModuloSilo(DestinazioneSilo, NumeroModuloSilo)) Then
-'                    'ListaSili(DestinazioneSilo).Peso = ListaSili(DestinazioneSilo).Peso + PesoAttuale - CelleSiloUltimoStabile(NumeroModuloSilo)
-'                    ListaSili(DestinazioneSilo).materiale = CP240.AdoDosaggioScarico.Recordset.Fields("Descrizione").Value
-'                    ListaSili(DestinazioneSilo).idMateriale = CP240.AdoDosaggioScarico.Recordset.Fields("IdDosaggio").Value
-'                    CP240.LblPesoSilo(DestinazioneSilo).caption = RoundNumber(ListaSili(DestinazioneSilo).Peso, 2) '20150903
-'                End If
-'            End If
-'        End If
-'        CelleSiloUltimoStabile(NumeroModuloSilo) = PesoAttuale
-''        If (DestinazioneSilo <> 0) Then                        20151124
-''            Call CelleSiloScriviTXT(NumeroModuloSilo)
-''        End If
-'    End If
-'
-'    Exit Sub
-'Errore:
-'    LogInserisci True, "SIL-012", CStr(Err.Number) + " [" + Err.description + "]"
-'End Sub
-'20151124 NUOVA GESTIONE SILI DEPOSITO
 Public Sub CaricoSilo_change(silo As Integer)
     ListaSili(ScompartiSiliPLC_a_PC(silo)).materiale = CP240.AdoDosaggioScarico.Recordset.Fields("Descrizione").Value
 
@@ -1109,15 +1045,16 @@ Public Sub TelescaricoSilo_change(scomparto As Integer)
 End Sub
 
 Public Sub CelleSiloScriviTXT(NumeroModuloSilo As Integer)
-'Memorizzo nel file TXT:
-'   GEN.    Peso scaricato nel camion
-'   1.      Peso di ogni scomparto
-'   2.      Materiale di ogni scomparto
-'   3.      Tara modulo silo
-'   4.      Peso complessivo del modulo silo
+	'Memorizzo nel file TXT:
+	'   GEN.    Peso scaricato nel camion
+	'   1.      Peso di ogni scomparto
+	'   2.      Materiale di ogni scomparto
+	'   3.      Tara modulo silo
+	'   4.      Peso complessivo del modulo silo
 
-Dim i As Integer
-Dim appoggio As String
+	Dim i As Integer
+	Dim appoggio As String
+
     '20151125 NUOVA GESTIONE SILI DEPOSITO
     If (NumeroModuloSilo >= 0) Then
         'CELLE
@@ -1156,16 +1093,16 @@ Public Sub SiloScriviTXTSenzaCelle(scomparto As Integer) '20151202 NUOVA GESTION
 End Sub
 
 Public Sub CelleSiloLeggiTXT(NumeroModuloSilo As Integer)
-'Leggo dal file TXT:
-'   GEN.    Peso scaricato nel camion
-'   1.      Peso di ogni scomparto
-'   2.      Materiale di ogni scomparto
-'   3.      Tara modulo silo
-'   4.      Peso complessivo del modulo silo
+	'Leggo dal file TXT:
+	'   GEN.    Peso scaricato nel camion
+	'   1.      Peso di ogni scomparto
+	'   2.      Materiale di ogni scomparto
+	'   3.      Tara modulo silo
+	'   4.      Peso complessivo del modulo silo
 
-Dim i As Integer
-Dim appoggio As String
-Dim PesoLettoBilancia As Double
+	Dim i As Integer
+	Dim appoggio As String
+	Dim PesoLettoBilancia As Double
     If (NumeroModuloSilo >= 0) Then
         Dim NumModuloSilo As Integer
 
@@ -1176,9 +1113,9 @@ Dim PesoLettoBilancia As Double
         appoggio = RicavaDestinazioniDaModuloSilo(NumeroModuloSilo, CelleSiloConfigurazioneSilo)
         For i = 1 To Len(appoggio)
             ListaSili(GetSiloIndex(Mid(appoggio, i, 1))).Peso = CDbl(FileGetValue(CelleSiloNomeFile, "Silo" & Format(NumeroModuloSilo, "00"), "CelleSiloScomparto" & Mid(appoggio, i, 1), 0))
-'20160215
-'            ListaSili(GetSiloIndex(Mid(appoggio, i, 1))).materiale = CStr(FileGetValue(CelleSiloNomeFile, "Silo" & Format(NumeroModuloSilo, "00"), "CelleSiloMateriale" & Mid(appoggio, i, 1), ""))
-'
+	'20160215
+	'            ListaSili(GetSiloIndex(Mid(appoggio, i, 1))).materiale = CStr(FileGetValue(CelleSiloNomeFile, "Silo" & Format(NumeroModuloSilo, "00"), "CelleSiloMateriale" & Mid(appoggio, i, 1), ""))
+	'
         Next i
 
         '20151125 NUOVA GESTIONE SILI DEPOSITO
@@ -1211,17 +1148,17 @@ Dim PesoLettoBilancia As Double
         Call AggiornaPesoSilo(GetSiloIndex(Mid(appoggio, i, 1)))
     Next i
     'CelleSiloUltimoStabile(NumeroModuloSilo) = CelleSiloValoreLetto(NumeroModuloSilo) - CelleSiloDetrarreTara(NumeroModuloSilo)
-'20151216
-'    CP240.lblEtichetta(21).caption = RoundNumber(BilanciaPesaCamion.Peso, 1)
-'
+	'20151216
+	'    CP240.lblEtichetta(21).caption = RoundNumber(BilanciaPesaCamion.Peso, 1)
+	'
 End Sub
 Public Sub SiloLeggiTXTSenzaCelle(scomparto As Integer) '20151202 NUOVA GESTIONE SILI DEPOSITO
     If (scomparto >= 0 And scomparto <= SILI_MAXPLC) Then
         If (ScompartiSiliPLC_a_PC(scomparto) > 0) Then
             ListaSili(ScompartiSiliPLC_a_PC(scomparto)).Peso = CDbl(FileGetValue(CelleSiloNomeFile, "SiloSenzaCelle", "CelleSiloScomparto" & GetSiloString(ScompartiSiliPLC_a_PC(scomparto)), 0))
-'20160215
-'            ListaSili(ScompartiSiliPLC_a_PC(scomparto)).materiale = CStr(FileGetValue(CelleSiloNomeFile, "SiloSenzaCelle", "CelleSiloMateriale" & GetSiloString(ScompartiSiliPLC_a_PC(scomparto)), ""))
-'
+	'20160215
+	'            ListaSili(ScompartiSiliPLC_a_PC(scomparto)).materiale = CStr(FileGetValue(CelleSiloNomeFile, "SiloSenzaCelle", "CelleSiloMateriale" & GetSiloString(ScompartiSiliPLC_a_PC(scomparto)), ""))
+	'
         End If
     End If
 End Sub
@@ -1291,8 +1228,8 @@ End Function
 
 Public Function RicavaDestinazioniDaModuloSilo(NumeroModulo As Integer, StringaConfigurazione As String) As String
 
-Dim ContaPiu As Integer
-Dim i As Integer
+	Dim ContaPiu As Integer
+	Dim i As Integer
 
     For i = 1 To Len(StringaConfigurazione)
         If Mid(StringaConfigurazione, i, 1) <> "+" Then
@@ -1305,6 +1242,7 @@ Dim i As Integer
     Next i
 
 End Function
+
 Public Function ScompartiSiliPC_a_PLC(ByVal scomparto As Integer) As Integer   '20151202 NUOVA GESTIONE SILI DEPOSITO
     ScompartiSiliPC_a_PLC = -1
     Select Case scomparto
@@ -1491,79 +1429,6 @@ Public Sub AggiornaAnalogicaPesaCamion_change()
 End Sub
 '
 
-'20161221
-'Public Sub MessaggioCamionToPlus(DatoSilo As DatoSiloMsgPlusType, Optional NumeroTelescarico As Integer)
-'
-'    Dim separatore As String
-'    Dim messaggio As String
-'
-'    On Error GoTo Errore
-'
-'    separatore = "|"
-'
-'    With DatoSilo
-'        'conversione da numero scomparto a identificatore
-'        If Not AbilitaCelleCaricoSilo Then
-'            .DatoPlusNumeroSilo = ScompartoScaricoSiloNoCelle
-'        Else
-'            Select Case CelleSiloUltimoScaricoAperto
-'                Case 0
-'                    .DatoPlusNumeroSilo = "1"
-'                Case 11
-'                    .DatoPlusNumeroSilo = "D"
-'                Case 12
-'                    .DatoPlusNumeroSilo = "R"
-'                Case Else
-'                    .DatoPlusNumeroSilo = CStr(CelleSiloUltimoScaricoAperto)
-'            End Select
-'        End If
-'
-'        If (Not AbilitaTemperaturaSilo) Then
-'            .DatoPlusTemperatura = 0
-'        End If
-'
-'        If NumeroTelescarico <> 0 Then
-'            NumeroSiloLetturaTemperatura = NumeroTelescarico
-'        ElseIf NumeroSiloLetturaTemperatura = 0 Then
-'            NumeroSiloLetturaTemperatura = .DatoPlusNumeroSilo
-'        End If
-'
-'        If (ListaSili(NumeroSiloLetturaTemperatura).materiale <> "") And (Not AbilitaCelleCaricoSilo) Then
-'            .DatoPlusRicetta = ListaSili(NumeroTelescarico).materiale
-'            .DatoPlusIdRicetta = 0
-'        ElseIf (ListaSili(NumeroSiloLetturaTemperatura).materiale <> "") And (CelleSiloUltimoScaricoAperto > 0) And (CelleSiloUltimoScaricoAperto <= MAXNUMSILI) Then
-'            .DatoPlusRicetta = ListaSili(CelleSiloUltimoScaricoAperto).materiale
-''            .DatoPlusIdRicetta = ListaSili(CelleSiloUltimoScaricoAperto).idMateriale
-'            .DatoPlusIdRicetta = 0
-'        Else
-'            .DatoPlusRicetta = CP240.LblNomeRicDos(1).caption
-'            If (CP240.LblNomeRicDos(2).caption <> "") Then  '20150921
-'                .DatoPlusIdRicetta = CLng(CP240.LblNomeRicDos(2).caption)
-'            Else  '20150921
-'                .DatoPlusIdRicetta = 0  '20150921
-'            End If  '20150921
-'        End If
-'
-'        .DatoPlusPesoSilo = BilanciaPesaCamion.Peso  ' per prendere i decimali
-'
-'        'Formato stringa: Numero Silo-Valore Temperatura-ID Ricetta-Nome Ricetta-Peso silo
-'        messaggio = ""
-'        messaggio = messaggio + .DatoPlusNumeroSilo + separatore
-'        messaggio = messaggio + CStr(.DatoPlusTemperatura) + separatore
-'        messaggio = messaggio + CStr(.DatoPlusIdRicetta) + separatore
-'        messaggio = messaggio + .DatoPlusRicetta + separatore
-'        messaggio = messaggio + CStr(.DatoPlusPesoSilo) + separatore
-'        messaggio = messaggio + CStr(.DatoPlusPesoSilo)
-'
-'    End With
-'
-'    Call SendMessagetoPlus(PlusSendShowSILODISCHARGEMANAGER, messaggio)
-'
-'    Exit Sub
-'Errore:
-'    LogInserisci True, "SIL-006", CStr(Err.Number) + " [" + Err.description + "]"
-'End Sub
-'
 
 '20151210
 Public Sub RegistraScaricoSiloDB()
