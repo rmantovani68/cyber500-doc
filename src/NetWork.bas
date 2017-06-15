@@ -13797,24 +13797,6 @@ Debug.Assert (Not DEMO_VERSION)
     LogPath = GetPlantInfoString(PI_LOGPATH, "C:\FAYAT\Cybertronic 500\Log\")
     Call CreatePath(LogPath)
 
-    '20150409
-    'If Not ControlloChiaveHL Then
-    '    DEBUGGING = True
-    'Else
-    '    'Controllo esecuzione programma
-    '    'Tenta di creare un nuovo Mutex
-    '    hMutex = CreateMutex(ByVal 0&, 1, App.Title)
-    '
-    '    'Controlla se esiste già
-    '    If (Err.LastDllError = ERROR_ALREADY_EXISTS) Then
-    '        'Trovata più di una istanza
-    '        'Rilascia le risorse
-    '        ReleaseMutex hMutex
-    '        CloseHandle hMutex
-    '        End
-    '    End If
-    '
-    'End If
     DEBUGGING = (Not ControlloChiaveHL)
         
     'Controllo esecuzione programma
