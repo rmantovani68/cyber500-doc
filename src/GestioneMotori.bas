@@ -659,13 +659,6 @@ Public Sub SetMotoreRitorno(motore As Integer, valore As Boolean)
             Call AbilitaPulsFormInversione
         End If
         
-'        If motore = MotoreRotazioneEssiccatore And valore Then
-'            ListaTamburi(0).AvviamentoBruciatoreCaldo = False
-'        End If
-'
-'        If motore = MotoreRotazioneEssiccatore2 And valore Then
-'            ListaTamburi(1).AvviamentoBruciatoreCaldo = False
-'        End If
         With ListaMotori(motore)
             If (Not .presente) Or .SoloVisualizzazione Then
                 Exit Sub
