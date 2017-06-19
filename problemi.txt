@@ -11,3 +11,5 @@
 - RM: molte costanti non sono descritte nè enumerate, il che rende criptico il codice (potete fare a meno di criptarlo)
 - LG: la gestione dei cambiamenti delle condizioni che devono scatenare procedure (event-driven) non e' ben strutturata. Sicuramente c'e' il ciclo principale della form (VideataPrincipale) che fa tutte le sue belle cose,
       ma poi ogni variabile (spesso globalona) viene settata in un  mucchio di posti nel codice, cosa per la quale si perde il senso della valutazione delle stesse.
+- LG: Chiamate di funzioni inerenti una certa gestione in timer e task di gestioni completamente differenti. Ad esempio, in GestioneStoricoPredosaggio, viene gestito anche il log delle tramogge in torre, e viene chiamata la GestioneFillerizzazione, che con
+      i predosatori non ha niente a che vedere. Tutto questo fa perdere completamente la catena di controlli, o meglio costringe a valutare ogni funzione come parte di un unico blob di programmazione di cui si perde la logica e la causalita' degli eventi
