@@ -250,6 +250,40 @@ End Sub
 
 'CALCOLO DEL VALORE DA ATTRIBUIRE AL Set DEI PREDOSATORI.
 'IN BASE LE T/H (PORTATA PRESA IN 5 PUNTI) TENENDO PRESENTE L'ANDAMENTO DEL GRAFICO.
+'
+'
+' ---------------------------------------------------------------------------------
+' Per trovare la ascissa (y) di un punto (x,y) interpolato in modo lineare 
+' tra (x1,y1) e (x2,y2) nota l'ordinata (x), occorre applicare la seguente formula:
+'
+'       (x-x1)*(y2-y1)
+' y =  --------------- + y1
+'         (x2 - x1)  
+' 
+' quindi, dati : 
+'
+'     x          = portataTeorica
+'     valori()   = array di ordinate (x)
+'     percento() = array di ascisse (y)
+'     Dimensione = Dimensione Arrays (attualmente 5
+'
+'     ' ricavo i punti inferiori (x1,y1) e superiori (x2,y2)
+'     ' parto da 1 
+'     For i = 1 To Dimensione - 1
+'         IF x0 <= valori(i)
+'             x1 = valori(i-1)
+'             y1 = percento(i-1)
+'             x2 = valori(i)
+'             y2 = percento(i)
+'         end if
+'     Next i
+'
+'     y = CInt(((((x-x1)*(y2-y1))/(x2-x1))+y1))
+' 
+'     PredosatoreSetCalcolato = y
+' --------------------------------------------------------------------------------- 
+'
+
 Public Function PredosatoreSetCalcolato(ByRef Pred As PredosatoreType, portataTeorica As Double) As Integer
 
      With Pred.Grafico.curva(Pred.Grafico.curvaAttiva)
@@ -370,44 +404,6 @@ Dim NumPred As Integer
             
             Call ChkCoherenceMaterial(CInt(CP240.AdoPredosaggio.Recordset.Fields("IdPredosaggio")))   '20160405
             If (Not CP240.AdoPredosaggio.Recordset.EOF) Then
-                '20161212
-'                If NumeroPredosatoriRicInseriti > 0 Then
-'                    '20161212
-''                    NumPred = NumeroPredosatoriRicInseriti - 1
-''                    If ( _
-''                        CP240.AdoPredosaggio.Recordset.Fields(NumPred + 14) > 0 And _
-''                        ListaMotori(MotoreNastroRapJolly).presente And _
-''                        ListaPredosatoriRic(NumeroPredosatoriRicInseriti - 1).SuNastroJolly _
-''                    ) Then
-''                    '20161205
-'''                        If ( _
-'''                            ListaMotori(MotoreNastroRapJolly).ritorno And _
-'''                            NastroRapJollyVersoFreddo <> CBool(CP240.AdoPredosaggio.Recordset.Fields("InversioneRic4").Value) _
-'''                        ) Then
-''                        If ( _
-''                            ListaMotori(MotoreNastroRapJolly).ritorno And _
-''                            NastroRapJollyVersoFreddo <> CBool(CP240.AdoPredosaggio.Recordset.Fields("InversioneRic1").Value) _
-''                        ) Then
-''                        '20161205
-''                            'Non è possibile selezionare una ricetta se il verso del nastro jolly non è coerente con il nastro acceso
-''                            Call AllarmeTemporaneo("XX122", True)
-''                            Exit Sub
-''                        End If
-''
-''                        'NastroRapJollyVersoFreddo = CBool(CP240.AdoPredosaggio.Recordset.Fields("InversioneRic4").Value)   '20161205
-''                        NastroRapJollyVersoFreddo = CBool(CP240.AdoPredosaggio.Recordset.Fields("InversioneRic1").Value)   '20161205
-'
-'                    NastroRapJollyVersoFreddo = False
-'                    If (ListaMotori(MotoreNastroRapJolly).presente) Then
-'                        NastroRapJollyVersoFreddo = CBool(CP240.AdoPredosaggio.Recordset.Fields("InversioneRic1").Value)
-'                    End If
-'                    CP240.LblEtichetta(76).caption = IIf(NastroRapJollyVersoFreddo, "Freddo", "Caldo")
-'                    CP240.AniPushButtonDeflettore(24).Value = IIf(NastroRapJollyVersoFreddo, 2, 1)
-'                    '20161212
-'                    'End If
-'                    '
-'                End If
-                '20161212
                 For NumPred = 0 To NumeroPredosatoriInseriti - 1
                     PredosatoreCambiaSet False, NumPred, CP240.AdoPredosaggio.Recordset.Fields("SetPredosatore" & NumPred + 1), False
                 Next NumPred
@@ -580,24 +576,6 @@ Public Sub StartPredosatori_change()
 
         .CmdAvvPredPrimaDopoBruc.enabled = Not StartPredosatori
         .AniPushButtonDeflettore(1).enabled = StartPredosatori
-
-'20170110
-'        'LED DI START STOP PREDOSAGGIO (APButtonStartStopPred).
-'        If (StartPredosatori) Then
-'            'Predosaggio in Start.
-'            .PctPredosatoriWorking.BackColor = vbGreen
-''20151125
-'            .PctPredosatoriWorking.Picture = LoadResPicture("IDI_WORKING", vbResIcon)    'IDI_PREDOSATORE
-'        '    .PctPredosatoriWorking.Picture = LoadResPicture("IDI_MANUALE", vbResIcon)    'IDI_PREDOSATORE
-'
-'        Else
-'            'Predosaggio in Arresto.
-'            .PctPredosatoriWorking.BackColor = vbRed
-''20151125
-'            '.PctPredosatoriWorking.Picture = LoadResPicture("IDI_WORKING", vbResIcon)    'IDI_PREDOSATORE
-'            .PctPredosatoriWorking.Picture = LoadResPicture("IDI_MANUALE", vbResIcon)    'IDI_PREDOSATORE
-''
-'        End If
 
     End With
 
@@ -1423,20 +1401,6 @@ Public Sub GestioneConsumi()
     ' - Nastro in moto + peso sopra la soglia + (bilancia inclusa o abilitazione visualiz. portata)
     '##### Nastro elevatore inerti
 
-'20151104
-'    If (ListaMotori(MotoreNastroElevatoreFreddo).ritorno And PesoBilanciaInerti > sogliaInerti _
-'    And (InclusioneBilanciaNastroInerti Or VisualizzaPortataNastri)) Then
-'    If ( _
-'        ListaMotori(MotoreNastroElevatoreFreddo).ritorno And _
-'        RoundNumber(PesoBilanciaInerti, 0) > sogliaInerti And _
-'        (ConfigPortataNastroInerti > 0) _
-'    ) Then
-'        pesoBilancia = PesoBilanciaInerti / coeffTemp
-'        TotalizzazioneNastroAggr = TotalizzazioneNastroAggr + pesoBilancia
-'        CP240.LblConsumi(0).caption = RoundNumber(TotalizzazioneNastroAggr, 2)
-'    End If
-    
-'20151104
     If (ConfigPortataNastroInerti = schedaSiwarex) Or (ConfigPortataNastroInerti = analogica) Then
         'Gestione totalizzatore su PLC (+ preciso)
         TotalizzazioneNastroAggr = CP240.OPCData.items(PLCTAG_Totalizzatore_Nastro_Agg).Value
@@ -1483,16 +1447,6 @@ Public Sub GestioneConsumi()
 '
         
     '##### Nastro RAP ER (Essiccatore riciclato)
-'20151107
-'    If ( _
-'        ListaMotori(MotoreNastroTrasportatoreRiciclatoFreddo).ritorno And _
-'        PesoBilanciaRiciclatoParDrum > sogliaRAP And _
-'        (ConfigPortataNastroRiciclatoParDrum > 0) _
-'    ) Then
-'        pesoBilancia = PesoBilanciaRiciclatoParDrum / coeffTemp
-'        TotalizzazioneNastroRAPParDrum = TotalizzazioneNastroRAPParDrum + pesoBilancia
-'        CP240.LblConsumi(2).caption = RoundNumber(TotalizzazioneNastroRAPParDrum, 2)
-'    End If
     If (ConfigPortataNastroInerti = schedaSiwarex) Or (ConfigPortataNastroInerti = analogica) Then
         'Gestione totalizzatore su PLC (+ preciso)
         TotalizzazioneNastroRAPParDrum = CP240.OPCData.items(PLCTAG_Totalizzatore_Nastro_Ric_Par).Value

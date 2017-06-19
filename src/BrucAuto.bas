@@ -293,11 +293,28 @@ Private Sub GestSetRegBruciatore()
             .BA_PosizioneSetModulatore = 0
             Exit Sub
         End If
+		
     
         'Calcolo La Posizione Del Modulatore In Base Alla Curva Del Bruciatore Sull'apposito Combustibile
     
         combustibile = .SelezioneCombustibile
-    
+		
+		' ----------------------------------------------------------------------------------
+		' si può riscrivere così
+		'
+        ' .BA_PosizioneSetModulatore = 100#
+        ' For i = 0 To numero_punti_curva_portata
+		' 	If (.BA_portataTotaleSetPredVergERicicl < .BAP_RapportoPortataModulatore(combustibile, i)) Then
+		' 		if i>0 then
+		' 			.BA_PosizioneSetModulatore = (i-1)*10# + ((10# / (.BAP_RapportoPortataModulatore(combustibile, i) - .BAP_RapportoPortataModulatore(combustibile, i-1))) * 
+		'                                                            (.BA_portataTotaleSetPredVergERicicl - .BAP_RapportoPortataModulatore(combustibile, i-1)))
+		' 		else
+		' 			.BA_PosizioneSetModulatore = 0#
+		' 		end if
+		' 	end if
+		' next i
+		' ----------------------------------------------------------------------------------
+		    
         If (.BA_portataTotaleSetPredVergERicicl < .BAP_RapportoPortataModulatore(combustibile, 0)) Then
             .BA_PosizioneSetModulatore = 0#
         ElseIf (.BA_portataTotaleSetPredVergERicicl < .BAP_RapportoPortataModulatore(combustibile, 1)) Then
@@ -594,6 +611,25 @@ Public Sub GestSetRegBruciatore2()
     
         combustibile = .SelezioneCombustibile
     
+
+		' ----------------------------------------------------------------------------------
+		' si può riscrivere così
+		'
+        ' .BA_PosizioneSetModulatore = 100#
+        ' For i = 0 To numero_punti_curva_portata
+		' 	If (.BA_portataTotaleSetPredVergERicicl < .BAP_RapportoPortataModulatore(combustibile, i)) Then
+		' 		if i>0 then
+		' 			.BA_PosizioneSetModulatore = (i-1)*10# + ((10# / (.BAP_RapportoPortataModulatore(combustibile, i) - .BAP_RapportoPortataModulatore(combustibile, i-1))) 
+		'                                               * (.BA_portataTotaleSetPredVergERicicl - .BAP_RapportoPortataModulatore(combustibile, i-1)))
+		' 		else
+		' 			.BA_PosizioneSetModulatore = 0#
+		' 		end if
+		' 	end if
+		' next i
+		' ----------------------------------------------------------------------------------
+	
+	
+	
         If (.BA_portataTotaleSetPredVergERicicl < .BAP_RapportoPortataModulatore(combustibile, 0)) Then
             .BA_PosizioneSetModulatore = 0#
         ElseIf (.BA_portataTotaleSetPredVergERicicl < .BAP_RapportoPortataModulatore(combustibile, 1)) Then
