@@ -290,7 +290,7 @@ Private Sub GestSetRegBruciatore()
         .BA_portataTotaleSetPredVergERicicl = .BA_portataTotaleSetPredVergERicicl + ((.BA_portataTotaleSetPredVergERicicl * (diffPercDiTempTraTestESet + .BA_DiffPercDiTempSetEReale + IncrPercPrimaAccensione)) / 100#)
     
         If (.BA_portataTotaleSetPredVergERicicl <= 0) Then
-            .BA_PosizioneSetModulatore = 0
+            .frmgestionetimer = 0
             Exit Sub
         End If
 		
