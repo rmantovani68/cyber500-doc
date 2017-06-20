@@ -243,7 +243,7 @@ Begin VB.Form CP240
          Index           =   33
          Left            =   0
          TabIndex        =   1343
-         Top             =   600
+         Top             =   600q
          Width           =   975
       End
       Begin VB.Image ImgModulatore 

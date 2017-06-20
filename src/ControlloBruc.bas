@@ -982,8 +982,8 @@ Public Sub ControlliFiammaBruciatore(tamburo As Integer)
         'Controllo il blocco bruciatore.
         
 
-Dim i As Integer
-Dim PredRAPinRicetta As Integer
+		Dim i As Integer
+		Dim PredRAPinRicetta As Integer
         
         'TAMBURO PARALLELO
         If tamburo = 1 Then
