@@ -331,7 +331,7 @@ Public Sub GestioneAspirazioneFiltroInPreventilazione()
 End Sub
 ' 20160128
 Public Function ConversioneTemperatura(ValorePLC As Long, ByVal Temp As TemperatureEnum, ByVal fatto As Boolean) As Boolean
-Dim nuovoValore As Long
+	Dim nuovoValore As Long
 
     ConversioneTemperatura = False
 
@@ -366,11 +366,11 @@ End Function
 
 Public Function NormalizzazioneA100(valoreLetto As Integer, MassimoScala As Integer, MinimoScala As Integer, MassimoPLC As Integer, MinimoPLC As Integer) As Integer
 
-'Funzionamento:
-'La variabile ValoreLetto e' il valore da normalizzare
-'Le variabili MassimoScala e MinimoScala rappresentano il massimo e minimo valore che si desidera venga visualizzato nella grafica.
-'La variabile MassimoPLC rappresenta il valore massimo letto dal PLC
-'La variabile MinimoPLC rappresenta il valore minimo letto dal PLC
+	'Funzionamento:
+	'La variabile ValoreLetto e' il valore da normalizzare
+	'Le variabili MassimoScala e MinimoScala rappresentano il massimo e minimo valore che si desidera venga visualizzato nella grafica.
+	'La variabile MassimoPLC rappresenta il valore massimo letto dal PLC
+	'La variabile MinimoPLC rappresenta il valore minimo letto dal PLC
     
     Dim parziale As Single
 
@@ -395,11 +395,11 @@ End Function
 '20170323
 Public Function NormalizzazioneA100Dbl(valoreLetto As Double, MassimoScala As Double, MinimoScala As Double, MassimoPLC As Double, MinimoPLC As Double) As Double
 
-'Funzionamento:
-'La variabile ValoreLetto e' il valore da normalizzare
-'Le variabili MassimoScala e MinimoScala rappresentano il massimo e minimo valore che si desidera venga visualizzato nella grafica.
-'La variabile MassimoPLC rappresenta il valore massimo letto dal PLC
-'La variabile MinimoPLC rappresenta il valore minimo letto dal PLC
+	'Funzionamento:
+	'La variabile ValoreLetto e' il valore da normalizzare
+	'Le variabili MassimoScala e MinimoScala rappresentano il massimo e minimo valore che si desidera venga visualizzato nella grafica.
+	'La variabile MassimoPLC rappresenta il valore massimo letto dal PLC
+	'La variabile MinimoPLC rappresenta il valore minimo letto dal PLC
     
     Dim parziale As Double
 
@@ -488,14 +488,14 @@ End Sub
 
 
 Public Sub GestioneLivelliFiltroDMR()
-'E22.1   Livello min. SX TSF
-'E22.2   Livello med. SX TSF
+	'E22.1   Livello min. SX TSF
+	'E22.2   Livello med. SX TSF
 
-'E22.5   Livello min. DX TFF
-'E23.4   Livello med. DX TSF
+	'E22.5   Livello min. DX TFF
+	'E23.4   Livello med. DX TSF
 
-'E36.4   Livello max. SX TSF
-'E46.3   Livello max. DX TSF
+	'E36.4   Livello max. SX TSF
+	'E46.3   Livello max. DX TSF
 
     'Dim nuovoLivello As Long
 

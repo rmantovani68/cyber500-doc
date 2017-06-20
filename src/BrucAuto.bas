@@ -620,7 +620,7 @@ Public Sub GestSetRegBruciatore2()
 		' 	If (.BA_portataTotaleSetPredVergERicicl < .BAP_RapportoPortataModulatore(combustibile, i)) Then
 		' 		if i>0 then
 		' 			.BA_PosizioneSetModulatore = (i-1)*10# + ((10# / (.BAP_RapportoPortataModulatore(combustibile, i) - .BAP_RapportoPortataModulatore(combustibile, i-1))) 
-		'                                               * (.BA_portataTotaleSetPredVergERicicl - .BAP_RapportoPortataModulatore(combustibile, i-1)))
+		'                                                    * (.BA_portataTotaleSetPredVergERicicl - .BAP_RapportoPortataModulatore(combustibile, i-1)))
 		' 		else
 		' 			.BA_PosizioneSetModulatore = 0#
 		' 		end if
