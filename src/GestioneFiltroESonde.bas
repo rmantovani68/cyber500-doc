@@ -733,11 +733,6 @@ Public Sub SiloFillerLivello(silo As Integer, Value As Long)
         If PredosatoriAccesi(False, -1) Then
             If (TimeoutArrestoLivelliTSF = 0) Then
                     Call ErroreLivelloAltoFiller
-'20150831
-'                Else
-'
-'                FrmGestioneTimer.TimerArrestoPredLivelliAltiFiller.Interval = TimeoutArrestoLivelliTSF * 1000
-'                FrmGestioneTimer.TimerArrestoPredLivelliAltiFiller.enabled = True
 '
                 End If
         End If
@@ -776,9 +771,9 @@ Public Sub DepressioneFiltro_change()
 
     On Error GoTo Errore
 
-'&HFF = rosso
-'&HE0E0E0 = grigio
-'&HFFFF00 = azzurro
+	'&HFF = rosso
+	'&HE0E0E0 = grigio
+	'&HFFFF00 = azzurro
 
     CP240.LblDepressioneBruc(1).caption = DepressioneFiltro
 

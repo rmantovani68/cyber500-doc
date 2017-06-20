@@ -1262,19 +1262,7 @@ Private Sub imgPulsanteForm_Click(Index As Integer)
                 Call NMSetMotoreUscitaInv(MotoreNastroCollettore3, False)
             End If
                         
-'            If almenounostart Then      '20150619
             If (TimerProvaPredosatori.enabled) And ((PredosatoriVerginiAccesi And SSTabTara.Tab = 0) Or (PredosatoriRiciclatiAccesi And SSTabTara.Tab = 1)) Then
-'
-'                If AbilitaInversioneLanciatore Then
-'                    Call NMSetMotoreUscitaInv(MotoreNastroElevatoreFreddo, False)
-'                    Call NMSetMotoreUscitaInv(MotoreVaglioInerti, False)
-'                    Call NMSetMotoreUscitaInv(MotoreNastroLanciatore, False)
-'                End If
-'                Call NMSetMotoreUscita(MotoreNastroElevatoreFreddo, False)
-'                Call NMSetMotoreUscitaInv(MotoreNastroCollettore1, False)
-'                Call NMSetMotoreUscitaInv(MotoreNastroCollettore2, False)
-'                Call NMSetMotoreUscitaInv(MotoreNastroCollettore3, False)
-'
                 Call NMSetMotoreUscita(MotoreNastroCollettore1, False)
                 Call NMSetMotoreUscita(MotoreNastroCollettore2, False)
                 Call NMSetMotoreUscita(MotoreNastroCollettore3, False)
@@ -1303,7 +1291,6 @@ Private Sub imgPulsanteForm_Click(Index As Integer)
                 CP240.ImgPredRic(predosatore).enabled = True
             Next predosatore
 
-'            CP240.CmdManAutoPred.enabled = True '20151127
             FrmTestPredosatoriVisible = False
 
             CP240.OPCData.items(PLCTAG_NM_TestPredosatori).Value = False
@@ -1465,10 +1452,6 @@ End Sub
 
 Private Sub CheckNEF_Click()
 
-    '20160107
-    'If (ListaMotori(MotoreNastroElevatoreFreddo).ritorno Or ListaMotori(MotoreNastroLanciatore).ritorno Or ListaMotori(MotoreNastroCollettore1).ritorno Or ListaMotori(MotoreNastroCollettore2).ritorno) Then
-    '    CheckNEF.Value = 0
-    'End If
     If (AbilitaInversioneLanciatore And (ListaMotori(MotoreNastroElevatoreFreddo).ritorno Or ListaMotori(MotoreNastroLanciatore).ritorno)) Then
         CheckNEF.Value = 0
     End If
@@ -1481,8 +1464,6 @@ Private Sub CheckNEF_Click()
 End Sub
 
 Public Sub ShowMe(Modo As Integer, ByRef parent As Form)
-
-'    CP240.CmdManAutoPred.enabled = False   '20151127
 
     Me.Show Modo, parent
 
@@ -1532,10 +1513,6 @@ Private Sub Form_Load()
 
     CheckNEF.caption = LoadXLSString(441)
 
-    '20160107
-    'If AbilitaInversioneCollettore Or AbilitaInversioneLanciatore Then
-    '    CheckNEF.enabled = Not (ListaMotori(MotoreNastroElevatoreFreddo).ritorno Or ListaMotori(MotoreNastroLanciatore).ritorno Or ListaMotori(MotoreNastroCollettore1).ritorno Or ListaMotori(MotoreNastroCollettore2).ritorno)
-    'End If
     Dim abilita As Boolean
     abilita = True
     If AbilitaInversioneLanciatore Then

@@ -13,3 +13,11 @@
       ma poi ogni variabile (spesso globalona) viene settata in un  mucchio di posti nel codice, cosa per la quale si perde il senso della valutazione delle stesse.
 - LG: Chiamate di funzioni inerenti una certa gestione in timer e task di gestioni completamente differenti. Ad esempio, in GestioneStoricoPredosaggio, viene gestito anche il log delle tramogge in torre, e viene chiamata la GestioneFillerizzazione, che con
       i predosatori non ha niente a che vedere. Tutto questo fa perdere completamente la catena di controlli, o meglio costringe a valutare ogni funzione come parte di un unico blob di programmazione di cui si perde la logica e la causalita' degli eventi
+	  
+problematiche relative al nostro impegno in Marini
+--------------------------------------------------
+- RM: Siamo lasciati a noi stessi, nessun coordinamento operativo da parte di una figura responsabile del nostro operato
+- RM: Inizialmente abbiamo 'imparato' l'ambiente di lavoro, poi siamo stati utilizzati per compiti operativi, poi abbiamo iniziato l'analisi e l'implementazione di un progetto di impianto generico 
+      (plcserver / manager / ui), poi siamo stati utilizzati per documentare il software esistente (codice visual basic 6).
+- RM: non abbiamo praticamente contatti con i componenti dell'ufficio software, tutti impegnati in attività di assistenza e di supporto ai collaudi, e quasi sempre in emergenza.
+
