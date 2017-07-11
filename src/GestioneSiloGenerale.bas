@@ -191,8 +191,8 @@ Public Sub CelleSiloValoreLetto_change(silo As Integer)
 '        End If
 '    End If
 '
-Exit Sub
-Errore:
+	Exit Sub
+	Errore:
     LogInserisci True, "SIL-002", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -254,7 +254,7 @@ Public Sub VisualizzaSiloAttivo(usaFrmSilo As Boolean)
     Next silo
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "SIL-002", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -289,7 +289,7 @@ Public Sub ValoreTempSilo_change(silo As Integer, temperatura As Long)
     End Select
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "SIL-003", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -300,19 +300,6 @@ Public Sub SiloGenerale()
     If Not ProgrammaAvviato Then
         Exit Sub
     End If
-
-'20150420
-'    'Solo se ho il silo s7
-'    If (InclusioneSiloS7 Or InclusioneSilo2S7) And (VerificareBenna Or _
-'        (Not CP240.OPCData.items(PLCTAG_SILOGEN_MANUALE).Value And Not CP240.OPCData.items(PLCTAG_SILOGEN_AUTOMATICO).Value) Or _
-'        (Not CP240.OPCData.items(PLCTAG_DB307_SyncroOn).Value)) Then
-'            CP240.Image1(10).Visible = Not CP240.Image1(10).Visible
-'            SiloS7Automatico = False
-'            SiloS7Manuale = False
-'            CP240.CmdAutoManSiloS7.Picture = LoadResPicture("IDI_ESCLAMA", vbResIcon)
-'    Else
-'        CP240.Image1(10).Visible = False
-'    End If
 
 
     If ( _
@@ -336,13 +323,6 @@ Public Sub SiloGenerale()
     'Se è selezionato il silo Diretto devo segnalarlo all'operatore
     If (DestinazioneSilo = 11) And ListaSili(11).RitornoSelezionato Then
         If ConfigSilo <> "D" Then
-            'Lampeggio VERDE/GIALLO
-'20161014
-'            If (CP240.ImageSilo(11).Picture = CP240.PctSilo(1).Picture) Then
-'                CP240.ImageSilo(11).Picture = CP240.PctSilo(2).Picture
-'            Else
-'                CP240.ImageSilo(11).Picture = CP240.PctSilo(1).Picture
-'            End If
                         
             If (CP240.ImageSilo(11).Picture = LoadResPicture("IDB_SILOON", vbResBitmap)) Then
                 CP240.ImageSilo(11).Picture = LoadResPicture("IDB_SILOSELEZIONATO", vbResBitmap)
@@ -362,7 +342,7 @@ Public Sub SiloGenerale()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "SIL-004", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -469,7 +449,7 @@ Public Sub LetturaTemperaturaSilo_change()
 
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "SIL-005", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -550,7 +530,7 @@ Public Sub MessaggioSiloToPlus(DatoSilo As DatoSiloMsgPlusType, Optional NumeroT
     Call SendMessagetoPlus(PlusSendShowSILODISCHARGEMANAGER, messaggio)
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "SIL-006", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -878,7 +858,7 @@ Public Sub PortinaScaricoSilo_Change(NumeroSiloScaricato As Integer)
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "SIL-007", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -934,7 +914,7 @@ Public Sub SegnalazioneScaricoBennaNavetta(InScarico As Boolean)
     End If
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "SIL-008", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -969,7 +949,7 @@ Public Sub SegnalazioneBennaSu(BennaSu As Boolean)
     End If
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "SIL-009", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1014,7 +994,7 @@ Public Sub LivelloAltoScomparto_change(indice As Integer)
     Call VisualizzaSiloPieno(indice)
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "SIL-010", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1027,7 +1007,7 @@ Public Sub TelescarichiSilo_Change(silo As Integer)
     End If
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "SIL-011", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 Public Sub CaricoSilo_change(silo As Integer)
@@ -1215,7 +1195,7 @@ End Function
 
 Public Function CalcolaNumeroModuliSilo(Stringa) As Integer
 
-Dim i As Integer
+	Dim i As Integer
     
     CalcolaNumeroModuliSilo = 1
     For i = 1 To Len(Stringa)
@@ -1534,7 +1514,7 @@ Public Function GetIdDosaggioLOGScarico(IdDosaggioAct As Integer) As Integer
     End With
         
     Exit Function
-Errore:
+	Errore:
     rs.Close
     GetIdDosaggioLOGScarico = -1
 End Function
@@ -1575,7 +1555,7 @@ Public Function GetDescrFromIdDosaggioLOG(IdDosaggioAct As Double) As String
     End With
         
     Exit Function
-Errore:
+	Errore:
     rs.Close
     GetDescrFromIdDosaggioLOG = LoadXLSString(1523)
 End Function
@@ -1604,7 +1584,7 @@ Public Function GetIdDosaggioLogFromIdDosaggio(IdDosaggioAct As Double) As Integ
     End With
         
     Exit Function
-Errore:
+	Errore:
     rs.Close
     
 End Function

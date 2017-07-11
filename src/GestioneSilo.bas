@@ -516,7 +516,7 @@ Public Sub SiloS7Leggi(forza As Boolean)
     SiloS7Leggi_Fatta = True
 
     Exit Sub
-ERRORE:
+	ERRORE:
     LogInserisci True, "SS7-001", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -535,7 +535,7 @@ Public Sub SiloS7Scrivi()
     CP240.OPCData.SOUpdate
 
     Exit Sub
-ERRORE:
+	ERRORE:
     LogInserisci True, "SS7-002", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -627,7 +627,7 @@ Private Sub SiloS7Position_changed()
     Dim CentroNavettaY As Integer
     Dim SoloAsseX As Boolean
                       
-On Error GoTo ERRORE
+	On Error GoTo ERRORE
 
     SoloAsseX = (QuotaMinGraficoSiloS7AsseY = 0 And QuotaMaxGraficoSiloS7AsseY = 0)
 
@@ -695,7 +695,7 @@ On Error GoTo ERRORE
     
     Exit Sub
 
-ERRORE:
+	ERRORE:
 
 End Sub
 
@@ -1063,7 +1063,7 @@ Public Function Linearizza(valore As Double, K1min As Double, K2max As Double, L
     Dim DiffK As Double
     Dim DiffLim As Double
 
-On Error GoTo ERRORE
+	On Error GoTo ERRORE
 
     DiffK = K1min - K2max
     
@@ -1084,7 +1084,7 @@ On Error GoTo ERRORE
         
     Exit Function
 
-ERRORE:
+	ERRORE:
 
 End Function
 

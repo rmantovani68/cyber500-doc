@@ -580,7 +580,7 @@ Public Sub VagliatoNonVagliato_change()
 
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-001 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -630,7 +630,7 @@ Public Sub DeflTramScivScarBilRic_change()
     Call Grafica_DeflTramScivScarBilRic
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-002 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -648,7 +648,7 @@ Public Sub Grafica_DeflTramScivScarBilRic()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-003", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -666,7 +666,7 @@ Public Sub ScambioFillerRecuperoInApporto_Change()
     End If
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-004 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -712,7 +712,7 @@ On Error GoTo Errore
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-005 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -774,7 +774,7 @@ Public Sub ValorePortinaBitume_change(portinaBitume As Integer)
     End If
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-007 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -787,7 +787,7 @@ Public Sub ContalitriErroreTimeOutAvvio_change()
 '    End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-008 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -800,7 +800,7 @@ Public Sub ContalitriErroreTimeOutArresto_change()
 '    End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-009 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -874,7 +874,7 @@ Public Sub MescolazioneInCorso_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-010 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -925,7 +925,7 @@ Public Function CalcoloTotaleImpasto() As Double
     
     Exit Function
 
-Errore:
+	Errore:
     LogInserisci True, "DOS-011 ", CStr(Err.Number) + " [" + Err.description + "]"
     
 End Function
@@ -958,7 +958,7 @@ On Error GoTo Errore
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-012 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -985,13 +985,13 @@ On Error GoTo Errore
     Call AggiornaTemperaturaTorre
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-013 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
 Public Sub RiempiBufferAggregatiFiller()
-Dim indice As Integer
-Dim nomeTr As String
+	Dim indice As Integer
+	Dim nomeTr As String
         
     SommaAggregati = 0
     SommaFiller = 0
@@ -1075,7 +1075,7 @@ Public Sub RiempiBufferViatopScarMixer()
             End If
         End If
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-014 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 Public Sub AzzeraBufferViatopScarMixer()
@@ -1160,13 +1160,13 @@ Public Sub BitumeInSpruzzatura_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-015 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
 Public Sub SetDosaggioScarico()
 
-On Error GoTo Errore
+	On Error GoTo Errore
 
     With CP240
 
@@ -1213,7 +1213,7 @@ On Error GoTo Errore
     End With
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-016 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1337,7 +1337,7 @@ Public Sub ScaricoAggregati_change()
     FrmCalcolaImpasti.imgPulsanteForm(3).enabled = Not (ComandoScaricoAggregati Or (BufferAbilitaCicloRC(1) And RAPInScarico))
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-017 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1356,7 +1356,7 @@ Public Sub PortinaNV_change()
     End With
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-018 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1374,7 +1374,7 @@ Public Sub PortinaAgg_change(portina As Integer)
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-019 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1393,7 +1393,7 @@ Public Sub PesataRAP_Change()
     End If
     '20161205
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-020 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1403,7 +1403,7 @@ Public Sub BilanciaInertiPortinaAperta_change()
     On Errore GoTo Errore
         
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-021 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1412,7 +1412,7 @@ Public Sub BilanciaInertiPortinaChiusa_change()
     On Errore GoTo Errore
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-022 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1438,7 +1438,7 @@ Public Sub ScaricoFiller_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-023 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1447,7 +1447,7 @@ Public Sub BilanciaFillerPortinaChiusa_change()
     On Error GoTo Errore
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-024 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1521,7 +1521,7 @@ Public Sub RAPSiwaInPesata_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-025", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1647,7 +1647,7 @@ Public Sub RichiamoRicettaDos()
     Next i
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-026 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1728,7 +1728,7 @@ Public Sub RiempieBufferPortine(rs As adodb.Recordset, ByRef arrayPortine() As R
     End With
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-027 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1811,7 +1811,7 @@ Public Sub CfgPortineScaricoAgg()
     End With
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-028 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1891,7 +1891,7 @@ Public Sub GraficaTempoMescolazione()
     End If
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-029 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1947,7 +1947,7 @@ Public Sub CalcoloProgressImpasto()
     '
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-030 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1961,7 +1961,7 @@ Public Sub FuoriTollBitume_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-031 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1974,7 +1974,7 @@ Public Sub FuoriTollAggregati_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-032 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -1987,7 +1987,7 @@ Public Sub FuoriTollFiller_change()
     End If
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-033 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -2000,7 +2000,7 @@ Public Sub FuoriTollRiciclato_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-034 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -2013,7 +2013,7 @@ Public Sub FuoriTollViatop_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-035 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -2026,7 +2026,7 @@ Public Sub FuoriTollContalitri_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-036 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -2095,7 +2095,7 @@ Public Sub TempoMescolazione_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-037 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -2114,7 +2114,7 @@ Public Sub AggiornaGraficaScaricoMescolatore()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-038 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -2163,7 +2163,7 @@ Public Sub MescolatoreAperto_change()
     Call AggiornaGraficaScaricoMescolatore
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-039 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -2227,7 +2227,7 @@ Public Sub MescolatoreChiuso_change()
     FronteScMescMemManuali = MescolatoreChiuso
 '
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-040 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -2263,7 +2263,7 @@ Public Sub SommaComponenti()
     Dim TotNettoViatopScarMixer2 As Double
     '20160426
     
-On Error GoTo ErrorHandler
+	On Error GoTo ErrorHandler
 
     IdDosaggioLOG_Memo = CP240.AdoDosaggioScarico.Recordset.Fields("IdLOG").Value
     
@@ -2337,7 +2337,6 @@ On Error GoTo ErrorHandler
         BufferAddKgSacchi(3) = BufferAddKgSacchi(2)
                         
 '20151007
-'        If GestionePesoSacchi And CP240.AdoDosaggio.Recordset.Fields("additivo-sacchi").Value Then
         If GestionePesoSacchi And CP240.AdoDosaggio.Recordset.Fields("AdditivoSacchi").Value Then
 '
             consAddSacchi = Round(BufferAddKgSacchi(3) / CP240.AdoDosaggio.Recordset.Fields("PesoSacco").Value, 0)
@@ -2501,23 +2500,9 @@ On Error GoTo ErrorHandler
         End If
     End If
         
-'20161027
-'    If PlcSchiumato.Abilitazione Then
-'        '20160426
-'        'TotaleProdotto = RoundNumber(StoricoViatop + AppoggioBitSpruzzato + TotNettiInerti + TotNettiFiller + consbitume(5), 0)
-'        TotaleProdotto = RoundNumber(StoricoViatop + AppoggioBitSpruzzato + TotNettiInerti + TotNettiFiller + consbitume(5) + TotNettoViatopScarMixer1 + TotNettoViatopScarMixer2, 0)
-'        '20160426
-'    Else
-'        '20160426
-'        'TotaleProdotto = RoundNumber(StoricoViatop + AppoggioBitSpruzzato + TotNettiInerti + TotNettiFiller + consbitume(3) + consAcqua, 0)
-'        TotaleProdotto = RoundNumber(StoricoViatop + AppoggioBitSpruzzato + TotNettiInerti + TotNettiFiller + consbitume(3) + consAcqua + TotNettoViatopScarMixer1 + TotNettoViatopScarMixer2, 0)
-'        '20160426
-'    End If
     TotaleProdotto = RoundNumber(CalcoloTotaleImpasto, 0)
 '
     
-'20160412
-'    CP240.OPCData.items(PLCTAG_SILI_HMI_ImpastoNetto_Ton).Value = TotaleProdotto / 1000 '20151130    NUOVA GESTIONE SILI DEPOSITO
 
     With rstStoricoImpasto
         Set .ActiveConnection = DBcon
@@ -2854,13 +2839,13 @@ On Error GoTo ErrorHandler
     '
     
     Exit Sub
-ErrorHandler:
+	ErrorHandler:
     LogInserisci True, "DOS-041 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
 Public Sub TimeOutDosaggio()
-Dim i As Integer
-Dim SchiumatoAttivo As Boolean
+	Dim i As Integer
+	Dim SchiumatoAttivo As Boolean
 
     On Error GoTo Errore
 
@@ -2941,7 +2926,7 @@ Dim SchiumatoAttivo As Boolean
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-042 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3054,8 +3039,8 @@ Public Sub SetRiduzioneImpasto(nuovaRiduzione As Integer)
 End Sub
 
 Public Sub ControlloLivelliAltiTramogge()
-Dim i As Integer
-Dim Livello As Integer
+	Dim i As Integer
+	Dim Livello As Integer
 
     On Error GoTo Errore
 
@@ -3148,7 +3133,7 @@ Dim Livello As Integer
     End With
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-043 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3166,7 +3151,7 @@ Public Sub DeflettoreNonPassa_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-044 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3183,7 +3168,7 @@ Public Sub GestioneBitumeGravita()
     End If
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-045 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3693,7 +3678,7 @@ Public Function ControlloCondizioniStartDosaggio() As Boolean
             
     Exit Function
 
-Errore:
+	Errore:
 
     AllarmeCicalino = True
     Call ShowMsgBox(ControllareRiprovare, vbOKOnly, vbExclamation, -1, -1, True)
@@ -3735,7 +3720,7 @@ Public Sub ScaricoBitume_change(gravita As Boolean)
     End With
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-047 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3745,7 +3730,7 @@ Public Sub ComandoScaricoMixer_change()
     On Error GoTo Errore
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-048 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3779,7 +3764,7 @@ Public Sub CalcolaTempoCiclo()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-049 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3789,7 +3774,7 @@ Public Sub BitumeDaCircuitoMarini_change()
     On Error GoTo Errore
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-050 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3798,7 +3783,7 @@ Public Sub BitumeDaCircuitoEsterno_change()
     On Error GoTo Errore
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-051 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3830,18 +3815,18 @@ Public Sub GestioneDosaggioBitumeEsterno()
         Case 1
             'circuito esterno selezionato
             CP240.imgValvolaCisterne(cstIndiceImmagineValvola3VieBitumeEsterno).Picture = LoadPicture(GraphicPath + "Valvola_vert_off_3_vie.bmp")
-Debug.Print "CYBERTRONIC_PLUS GestioneDosaggioBitumeEsterno"
-        Case 2
-            'circuito Marini selezionato
-            CP240.imgValvolaCisterne(cstIndiceImmagineValvola3VieBitumeEsterno).Picture = LoadPicture(GraphicPath + "Valvola_vert_on_3_vie.bmp")
-Debug.Print "CYBERTRONIC_PLUS GestioneDosaggioBitumeEsterno"
-        Case Else
-            'allarme: entrambi i finecorsa premuti
-            CP240.imgValvolaCisterne(cstIndiceImmagineValvola3VieBitumeEsterno).Picture = LoadPicture(GraphicPath + "Valvola_rossa.bmp")
-    End Select
+	Debug.Print "CYBERTRONIC_PLUS GestioneDosaggioBitumeEsterno"
+			Case 2
+				'circuito Marini selezionato
+				CP240.imgValvolaCisterne(cstIndiceImmagineValvola3VieBitumeEsterno).Picture = LoadPicture(GraphicPath + "Valvola_vert_on_3_vie.bmp")
+	Debug.Print "CYBERTRONIC_PLUS GestioneDosaggioBitumeEsterno"
+			Case Else
+				'allarme: entrambi i finecorsa premuti
+				CP240.imgValvolaCisterne(cstIndiceImmagineValvola3VieBitumeEsterno).Picture = LoadPicture(GraphicPath + "Valvola_rossa.bmp")
+		End Select
 
-    Exit Sub
-Errore:
+		Exit Sub
+	Errore:
     LogInserisci True, "DOS-052 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3877,7 +3862,7 @@ Public Sub BilAgg_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-053 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3902,7 +3887,7 @@ Public Sub BilTamponeRiciclato_change()
     End With
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-054 ", CStr(Err.Number) + " [" + Err.description + "]"
     
 End Sub
@@ -3943,7 +3928,7 @@ Public Sub BilFiller_change()
     End If
         
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-055 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -3983,7 +3968,7 @@ Public Sub BilRAP_Change()
 
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-056 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -4016,7 +4001,7 @@ Public Sub BilRAPSiwa_change()
     '
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-057 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -4051,7 +4036,7 @@ Public Sub BilBit_change()
     End If
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-058 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -4454,11 +4439,6 @@ Public Sub InvioFormulaDosaggio()
             Next indice
         End If
 
-        '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        'Non ancora implementati
-        '.OPCData.Items(PLCTAG_ResB3Scarico).value = CSng(ValoreTODO)      'Residuo bitume 3 in scarico
-        '.OPCData.Items(PLCTAG_ResB4Scarico).value = CSng(ValoreTODO)      'Residuo bitume 4 in scarico
-        '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
 	errorPosition = 6
 
@@ -4475,11 +4455,6 @@ Public Sub InvioFormulaDosaggio()
             .OPCData.items(PLCTAG_ResB2Pesata).Value = CSng(0)
         End If
         
-        '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        'Non ancora implementati
-        '.OPCData.Items(PLCTAG_ResB3Pesata).value = CSng(ValoreTODO)      'Residuo bitume 3 in pesata
-        '.OPCData.Items(PLCTAG_ResB4Pesata).value = CSng(ValoreTODO)      'Residuo bitume 4 in pesata
-        '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             
         'Tolleranza Bil. 3 bitume
         .OPCData.items(PLCTAG_TollBil3B1).Value = CSng(.AdoDosaggioNext.Recordset.Fields("TolleranzaBitume").Value)
@@ -4924,7 +4899,7 @@ Public Sub InvioFormulaDosaggio()
     End With
 
     Exit Sub
-Errore:
+	Errore:
     '20150604
     'LogInserisci True, "DOS-059", CStr(Err.Number) + " [" + Err.description + "]"
     LogInserisci True, "DOS-059 ", CStr(Err.Number) + " [" + Err.description + "] - error posizion " + CStr(errorPosition)
@@ -4933,16 +4908,16 @@ End Sub
 
 
 Private Sub CalcolaVelocitaInvertPesateFiller(KgF1 As Double, KgF2 As Double, KgF3 As Double)
-'P-P090108_SpecificheTecniche Inverter Pesate Filler.pdf
-Dim TempoPesataF1 As Double
-Dim TempoPesataF2 As Double
-Dim TempoPesataF3 As Double
-Dim TempoTotalePesateFiller As Double
-Dim RiduzioneVelocitaPesate As Integer
-Dim VelocitaCocleaFiltro As Integer
-Dim VelocitaCocleaFiller1 As Integer
-Dim VelocitaCocleaFiller2 As Integer
-Dim VelocitaCocleaFiller3 As Integer
+	'P-P090108_SpecificheTecniche Inverter Pesate Filler.pdf
+	Dim TempoPesataF1 As Double
+	Dim TempoPesataF2 As Double
+	Dim TempoPesataF3 As Double
+	Dim TempoTotalePesateFiller As Double
+	Dim RiduzioneVelocitaPesate As Integer
+	Dim VelocitaCocleaFiltro As Integer
+	Dim VelocitaCocleaFiller1 As Integer
+	Dim VelocitaCocleaFiller2 As Integer
+	Dim VelocitaCocleaFiller3 As Integer
     
     If KgF1 > 0 Then
         TempoPesataF1 = (KgF1 - AnticipoPesataFineFiller1) / PortataMassimaFiller1 + AnticipoPesataFineFiller1 / (PortataMassimaFiller1 * RiduzioneVelocitaPesataFineFiller1 / 100)
@@ -5000,10 +4975,10 @@ End Sub
 
 Public Sub CalcolaVelocitaInvertPesateFillerManuale()
 'P-P090108_SpecificheTecniche Inverter Pesate Filler.pdf
-Dim VelocitaCocleaFiltro As Integer
-Dim VelocitaCocleaFiller1 As Integer
-Dim VelocitaCocleaFiller2 As Integer
-Dim VelocitaCocleaFiller3 As Integer
+	Dim VelocitaCocleaFiltro As Integer
+	Dim VelocitaCocleaFiller1 As Integer
+	Dim VelocitaCocleaFiller2 As Integer
+	Dim VelocitaCocleaFiller3 As Integer
     
     If (DEMO_VERSION) Then
         Exit Sub
@@ -5040,11 +5015,11 @@ End Sub
 
 
 Public Sub AggiornaVelocitaInvertPesateFiller(KgF1 As Double, KgF2 As Double, KgF3 As Double)
-'P-P090108_SpecificheTecniche Inverter Pesate Filler.pdf
-Dim VelocitaCocleaFiltro As Integer
-Dim VelocitaCocleaFiller1 As Integer
-Dim VelocitaCocleaFiller2 As Integer
-Dim VelocitaCocleaFiller3 As Integer
+	'P-P090108_SpecificheTecniche Inverter Pesate Filler.pdf
+	Dim VelocitaCocleaFiltro As Integer
+	Dim VelocitaCocleaFiller1 As Integer
+	Dim VelocitaCocleaFiller2 As Integer
+	Dim VelocitaCocleaFiller3 As Integer
 
     If DosaggioInCorso Then
         
@@ -5307,10 +5282,10 @@ End Sub
 
 
 Public Sub GestioneStatoDosaggio()
-'Dim valoreBool As Boolean
-Dim DosaggioInCorsoTMP As Boolean
-Dim CambioRicettaPrenotatoTMP As Boolean
-Dim statodosaggiotemp As Integer '20161020
+	'Dim valoreBool As Boolean
+	Dim DosaggioInCorsoTMP As Boolean
+	Dim CambioRicettaPrenotatoTMP As Boolean
+	Dim statodosaggiotemp As Integer '20161020
     
     If (DEMO_VERSION) Then
         DosaggioInCorsoTMP = False
@@ -5607,30 +5582,16 @@ Public Sub LeggiNettiResiduiCP240()
         End If
     End If
 
-'20160223
-'    'N.V.
-'    If CP240.AdoDosaggio.Recordset.Fields("AggregatoNV").Value > 0 Then
-        NettoAgg(7) = CInt(CP240.OPCData.items(PLCTAG_NettoNV).Value)
-        VoloAggregati(7) = Round(CP240.OPCData.items(PLCTAG_ResiduoNV).Value, 1)
-        If FrmNetti.Visible Then
-            FrmNetti.LblNettoAgg(7).caption = NettoAgg(7)
-            FrmNetti.LblResAgg(7).caption = CStr(VoloAggregati(7))
-            FrmNetti.LblNettiStampaA(7).caption = NettoAggregatiBuffer(7)
-        End If
-'    Else
-'        NettoAgg(7) = 0
-'        VoloAggregati(7) = 0
-'        If FrmNetti.Visible Then
-'            FrmNetti.LblNettoAgg(7).caption = "0"
-'            FrmNetti.LblResAgg(7).caption = "0"
-'            FrmNetti.LblNettiStampaA(7).caption = "0"
-'        End If
-'    End If
+	NettoAgg(7) = CInt(CP240.OPCData.items(PLCTAG_NettoNV).Value)
+	VoloAggregati(7) = Round(CP240.OPCData.items(PLCTAG_ResiduoNV).Value, 1)
+	If FrmNetti.Visible Then
+		FrmNetti.LblNettoAgg(7).caption = NettoAgg(7)
+		FrmNetti.LblResAgg(7).caption = CStr(VoloAggregati(7))
+		FrmNetti.LblNettiStampaA(7).caption = NettoAggregatiBuffer(7)
+	End If
     
 '20170222
     For i = LBound(DosaggioAggregati) To UBound(DosaggioAggregati)
-    'For i = 0 To 8
-'
         Call ComponentePesoOut(DosaggioAggregati(i), CDbl(NettoAgg(i)))
     Next i
     
@@ -5938,8 +5899,8 @@ End Sub
 
 
 Public Function RicalcolaSetRicetta(SetOLD As Double, KgImpasto As Long, PercBitume As Double, KgNew As Long) As Double
-Dim KgOriginali As Double
-Dim FattoreMoltiplica As Double
+	Dim KgOriginali As Double
+	Dim FattoreMoltiplica As Double
 
     If SetOLD = 0 Then
         SetOLD = 1 / 100
@@ -5952,7 +5913,7 @@ End Function
 '
 
 Public Sub ForzaSetAggregati(Index As Integer)
-'Index va da 0 a 7
+	'Index va da 0 a 7
 
     Dim SetOLD As Double
     Dim KgNew As Long
@@ -6101,7 +6062,7 @@ Public Sub ForzaSetTempi(Optional soloagg_ric As Boolean)
     End With
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-060 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -6114,7 +6075,7 @@ Public Sub TrasformaRicettaS7()
     Dim minimo As Integer
     Dim ultimoOrdineAssegnato As Integer '20161013 per le portine accoppiate
 
-'Il PLC attualmente vuole che la ricetta si composta cosi':
+'Il PLC attualmente vuole che la ricetta sia composta cosi':
 ' Aggregato 1 : set in percentuale + ordine pesata
 ' Aggregato 2 : set in percentuale + ordine pesata
 '...
@@ -6209,58 +6170,58 @@ End Sub
 '
 
 Public Sub AggiornaOrdinePesateForzato()
-Dim IndiceCampo As Integer
-Dim indice As Integer
-    
-    On Error GoTo Errore
-    
-    With CP240
-        'Ordine pesate aggregati
-        IndiceCampo = 0
-        For indice = PLCTAG_OrdineAggForzato1 To PLCTAG_OrdineAggForzato6
-            If CDbl(DosaggioAggregati(IndiceCampo).set) > 1 Then    'Metto 1% per evitare di avere pesate di pochi Kg
-                .OPCData.items(indice).Value = RicettaS7(IndiceCampo).Ordine
-            Else
-                If (CDbl(DosaggioAggregati(IndiceCampo).set) = 0 And RicettaS7(IndiceCampo).Ordine > 0 And IndiceCampo > 0) Then
-                '
-                    If (RicettaS7(IndiceCampo).Ordine = RicettaS7(IndiceCampo - 1).Ordine) And (IndiceCampo > 0) Then
-                        'Caso di portine accoppiate ho il set=0
-                        .OPCData.items(indice).Value = RicettaS7(IndiceCampo).Ordine
-                    Else
-                        .OPCData.items(indice).Value = CSng(0)
-                    End If
-                Else
-                    .OPCData.items(indice).Value = CSng(0)
-                End If
-            End If
+	Dim IndiceCampo As Integer
+	Dim indice As Integer
+		
+		On Error GoTo Errore
+		
+		With CP240
+			'Ordine pesate aggregati
+			IndiceCampo = 0
+			For indice = PLCTAG_OrdineAggForzato1 To PLCTAG_OrdineAggForzato6
+				If CDbl(DosaggioAggregati(IndiceCampo).set) > 1 Then    'Metto 1% per evitare di avere pesate di pochi Kg
+					.OPCData.items(indice).Value = RicettaS7(IndiceCampo).Ordine
+				Else
+					If (CDbl(DosaggioAggregati(IndiceCampo).set) = 0 And RicettaS7(IndiceCampo).Ordine > 0 And IndiceCampo > 0) Then
+					'
+						If (RicettaS7(IndiceCampo).Ordine = RicettaS7(IndiceCampo - 1).Ordine) And (IndiceCampo > 0) Then
+							'Caso di portine accoppiate ho il set=0
+							.OPCData.items(indice).Value = RicettaS7(IndiceCampo).Ordine
+						Else
+							.OPCData.items(indice).Value = CSng(0)
+						End If
+					Else
+						.OPCData.items(indice).Value = CSng(0)
+					End If
+				End If
 
-            IndiceCampo = IndiceCampo + 1
-        Next indice
-        
-        'Ordine pesate filler
-        IndiceCampo = 0
-        If .OPCData.items(PLCTAG_SetF1).Value > 0 Then
-            IndiceCampo = IndiceCampo + 1
-            .OPCData.items(PLCTAG_OrdineFillForzato1).Value = CSng(IndiceCampo) 'Filler per ordine di pesatura
-        Else
-            .OPCData.items(PLCTAG_OrdineFillForzato1).Value = CSng(0)           'Filler per ordine di pesatura
-        End If
-        If .OPCData.items(PLCTAG_SetF2).Value > 0 Then
-            IndiceCampo = IndiceCampo + 1
-            .OPCData.items(PLCTAG_OrdineFillForzato2).Value = CSng(IndiceCampo) 'Filler per ordine di pesatura
-        Else
-            .OPCData.items(PLCTAG_OrdineFillForzato2).Value = CSng(0)           'Filler per ordine di pesatura
-        End If
-        If .OPCData.items(PLCTAG_SetF3).Value > 0 Then
-            IndiceCampo = IndiceCampo + 1
-            .OPCData.items(PLCTAG_OrdineFillForzato3).Value = CSng(IndiceCampo) 'Filler per ordine di pesatura
-        Else
-            .OPCData.items(PLCTAG_OrdineFillForzato4).Value = CSng(0)           'Filler per ordine di pesatura
-        End If
-    End With
-    
-    Exit Sub
-Errore:
+				IndiceCampo = IndiceCampo + 1
+			Next indice
+			
+			'Ordine pesate filler
+			IndiceCampo = 0
+			If .OPCData.items(PLCTAG_SetF1).Value > 0 Then
+				IndiceCampo = IndiceCampo + 1
+				.OPCData.items(PLCTAG_OrdineFillForzato1).Value = CSng(IndiceCampo) 'Filler per ordine di pesatura
+			Else
+				.OPCData.items(PLCTAG_OrdineFillForzato1).Value = CSng(0)           'Filler per ordine di pesatura
+			End If
+			If .OPCData.items(PLCTAG_SetF2).Value > 0 Then
+				IndiceCampo = IndiceCampo + 1
+				.OPCData.items(PLCTAG_OrdineFillForzato2).Value = CSng(IndiceCampo) 'Filler per ordine di pesatura
+			Else
+				.OPCData.items(PLCTAG_OrdineFillForzato2).Value = CSng(0)           'Filler per ordine di pesatura
+			End If
+			If .OPCData.items(PLCTAG_SetF3).Value > 0 Then
+				IndiceCampo = IndiceCampo + 1
+				.OPCData.items(PLCTAG_OrdineFillForzato3).Value = CSng(IndiceCampo) 'Filler per ordine di pesatura
+			Else
+				.OPCData.items(PLCTAG_OrdineFillForzato4).Value = CSng(0)           'Filler per ordine di pesatura
+			End If
+		End With
+		
+		Exit Sub
+	Errore:
     LogInserisci True, "DOS-061 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -6405,16 +6366,7 @@ Public Sub InizializzaComponenti()
 
 End Sub
 
-Public Sub ComponenteInit( _
-    ByRef componente As ComponenteType, _
-    progessivo As Integer, _
-    esiste As Boolean, _
-    Nome As String, _
-    temperatura As Boolean, _
-    Livello As Boolean, _
-    livelloTeorico As Boolean, _
-    pesaExt As Boolean _
-    )
+Public Sub ComponenteInit( ByRef componente As ComponenteType, progessivo As Integer, esiste As Boolean, Nome As String, temperatura As Boolean, Livello As Boolean, livelloTeorico As Boolean, pesaExt As Boolean )
 
     With componente
 
@@ -6716,7 +6668,7 @@ Public Sub ComponentePesoOut(ByRef componente As ComponenteType, Value As Double
 End Sub
 
 Public Sub LivelloTeoricoOut(ByRef componente As ComponenteType, Value As Double)
-'Devo scalare i Kg dal tramoggione solo quando scarico gli aggregati all'interno del mescolatore
+	'Devo scalare i Kg dal tramoggione solo quando scarico gli aggregati all'interno del mescolatore
 
     With componente
 
@@ -6751,7 +6703,7 @@ End Sub
 
 Public Sub GestioneCambioRicettaDosaggio()
 
-On Error GoTo Errore
+	On Error GoTo Errore
     
     If (AbilitaCambioRicetta) Then
         If (SelezioneRicettaDosaggioCambiata Or RicettaInUsoModificata Or CambioPercentualeDosaggio) Then
@@ -6760,7 +6712,7 @@ On Error GoTo Errore
     End If
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-063 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -6809,7 +6761,7 @@ Public Sub PressioneAriaInsufficente_change()
     End If
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-064 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -6843,7 +6795,7 @@ Public Sub TemperaturaLegante_change(indiceEtichetta As Integer, temperatura As 
     End With
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-065 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -6867,7 +6819,7 @@ Public Sub PosizionaDeflettoreByPassTamburoParallelo()
     Call GestioneDeflettoreByPassTamburoParallelo
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-066 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -6891,7 +6843,7 @@ Public Sub GestioneDeflettoreByPassTamburoParallelo()
     FrmGestioneTimer.TimerDeflettoreBypassRap.enabled = True
     
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-067 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -6947,7 +6899,7 @@ Public Sub VerificaRitornoPesataFiller(componente As Integer, comando As Boolean
     Call AllarmeTemporaneo("XX" + Format(componente + 130, "000"), TempoControlloRitornoPesataFiller(componente) <> 0 And (ConvertiTimer() >= (TempoControlloRitornoPesataFiller(componente) + 3)))
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "DOS-068 ", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -7002,7 +6954,7 @@ Public Function VerificaSetSicurezzeBilance() As Boolean
     
     Exit Function
     
-TestFallito:
+	TestFallito:
             
     result = ShowMsgBox( _
             LoadXLSString(codicemessaggio), _
@@ -7549,7 +7501,7 @@ Public Sub StartDosaggio()
     
     
     Exit Sub
-Errore:
+	Errore:
 
     LogInserisci True, "DOS-069 ", "ApplicaJob : " + CStr(Err.Number) + " [" + Err.description + "]"
 

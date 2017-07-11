@@ -10305,7 +10305,7 @@ Public Sub PlcOutAnalogici()
 '
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "NET-002", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -11150,7 +11150,7 @@ Public Sub PlcInAnalogici()
     plcInAnalogici_Fatta = True
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "NET-003 (" + CStr(posizioneErrore) + ")", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
@@ -13741,7 +13741,7 @@ Public Sub PlcInDigitali()
     PlcInDigitali_Fatta = True
 
     Exit Sub
-Errore:
+	Errore:
     LogInserisci True, "NET-005 (" + CStr(posizioneErrore) + ")", CStr(Err.Number) + " [" + Err.description + "]"
 End Sub
 
