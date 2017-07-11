@@ -1,0 +1,10 @@
+Note per la redazione di documentazione tecnica
+-----------------------------------------------
+- Non usare mai la prima persona per descrivere il funzionamento di una procedura, es. : se sono in start allora controllo ...
+- Evitare se possibile di umanizzare le funzioni (questa funzione manda , scrive, cancella), se posibile usare forme impersonali (tramite questa fuzione viene inviato, scritto, cancellato)
+
+alcuni sinonimi di parole poco adatte ad un testo tecnico formale.
+
+sapere - conoscere, ricavare
+manda - invia
+prende - legge, rileva
