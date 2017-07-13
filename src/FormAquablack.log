@@ -1,0 +1,3 @@
+Riga 270: la classe MSComctlLib.ImageList del controllo PlusImageList non era una classe di controllo caricata.
+Riga 488: la classe MSComctlLib.ImageList del controllo PlusImageList1 non era una classe di controllo caricata.
+Riga 526: la classe MSComctlLib.StatusBar del controllo StatusBar1 non era una classe di controllo caricata.

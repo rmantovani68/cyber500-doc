@@ -300,17 +300,6 @@ Public Sub CicloJob()
                             tmrAvvioJob.TempoExec, tmrAvvioJob.uscita, _
                             tmrAvvioJob.Abilitazione, tmrAvvioJob.ErrTimer)
 '
-'    If tmrAvvioJob.uscita Then
-'        Debug.Print "Emergenza Job fine timer! JobAttivoStatus: " & EnumStatoJobVB_ToString(JobAttivo.StatusVB)
-'
-''        Call InviaMessaggioJobEmergenzaXml
-''        tmrAvvioJob.Abilitazione = False
-''        Call InitJob(JobAttivo)
-'    End If
-
-'    If (JobAttivo.StatusVB = EnumStatoJobVB.Running) And DosaggioInCorso Then
-'        tmrAvvioJob.Abilitazione = False
-'    End If
     
     'Aggiorno il CS sulla quantita' di predosaggio prodotta
     If ((JobAttivo.StatusVB > EnumStatoJobVB.Idle) Or (JobProssimo.StatusVB > EnumStatoJobVB.Idle)) And (TotalizzazioneNastroAggr >= JobAttivo.MemQtaPredosProdotta + 1) And (JobAttivo.IdPredosaggio > 0 Or JobProssimo.IdPredosaggio > 0) Then
@@ -342,46 +331,16 @@ Public Sub CicloJob()
         'cambio silo nel passaggio da un job a quello successivo
         If Not (CP240.AdoDosaggioScarico.Recordset.BOF Or CP240.AdoDosaggioScarico.Recordset.EOF) Then
         
-'            idricettascarico = GetIdDosaggioLogFromIdDosaggio(CP240.AdoDosaggioScarico.Recordset.Fields("IdDosaggio").Value)
             idricettascarico = CP240.AdoDosaggioScarico.Recordset.Fields("IdDosaggio").Value
                                                                                     
             If CicloScaricoSiloCompleto And (JobAttivo.IdDosaggio <> idricettascarico) And (DestinazioneSiloPrenotata <> JobAttivo.SiloDest) And (JobProssimo.StatusVB = EnumStatoJobVB.Idle) And Not MemSelSiloJobMan And (JobAttivo.SiloDest > 0) Then
-                'verifica se il materiale nel silo e' diverso da quello previsto
-                'cambio silo
-                
-'                'tmrAvvioJob.Abilitazione = True
-'                StatorRichiestaCambioSiloJob = ShowMsgBox(LoadXLSString(224), vbOKCancel, vbExclamation, 12000, 13000, False)
-'
-'                Do
-'                    'DoEvents
-'                Loop Until (StatorRichiestaCambioSiloJob <> -1)
-'
-                
-'                StatorRichiestaCambioSiloJob = ShowMsgBox("CambioSilo", vbOKOnly, vbExclamation, 12000, 13000, False)
-'                StatorRichiestaCambioSiloJob = -1
-                
-                'If ShowConfermaCambioSilo Then
-                'If StatorRichiestaCambioSiloJob = vbOK Then
-                    'StatorRichiestaCambioSiloJob = -1?
-                    DestinazioneSiloPrenotata = JobAttivo.SiloDest
-                    VisualizzaSiloAttivo FrmSiloGeneraleVisibile
-                    tmrAvvioJob.Abilitazione = False
-                'End If
+				DestinazioneSiloPrenotata = JobAttivo.SiloDest
+				VisualizzaSiloAttivo FrmSiloGeneraleVisibile
+				tmrAvvioJob.Abilitazione = False
             End If
         End If
     
-    
-'        If (JobAttivo.IdJob <> JobProssimo.IdJob) And (JobAttivo.StatusVB = EnumStatoJobVB.Idle) Then
-'        'Avvio della produzione impostata nel job successivo al termine di quello attivo
-'            Call PreStartJob
-'        End If
-                                                                                                                                                      
-'        If (JobAttivo.StatusVB = EnumStatoJobVB.Idle) And (TotalizzazioneNastroAggr >= JobAttivo.QuantitaPredosaggio) And PredosatoriAutomaticoOn Then
-'        'Arresto del predosaggio al raggiungimento della quantita' impostata durante l'ultimo job
-'            Call PulsanteStopPred
-'        End If
-                                                                                                                                                      
-                                                                                                                                                      
+                                                                                                                                                         
         If (JobProssimo.IdPredosaggio = 0) And (TotalizzazioneNastroAggr >= JobAttivo.QuantitaPredosaggio) And PredosatoriAutomaticoOn And (JobAttivo.IdPredosaggio > 0) Then
         'Arresto del predosaggio al raggiungimento della quantita' impostata durante l'ultimo job
             Call PassaInManualePredosatori

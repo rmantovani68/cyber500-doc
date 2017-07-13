@@ -1,0 +1,3 @@
+Riga 29: la classe MSComctlLib.ImageList del controllo PlusImageList non era una classe di controllo caricata.
+Riga 182: la classe MSComctlLib.ProgressBar del controllo ProgressBarInvia non era una classe di controllo caricata.
+Riga 1757: la classe MSComctlLib.ProgressBar del controllo ProgressBarLeggi non era una classe di controllo caricata.

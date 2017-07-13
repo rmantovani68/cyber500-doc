@@ -1,0 +1,3 @@
+Riga 22: la classe MSComctlLib.ImageList del controllo PlusImageList non era una classe di controllo caricata.
+Riga 1286: la classe MSComctlLib.Slider del controllo SliderPosAsse2 non era una classe di controllo caricata.
+Riga 3958: la classe MSComctlLib.Slider del controllo SliderPosAsse1 non era una classe di controllo caricata.

@@ -1,14 +1,14 @@
 ﻿Obiezioni / ostacoli al progetto documentazione
 -----------------------------------------------
-- Si fa documentare il progetto da persone che non lo conoscono per permettere a persone che lo conoscono di riscriverlo / portarlo su altro sistema di sviluppo.
+- Si fa documentare il progetto da persone che non lo conoscono per permettere a persone che (non) lo conoscono di riscriverlo / portarlo su altro sistema di sviluppo.
 - Mancanza di disponibilità delle persone che conoscono il progetto perchè impegnate in altre attività.
 - Mancanza di un template / descrizione formale di un modello di documentazione da seguire.
 - Dimensioni del progetto : 150000 righe di codice, circa 1000 metodi, utilizzo massiccio di variabili globali
 - LG: ogni codice del sottosistema (predosatore, tamburo,...) manca di una chiara modellazione con macchina a stati finiti. Tutto questo si traduce in grandi pezzi di codice, spesso ripetuti, con if innestati di variabili globali senza alcuna strutturazione.
       Esempio di buona macchina a stati finiti: if cond1, cond2, ... => vai in stato statoA. Se sei in statoA => funzioneA, funzioneB
-- LG: ogni sottosistema non è stato descritto con una struttura, ma mediante variabili globali sparse nei vari moduli .bas. Poteva essere una miglior implementazione avere il modello dei dati completamente globale, ma strutturato,
+- LG: ogni sottosistema non è stato descritto con una struttura, ma mediante variabili globali sparse nei vari moduli .bas. Poteva essere una migliore implementazione avere il modello dei dati completamente globale, ma strutturato,
       in modo da capire meglio a chi si riferiscono certe variabili. Capisco che VB6 non è a oggetti, ma le struct esistono.
-- RM: molte costanti non sono descritte nè enumerate, il che rende criptico il codice (potete fare a meno di criptarlo)
+- RM: molte costanti non sono descritte nè enumerate, il che rende criptico il codice (si può evitare di criptarlo)
 - LG: la gestione dei cambiamenti delle condizioni che devono scatenare procedure (event-driven) non e' ben strutturata. Sicuramente c'e' il ciclo principale della form (VideataPrincipale) che fa tutte le sue belle cose,
       ma poi ogni variabile (spesso globalona) viene settata in un  mucchio di posti nel codice, cosa per la quale si perde il senso della valutazione delle stesse.
 - LG: Chiamate di funzioni inerenti una certa gestione in timer e task di gestioni completamente differenti. Ad esempio, in GestioneStoricoPredosaggio, viene gestito anche il log delle tramogge in torre, e viene chiamata la GestioneFillerizzazione, che con
@@ -18,6 +18,6 @@ problematiche relative al nostro impegno in Marini
 --------------------------------------------------
 - RM: Siamo lasciati a noi stessi, nessun coordinamento operativo da parte di una figura responsabile del nostro operato
 - RM: Inizialmente abbiamo 'imparato' l'ambiente di lavoro, poi siamo stati utilizzati per compiti operativi, poi abbiamo iniziato l'analisi e l'implementazione di un progetto di impianto generico 
-      (plcserver / manager / ui), poi siamo stati utilizzati per documentare il software esistente (codice visual basic 6).
+      (plcserver / manager / ui), adesso siamo stati utilizzati per documentare il software esistente (codice visual basic 6).
 - RM: non abbiamo praticamente contatti con i componenti dell'ufficio software, tutti impegnati in attività di assistenza e di supporto ai collaudi, e quasi sempre in emergenza.
 
