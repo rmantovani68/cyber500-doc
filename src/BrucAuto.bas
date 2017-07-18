@@ -707,8 +707,6 @@ Private Sub GestTotRegBruciatore(tamburo As Integer)
                     If (.BA_DurataImpulsoUscitaRegMod < 500) Then
                     'limite minimo durata impulso
                         .BA_DurataImpulsoUscitaRegMod = 500
-'                    ElseIf (.BA_DurataImpulsoUscitaRegMod > TempoMaxAttivUscita) Then
-'                        .BA_DurataImpulsoUscitaRegMod = TempoMaxAttivUscita
                     End If
                     
 
@@ -716,10 +714,6 @@ Private Sub GestTotRegBruciatore(tamburo As Integer)
                         .BA_TimerApertura = ConvertiTimer() + AttesaContr
 
                         Call AttivaUscitePerRegolazioneEss(1, .BA_DurataImpulsoUscitaRegMod, tamburo) '20170323
-
-'                        .BA_TimerOutIncrBruc = ConvertiTimer()
-'                        .ModulatoreBrucOnUp = True
-                    
                     End If
                 Else
                     .ModulatoreBrucOnUp = False
@@ -765,8 +759,6 @@ Private Sub GestTotRegBruciatore(tamburo As Integer)
                         
                             Call AttivaUscitePerRegolazioneEss(-1, .BA_DurataImpulsoUscitaRegMod, tamburo) '20170323
         
-'                            .BA_TimerOutDecrBruc = ConvertiTimer()
-'                            .ModulatoreBrucOnDown = True
                         End If
                     Else
                         .ModulatoreBrucOnDown = False
@@ -794,7 +786,7 @@ Public Sub GestRegolazioneBruciatore(tamburo As Integer)
 
             If (tamburo = 0) Then
                 Call GestSetRegBruciatore
-            Else
+			Else
                 Call GestSetRegBruciatore2
             End If
 
@@ -803,17 +795,6 @@ Public Sub GestRegolazioneBruciatore(tamburo As Integer)
             
         If (.FiammaBruciatorePresente And .BruciatoreAutomatico) Then
         
-'            If (.BA_TimerOutIncrBruc > 0 And (ConvertiTimer() - .BA_TimerOutIncrBruc) >= .BA_DurataImpulsoUscitaRegMod / 1000) Then
-'                'mantiene l'uscita per il tempo di durata impulso
-'                .BA_TimerOutIncrBruc = 0
-'                .ModulatoreBrucOnUp = False
-'                .ModulatoreBrucOnDown = False
-'            ElseIf (.BA_TimerOutDecrBruc > 0 And (ConvertiTimer() - .BA_TimerOutDecrBruc) >= .BA_DurataImpulsoUscitaRegMod / 1000) Then
-'                'mantiene l'uscita per il tempo di durata impulso
-'                .BA_TimerOutDecrBruc = 0
-'                .ModulatoreBrucOnUp = False
-'                .ModulatoreBrucOnDown = False
-'            End If
 
             Call GestTotRegBruciatore(tamburo)
 
