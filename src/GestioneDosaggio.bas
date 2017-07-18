@@ -5955,7 +5955,7 @@ Public Sub ForzaSetAggregati(Index As Integer)
 End Sub
 
 Public Sub ForzaSetFiller(Index As Integer)
-'Index va da 0 a 2
+	'Index va da 0 a 2
 
     Dim SetOLD As Double
     Dim KgNew As Long
@@ -7085,7 +7085,6 @@ End Sub
 
 '20170110
 '20160404
-'Public Sub SelectDosingRecipeByCS(IdRecipe As Integer)
 Public Sub SelectDosingRecipeByCS(IdRecipe As Long)
     
     If (Not CP240.Picture1(2).Visible) Then
