@@ -18,21 +18,24 @@
 
 - RM: richiesta riunione tramite mail di Maiorana a Pioggia, nessuna risposta.
 
+Documentazione utile alla realizzazione di un nuovo sistema lato PC:
+descrizione delle variabili di scambio PC-PLC e relativo funzionamento del PLC, in pratica documentazione dell'interfaccia con il PLC
+
 problematiche relative al nostro impegno in Marini
 --------------------------------------------------
 - RM: Siamo lasciati a noi stessi, nessun coordinamento operativo da parte di una figura responsabile del nostro operato
 - RM: Inizialmente abbiamo 'imparato' l'ambiente di lavoro, poi siamo stati utilizzati per compiti operativi, poi abbiamo iniziato l'analisi e l'implementazione di un progetto di impianto generico
       (plcserver / manager / ui), poi siamo stati utilizzati per documentare il software esistente (codice visual basic 6).
-- RM: non abbiamo praticamente contatti con i componenti dell'ufficio software, tutti impegnati in attività di assistenza e di supporto ai collaudi, e quasi sempre in emergenza.
+- RM: non abbiamo praticamente contatti con i componenti dell'ufficio software, tutti impegnati in attività di assistenza, sviluppo nuove funzioni o di supporto ai collaudi o alla produzione, e quasi sempre in emergenza.
 
 pensieri sparsi
 ---------------
-Si fanno configurare le macchine (pc) di produzioneall'ufficio software, tale operazione è interamente manuale e molto dispendiosa in termini di tempo:
+Si fanno configurare le macchine (pc) di produzione all'ufficio software, tale operazione è interamente manuale e molto dispendiosa in termini di tempo:
 - si prende l'immagine e si scrive il disco
 - si 'installano' tutte gli aggiornamenti relativi alla commessa
 - si 'copiano' i dati di configurazione e di database
 
-Generalmente si verificano problemi ed eccezioni, le configurazioni non sono ben formalizzate, le immagini sono registrate su hd portatiliin dotazione all'ufficio software, a volte non si leggono/copiano correttamente.
+Generalmente si verificano problemi ed eccezioni, le configurazioni non sono ben formalizzate, le immagini sono registrate su hd portatili in dotazione all'ufficio software, a volte non si leggono/copiano correttamente.
 Meglio sarebbe implementare un sistema di generazione macchine automatico, dato il codice commessa reperisce tutte le informazioni necessarie in un database ben strutturato ed esegue tutte le oprazioni necessarie senza necessità di intervento.
 
 
