@@ -1,0 +1,1884 @@
+Lista tags in plc4
+sono stati raggruppati i tags  (vedi nmin..nmax)
+----------------------------------------------------------------+-----------------------------------------------------------------------------------
+Nome tag                                                        |Descrizione
+----------------------------------------------------------------+-----------------------------------------------------------------------------------
+PLCTAG_KgImpasto                                                |PLCTAG_PARAMETRI   Totale impasto con bitume
+PLCTAG_ThImpianto                                               |T/h impianto
+PLCTAG_UnitaPLC                                                 |Unità del PLC
+PLCTAG_FondoScalaBilA/F/B/V/Add/Ric/7                           |FondoScala bilancia aggregati/filler/bitume/viatop/additivo/riciclato/7
+PLCTAG_TaraMaxA/F/B/V/Add/Ric/7                                 |Tara max aggregati/filler/bitume/viatop/additivo/riciclato/7
+PLCTAG_SicurezzaBilA/F/B/V/Add/Ric/7                            |Sicurezza bilancia aggregati/filler/bitume/viatop/additivo/riciclato/7
+PLCTAG_FondoScalaBilNastroA                                     |FondoScala bilancia Ramsey aggregati
+PLCTAG_FondoScalaBilNastroR                                     |FondoScala bilancia Ramsey riciclato
+PLCTAG_MaxThRamseyA                                             |Max T/h Ramsey aggregati
+PLCTAG_MaxThRamseyR                                             |Max T/h Ramsey riciclato
+PLCTAG_FScalaBilPondPred1                                       |Valore di FondoScala bilancia predosatore 1..3
+PLCTAG_FondoScalaTempMaxDry                                     |FondoScala massima temperatura scivolo
+PLCTAG_FondoScalaTempMinDry                                     |FondoScala minima temperatura scivolo
+PLCTAG_FondoScalaTempMaxSab                                     |FondoScala massima temperatura sabbia
+PLCTAG_FondoScalaTempMinSab                                     |FondoScala minima temperatura sabbia
+PLCTAG_FondoScalaTempMaxBit                                     |FondoScala massima temperatura bitume
+PLCTAG_FondoScalaTempMinBit                                     |FondoScala minima temperatura bitume
+PLCTAG_PortataPred1                                             |Portata massima predosatore 1..12
+PLCTAG_PortataPredRic1                                          |Portata massima predosatore riciclato 1..4
+PLCTAG_ImpostPred1                                              |Valore uscita analogica max per predosatore 1..12
+PLCTAG_ImpostPredRic1                                           |Valore uscita analogica max per predosatore riciclato 1..4
+PLCTAG_AttenuazCorrezPondP1                                     |Attenuazione correzione ponderale predosatore 1..3
+PLCTAG_AttenuazCorrezPondPR1                                    |Attenuazione correzione ponderale predosatore riciclato 1..4
+PLCTAG_LimiteMinCorrPondP1                                      |Limite minima di correzione ponderale predosatore 1..3
+PLCTAG_LimiteMaxCorrPondP1                                      |Limite massimo di correzione ponderale predosatore 1..3
+PLCTAG_TimerPausaCorrezP1                                       |Tempo di pausa correzione ponderale predosatore 1..3
+PLCTAG_TimerPausaCorrezPR1                                      |Tempo di pausa correzione ponderale predosatore riciclato 1..4
+PLCTAG_TPausaLavoroFiltro                                       |Tempo di pausa lavoro del filtro
+PLCTAG_TimerLavoro1Filtro                                       |Primo tempo di lavoro filtro
+PLCTAG_TimerLavoro2Filtro                                       |Secondo tempo di lavoro filtro
+PLCTAG_NumeroCamere                                             |Numero camere filtro
+PLCTAG_ModoFunzFiltro                                           |Modo funzionamento filtro
+PLCTAG_PressFiltroMax                                           |Max indicazione depressione filtro
+PLCTAG_SicurezzaTemperatura                                     |Sicurezza temperatura scivolo e sabbia
+PLCTAG_ValoreMaxVolo                                            |Valore massimo volo
+PLCTAG_ValoreMaxVoloBit                                         |Valore massimo volo bitume
+PLCTAG_ValoreSetMaggioratoBit                                   |Valore di set maggiorato bitume
+PLCTAG_TempoSvuotTraspViatop                                    |Tempo di svuotamento del trasporto del viatop
+PLCTAG_TempoSvuotCicviatop                                      |Tempo di svuotamento del ciclone del viatop
+PLCTAG_TempoRitApValvPresep                                     |Tempo di ritardo apertura valvola preseparatore
+PLCTAG_TempoRitChValvPresep                                     |Tempo di ritardo chiusura valvola preseparatore
+PLCTAG_InclusioneLegante100                                     |Bitume compreso nel 100% o no
+PLCTAG_AbilitaVoloDinamicoFlusso                                |
+PLCTAG_UnitaMaxPCL                                              |Unità max dell Analog Output della PCL
+PLCTAG_CelleSiloStabBilancia                                    |
+PLCTAG_VeloxMax_SiwarexPESA                                     |
+PLCTAG_VeloxMin_SiwarexPESA                                     |
+PLCTAG_Kg_Lenta_SiwarexPESA                                     |
+PLCTAG_DB5_DBX462_0                                             |EX. Abilitazione Flomac da parametri
+PLCTAG_UnitaMaxContalitri                                       |Unita max contalitri
+PLCTAG_UnitaMinContalitri                                       |Unita min contalitri
+PLCTAG_DensitaContalitri                                        |
+PLCTAG_ContalitriImpulsiLitro                                   |
+PLCTAG_ContalitriTempoMaxSpruzzatura                            |
+PLCTAG_AbilitaPesataFineA1                                      |Abilita Pesata Fine A1..A7
+PLCTAG_AbilitaPesataFineNV                                      |Abilita Pesata Fine NV
+PLCTAG_Densita_Add2_CNT                                         |
+PLCTAG_ImpulsiLitro_Add2_CNT                                    |
+PLCTAG_Rampa_dec_Add2_CNT                                       |
+PLCTAG_Tempo_sicurez_Add2_CNT                                   |
+PLCTAG_Add2_modo_CNT                                            |
+PLCTAG_Add2_presenza_valvola                                    |
+PLCTAG_Simulatore_S7_interno                                    |
+PLCTAG_AbilitaSicurezzaGalleggianteB2                           |
+PLCTAG_AbilitaSicurezzaGalleggianteB3                           |
+PLCTAG_AbilitaSiwarex6                                          |
+PLCTAG_AbilitaSiwarex7                                          |
+PLCTAG_AbilitaIME1096HDPLUS                                     |
+PLCTAG_AbilitaBennaApribile                                     |
+PLCTAG_GrigliaVibranteRic1Abilita                               |
+PLCTAG_GrigliaVibranteRic2Abilita                               |
+PLCTAG_GrigliaVibranteRic3Abilita                               |
+PLCTAG_GrigliaVibranteRic4Abilita                               |
+PLCTAG_AbilitaBilanciaAggregati                                 |
+PLCTAG_AbilitaBilanciaFiller                                    |
+PLCTAG_AbilitaBilanciaBitume                                    |
+PLCTAG_AbilitaBilanciaBitumeGR                                  |
+PLCTAG_AbilitaBilanciaContalitri                                |
+PLCTAG_AbilitaBilanciaAddMix                                    |
+PLCTAG_AbilitaBilanciaAddBaci                                   |
+PLCTAG_AbilitaBilanciaViatop                                    |
+PLCTAG_AbilitaBilanciaRiciclato                                 |
+PLCTAG_AbilitaBilanciaRiciclatoSiwa                             |
+PLCTAG_AbilitaBilanciaAddSacchi                                 |
+PLCTAG_AbilitaBilanciaAcqua                                     |
+PLCTAG_AbilitaAquablack                                         |
+PLCTAG_InclusioneCocleeRecupero                                 |
+PLCTAG_AbilitazSpruzzBennaTemporiz                              |
+PLCTAG_EN_Pes_Fill_2_Coclee                                     |solo per PP110074
+PLCTAG_EN_Flap_Sciv_Scar_Bil_ri                                 |solo per PP110045
+PLCTAG_EN_Antiad_Sciv_Sc_BilRAP                                 |solo per PP110045
+PLCTAG_EN_Pes_Fill_2_Forzata                                    |
+PLCTAG_AbilitaBlendingBitume                                    |
+PLCTAG_EN_Silo_Solo_Diretto                                     |
+PLCTAG_Pres_Selett_Scambio_B1B2                                 |
+PLCTAG_TimeOutScaricoAggregati                                  |
+PLCTAG_TimeOutScaricoFiller                                     |
+PLCTAG_TimeOutScaricoLegante                                    |
+PLCTAG_TimeOutScaricoLeganteGR                                  |
+PLCTAG_TimeOutScaricoContalitri                                 |
+PLCTAG_TimeOutScaricoRiciclato                                  |
+PLCTAG_TimeOutScaricoViatop                                     |
+PLCTAG_TimeOutScaricoMixer                                      |
+PLCTAG_PermanenzaScaricoAggregati                               |
+PLCTAG_PermanenzaScaricoFiller                                  |
+PLCTAG_PermanenzaScaricoRiciclato                               |
+PLCTAG_DB5_DBW588                                               |
+PLCTAG_DB5_DBW590                                               |
+PLCTAG_PermanenzaScaricoLeganteGR                               |
+PLCTAG_SiloS7RitardoPosizionaSottoMixer                         |
+PLCTAG_PercConsensoFillerRF                                     |
+PLCTAG_PercConsensoAcquaRF                                      |
+PLCTAG_GrigliaVibranteRic1..4RitardoStart                       |
+PLCTAG_GrigliaVibranteRic1..4RitardoStop                        |
+PLCTAG_VibratoriPredTempoOn                                     |
+PLCTAG_VibratoriPredTempoOff                                    |
+PLCTAG_VibratoriPredRicTempoOn                                  |
+PLCTAG_VibratoriPredRicTempoOff                                 |
+PLCTAG_SoffioAriaPredRicTempoOn                                 |
+PLCTAG_SoffioAriaPredRicTempoOff                                |
+PLCTAG_Tempo_Perm_Flap_Sc_Ric                                   |
+PLCTAG_NrImpAttAntiadScarBilRic                                 |
+PLCTAG_TempoSpruzAntiadScarBilR                                 |
+PLCTAG_Tempo_On_Soffio_Silo_Filler                              |
+PLCTAG_Tempo_Off_Soffio_Silo_Filler                             |
+PLCTAG_Tempo_Rit_All_FC_Mixer                                   |Tecnobeton 20170221
+PLCTAG_NumCampionamentiCalcoloFlusso                            |
+PLCTAG_MinimoPesataVeloce_Kg                                    |
+PLCTAG_PesataFineA1..6_Kg                                       |
+PLCTAG_PesataFineRAP_Kg                                         |
+PLCTAG_PesataFineNV_Kg                                          |
+PLCTAG_CoefficienteGrossaFineA1..6_Kg                           |
+PLCTAG_CoefficienteGrossaFineRAP_Kg                             |
+PLCTAG_CoefficienteGrossaFineNV_Kg                              |
+PLCTAG_CoefficienteFineChiusoA1..6_Kg                           |
+PLCTAG_CoefficienteFineChiusoRAP_Kg                             |
+PLCTAG_CoefficienteFineChiusoNV_Kg                              |
+PLCTAG_CoefficienteGrossaChiusoA1..6_Kg                         |
+PLCTAG_CoefficienteGrossaChiusoRAP_Kg                           |
+PLCTAG_CoefficienteGrossaChiusoNV_Kg                            |
+PLCTAG_MaxValKgAquablack                                        |
+PLCTAG_DI_PortinaAggChiusa                                      |PLCTAG_INOUT
+PLCTAG_DI_PortinaAggAperta                                      |
+PLCTAG_DI_SicAggregati                                          |
+PLCTAG_DI_AbilitaAggregati                                      |
+PLCTAG_DO_PesataAgg1..9                                         |
+PLCTAG_DO_PesataAggNV                                           |
+PLCTAG_DO_ScaricoAggregati_Vers8_2                              |
+PLCTAG_AI_BilanciaAggregati                                     |
+PLCTAG_DO_PesataEXTAgg1..7                                      |
+PLCTAG_DO_PesataEXTAggNV                                        |
+PLCTAG_DO_PesataEXTAggNV2                                       |
+PLCTAG_ScambioPesataTramoggione                                 |
+PLCTAG_DI_PortFillBil1Ch                                        |FC scarico bilancia filler
+PLCTAG_DI_PortFillBil1Ap                                        |FC scarico bilancia filler
+PLCTAG_DI_PortFillBil2Ch                                        |FC scarico seconda bilancia filler
+PLCTAG_DI_PortFillBil2Ap                                        |FC scarico seconda bilancia filler
+PLCTAG_DI_SicFiller                                             |
+PLCTAG_DI_AbilitaFiller                                         |
+PLCTAG_DO_PesataFill1..4                                        |
+PLCTAG_DO_ScaricoFiller_Vers8_2                                 |
+PLCTAG_DI_TermVibrScarBilFil                                    |DB46.DBX23.3 Termica vibratore scarico bilancia filler
+PLCTAG_DI_TermIntroFillerMix                                    |DB46.DBX23.4 Termica introduzione filler nel mescolatore
+PLCTAG_AI_BilanciaFiller                                        |db46.dbw24
+PLCTAG_DO_PesataEXTFill1..3                                     |
+PLCTAG_DO_ApertTuboTroppoPienoF1                                |DB46.DBX26.3
+PLCTAG_DI_ScambioFillerRecuperoInApporto_CH                     |DB46.DBX26.4
+PLCTAG_AO_VelocitaCocleaPesataF1..3                             |DB46.DBW28
+PLCTAG_DI_ValvLegChiusa                                         |db46.dbx44.0
+PLCTAG_DI_ValvLegAperta                                         |
+PLCTAG_DI_SicLegante                                            |
+PLCTAG_DI_AbilitaBitume                                         |
+PLCTAG_DI_PompaLeganteON                                        |
+PLCTAG_DO_PesataLegante1                                        |
+PLCTAG_DO_PesataLegante2                                        |
+PLCTAG_DO_PesataLegante3                                        |
+PLCTAG_DO_ScambioB1                                             |
+PLCTAG_DO_ScaricoLegante_Vers8_2                                |
+PLCTAG_DI_SicurezzaGalleggianteB2                               |
+PLCTAG_DI_SicurezzaGalleggianteB3                               |
+PLCTAG_DO_ScambioB2                                             |
+PLCTAG_DI_FC_Valv3Vie_Schiumato_norm                            |
+PLCTAG_DI_FC_Valv3Vie_Schiumato_Soft                            |
+PLCTAG_DI_Valv3VieSpruzzatriceVersoTorre                        |DB46.DBX45.7
+PLCTAG_DO_Valv3VieBitume2Emulsione                              |DB46.DBX48.0
+PLCTAG_DI_Valv3VieBitume2EmulsioneVersoBitume2                  |DB46.DBX48.1
+PLCTAG_DI_Valv3VieBitume2EmulsioneVersoEmulsione                |DB46.DBX48.2
+PLCTAG_DO_invAddBacinella                                       |DB46.DBX48.3
+PLCTAG_DI_FillerRecuperoAusiliarioInserito                      |DB46.DBX48.4
+PLCTAG_AI_BilanciaLegante                                       |db46.dbw46
+PLCTAG_DI_PortBilViatopChiusa                                   |db46.dbx66.0
+PLCTAG_DI_PortBilViatAperta                                     |
+PLCTAG_DI_SicViatop                                             |
+PLCTAG_DI_AbilitaViatop                                         |
+PLCTAG_DI_LivMinViatop                                          |
+PLCTAG_DI_PresenzaMatCiclone                                    |
+PLCTAG_DI_ScarCicloneChiuso                                     |
+PLCTAG_DI_RitMotTrasport                                        |
+PLCTAG_DI_TermMotTrasport                                       |
+PLCTAG_DO_MotoreVentolaViatop                                   |
+PLCTAG_DO_PesataViatop                                          |
+PLCTAG_DO_ScaricoBilViatop_Vers8_2                              |
+PLCTAG_DO_ScaricoCicloneViatop_Vers8_2                          |
+PLCTAG_DI_Term_Vibr_Viatop                                      |
+PLCTAG_AI_BilanciaViatop                                        |
+PLCTAG_DI_portBilRicChiusa                                      |
+PLCTAG_DI_portBilRicAperta                                      |
+PLCTAG_DI_SicBilRic                                             |
+PLCTAG_DI_AbilitaBilRiciclato                                   |
+PLCTAG_DO_PesataBilRiciclato                                    |
+PLCTAG_DO_ScaricoBilRiciclato_Vers8_2                           |
+PLCTAG_DI_SicLivMaxTramRic                                      |DB46.DBX88.6
+PLCTAG_AI_BilanciaRAP                                           |db46.dbw90
+PLCTAG_AI_TamponeRiciclato                                      |db46.dbw92
+PLCTAG_AI_LivTramogTampRic                                      |DB46.DBW94
+PLCTAG_DO_Defl_Scar_Bil_Ric_RESERVED                            |DB46.DBX96.0
+PLCTAG_FC_Defl_Scar_Bil_Ric_AP                                  |DB46.DBX96.1
+PLCTAG_FC_Defl_Scar_Bil_Ric_CH                                  |DB46.DBX96.2
+PLCTAG_DO_Antiadesivo_Sciv_Ric                                  |DB46.DBX96.3
+PLCTAG_DI_SicurezzaTamponeRiciclatoCaldo                        |DB46.DBX96.4
+PLCTAG_DI_PortinaMescChiusa                                     |
+PLCTAG_DI_PortinaMescAperta                                     |
+PLCTAG_DI_ConsScaricoMesc                                       |
+PLCTAG_DI_MixerON                                               |
+PLCTAG_DO_MescolaInCorso                                        |
+PLCTAG_DO_ScaricoMesc_Vers8_2                                   |
+PLCTAG_DO_SpruzzaAntiadesivoScivoloRiciclatoMixer               |
+PLCTAG_DI_abilitaAdditivoMix                                    |
+PLCTAG_DI_PompaAddMix                                           |
+PLCTAG_DO_PompaAddMixer_Vers8_2                                 |
+PLCTAG_DI_TermPompaAddMixer                                     |
+PLCTAG_DI_PompaAcquaRitorno                                     |
+PLCTAG_DO_PompaAcquaComando                                     |
+PLCTAG_DI_PompaAcquaScattoTermica                               |
+PLCTAG_DI_abilitaAdditivoLega                                   |
+PLCTAG_DI_PompaAddLegante                                       |
+PLCTAG_DO_PompaAddLegante_Vers8_2                               |
+PLCTAG_DI_TermPompaAddLegante                                   |
+PLCTAG_DI_PesataAddLegante                                      |
+PLCTAG_DI_Valv_Add_leg_CH                                       |
+PLCTAG_DO_Valv_Add_leg                                          |
+PLCTAG_DI_Reset_man_Add_leg_CNT                                 |
+PLCTAG_AO_PompaAddLegante                                       |
+PLCTAG_DI_PortinaSacchiCh                                       |
+PLCTAG_DI_PortinaSacchiAp                                       |
+PLCTAG_Sacchi3_RIS                                              |
+PLCTAG_Sacchi4_RIS                                              |
+PLCTAG_DI_RitornoNastroSacchi                                   |
+PLCTAG_DI_TermicaNastroSacchi                                   |
+PLCTAG_DO_MotoreNastroSacchi_Vers8_2                            |
+PLCTAG_DO_ConsensoIntroSacchi_Vers8_2                           |
+PLCTAG_Sacchi9                                                  |
+PLCTAG_Sacchi10                                                 |
+PLCTAG_Sacchi11                                                 |
+PLCTAG_Sacchi12                                                 |
+PLCTAG_Sacchi13                                                 |
+PLCTAG_Sacchi14                                                 |
+PLCTAG_Sacchi15                                                 |
+PLCTAG_Sacchi16                                                 |
+PLCTAG_Sacchi17                                                 |
+PLCTAG_Sacchi18                                                 |
+PLCTAG_Sacchi19                                                 |
+PLCTAG_Sacchi20                                                 |
+PLCTAG_DI_GravitaValvScaricoCh                                  |
+PLCTAG_DI_GravitaValvScaricoAp                                  |
+PLCTAG_DI_GravitaSicurezza                                      |
+PLCTAG_DI_Gravita_RIS1                                          |
+PLCTAG_DI_Gravita_RIS2                                          |
+PLCTAG_DO_GravitaPesataB1..7                                    |
+PLCTAG_DI_Gravita_RIS3                                          |
+PLCTAG_DO_GravitaScarico_Vers8_2                                |
+PLCTAG_AO_GravitaVelocitaPompa                                  |
+PLCTAG_DI_ContalitriValvolaPesataChiusa                         |
+PLCTAG_DO_ContalitriPesata_Vers8_2                              |
+PLCTAG_DI_ContalitriSicurezza                                   |
+PLCTAG_DI_ContalitriAbilitazione                                |
+PLCTAG_DI_ContalitriReset                                       |
+PLCTAG_DI_Pesata_In_Corso_FLOM                                  |
+PLCTAG_DI_AbilitaCompAux1                                       |
+PLCTAG_DI_FinePesataCompAux1                                    |
+PLCTAG_DI_FineScaricoCompAux1                                   |db46.dbx218.2
+PLCTAG_DI_SIWA_Batch_PortinaChiusa                              |F.C. Portina Chiusa Siwarex RAP Freddo Batch (da DB46.DBX228.0 a DB46.DBX229.5)
+PLCTAG_DI_SIWA_Batch_PortinaAperta                              |F.C. Portina Aperta
+PLCTAG_XX_SIWA_Batch_RISERVA_228_2                              |Riservato per gestione interna del PLC
+PLCTAG_DI_SIWA_Batch_RitornoNastro                              |Ritorno Effettivo del Nastro
+PLCTAG_DI_SIWA_Batch_SicurezzaNastro                            |Sicurezza Effettiva del Nastro
+PLCTAG_DO_SIWA_Batch_ComandoAvvioNastro                         |Start Effettivo al Nastro
+PLCTAG_DI_SIWA_Batch_StartNastroDaSIWA                          |Start Nastro da SIWAREX (usato dal PLC per avvio effettivo del nastro)
+PLCTAG_DI_SIWA_Batch_DosaggioInCorsoDaSIWA                      |Batch Active da SIWAREX
+PLCTAG_DI_SIWA_Batch_DosaggioTerminatoDaSIWA                    |Batch End da SIWAREX (usato dal PLC per arresto effettivo del nastro)
+PLCTAG_DO_SIWA_Batch_ComandoArrestoNastro                       |STOP Effetivo al NASTRO (lo da il PLC quando legge Batch End)
+PLCTAG_DO_SIWA_Batch_StartCiclo                                 |Uscita collegata all'ingresso della SIWAREX per avviare il Batch
+PLCTAG_DO_SIWA_Batch_AbortCiclo                                 |Uscita collegata all'ingresso della SIWAREX per abortire il Batch
+PLCTAG_DO_SIWA_Batch_ComandoPortina                             |Comando di apertura portina davanti al nastro per immissione nel mixer
+PLCTAG_DO_SIWA_Batch_ModalitaTaratura                           |Flag per abilitazione modalità taratura bilancia
+PLCTAG_DO_SIWA_Batch_StartPesataSemiAuto                        |db46.dbx229.6 Start pesata semiautomatica rap freddo con SIWA da pc (con portine in manuale)
+PLCTAG_AckAllarmiAggregati                                      |db46.dbx340.0
+PLCTAG_AckAllarmiFiller                                         |
+PLCTAG_AckAllarmiBitume                                         |
+PLCTAG_AckAllarmiBitumeGravita                                  |
+PLCTAG_AckAllarmiContalitri                                     |
+PLCTAG_AckAllarmiRiciclato                                      |
+PLCTAG_AckAllarmiViatop                                         |
+PLCTAG_AckAllarmiAddMixer                                       |
+PLCTAG_AckAllarmiAddLegante                                     |
+PLCTAG_AckAllarmiAddSacchi                                      |
+PLCTAG_AckAllarmiSiwaBatch                                      |
+PLCTAG_AckAllarmiAcqua                                          |
+PLCTAG_AckAllarmiDisp6                                          |
+PLCTAG_AckAllarmiDisp7                                          |
+PLCTAG_AckAllarmiMixer                                          |
+PLCTAG_AckAllarmiBenna                                          |
+PLCTAG_SospensionePesate                                        |
+PLCTAG_MixerPienoAmpere                                         |
+PLCTAG_BennaPienaAmpere                                         |
+PLCTAG_ImpCambioAlVoloDos                                       |Impulso di cambio ricetta se il dosaggio non é attivo
+PLCTAG_F_WatchdogPC                                             |db46.dbx388.0
+PLCTAG_F_AbilPortineManuali                                     |
+PLCTAG_StartDosaggio                                            |
+PLCTAG_StartImpProlungato                                       |
+PLCTAG_OkStartDosaggio                                          |
+PLCTAG_StopDosaggio                                             |
+PLCTAG_Abort                                                    |
+PLCTAG_MemAbort                                                 |
+PLCTAG_TrasfDatiPlcDosaggio                                     |
+PLCTAG_PrenotaCambioRicDos                                      |
+PLCTAG_MemTrasfPlcScarico                                       |
+PLCTAG_AckFuoriTollSca                                          |Accettazione fuori tolleranza bilance in pesata
+PLCTAG_AckFuoriTollPes                                          |Accettazione fuori tolleranza bilance in scarico
+PLCTAG_AzzeramentoTotaliParz                                    |
+PLCTAG_AzzeramentoTotaliGen                                     |
+PLCTAG_MemPesAggrInCorso                                        |
+PLCTAG_DI_EsclusioneStampa                                      |
+PLCTAG_DO_DosaggioInCorso                                       |DBX390.1
+PLCTAG_DO_emergenza                                             |
+PLCTAG_DO_LampadaStopInCorso                                    |
+PLCTAG_DI_AlarmReset                                            |
+PLCTAG_DO_RicettaCoerente                                       |
+PLCTAG_DO_StampaIntestazione                                    |
+PLCTAG_DO_AllarmeSirenaSilo                                     |
+PLCTAG_DO_AllarmeAcustico                                       |
+PLCTAG_DO_AllarmeVisivo                                         |
+PLCTAG_MemTrasfDatiPLCcar                                       |Riservato al PLC
+PLCTAG_DI_TermPompaSpruzzLegante                                |
+PLCTAG_DI_TermCocleaPesataF1..3                                 |
+PLCTAG_DI_TermicaComune                                         |
+PLCTAG_DI_RitornoCocleaPesataF2                                 |DBX392.0
+PLCTAG_DeflettoreVaglioManuale                                  |
+PLCTAG_DO_Dest_Trop_Pieno_F1F2                                  |
+PLCTAG_DI_Dest_trop_Pieno_F1                                    |
+PLCTAG_DO_PesataAggNV2                                          |
+PLCTAG_MemTorSelRicNV2                                          |
+PLCTAG_DO_LampScarMixPronto                                     |DB46.DBX392.6
+PLCTAG_DI_TermVentPulizPirom                                    |DB46.DBX392.7  Termica ventola pulizia pirometro
+PLCTAG_DI_TermVentCentrIdr                                      |DB46.DBX393.0  Termica ventola centralina idraulica
+PLCTAG_DI_TermInverterTamburo                                   |DB46.DBX393.1  Termica inverter tamburo
+PLCTAG_DI_TermInverterFiltro                                    |DB46.DBX393.2  Termica inverter filtro
+PLCTAG_DI_PressInsufComprBrucNONUSARE                           |DB46.DBX393.3  Pressione insufficiente compressore bruciatore
+PLCTAG_DI_TermBennaTraslata                                     |DB46.DBX393.4  Termica benna traslata
+PLCTAG_DI_AllTenutaValvoleOCNONUSARE                            |DB46.DBX393.5  Allarme tenuta valvole olio combustibile
+PLCTAG_DI_RitornoCocleaPesataF1                                 |
+PLCTAG_DI_RitornoCocleaPesataF3                                 |
+PLCTAG_DO_TorScambiovaglio                                      |db46.dbx416.0 (NEW MOTORS)
+PLCTAG_DI_TorVagliato                                           |
+PLCTAG_DI_TorNonVagliato                                        |
+PLCTAG_DO_TorAttNpRifiuti                                       |Attuatore non passa rifiuti torre
+PLCTAG_DI_TorAttNpRifGr                                         |Attuatore non passa rifiuti in posizione su grosso
+PLCTAG_DI_TorAttNpRifRf                                         |Attuatore non passa rifiuti in posizione su rifiuti
+PLCTAG_DI_TorAttNpRifTer                                        |Termica attuatore non passa rifiuti torre
+PLCTAG_DI_TorMemApPortMan                                       |Memoria di avvenuta pesatura forzata durante il ciclo automatico
+PLCTAG_DI_TorBassaPress                                         |Bassa pressione aria impianto
+PLCTAG_DI_TorRiscTramNVTer                                      |Termica riscaldamento tramoggia non vagliato
+PLCTAG_DI_TorLivMinTramRic                                      |Livello minimo tramoggia di pesatura riciclato freddo
+PLCTAG_DI_TorLivMaxTramRic                                      |Livello massimo tramoggia di pesatura riciclato freddo
+PLCTAG_DI_TorLivMaxNP                                           |Livello massimo tramoggia Non Passa
+PLCTAG_DI_TorTermFrenoVaglio                                    |                                                                                      20150818
+PLCTAG_AI_TorTempTorre2_Sabbia                                  |
+PLCTAG_AI_TorTempLegante                                        |
+PLCTAG_AI_TorPressioneAria                                      |
+PLCTAG_DI_TorLivMinTamponeF1..3                                 |Livello minimo tramoggia tampone filler recupero
+PLCTAG_DI_TorLivMaxTamponeF1..3                                 |Livello minimo tramoggia tampone filler recupero
+PLCTAG_DI_TorLivMinAgg1..8                                      |db46.dbx424.6
+PLCTAG_DI_TorLivMedAgg1..8                                      |
+PLCTAG_DI_TorLivMaxAgg1..8                                      |
+PLCTAG_AI_TorLivAgg1..8                                         |
+PLCTAG_DI_TorLivMinAggNV                                        |
+PLCTAG_DI_TorLivMedAggNV                                        |
+PLCTAG_DI_TorLivMaxAggNV                                        |
+PLCTAG_AI_TorLivAggNV                                           |
+PLCTAG_DO_MixAttAspFumi                                         |db46.dbx460.0
+PLCTAG_DI_MixAttAspFumiCh                                       |
+PLCTAG_DI_MixAttAspFumiAp                                       |
+PLCTAG_DI_MixAttAspFumiTer                                      |Termica valvola aspirazione fumi mixer
+PLCTAG_DO_MixIngrassatore                                       |
+PLCTAG_DI_MixIngrLivMinimo                                      |
+PLCTAG_DI_MixIngrassatore2                                      |
+PLCTAG_DI_MixIngrassatoreTer                                    |Termica ingrassatore mixer
+PLCTAG_DO_TorDeflettore_2_Tramoggioni                           |
+PLCTAG_DI_TorDeflettore_2_FC_tram2                              |
+PLCTAG_DI_TorDeflettore_2_FC_tram3                              |
+PLCTAG_DI_Pompa_Soft_Ritorno                                    |
+PLCTAG_DI_Pompa_Soft_Termica                                    |
+PLCTAG_DI_Pompa_Soft_Ritorno_Inversione                         |
+PLCTAG_AI_MixTempscarico                                        |
+PLCTAG_AI_TorTempBacinLeg                                       |
+PLCTAG_AI_TorTempLegante2                                       |
+PLCTAG_AI_TorTempTuboLeg1                                       |
+PLCTAG_AI_TorTempTuboLeg2                                       |
+PLCTAG_AI_TorTempTorre1_NV                                      |
+PLCTAG_AI_TorTempTorre3                                         |
+PLCTAG_AI_TorTempTorre4                                         |
+PLCTAG_AI_TorTempTorre5                                         |
+PLCTAG_AI_TorTempTorre6                                         |
+PLCTAG_AI_TorTempTorre7                                         |
+PLCTAG_AI_TorTempTuboLeg3                                       |DB46.DBW476
+PLCTAG_AI_PompaEmulsioneTemp                                    |
+PLCTAG_TrasfDatiPlcPredosag                                     |
+PLCTAG_DI_MarciaPredosatHOLD                                    |Marcia arresto predosatori (va tenuto TRUE per lasciarli accesi)
+PLCTAG_DI_StopPredosatImmed                                     |Arresto immediato dei predosatori
+PLCTAG_DI_PredInManuale                                         |
+PLCTAG_En_ArrestoPredFinePrd                                    |Abilitazione arresto predosatori a fine produzione
+PLCTAG_AI_PesoNastroInerti                                      |
+PLCTAG_AI_PesoNastroRiciclat                                    |
+PLCTAG_DO_NastrinoRiciclatoAnello2Elevatore                     |
+PLCTAG_DI_NastrinoRiciclatoAnello2Elevatore                     |
+PLCTAG_DO_SirenaPredosatoreVuoto                                |
+PLCTAG_DI_PredosatoriTermica                                    |
+PLCTAG_AI_BrucModRic                                            |
+PLCTAG_DI_TermVibratoriPred                                     |DB46.DBX592.0
+PLCTAG_DI_TermVibratoriPRic                                     |DB46.DBX592.1
+PLCTAG_DO_Predosatore1..16                                      |Set Predosatore 1..16
+PLCTAG_DI_RitPredosatore1..16                                   |Get Ritorno Predosatore 1..16
+PLCTAG_DI_TermPredosatore1..16                                  |Get Termica Predosatore 1..16
+PLCTAG_DI_AllPred1..16                                          |Get Allarme Predosatore 1..16
+PLCTAG_DI_PalpatorePred1..16                                    |Get Palpatore Predosatore 1..16
+PLCTAG_DI_LivMinPred1..16                                       |Get Livello Minimo Predosatore 1..16
+PLCTAG_DO_VibratoreP1..16                                       |Set Vibratore Predosatore 1..16
+PLCTAG_DI_VibratoreP1..16                                       |Get Vibratore Predosatore 1..16
+PLCTAG_DO_LampadaP1..16                                         |Set Lampada Predosatore 1..16
+PLCTAG_AO_SetPredosatore1..16                                   |Set Predosatore 1..16
+PLCTAG_AI_RitPredosatore1..16                                   |Get Ritorno Predosatore 1..16
+PLCTAG_AI_LivPredosatore1..16                                   |Get Livello Predosatore 1..16
+PLCTAG_DO_Riciclato1..16                                        |Set Riciclato 1..10
+PLCTAG_DI_RitRiciclato1..16                                     |Get Rit Riciclato 1..10
+PLCTAG_DI_TermRiciclato1..16                                    |Get Term Riciclato 1..10
+PLCTAG_DI_AllRiciclato1..16                                     |Get AllRiciclato 1..10
+PLCTAG_DI_PalpatoreRiciclato1..16                               |Get PalpatoreRiciclato 1..10
+PLCTAG_DI_LivMinRiciclato1..16                                  |Get LivMinRiciclato 1..10
+PLCTAG_DO_SoffioAriaR1..16                                      |Set Soffio Aria R 1..10
+PLCTAG_DI_SoffioAriaR1..16                                      |Get Soffio Aria R 1..10
+PLCTAG_DO_LampadaR1..16                                         |Set Lampada R 1..10
+PLCTAG_DI_GrigliaVibrante_Ric1..10_PalaPresente                 |Get Griglia Vibrante_Ric 1..10 _PalaPresente
+PLCTAG_DO_GrigliaVibrante_Ric1..10                              |Get Griglia Vibrante_Ric 1..10
+PLCTAG_DI_TermGrigliaVibrante_Ric1..10                          |Get Term Griglia Vibrante_Ric 1..10
+PLCTAG_DO_Vibratore_Ric1..10                                    |Set Vibratore Ric 1..10
+PLCTAG_DI_Vibratore_Ric1..10                                    |Get Vibratore Ric 1..10
+PLCTAG_AO_SetRiciclato1..10                                     |Set Set Riciclato 1..10
+PLCTAG_AI_RitRiciclato1..10                                     |Get Rit Riciclato 1..10
+PLCTAG_AI_LivRiciclato1..10                                     |Get Liv Riciclato 1..10
+PLCTAG_ComandiAux00..29_Uscita                                  |Comandi Aux 00..29 Uscita
+PLCTAG_ComandiAux00..29_Ritorno                                 |Comandi Aux 00..29 Ritorno
+PLCTAG_ComandiAux00..29_Termica                                 |Comandi Aux 00..29 Termica
+PLCTAG_ComandiAux00..29_Inclusione                              |Comandi Aux 00..29 Inclusione
+PLCTAG_DO_Motore01..64                                          |Set Motore 01..64
+PLCTAG_DI_RitMotore01..64                                       |Get Rit Motore 01..64
+PLCTAG_DI_TermMotore01..64                                      |Get Term Motore 01..64
+PLCTAG_DI_SicMotore01..64                                       |Get Sic Motore 01..64
+PLCTAG_DO_InvMotore01..64                                       |Set Inv Motore 01..64
+PLCTAG_DI_Al_Slittamento01..64                                  |Get Al_Slittamento 01..64
+PLCTAG_AO_SetMotore01..64                                       |Set Set Motore 01..64
+PLCTAG_AI_AmpMotore01..64                                       |Get Amp Motore 01..64
+PLCTAG_AI_Amp2Motore05                                          |
+PLCTAG_AI_Amp2Motore07                                          |
+PLCTAG_AI_Amp2Motore17                                          |
+PLCTAG_AI_Amp3Motore17                                          |
+PLCTAG_AI_Amp4Motore17                                          |DB46.DBW1436
+PLCTAG_AI_Amp2Motore39                                          |DB46.DBW1916
+PLCTAG_AI_Amp3Motore39                                          |DB46.DBW1918
+PLCTAG_AI_Amp4Motore39                                          |DB46.DBW1920
+PLCTAG_NM_PRED_Start_Auto                                       |
+PLCTAG_NM_PRED_Stop_Auto                                        |
+PLCTAG_NM_PRED_Auto_Man                                         |
+PLCTAG_NM_PRED_RICFUT_Inerte_Set1..12                           |
+PLCTAG_NM_PRED_RICFUT_Ricic_Set1..7                             |
+PLCTAG_NM_PRED_RICFUT_Afreddo                                   |
+PLCTAG_NM_PRED_Lancia_Ricetta                                   |
+PLCTAG_NM_PRED_Arresta_Ricetta                                  |
+PLCTAG_NM_NC1                                                   |
+PLCTAG_NM_NC2                                                   |
+PLCTAG_NM_NC3                                                   |
+PLCTAG_NM_NCRIC                                                 |
+PLCTAG_NM_NCRICFREDDO                                           |
+PLCTAG_NM_CMD_SemiAuto_1..100                                   |NM_CMD_SemiAuto_1..100
+PLCTAG_NM_CMD_InvSemiAuto_1..10                                 |Comando di inversione PCL
+PLCTAG_NM_CMD_ManutenzioneMotore                                |Motore in manutenzione (0 = nessuno)
+PLCTAG_NM_F1_Gestione                                           |
+PLCTAG_NM_F2_Gestione                                           |
+PLCTAG_NM_F3_Gestione                                           |
+PLCTAG_NM_B1_Scambio                                            |
+PLCTAG_NM_B2_Scambio                                            |
+PLCTAG_NM_FORZA_PCL                                             |
+PLCTAG_NM_RicettaVagliata                                       |
+PLCTAG_NM_TestPredosatori                                       |
+PLCTAG_NM_TamburoArrestoImmediato                               |
+PLCTAG_NM_Tamburo2ArrestoImmediato                              |
+PLCTAG_NM_FILERIZ_AUTO_MAN                                      |Fillerizzazione =1 Auto, =0 Man
+PLCTAG_NM_FILERIZ_START_MAN                                     |Fillerizzazione Start Manuale
+PLCTAG_NM_FILERIZ_VEL_MAN                                       |Fillerizzazione Velocità Manuale
+PLCTAG_NM_FILERIZ_SEL_F1F2                                      |Fillerizzazione Selezione F1F2
+PLCTAG_NM_FILERIZ_PRES_OK                                       |Fillerizzazione Pressione OK
+PLCTAG_NM_FILLER1_EVAC_TIMEOUT                                  |
+PLCTAG_NM_FILLER1_EVAC_FORZ_FILTRODMR                           |
+PLCTAG_NM_EV_FORZATO_AP                                         |
+PLCTAG_NM_EV_FORZATO_CH                                         |
+PLCTAG_NM_FILLER1_TSF_TIMEOUT                                   |
+PLCTAG_NM_FILLER1_FILTRODMR                                     |
+PLCTAG_NM_IN_BIT_BASSA_TEMP_BIT1                                |=1 La temperatura del bitume sono basse (bit generato dalla logica nel Cyb500)
+PLCTAG_NM_IN_BIT_BIT2_IN_BLENDING                               |
+PLCTAG_NM_IN_BIT_PES_BITUME1                                    |Pesata Bitume1
+PLCTAG_NM_IN_BIT_PES_BITUME2                                    |Pesata Bitume2
+PLCTAG_NM_IN_BRUC_AL_TEMP_ENT_FILTRO                            |Se alto non si ascolta la temperatura
+PLCTAG_NM_IN_ARRESTO_IMM                                        |Arresto motori immediato
+PLCTAG_NM_Ritorno_1..100                                        |Ritorno "virtuale" del motore (non considera eventuali cicli on/off) 1..100
+PLCTAG_NM_RitornoIndietro_1..100                                |Ritorno "virtuale" del motore (non considera eventuali cicli on/off) 1..100
+PLCTAG_NM_ForzatoDarwin_1..100                                  |ForzatoDarwin_1..100
+PLCTAG_NM_AllarmeMotore_1..100                                  |Array di bit di allarme 1..100
+PLCTAG_NM_MOTORI_StatoAutomatico                                |
+PLCTAG_NM_MOTORI_StatoSemiAutomatico                            |
+PLCTAG_NM_MOTORI_StatoManutenzione                              |
+PLCTAG_NM_COUNTDOWN_MAX_Nv                                      |
+PLCTAG_NM_COUNTDOWN_PAUSA_Sirena                                |
+PLCTAG_NM_COUNTDOWN_LAVORO_Sirena                               |
+PLCTAG_NM_COUNTDOWN_MOTORE_Avviamento                           |
+PLCTAG_NM_COUNTDOWN_MOTORE_Spegnimento                          |
+PLCTAG_NM_OUT_ValvolaTSF                                        |
+PLCTAG_NM_OUT_Sirena                                            |
+PLCTAG_NM_OUT_SeqInCorso                                        |
+PLCTAG_NM_OUT_Ciclo_Sirena                                      |
+PLCTAG_NM_BloccoMotore_1..100                                   |NM_BloccoMotore_1..100
+PLCTAG_NM_MOTORE_AvviamentoSpegnimento                          |
+PLCTAG_NM_MOTORI_CmdAutomatico                                  |
+PLCTAG_NM_MOTORI_CmdSemiAutomatico                              |
+PLCTAG_NM_MOTORI_CmdManutenzione                                |
+PLCTAG_NM_MOTORI_StartSequenza                                  |
+PLCTAG_NM_MOTORI_AvviamentoRidotto                              |
+PLCTAG_NM_MOTORI_GruppoAvviamentoRidotto                        |
+PLCTAG_NM_MOTORI_StopSequenza                                   |
+PLCTAG_NM_MOTORI_ACK                                            |
+PLCTAG_NM_MOTORI_TrasfParam                                     |
+PLCTAG_NM_CountDown_NV                                          |
+PLCTAG_NM_Sequenze_ListaAvvCompleta_1..100                      |NM_Sequenze_ListaAvvCompleta_1..100
+PLCTAG_NM_Sequenze_ListaSpegnimento_1..100                      |NM_Sequenze_ListaSpegnimento_1..100
+PLCTAG_NM_ZonaAsservimenti_AsservimentiDefault_1..100           |NM_ZonaAsservimenti_AsservimentiDefault_1..100
+PLCTAG_NM_SIRENA_Abilitazione                                   |
+PLCTAG_NM_SIRENA_Tintervento                                    |
+PLCTAG_NM_SIRENA_Tlavoro                                        |
+PLCTAG_NM_SIRENA_Tpausa                                         |
+PLCTAG_NM_NV_Timeout                                            |
+PLCTAG_NM_NV_TipoLiv                                            |0 Digitale, 1 =Analogica
+PLCTAG_NM_NV_Anal_MinIN                                         |
+PLCTAG_NM_NV_Anal_MaxIN                                         |
+PLCTAG_NM_NV_Anal_MinOUT                                        |
+PLCTAG_NM_NV_Anal_MaxOUT                                        |
+PLCTAG_NM_NV_LivelloAnalMax                                     |
+PLCTAG_NM_RIF_Timeout                                           |                                                                                      20161129
+PLCTAG_NM_FILLER_ElevatoreF2SuF1                                |=1 se l'elevatore F1 è comune ad F2
+PLCTAG_NM_FILLER_ElevatoreF2SuF3                                |=1 se l'elevatore F2 è comune ad F3
+PLCTAG_NM_FILLER_InclusioneF2                                   |=1 gestito il filler 2
+PLCTAG_NM_FILLER_InclusioneF3                                   |=1 gestito il filler 3
+PLCTAG_NM_FILLER_ModTopTowerF1                                  |
+PLCTAG_NM_FILLER_ModTopTowerF2                                  |
+PLCTAG_NM_FILLER_ModTopTowerF3                                  |                                                                                     201511218
+PLCTAG_NM_FILLER_LivEsterni                                     |
+PLCTAG_NM_FILLER_TramTamp_F2                                    |
+PLCTAG_NM_FILLER_EvacSiloFiller1                                |
+PLCTAG_NM_BITUME_Bit_InBlending                                 |
+PLCTAG_NM_BITUME_AvvioPCLConDosaggio                            |=1 si avvia PCL direttamente col dosaggio (manca la 3-vie)
+PLCTAG_NM_BITUME_AvvioPCL2ConDosaggio                           |=1 si avvia PCL direttamente col dosaggio (manca la 3-vie)
+PLCTAG_NM_FILLERIZZAZIONE_SogliaMinima                          |Minima Depressione Fillerizzazione
+PLCTAG_NM_FILLERIZZAZIONE_IsterersiMinDep                       |
+PLCTAG_NM_DEFLETTORI_AbilitaDefAnelloElev                       |
+PLCTAG_NM_ELEVCALDO_AbilitaDefAnelloRif                         |
+PLCTAG_NM_ELEVCALDO_AbilitaDefMod                               |
+PLCTAG_NM_BRUCIATORE1_TipoCombGas                               |
+PLCTAG_NM_BRUCIATORE2_TipoCombGas                               |
+PLCTAG_NM_BRUCIATORE1_InclAvvCaldo                              |
+PLCTAG_NM_BRUCIATORE2_InclAvvCaldo                              |
+PLCTAG_NM_BRUCIATORE1_TipoCombOlio                              |
+PLCTAG_NM_BRUCIATORE2_TipoCombOlio                              |
+PLCTAG_NM_NASTRITimeoutNC                                       |Timeout Nastri Collettori in [sec]
+PLCTAG_NM_NASTRITimeoutNRicF                                    |Timeout Nastri Riciclato Freddo in [sec]
+PLCTAG_NM_NASTRITimeoutNRicC                                    |Timeout Nastri Riciclato Caldo in [sec]
+PLCTAG_NM_ParametriOK                                           |
+PLCTAG_NM_AccesoForzatoPLC_1..100                               |=1 il comando manuale non è accettato e deve essere azzerato; azzerare anche questo toggle
+PLCTAG_NM_SpentoForzatoPLC_1..100                               |
+PLCTAG_NM_OUT_Blocca_Scar_F1                                    |
+PLCTAG_NM_OUT_Blocca_Scar_F2                                    |
+PLCTAG_NM_OUT_PrenotaAvvCaldo                                   |
+PLCTAG_NM_IN_START_BRUC1                                        |Almeno un predosatore su Nastro Collettore 2 (al momento non usata)
+PLCTAG_NM_IN_START_BRUC2                                        |Almeno un predosatore su Nastro Collettore 3 (al momento non usata)
+PLCTAG_NM_IN_START_RID_BRUC1                                    |Almeno un predosatore su Nastro Riciclato Caldo (al momento non usata)
+PLCTAG_NM_IN_START_RID_BRUC2                                    |Almeno un predosatore su Nastro Riciclato Freddo (al momento non usata)
+PLCTAG_NM_IN_START_STOPBRUC1                                    |
+PLCTAG_NM_IN_START_STOPBRUC2                                    |
+PLCTAG_NM_MOTORE1..100_Presente                                 |Il Motore è presente
+PLCTAG_NM_MOTORE1..100_UscitaInvertita                          |=1 Uscita Motore Invertito
+PLCTAG_NM_MOTORE1..100_RitornoInvertito                         |=1 Ritorno Motore Invertito
+PLCTAG_NM_MOTORE1..100_TipoInversione                           |=1 Marcia+Inversione =0 Avanti+Indietro
+PLCTAG_NM_MOTORE1..100_IO_InverterPresente                      |=1 Inverter Presente
+PLCTAG_NM_MOTORE1..100_IO_InverterScaling_MinIN                 |Min Input
+PLCTAG_NM_MOTORE1..100_IO_InverterScaling_MaxIN                 |Max Input
+PLCTAG_NM_MOTORE1..100_Esclusioni_Uscita                        |=1 Uscita non generata (sola visualizzazione)
+PLCTAG_NM_MOTORE1..100_Esclusioni_Ritorno                       |=1 Ritorno Simulato
+PLCTAG_NM_MOTORE1..100_Sequenza_SoloVisualizzazione             |=1 Solo Visualizzato (escluso dalle sequenze e non comanda alcuna uscita)
+PLCTAG_NM_MOTORE1..100_Sequenza_EsclusionAvv                    |=1 Escluso dall'Avviamento
+PLCTAG_NM_MOTORE1..100_Sequenza_EsclusionSpe                    |=1 Escluso dallo Spegnimento
+PLCTAG_NM_MOTORE1..100_Sequenza_InclAvvRidotto                  |=1 Incluso Avviamento Ridotto
+PLCTAG_NM_MOTORE1..100_Sequenza_GruppoAvvRidotto                |Gruppo Avviamento Ridotto
+PLCTAG_NM_MOTORE1..100_Sequenza_TempoRitAvvMotSuc               |Tempo Ritardo Avviamento Motore Successivo [sec]
+PLCTAG_NM_MOTORE1..100_Sequenza_TempoRitSpeMotSuc               |Tempo Ritardo Spegnimento Motore Successivo [sec]
+PLCTAG_NM_MOTORE1..100_Timeout_Avvio                            |Timeout Avvio [sec]
+PLCTAG_NM_MOTORE1..100_Timeout_Arresto                          |Timeout Arresto [sec]
+PLCTAG_NM_MOTORE1..100_PausaLavoro_Presenza                     |=1 Presente Pausa/Lavoro
+PLCTAG_NM_MOTORE1..100_PausaLavoro_Tpausa                       |Tempo Pausa [sec]
+PLCTAG_NM_MOTORE1..100_PausaLavoro_Tlavoro                      |Tempo Lavoro [sec]
+PLCTAG_NM_MOTORE1..100_Antislittamento_Presente                 |=1 Presenza Antislittamento
+PLCTAG_NM_MOTORE1..100_Antislittamento_Tempo                    |Tempo Allarme Antislittamento [sec]
+PLCTAG_NM_MOTORE1..100_Amperometri_Presente                     |Amperometro
+PLCTAG_NM_MOTORE1..100_Amperometri_LimMin                       |Indirizzo Amperometro (se 0 è non presente)
+PLCTAG_NM_MOTORE1..100_Amperometri_LimMax                       |Min Output
+PLCTAG_NM_MOTORE1..100_Amperometri_MaxOut                       |Max Output
+PLCTAG_NM_MOTORE1..100_Amperometri_ValScal                      |
+PLCTAG_NM_MOTORE_AmperometrAux1..8_Presente                     |
+PLCTAG_NM_MOTORE_AmperometrAux1..8_ValMaxOut                    |
+PLCTAG_NM_MOTORE_AmperometrAux1..8_ValLimMin                    |
+PLCTAG_NM_MOTORE_AmperometrAux1..8_ValLimMax                    |
+PLCTAG_NM_MOTORE_AmperometrAux1..8_ValScal                      |
+PLCTAG_DI_SiloSottoScambOK                                      |Ritorno selezione scambio silo sotto OK
+PLCTAG_DI_SiloMemTempScar                                       |Pulsante di acquisizione temperatura scarico silo
+PLCTAG_DI_BloccoScMescolatore                                   |Blocco scarico mescolatore
+PLCTAG_DI_BloccoBenna                                           |Blocco benna
+PLCTAG_DO_SiloConsensoCarico_Celle                              |
+PLCTAG_DO_SiloConsensoScarico_Celle                             |
+PLCTAG_DO_SiloArganoBinario_Salita                              |
+PLCTAG_DO_SiloArganoBinario_Discesa                             |
+PLCTAG_DO_Silo01..12                                            | ---------- SILO 1..12 (D=11 R=12) ----------
+PLCTAG_DO_ComandoScaricoSilo01..12                              |
+PLCTAG_DI_TelescaricoSilo01..12                                 |
+PLCTAG_DI_RitSilo01..12                                         |
+PLCTAG_DI_PortScarSilo01..12                                    |
+PLCTAG_DI_LivMaxSilo01..12                                      |
+PLCTAG_DI_CappelloSilo01..12_Aperto                             |
+PLCTAG_DI_CappelloSilo01..12_Chiuso                             |
+PLCTAG_AI_LivSilo01..12                                         |
+PLCTAG_AI_PesoSilo01..12                                        |
+PLCTAG_AI_TempSilo01..12                                        |
+PLCTAG_DO_AsseA_BennaStart                                      |AsseA : Asse ausiliario (ex asse 2)
+PLCTAG_DO_AsseA_SpruzzAntiad                                    |
+PLCTAG_DI_AsseA_BennaChiusa                                     |
+PLCTAG_DI_AsseA_BennaAperta                                     |
+PLCTAG_DI_BennaPronta                                           |
+PLCTAG_DI_AsseA_FC_PuntoCarico                                  |
+PLCTAG_DI_AsseA_BennaFcSuperiore                                |
+PLCTAG_DI_BinarioPosDiretto                                     |
+PLCTAG_DI_BinarioPosSilo                                        |
+PLCTAG_DO_BinarioSalita                                         |
+PLCTAG_DO_BinarioDiscesa                                        |
+PLCTAG_DO_AsseA_Scarico                                         |
+PLCTAG_DI_AsseA_FC_LavoroSX                                     |
+PLCTAG_DI_AsseA_ExtraCorsaSX                                    |
+PLCTAG_DI_AsseA_ExtraCorsaDX                                    |
+PLCTAG_DI_BinarioTermica                                        |
+PLCTAG_DI_AsseA_Sicurezza                                       |
+PLCTAG_AI_AsseA_Posizione                                       |
+PLCTAG_DO_AsseP_NavettaStart                                    |AsseP : Asse principale (ex asse 1)
+PLCTAG_DO_AsseP_SpruzzAntiad                                    |
+PLCTAG_DI_AsseP_NavettaChiusa                                   |
+PLCTAG_DI_AsseP_NavettaAperta                                   |
+PLCTAG_DI_AsseP_FC_PuntoCarico                                  |
+PLCTAG_DI_AsseP_ExtraCorsaSX                                    |
+PLCTAG_DI_AsseP_ExtraCorsaDX                                    |
+PLCTAG_DI_AsseP_Scarico                                         |
+PLCTAG_DI_AsseP_FC_LavoroSX                                     |
+PLCTAG_DI_AsseA_FC_ScambioRifiuti                               |
+PLCTAG_DI_AsseA_FC_ScambioSilo                                  |
+PLCTAG_DI_Assi_SbloccoSicurezza                                 |
+PLCTAG_DI_AsseP_Sicurezza                                       |
+PLCTAG_DI_AsseP_BennaFcSuperiore                                |
+PLCTAG_Enable_Navetta_Con_Benna                                 |20160923 era indirizzo sbagliato
+PLCTAG_DO_Silo1D2_Pistone1                                      |
+PLCTAG_DO_Silo1D2_Pistone2                                      |
+PLCTAG_AI_NavettaPosizione                                      |
+PLCTAG_DO_AsseP_Scarico                                         |
+PLCTAG_DI_Silo1D2_FC_Pistone1_AP                                |
+PLCTAG_DI_Silo1D2_FC_Pistone1_CH                                |
+PLCTAG_DI_Silo1D2_FC_Pistone2_AP                                |
+PLCTAG_DI_Silo1D2_FC_Pistone2_CH                                |
+PLCTAG_DO_AbilitaSpruzzaturaAntiadesivoBenna                    |
+PLCTAG_DO_FiltCamera01..32                                      |
+PLCTAG_DO_FiltChModulatore                                      |
+PLCTAG_DO_FiltApModulatore                                      |
+PLCTAG_DI_FiltChModulatore                                      |
+PLCTAG_DI_FiltApModulatore                                      |
+PLCTAG_DI_FiltTermModulatore                                    |
+PLCTAG_AI_FiltPosModulatore                                     |
+PLCTAG_DO_FiltChModAriaFr                                       |
+PLCTAG_DO_FiltApModAriaFr                                       |
+PLCTAG_DI_FiltChModAriaFr                                       |
+PLCTAG_DI_FiltApModAriaFr                                       |
+PLCTAG_DI_FiltTermModAriaFr                                     |
+PLCTAG_AI_FiltPosModAriaFr                                      |
+PLCTAG_AI_FiltDepressione                                       |
+PLCTAG_AI_FiltTempEntrata                                       |
+PLCTAG_AI_FiltTempUscita                                        |
+PLCTAG_DI_FiltSictempITT                                        |
+PLCTAG_DI_DepressFiltroOK                                       |
+PLCTAG_DI_ConsPuliziaFiltro                                     |
+PLCTAG_DO_FiltValvPresep                                        |
+PLCTAG_DI_FiltValvPresepAp                                      |
+PLCTAG_DI_FiltValvPresepCh                                      |
+PLCTAG_DO_ValvPresepAnello                                      |                                                                                      20160105
+PLCTAG_DI_ValvPresepAnello_Ap                                   |                                                                                      20160105
+PLCTAG_disp_2857_0                                              |DB46.DBX2857.0
+PLCTAG_disp_2857_1                                              |DB46.DBX2857.1
+PLCTAG_disp_2857_2                                              |DB46.DBX2857.2
+PLCTAG_disp_2857_3                                              |DB46.DBX2857.3
+PLCTAG_DO_FiltAttuat01                                          |Nuova Gestione Motori
+PLCTAG_SelezioneF3                                              |//20151218
+PLCTAG_DI_FiltAttuatCh01                                        |
+PLCTAG_DI_FiltAttuatAp01                                        |
+PLCTAG_DI_FiltTermAttuat01                                      |
+PLCTAG_DO_FiltValvola1..3                                       |
+PLCTAG_DI_FiltValvola1..3Ch                                     |
+PLCTAG_DI_FiltValvola1..3Ap                                     |
+PLCTAG_DI_FiltValvola1..3Ris                                    |
+PLCTAG_DI_FiltLivMaxMacCina                                     |
+PLCTAG_AI_Depress_Ingresso_Filt                                 |DB46.DBW2860
+PLCTAG_DI_Term_Coclea_Evac                                      |Termica coclea evacuazione //20150306
+PLCTAG_DO_BrucChModulatore                                      |Comando chiusura modulatore
+PLCTAG_DO_BrucApModulatore                                      |Comando apertura modulatore
+PLCTAG_DI_BrucModulatoreCh                                      |Finecorsa modulatore chiuso
+PLCTAG_DI_BrucModulatoreAp                                      |Finecorsa modulatore aperto
+PLCTAG_DI_BrucTermModulatore                                    |
+PLCTAG_DO_ChiusuraFumiTamburo1                                  |DB46.DBX2880.5
+PLCTAG_DO_AperturaFumiTamburo1                                  |DB46.DBX2880.6
+PLCTAG_DI_FC_FumiTamburo1_CH                                    |DB46.DBX2880.7
+PLCTAG_DI_FC_FumiTamburo1_AP                                    |DB46.DBX2881.0
+PLCTAG_DI_Term_Modul_Aspiraz_Bruc1                              |
+PLCTAG_AI_BrucPosModulatore                                     |
+PLCTAG_AI_BrucDepressione                                       |
+PLCTAG_DO_BrucAttuat01..03                                      |
+PLCTAG_DI_BrucAttuatCh01..03                                    |
+PLCTAG_DI_BrucAttuatAp01..03                                    |
+PLCTAG_DI_BrucTermAttuat01..03                                  |
+PLCTAG_DO_BrucStart                                             |
+PLCTAG_DI_BrucAcceso                                            |
+PLCTAG_DI_BrucBlocco                                            |
+PLCTAG_DI_BrucPosAccensione                                     |
+PLCTAG_DI_BrucPressGasOK                                        |
+PLCTAG_DI_BrucBloccoLDU                                         |
+PLCTAG_DI_BrucPressCombBass                                     |
+PLCTAG_DI_BrucTempCombOK                                        |Olio combustibile in temperatura
+PLCTAG_DI_BrucSicTempcomb                                       |Sicurezza temperatura olio combustibile
+PLCTAG_DI_AllTenutaValvoleOC                                    |DB46.DBX2888.5
+PLCTAG_DI_PressInsufComprBruc                                   |DB46.DBX2888.6
+PLCTAG_AI_BrucTempscivolo                                       |
+PLCTAG_DO_BrucDeflRic                                           |NEW MOTORS
+PLCTAG_DI_BrucDeflRicTamb                                       |
+PLCTAG_DI_BrucDeflRicElev                                       |
+PLCTAG_DO_BrucModRicApre                                        |NEW MOTORS
+PLCTAG_DO_BrucModRicChiude                                      |NEW MOTORS
+PLCTAG_DI_BrucModRicTamb                                        |Finecorsa modulatore riciclato a essiccatore
+PLCTAG_DI_BrucModRicElev                                        |Finecorsa modulatore riciclato a elevatore
+PLCTAG_DI_BrucModRicTerm                                        |Termica modulatore riciclato essiccatore/elevatore
+PLCTAG_AI_BrucModRic_UNUSED                                     |Posizione modulatore riciclato
+PLCTAG_DO_BrucDeflVaglRic                                       |Comando deflettore vaglio riciclato nastro/pesatura
+PLCTAG_DI_BrucDeflVaglRicN                                      |Finecorsa deflettore vaglio riciclato su nastro (ricircolo)
+PLCTAG_DI_BrucDeflVaglRicP                                      |Finecorsa deflettore vaglio riciclato su pesatura
+PLCTAG_DI_BrucSelezGas                                          |DB46.DBX2893.4
+PLCTAG_DI_BrucSelezOlio                                         |DB46.DBX2893.5
+PLCTAG_DI_BrucSelezGasolio                                      |DB46.DBX2893.6
+PLCTAG_AI_BrucTempTermocoppiaUscita                             |
+PLCTAG_AI_Bruc_Contalitri                                       |
+PLCTAG_AI_BrucTempIngressoTamburo                               |
+PLCTAG_AI_Bruc_Contalitri_DI                                    |DB46.DBD2902
+PLCTAG_AI_ModulatoreFumiTamburo1                                |DB46.DBW2906
+PLCTAG_AI_TempScambiatBruc1                                     |EX PLCTAG_AI_BrucModRic
+PLCTAG_DI_AltaPressione_PompaCombustibile                       |
+PLCTAG_DI_SiloFilMin01..07                                      |
+PLCTAG_DI_SiloFilMed01..07                                      |
+PLCTAG_DI_SiloFilMax01..07                                      |
+PLCTAG_DO_SiloFilAria01..07                                     |
+PLCTAG_DO_SiloFilDeum01..07                                     |
+PLCTAG_DO_SiloFilVibr01..07                                     |
+PLCTAG_DI_SiloFilAria01..07                                     |
+PLCTAG_DI_SiloFilDeum01..07                                     |
+PLCTAG_DI_SiloFilVibr01..07                                     |
+PLCTAG_DI_SiloFilVibrTerm01..07                                 |
+PLCTAG_AI_SiloFilLiv01..07                                      |
+PLCTAG_DI_SiloFilMinSxDMR                                       |DB46.DBX3054.0
+PLCTAG_DI_SiloFilMedSxDMR                                       |
+PLCTAG_DI_SiloFilMaxSxDMR                                       |
+PLCTAG_DI_SiloFilMinCnDMR                                       |
+PLCTAG_DI_SiloFilMedCnDMR                                       |
+PLCTAG_DI_SiloFilMaxCnDMR                                       |
+PLCTAG_DI_SiloFilMinDxDMR                                       |
+PLCTAG_DI_SiloFilMedDxDMR                                       |
+PLCTAG_DI_SiloFilMaxDxDMR                                       |
+PLCTAG_DO_SiloFilAriaDMR                                        |
+PLCTAG_DO_SiloFilDeumDMR                                        |
+PLCTAG_DO_SiloFilVibrDMR                                        |
+PLCTAG_DI_SiloFilAriaDMR                                        |
+PLCTAG_DI_SiloFilDeumDMR                                        |
+PLCTAG_DI_SiloFilVibrDMR                                        |
+PLCTAG_DI_SiloFilVibrTermDMR                                    |
+PLCTAG_AI_SiloFilLivDMR                                         |
+PLCTAG_DO_EvacuazFillerSilo                                     |
+PLCTAG_DI_EvacuazFillerSilo                                     |
+PLCTAG_CocleeManualeComandoComposto                             |
+PLCTAG_CocleeManualeRitorno1..16                                |
+PLCTAG_AI_ModulatoreBruciatore2                                 |DB46.DBW3096
+PLCTAG_AI_DepressioneBruciatore2                                |DB46.DBW3098
+PLCTAG_AI_TempScivoloTamburo2                                   |DB46.DBW3104
+PLCTAG_AI_ModulatoreFumiTamburo2                                |DB46.DBW3120
+PLCTAG_DO_ModulatoreBruc2Chiusura                               |DB46.DBX3094.0
+PLCTAG_DO_ModulatoreBruc2Apertura                               |DB46.DBX3094.1
+PLCTAG_DI_TermicaModulatoreBruc2                                |DB46.DBX3094.4
+PLCTAG_DO_ChiusuraFumiTamburo2                                  |DB46.DBX3094.5
+PLCTAG_DO_AperturaFumiTamburo2                                  |DB46.DBX3094.6
+PLCTAG_DI_FC_FumiTamburo2_CH                                    |DB46.DBX3094.7
+PLCTAG_DI_FC_FumiTamburo2_AP                                    |DB46.DBX3095.0
+PLCTAG_DI_Term_Modul_Aspiraz_Bruc2                              |
+PLCTAG_DO_Bruciatore2Start                                      |DB46.DBX3101.4
+PLCTAG_DI_Bruciatore2Acceso                                     |DB46.DBX3101.5
+PLCTAG_DI_Bruciatore2Blocco                                     |DB46.DBX3101.6
+PLCTAG_DI_Bruciatore2ModulPosizAccens                           |DB46.DBX3101.7
+PLCTAG_DI_PressioneGasOK2                                       |DB46.DBX3102.0
+PLCTAG_DI_BloccoLdu2                                            |DB46.DBX3102.1
+PLCTAG_DI_OlioCombustibile2_PressioneInsufficiente              |DB46.DBX3102.2
+PLCTAG_DI_OlioCombustibile2_TemperaturaOK                       |DB46.DBX3102.3
+PLCTAG_DI_OlioCombustibile2_SicurezzaTemp                       |DB46.DBX3102.4
+PLCTAG_DI_OlioCombustibile2_AllarmeTenutaValvole                |DB46.DBX3102.5
+PLCTAG_DI_CompressoreBruciatore2_PressioneInsufficiente         |DB46.DBX3102.6
+PLCTAG_AI_Temp_Fumi_Out_Tamb2                                   |DB46.DBW3122
+PLCTAG_DO_Flap_Antincendio_Tamb2                                |DB46.DBX3124.0
+PLCTAG_DO_DeflettoreBypassATamburo_Tamb2                        |Uscita per posizionare il deflettore per il bypass del tamburo parallelo
+PLCTAG_DI_FC_DeflettoreBypassATamburo_Tamb2                     |FC deflettore bypass a tamburo
+PLCTAG_DI_FC_DeflettoreBypassANastro_Tamb2                      |FC deflettore bypass a nastro
+PLCTAG_DI_Rit_Press_Fillerizz                                   |Ritorno del pressostato che dice se la pressione del compressore della filleriz è ok
+PLCTAG_Motore08_Slittamento_PrimaSoglia                         |Elevatore Caldo Slittamento Prima Soglia 20150302
+PLCTAG_Motore28_Slittamento_PrimaSoglia                         |Elevatore Riciclato Slittamento Prima Soglia 20150302
+PLCTAG_Termica_Alim_FCD                                         |Termica Darwin Alimentazione FCD
+PLCTAG_Ter_Coclea_Da_EF_A_PesF1                                 |
+PLCTAG_Ter_Coclea_Da_EF_A_PesF2                                 |
+PLCTAG_TermicaVibrSoffioEstrazF                                 |20160419 Termica soffio aria o vibratore estrazione filler (F1, F2, F3, ...)
+PLCTAG_NumRicDos                                                |PLCTAG_DOSAGGIO Numero ricetta dosaggio
+PLCTAG_TimerMescolaz                                            |Tempo mescolazione
+PLCTAG_TimerScMesc                                              |Tempo scarico mescolatore
+PLCTAG_SetA1..10                                                |Set aggregato 1
+PLCTAG_SetPesataLentaA1..10                                     |Impostazione pesata lenta aggregato 1
+PLCTAG_OrdineDosA1..10                                          |Tramoggia aggregato per ordine di apertura
+PLCTAG_ResA1..10                                                |Residuo aggregato 1
+PLCTAG_TollBil1A                                                |Tolleranza Bil. 1 aggregati
+PLCTAG_TempoStabBil1ACarico                                     |Tempo stabilizzazione bilancia 1 aggregati scarico
+PLCTAG_TempoStabBil1ASc                                         |Tempo stabilizzazione bilancia 1 aggregati carico
+PLCTAG_SetF1..8                                                 |Set Filler 1
+PLCTAG_SetPesataLentaFil1..8                                    |Impostazione pesata lenta filler 1
+PLCTAG_OrdineDosFil1..8                                         |Pesata filler ordine di apertura
+PLCTAG_ResF1..8                                                 |Residuo filler 1
+PLCTAG_TollBil2F                                                |Tolleranza Bil. 2 filler
+PLCTAG_TempoStabBil2FCarico                                     |Tempo stabilizzazione bilancia 2 filler scarico
+PLCTAG_TempoStabBil2FSc                                         |Tempo stabilizzazione bilancia 2 filler carico
+PLCTAG_TimerScF                                                 |Tempo ritardo scarico filler
+PLCTAG_SetB1..4                                                 |Set Bitume 1
+PLCTAG_SetPesataLentabit1..4                                    |Impostazione pesata lenta legante 1
+PLCTAG_SpruzzataLenta1..4                                       |Impostazione spruzzata lenta legante 1
+PLCTAG_OrdineDosBit1..4                                         |Pesata legante per ordine di apertura 1
+PLCTAG_ResB1..4Scarico                                          |Residuo bitume 1 in scarico
+PLCTAG_ResB1..4Pesata                                           |Residuo bitume 1 in pesata
+PLCTAG_TollBil3B1                                               |Tolleranza Bil. bitume
+PLCTAG_TempoStabBil3BCarico                                     |Tempo stabilizzazione bilancia 3 bitume scarico
+PLCTAG_TempoStabBil3BSc                                         |Tempo stabilizzazione bilancia 3 bitume carico
+PLCTAG_TimerScB                                                 |Tempo ritardo scarico bitume
+PLCTAG_BlendingB1..4_Perc                                       |Percentuale Bitume 1 con blending
+PLCTAG_SetRAP                                                   |Set bilancia RAP                           db15.dbd658:real
+PLCTAG_SetR2                                                    |Set bilancia riciclato 2
+PLCTAG_SetR3                                                    |Set bilancia riciclato 3
+PLCTAG_SetPesataLentaRAP                                        |Set pesata lenta RAP                       db15.dbd670:real
+PLCTAG_SetPesataLenta_ric2                                      |Set pesata lenta riciclato (4 bilancia)
+PLCTAG_SetPesataLenta_ric3                                      |Set pesata lenta riciclato (4 bilancia)
+PLCTAG_OrdineBilRAP                                             |Pesata bil. ric. per ordine di apertura    db15.dbw682:int
+PLCTAG_OrdineBilRic2                                            |Pesata bil. ric. per ordine di apertura
+PLCTAG_OrdineBilRic3                                            |Pesata bil. ric. per ordine di apertura
+PLCTAG_ResRAP                                                   |Residuo bilancia RAP                       db15.dbd688:real
+PLCTAG_ResRic2                                                  |Residuo bilancia riciclato
+PLCTAG_ResRic3                                                  |Residuo bilancia riciclato
+PLCTAG_TollBilRAP                                               |Tolleranza bilancia RAP                    db15.dbd700:real
+PLCTAG_TempoStabBilRAPCarico                                    |Tempo stabiliz. carico bilancia RAP        db15.dbw704:word
+PLCTAG_TempoStabBilRAPSc                                        |Tempo stabiliz. scarico bilancia RAP       db15.dbw706:word
+PLCTAG_TimerScRAP                                               |Tempo ritardo scarico riciclato            db15.dbw708:word
+PLCTAG_SetViatop1..6                                            |Set Viatop 1
+PLCTAG_SetPesataLentaVia1..6                                    |Impostazione pesata lenta viatop 1
+PLCTAG_ResBilViatop1..6                                         |Residuo Viatop 1
+PLCTAG_OrdineViatop_1..6                                        |Pesata viatop per ordine di apertura 1
+PLCTAG_TollBilV                                                 |Tolleranza Bil. Viatop
+PLCTAG_TempoStabBilVCarico                                      |Tempo stabilizzazione bilancia viatop scarico
+PLCTAG_TempoStabBilVSc                                          |Tempo stabilizzazione bilancia viatop carico
+PLCTAG_TimerScViatop                                            |Tempo ritardo scarico viatop
+PLCTAG_SetAdd1Mix                                               |Set Add. 1 nel mescolatore
+PLCTAG_ScAddPrimaDopoB                                          |Scarico add. nel mesc. prima o dopo del bitume
+PLCTAG_TimerScAdd1Mesc                                          |Tempo ritardo scarico add. 1 nel mescolatore
+PLCTAG_AcquaSet                                                 |
+PLCTAG_AcquaRitardo                                             |
+PLCTAG_SetAdd2PesB                                              |Set Add. 2 nella bacinella di pesatura
+PLCTAG_TimerScAdd2Bacinella                                     |Tempo ritardo scarico add. 2 nella bacinella B.
+PLCTAG_Residuo_Add2                                             |
+PLCTAG_Tolleranza_Add2                                          |
+PLCTAG_Tempo_Stab_Add2                                          |
+PLCTAG_SetPercAdd2                                              |
+PLCTAG_SetAdd3Spruzz                                            |Set Add. 3 nella spruzzatura bitume
+PLCTAG_TimerScAdd3SpruzzB                                       |Tempo ritardo scarico add. 3 nella spruzzatura
+PLCTAG_SetAdd4Sacchi                                            |Set Add. 4 a sacchi
+PLCTAG_TimerScAdd4Sacchi                                        |Tempo ritardo scarico additivo a sacchi
+PLCTAG_SacchiPrimaDopoBitume                                    |
+PLCTAG_GravitaSetPercB1..7                                      |
+PLCTAG_GravitaPercVelocePrimaPesata                             |
+PLCTAG_GravitaPercVeloceSecondaPesata                           |
+PLCTAG_GravitaPercRiduzionePrimaPesata                          |
+PLCTAG_GravitaPercRiduzioneSecondaPesata                        |
+PLCTAG_GravitaOrdineDosB1..7                                    |
+PLCTAG_GravitaRis01                                             |
+PLCTAG_GravitaResiduoB1..7                                      |
+PLCTAG_GravitaRis02                                             |
+PLCTAG_GravitaTolleranza                                        |
+PLCTAG_GravitaTempoStabCarico                                   |
+PLCTAG_GravitaTempoStabScarico                                  |
+PLCTAG_GravitaRitardoScarico                                    |
+PLCTAG_GravitaPortataMinKgBitume                                |
+PLCTAG_GravitaPercRabbocco                                      |
+PLCTAG_ContalitriSetPerc                                        |
+PLCTAG_ContalitriLentaPerc                                      |
+PLCTAG_ContalitriResiduoKg                                      |
+PLCTAG_ContalitriTolleranza                                     |
+PLCTAG_ContalitriTempoStab                                      |
+PLCTAG_ContalitriRitardoScarico                                 |
+PLCTAG_FlomacInclusione                                         |
+PLCTAG_AbilitaCicloRF                                           |
+PLCTAG_AbilitaCicloRC                                           |
+PLCTAG_SetRAPSiwa                                               |Set bilancia riciclato RAP Siwarex     DB15.DBD1776
+PLCTAG_SetPesataLentaRAPSiwa                                    |Set pesata lenta RAP Siwarex           DB15.DBD1780
+PLCTAG_OrdineDosRAPSiwa                                         |Pesata RAP Siwarex per ordine di ap.   DB15.DBD1784
+PLCTAG_ResRAPSiwa                                               |Residuo bilancia RAP Siwarex           DB15.DBD1786
+PLCTAG_TollBilRAPSiwa                                           |Tolleranza bil. RAP Siwarex            DB15.DBD1790
+PLCTAG_TempoStabBilRAPSiwaSc                                    |Tempo stab. scarico bilancia RAP Siwa  DB15.DBD1794
+PLCTAG_TimerScRAPSiwa                                           |Tempo ritardo scarico RAP Siwarex      DB15.DBD1796
+PLCTAG_RiduzioneImpastoDos                                      |PLCTAG_DATIMITSUBISHI
+PLCTAG_GravitaNettoB1..7Kg                                      |
+PLCTAG_GravitaSetB1..7Kg                                        |
+PLCTAG_GravitaResB1..7Kg                                        |
+PLCTAG_ContalitriNettoKg_NO                                     |
+PLCTAG_ContalitriResKg_NO                                       |
+PLCTAG_GestGenArrestoEmergenzaDosaggio                          |PLCTAG_GESTIONEGENERALE
+PLCTAG_CicliDaEseguire                                          |
+PLCTAG_CicliEseguiti                                            |
+PLCTAG_GestMescBool0_0                                          |PLCTAG_GESTIONEMESCOLATORE
+PLCTAG_GestMescBool0_1                                          |
+PLCTAG_GestMescBool0_2                                          |
+PLCTAG_GestMescBool0_3                                          |
+PLCTAG_Fine_Pesatura_Materiali                                  |
+PLCTAG_DosaggioAttivo                                           |
+PLCTAG_GestMescBool0_6                                          |
+PLCTAG_GestMescBool0_7                                          |
+PLCTAG_GestMescBool2_0                                          |
+PLCTAG_GestMescBool2_1                                          |
+PLCTAG_GestMescBool2_2                                          |
+PLCTAG_GestMescBool2_3                                          |
+PLCTAG_GestMescBool2_4                                          |
+PLCTAG_DosaggioInArresto                                        |
+PLCTAG_MescolazioneInCorso                                      |
+PLCTAG_GestMescBool2_7                                          |
+PLCTAG_ConsensoScaricoBilance                                   |
+PLCTAG_MescolatoreScaricoCompletato                             |
+PLCTAG_setTempoMescolazione                                     |
+PLCTAG_TempoMescolazioneInCorso                                 |
+PLCTAG_SetTempoScaricoMixer                                     |
+PLCTAG_TempoScaricoMixerInCorso                                 |
+PLCTAG_DO_ScaricoMesc                                           |
+PLCTAG_SetA1..8forzato1..2                                      |PLCTAG_BILANCIAAGGREGATI
+PLCTAG_PesataInCorsoA1..7                                       |
+PLCTAG_PesataInCorsoNV                                          |
+PLCTAG_SetAggregato1..7                                         |
+PLCTAG_SetNV                                                    |
+PLCTAG_ResiduoAggregato1..7                                     |
+PLCTAG_ResiduoNV                                                |
+PLCTAG_NettoAggregato1..7                                       |
+PLCTAG_NettoNV                                                  |
+PLCTAG_PercAggregato1..7                                        |SET %
+PLCTAG_PercNV                                                   |SET %
+PLCTAG_OrdineAggForzato1..8                                     |
+PLCTAG_SetF1..8forzato1..2                                      |PLCTAG_BILANCIAFILLER
+PLCTAG_SetFiller1..8                                            |
+PLCTAG_ResiduoFiller1..8                                        |
+PLCTAG_NettoFiller1..8                                          |
+PLCTAG_PercFiller1..8                                           |SET %
+PLCTAG_OrdineFillForzato1..8                                    |
+PLCTAG_Forzatura_Pes_Comp                                       |
+PLCTAG_SetV1..8forzato1..2                                      |PLCTAG_BILANCIAVIATOP
+PLCTAG_SetViatop1..8_DB38                                       |
+PLCTAG_ResiduoViatop1..8                                        |
+PLCTAG_NettoViatop1..8                                          |
+PLCTAG_DB80_StopDosaggioManuale                                 |PLCTAG_BILANCIARICICLATO_SIWA_BATCH
+PLCTAG_DB80_TempoRitardoRAPSiwa                                 |
+PLCTAG_DB80_ComandoDirettoPortina                               |
+PLCTAG_DB101_SIWA_BATCH_SETCALCOLATO                            |PLCTAG_CALCOLIRICICLATO_SIWA_BATCH   DB101.dbd2
+PLCTAG_DB101_SIWA_BATCH_NETTO                                   |
+PLCTAG_DB101_SIWA_BATCH_VOLO                                    |
+PLCTAG_SetR1..8forzato1..2                                      |PLCTAG_BILANCIARICICLATO  inutile!!! da cancellare!!!!
+PLCTAG_SetRiciclato1..8                                         |
+PLCTAG_ResiduoRiciclato1..8                                     |
+PLCTAG_NettoRiciclato1..8                                       |
+PLCTAG_ResiduoBitume1                                           |PLCTAG_BILANCIABITUME
+PLCTAG_MaggiorazioneBitume1                                     |
+PLCTAG_SetBitume1_DosaggioStop                                  |
+PLCTAG_SetBitume1                                               |
+PLCTAG_NettoBitume1                                             |
+PLCTAG_All_Aggregati_PortinaAperta                              |PLCTAG_ALLARMI
+PLCTAG_All_Aggregati_PortinaChiusa                              |
+PLCTAG_All_Aggregati_NonTara                                    |
+PLCTAG_All_Aggregati_Sicurezza                                  |
+PLCTAG_All_Aggregati_FuoriTolleranza                            |
+PLCTAG_All_Aggregati_PerditaPeso                                |
+PLCTAG_All_Aggregati_FineCorsaGenerico                          |
+PLCTAG_AllarmiBool0_7                                           |
+PLCTAG_AllarmiBool1_0                                           |
+PLCTAG_AllarmiBool1_1                                           |
+PLCTAG_AllarmiBool1_2                                           |
+PLCTAG_AllarmiBool1_3                                           |
+PLCTAG_AllarmiBool1_4                                           |
+PLCTAG_AllarmiBool1_5                                           |
+PLCTAG_AllarmiBool1_6                                           |
+PLCTAG_AllarmiBool1_7                                           |
+PLCTAG_All_Filler_PortinaAperta                                 |
+PLCTAG_All_Filler_PortinaChiusa                                 |
+PLCTAG_All_Filler_NonTara                                       |
+PLCTAG_All_Filler_Sicurezza                                     |
+PLCTAG_All_Filler_FuoriTolleranza                               |
+PLCTAG_All_Filler_PerditaPeso                                   |
+PLCTAG_All_Filler_FineCorsaGenerico                             |
+PLCTAG_AllarmiBool2_7                                           |
+PLCTAG_AllarmiBool3_0                                           |
+PLCTAG_AllarmiBool3_1                                           |
+PLCTAG_AllarmiBool3_2                                           |
+PLCTAG_AllarmiBool3_3                                           |
+PLCTAG_AllarmiBool3_4                                           |
+PLCTAG_AllarmiBool3_5                                           |
+PLCTAG_AllarmiBool3_6                                           |
+PLCTAG_AllarmiBool3_7                                           |
+PLCTAG_All_Bitume_ValvolaAperta                                 |
+PLCTAG_All_Bitume_ValvolaChiusa                                 |
+PLCTAG_All_Bitume_NonTara                                       |
+PLCTAG_All_Bitume_Sicurezza                                     |
+PLCTAG_All_Bitume_FuoriTolleranza                               |
+PLCTAG_All_Bitume_PerditaPeso                                   |
+PLCTAG_All_Bitume_PompaCircolazioneFerma                        |
+PLCTAG_All_Bitume_FineCorsaGenerico                             |
+PLCTAG_AllarmiBool5_0                                           |
+PLCTAG_AllarmiBool5_1                                           |
+PLCTAG_AllarmiBool5_2                                           |
+PLCTAG_AllarmiBool5_3                                           |
+PLCTAG_AllarmiBool5_4                                           |
+PLCTAG_AllarmiBool5_5                                           |
+PLCTAG_AllarmiBool5_6                                           |
+PLCTAG_AllarmiBool5_7                                           |
+PLCTAG_All_Mixer_PortinaApertura                                |
+PLCTAG_All_Mixer_PortinaChiusa                                  |
+PLCTAG_All_Mixer_MotoreFermo                                    |
+PLCTAG_All_Mixer_FineCorsaGenerico                              |
+PLCTAG_AllarmiBool6_4                                           |
+PLCTAG_AllarmiBool6_5                                           |
+PLCTAG_AllarmiBool6_6                                           |
+PLCTAG_AllarmiBool6_7                                           |
+PLCTAG_AllarmiBool7_0                                           |
+PLCTAG_AllarmiBool7_1                                           |
+PLCTAG_AllarmiBool7_2                                           |
+PLCTAG_AllarmiBool7_3                                           |
+PLCTAG_AllarmiBool7_4                                           |
+PLCTAG_AllarmiBool7_5                                           |
+PLCTAG_AllarmiBool7_6                                           |
+PLCTAG_AllarmiBool7_7                                           |
+PLCTAG_All_InserireNumeroRicetta                                |
+PLCTAG_All_PressioneAria                                        |
+PLCTAG_AllarmiBool8_2                                           |
+PLCTAG_AllarmiBool8_3                                           |
+PLCTAG_AllarmiBool8_4                                           |
+PLCTAG_AllarmiBool8_5                                           |
+PLCTAG_AllarmiBool8_6                                           |
+PLCTAG_AllarmiBool8_7                                           |
+PLCTAG_All_AdditivoMixer_PompaAccesa                            |
+PLCTAG_All_AdditivoMixer_PompaNoRitorno                         |
+PLCTAG_All_AdditivoMixer_PompaTimeOutAvvio                      |
+PLCTAG_All_AdditivoMixer_PompaTimeOutArresto                    |
+PLCTAG_AllarmiBool9_4                                           |
+PLCTAG_AllarmiBool9_5                                           |
+PLCTAG_AllarmiBool9_6                                           |
+PLCTAG_AllarmiBool9_7                                           |
+PLCTAG_All_AdditivoBacinella_PompaAccesa                        |
+PLCTAG_All_AdditivoBacinella_PompaNoRitorno                     |
+PLCTAG_All_AdditivoBacinella_PompaTimeOutAvvio                  |
+PLCTAG_All_AdditivoBacinella_PompaTimeOutArresto                |
+PLCTAG_All_TermicaPompaAdditivoBacinella                        |
+PLCTAG_All_SicurezzaAdditivoLegante                             |
+PLCTAG_AllarmiBool10_6                                          |
+PLCTAG_AllarmiBool10_7                                          |
+PLCTAG_All_AdditivoBacinella_ValvolaTimeOutApertura             |
+PLCTAG_All_AdditivoBacinella_ValvolaTimeOutChiusura             |
+PLCTAG_All_AdditivoBacinella_ErroreFinecorsaValvola             |
+PLCTAG_All_AdditivoBacinella_FuoriTolleranza                    |
+PLCTAG_AllarmiBool11_4                                          |
+PLCTAG_AllarmiBool11_5                                          |
+PLCTAG_AllarmiBool11_6                                          |
+PLCTAG_AllarmiBool11_7                                          |
+PLCTAG_All_DeflettoreVaglio                                     |
+PLCTAG_All_AltaTemperaturaMateriale                             |
+PLCTAG_AllarmiBool12_2                                          |
+PLCTAG_AllarmiBool12_3                                          |
+PLCTAG_AllarmiBool12_4                                          |
+PLCTAG_AllarmiBool12_5                                          |
+PLCTAG_AllarmiBool12_6                                          |
+PLCTAG_AllarmiBool12_7                                          |
+PLCTAG_All_Viatop_FineCorsaBilancia                             |
+PLCTAG_All_Viatop_FineCorsaCiclone                              |
+PLCTAG_All_Viatop_NonTara                                       |
+PLCTAG_All_Viatop_Sicurezza                                     |
+PLCTAG_All_Viatop_FuoriTolleranza                               |
+PLCTAG_All_Viatop_LivelloMinimo                                 |
+PLCTAG_All_Viatop_CiclonePieno                                  |
+PLCTAG_All_Viatop_TrasportoViatopFermo                          |
+PLCTAG_All_Viatop_TermicaTrasporto                              |
+PLCTAG_All_Viatop_ScaricoBilanciaAperto                         |
+PLCTAG_All_Viatop_ScaricoBilanciaChiuso                         |
+PLCTAG_All_Viatop_ScaricoCicloneAperto                          |
+PLCTAG_All_Viatop_ScaricoCicloneChiuso                          |
+PLCTAG_All_Viatop_PerditaMateriale                              |                                                                                      20170214
+PLCTAG_All_Viatop_Timeout_Trasporto_Viatop                      |                                                                                      20170214
+PLCTAG_All_Viatop_Timeout_Scarico_Ciclone                       |                                                                                      20170214
+PLCTAG_All_RAP_PortinaAperta                                    |
+PLCTAG_All_RAP_PortinaChiusa                                    |
+PLCTAG_All_RAP_NonTara                                          |
+PLCTAG_All_RAP_Sicurezza                                        |
+PLCTAG_All_RAP_FuoriTolleranza                                  |
+PLCTAG_All_RAP_PerditaPeso                                      |
+PLCTAG_All_RAP_FineCorsaGenerico                                |
+PLCTAG_All_RAP_DeflScarScivAperto                               |
+PLCTAG_All_RAP_DeflScarScivChiuso                               |
+PLCTAG_All_RAP_FCDeflScarSciv                                   |
+PLCTAG_AllarmiBool16_2                                          |
+PLCTAG_AllarmiBool16_3                                          |
+PLCTAG_AllarmiBool16_4                                          |
+PLCTAG_AllarmiBool16_5                                          |
+PLCTAG_AllarmiBool16_6                                          |
+PLCTAG_AllarmiBool16_7                                          |
+PLCTAG_All_AdditivoSacchi_NastroTimeOutAvvio                    |
+PLCTAG_All_AdditivoSacchi_NastroNoRitorno                       |
+PLCTAG_All_AdditivoSacchi_NastroTermica                         |
+PLCTAG_All_AdditivoSacchi_NastroTimeOutArresto                  |
+PLCTAG_AllarmiBool17_4                                          |
+PLCTAG_AllarmiBool17_5                                          |
+PLCTAG_AllarmiBool17_6                                          |
+PLCTAG_AllarmiBool17_7                                          |
+PLCTAG_All_AdditivoSacchi_PortinaAperta                         |
+PLCTAG_All_AdditivoSacchi_FineCorsa                             |
+PLCTAG_All_AdditivoSacchi_PortinaChiusa                         |
+PLCTAG_All_AdditivoSacchi_TimeOutIntroduzione                   |
+PLCTAG_AllarmiBool18_4                                          |
+PLCTAG_AllarmiBool18_5                                          |
+PLCTAG_AllarmiBool18_6                                          |
+PLCTAG_AllarmiBool18_7                                          |
+PLCTAG_All_BitumeGR_ValvolaAperta                               |
+PLCTAG_All_BitumeGR_ValvolaChiusa                               |
+PLCTAG_All_BitumeGR_NonTara                                     |
+PLCTAG_All_BitumeGR_Sicurezza                                   |
+PLCTAG_All_BitumeGR_FuoriTolleranza                             |
+PLCTAG_All_BitumeGR_PerditaPeso                                 |
+PLCTAG_All_BitumeGR_PompaCircolazioneFerma                      |
+PLCTAG_All_BitumeGR_FineCorsaGenerico                           |
+PLCTAG_All_Contalitri_ValvolaAperta                             |
+PLCTAG_All_Contalitri_ValvolaChiusa                             |
+PLCTAG_All_Contalitri_FineCorsaGenerico                         |
+PLCTAG_All_Contalitri_Sicurezza                                 |
+PLCTAG_All_Contalitri_FuoriTolleranza                           |
+PLCTAG_All_Contalitri_PompaTimeOutAvvio                         |
+PLCTAG_All_Contalitri_PompaTimeOutArresto                       |
+PLCTAG_AllarmiBool20_7                                          |
+PLCTAG_All_SiwaBatch_NastroTimeOutAvvio                         |Da dbx22.0 a dbx 22.3 e da dbx23.0 a dbx23.5
+PLCTAG_All_SiwaBatch_NastroNoRitorno                            |
+PLCTAG_All_SiwaBatch_NastroTermica                              |
+PLCTAG_All_SiwaBatch_NastroTimeOutArresto                       |
+PLCTAG_All_SiwaBatch_PortinaTimeOutApertura                     |
+PLCTAG_All_SiwaBatch_PortinaTimeOutChiusura                     |
+PLCTAG_All_SiwaBatch_PortinaErroreFC_Generico                   |
+PLCTAG_All_SiwaBatch_PortinaErroreFC_Chiusa                     |
+PLCTAG_All_SiwaBatch_ErroreDatiDosaggioBilancia                 |
+PLCTAG_All_SiwaBatch_FuoriTolleranza                            |
+PLCTAG_All_Acqua_PompaAccesaSenzaComando                        |
+PLCTAG_All_Acqua_PompaErroreRitorno                             |
+PLCTAG_All_Acqua_PompaTimeOutAvvio                              |
+PLCTAG_All_Acqua_PompaTimeOutArresto                            |
+PLCTAG_All_Acqua_PompaScattoTermica                             |
+PLCTAG_All_Acqua_SicurezzaLivelloMIN                            |
+PLCTAG_All_FineCorsaIntermedioPesataFineA1..7                   |
+PLCTAG_All_FineCorsaIntermedioPesataFineNV                      |
+PLCTAG_All_RicettaNonCoerente                                   |
+PLCTAG_All_RicettaOrdinePortine                                 |
+PLCTAG_All_SILO_BassaVel                                        |PLCTAG_ALLARMI_SILO
+PLCTAG_All_SILO_TimeoutAP                                       |
+PLCTAG_All_SILO_TimeoutCH                                       |
+PLCTAG_All_SILO_ErroreComInverter                               |
+PLCTAG_All_SILO_ErroreInverter                                  |
+PLCTAG_All_SILO_ErroreNpInverter                                |
+PLCTAG_All_SILO_FCsicurezzaMin                                  |
+PLCTAG_All_SILO_FCsicurezzaMax                                  |
+PLCTAG_All_SILO_TermIverterEXT                                  |
+PLCTAG_All_SILO_AllarmeBenna                                    |
+PLCTAG_All_SILO_Disponibile2..7                                 |
+PLCTAG_All_SILO2_BassaVel                                       |PLCTAG_ALLARMI_SILO2
+PLCTAG_All_SILO2_TimeoutAP                                      |
+PLCTAG_All_SILO2_TimeoutCH                                      |
+PLCTAG_All_SILO2_ErroreComInverter                              |
+PLCTAG_All_SILO2_ErroreInverter                                 |
+PLCTAG_All_SILO2_ErroreNpInverter                               |
+PLCTAG_All_SILO2_FCsicurezzaMin                                 |
+PLCTAG_All_SILO2_FCsicurezzaMax                                 |
+PLCTAG_All_SILO2_TermIverterEXT                                 |
+PLCTAG_All_SILO2_AllarmeBenna                                   |
+PLCTAG_All_SILO2_Disponibile2..7                                |
+PLCTAG_All_SILO2_MovimentoContemporaneoAssi                     |
+PLCTAG_All_SILOGEN_ErroreCoperchiSIlo                           |
+PLCTAG_ProdottoRicettaOLD                                       |PLCTAG_TOTALI
+PLCTAG_ProdottoRicettaInCorso                                   |
+PLCTAG_DO_ScaricoAggregati                                      |PLCTAG_DB41
+PLCTAG_TempoRitardoFiller                                       |PLCTAG_DB42
+PLCTAG_DO_ScaricoFiller                                         |
+PLCTAG_TempoRitardoBitume                                       |PLCTAG_DB43
+PLCTAG_DO_ScaricoLegante                                        |
+PLCTAG_TempoRitardoBitumeGR                                     |PLCTAG_DB51
+PLCTAG_DO_GravitaScarico                                        |
+PLCTAG_ContalitriRitardoScaricoForzatura                        |PLCTAG_DB53
+PLCTAG_DO_ContalitriPesataManuale                               |
+PLCTAG_DO_ContalitriPesata                                      |
+PLCTAG_DO_PompaAcquaComandoManuale                              |PLCTAG_DB56
+PLCTAG_AcquaRitardoScaricoForzatura                             |
+PLCTAG_AcquaDurataSpruzzaturaStorico                            |
+PLCTAG_TempoRitardoViatop                                       |PLCTAG_DB47
+PLCTAG_DO_ScaricoBilViatop                                      |
+PLCTAG_DO_ScaricoCicloneViatop                                  |
+PLCTAG_TempoRitardoRAP                                          |PLCTAG_DB48
+PLCTAG_DO_ScaricoBilRiciclato                                   |
+PLCTAG_DO_Defl_Scar_Bil_Ric                                     |
+PLCTAG_RitardoAdditivoMixer                                     |PLCTAG_ADDITIVOMIXER
+PLCTAG_SetTempoAdditivoMixer                                    |
+PLCTAG_DO_PompaAddMixer                                         |
+PLCTAG_RitardoAdditivoBacinella                                 |PLCTAG_ADDITIVOBACINELLA
+PLCTAG_SetTempoAdditivoBacinella                                |
+PLCTAG_DO_PompaAddLegante                                       |
+PLCTAG_DO_ConsensoIntroSacchi                                   |PLCTAG_ADDITIVOSACCHI
+PLCTAG_DO_MotoreNastroSacchi                                    |
+PLCTAG_NetKgAdditivoBacinella                                   |
+PLCTAG_SetKgAdditivoBacinella                                   |
+PLCTAG_BrucAutoStartImpulso                                     |PLCTAG_BRUCIATOREAUTOMATICO
+PLCTAG_BrucAutoEnable                                           |
+PLCTAG_BrucAutoApreModulatore                                   |
+PLCTAG_BrucAutoDurataImpulso                                    |
+PLCTAG_ContalitriNettoKg                                        |PLCTAG_CONTALITRI
+PLCTAG_ContalitriResKg                                          |
+PLCTAG_ContalitriSetKg                                          |
+PLCTAG_SIWA0..7_CMD_INPUT                                       |PLCTAG_BILANCIA_0
+PLCTAG_SIWA0..7_CMD_ENABLED                                     |
+PLCTAG_SIWA0..7_CMD_IN_PROGRESS                                 |
+PLCTAG_SIWA0..7_FINISHED_OK                                     |
+PLCTAG_SIWA0..7_CMD_ERR                                         |
+PLCTAG_SIWA0..7_CMD_ERR_CODE                                    |
+PLCTAG_SIWA0..7_SIM_VALUE                                       |
+PLCTAG_SIWA0..7_ANALOG_OUT_VALUE                                |
+PLCTAG_SIWA0..7_RESERVE_18                                      |
+PLCTAG_SIWA0..7_DIG_OUT_FORCE                                   |
+PLCTAG_SIWA0..7_INFO_REFRESH_COUNT                              |
+PLCTAG_SIWA0..7_PROCESS_VALUE1                                  |
+PLCTAG_SIWA0..7_PROCESS_VALUE2                                  |
+PLCTAG_SIWA0..7_SCALE_STATUS                                    |
+PLCTAG_SIWA0..7_ERR_MSG                                         |
+PLCTAG_SIWA0..7_ERR_MSG_QUIT                                    |
+PLCTAG_SIWA0..7_ERR_MSG_TYPE                                    |
+PLCTAG_SIWA0..7_ERR_MSG_CODE                                    |
+PLCTAG_SIWA0..7_FB_ERR                                          |
+PLCTAG_SIWA0..7_FB_ERR_CODE                                     |
+PLCTAG_SIWA0..7_COMANDO1_CODICE                                 |
+PLCTAG_SIWA0..7_COMANDO1_ESEGUI                                 |
+PLCTAG_SIWA0..7_COMANDO1_IN_ESECUZIONE                          |
+PLCTAG_SIWA0..7_DIGIT_ZERO                                      |
+PLCTAG_SIWA0..7_DIGIT_TARATURA                                  |
+PLCTAG_SIWA0..7_PESO_TARATURA                                   |
+PLCTAG_SIWA0..7_MILLIVOLT                                       |
+PLCTAG_SIWA0..7_FILTRO_FREQ                                     |
+PLCTAG_SIWA0..7_FILTRO_MEDIA                                    |
+PLCTAG_SIWA0..7_ZERO_SETTING_START_UP                           |
+PLCTAG_SIWA0..7_AUTOZERO                                        |
+PLCTAG_SIWA0..7_MIN_RANGE                                       |
+PLCTAG_SIWA0..7_MAX_RANGE                                       |
+PLCTAG_SIWA0..7_INCREMENT_RANGE                                 |
+PLCTAG_SIWA0..7_PERC_SOTTO_ZERO                                 |
+PLCTAG_SIWA0..7_PERC_SOPRA_ZERO                                 |
+PLCTAG_SIWA0..7_TEMPO_CALIBRAZIONE                              |
+PLCTAG_SIWA0..7_STANDARD_BELT_SPEED                             |
+PLCTAG_SIWA0..7_MEASURING_TIME_SPEED                            |
+PLCTAG_SIWA0..7_IMPULSI_METRO                                   |
+PLCTAG_SIWA0..7_MIN_BELT_SPEED_VALUE                            |
+PLCTAG_SIWA0..7_MAX_BELT_SPEED_VALUE                            |
+PLCTAG_SIWA0..7_ALARM_DELAY_START_UP_SPEED                      |
+PLCTAG_SIWA0..7_ALARM_DELAY_IN_OPERATION_SPEED                  |
+PLCTAG_SIWA0..7_STANDARD_FLOW                                   |
+PLCTAG_SIWA0..7_LUNGHEZZA                                       |
+PLCTAG_SIWA0..7_CORREZIONE                                      |
+PLCTAG_SIWA0..7_MIN_FLOW_VALUE                                  |
+PLCTAG_SIWA0..7_MAX_FLOW_VALUE                                  |
+PLCTAG_SIWA0..7_MIN_LOAD_VALUE                                  |
+PLCTAG_SIWA0..7_MAX_LOAD_VALUE                                  |
+PLCTAG_SIWA0..7_MIN_TOTALIZING                                  |
+PLCTAG_SIWA0..7_ALARM_DELAY_START_UP_FLOW_LOAD                  |
+PLCTAG_SIWA0..7_ALARM_DELAY_IN_OPERATION_FLOW_LOAD              |
+PLCTAG_SIWA0..7_TOTALIZING_STEP_1                               |
+PLCTAG_SIWA0..7_TOTALIZING_STEP_2                               |
+PLCTAG_SIWA0..7_QUANTITY_PER_PULSE_1                            |
+PLCTAG_SIWA0..7_PULSE_1_DURATION                                |
+PLCTAG_SIWA0..7_MINIMUM_PAUSE_1                                 |
+PLCTAG_SIWA0..7_QUANTITY_PER_PULSE_2                            |
+PLCTAG_SIWA0..7_PULSE_2_DURATION                                |
+PLCTAG_SIWA0..7_MINIMUM_PAUSE_2                                 |
+PLCTAG_SIWA0..7_OVERLOAD_TIME                                   |
+PLCTAG_SIWA0..7_PROCESS_VALUE_OUTPUT                            |
+PLCTAG_SIWA0..7_PROCESS_VALUE_OUTPUT_2                          |
+PLCTAG_SIWA0..7_ANALOG_OUT_ZERO                                 |
+PLCTAG_SIWA0..7_ANALOG_OUT_END                                  |
+PLCTAG_SIWA0..7_ANALOG_OUT_CONST                                |
+PLCTAG_SIWA0..7_ANALOG_OUT_SOURCE                               |
+PLCTAG_SIWA0..7_ANALOG_OUT_4_20_M_AMP                           |
+PLCTAG_SIWA0..7_DEFINITION_DO1..3                               |
+PLCTAG_SIWA0..7_DEFINITION_DI1..3                               |
+PLCTAG_SIWA0..7_SET_KG                                          |
+PLCTAG_SIWA0..7_VOLO_KG                                         |
+PLCTAG_SIWA0..7_LOG_SELECTION                                   |
+PLCTAG_SIWA0..7_STATUS_SERVICE_ON                               |
+PLCTAG_SIWA0..7_CALIBRAZIONE_ON                                 |
+PLCTAG_SIWA0..7_PESO_NASTRO                                     |
+PLCTAG_SIWA0..7_VELOX_NASTRO                                    |
+PLCTAG_SIWA0..7_PORTATA_NASTRO                                  |
+PLCTAG_SIWA0..7_AD_DIGIT_FILTERED                               |
+PLCTAG_SIWA0..7_LETTURASTATO_DI                                 |
+PLCTAG_SIWA0..7_TOTALIZER_5                                     |
+PLCTAG_SIWA0..7_TOTALIZER_6                                     |
+PLCTAG_NEMO_ISTANTANEO_1..20                                    |PLCTAG_NEMO_ISTANTANEI
+PLCTAG_NEMO_PICCO_RESET_1..20                                   |PLCTAG_NEMO_PICCHI
+PLCTAG_NEMO_PICCO_1..20                                         |
+PLCTAG_SelezioneBennaS7                                         |PLCTAG_SILOS7
+PLCTAG_CelleSilo_0_0..3                                         |PLCTAG_CelleSilo
+PLCTAG_CelleSilo_EnableCarico_1..4                              |
+PLCTAG_CelleSilo_EnableScarico_1..4                             |
+PLCTAG_CelleSilo_1_4..7                                         |
+PLCTAG_DB307_ZeroEnable                                         |
+PLCTAG_DB307_PosiEnable                                         |
+PLCTAG_DB307_FC_Zero                                            |
+PLCTAG_DB307_ExtraMax                                           |
+PLCTAG_DB307_FC_Min                                             |
+PLCTAG_DB307_ExtraMin                                           |
+PLCTAG_DB307_Bipolar                                            |
+PLCTAG_DB307_StartUp                                            |
+PLCTAG_DB307_Preset                                             |
+PLCTAG_DB307_Target                                             |
+PLCTAG_DB307_Finestra                                           |
+PLCTAG_DB307_Value                                              |
+PLCTAG_DB307_Speed                                              |
+PLCTAG_DB307_StartSyncro                                        |
+PLCTAG_DB307_StartPosi                                          |
+PLCTAG_DB307_Direzione                                          |
+PLCTAG_DB307_InFinestra                                         |
+PLCTAG_DB307_SyncroOn                                           |
+PLCTAG_DB307_AuxZero                                            |
+PLCTAG_DB307_DifZero                                            |
+PLCTAG_DB307_MoveMin                                            |
+PLCTAG_DB307_MoveMax                                            |
+PLCTAG_DB307_MoveZero                                           |
+PLCTAG_DB307_SeroSearch                                         |
+PLCTAG_DB307_AuxStart                                           |
+PLCTAG_DB307_Zero                                               |
+PLCTAG_DB307_ZeroError                                          |
+PLCTAG_DB307_PosiOn                                             |
+PLCTAG_DB307_InPosition                                         |
+PLCTAG_DB307_EndPos                                             |
+PLCTAG_DB307_RapportoImpulsiUnitaMisura                         |
+PLCTAG_DB307_Zeroset_MoveSpeed                                  |
+PLCTAG_DB307_Zeroset_SearchSpeed                                |
+PLCTAG_DB307_Zeroset_ZeroSpeed                                  |
+PLCTAG_DB307_Posiset_VeloxMax                                   |
+PLCTAG_DB307_Posiset_VeloxMin                                   |
+PLCTAG_DB307_Posiset_RampaUP                                    |
+PLCTAG_DB307_Posiset_RampaDOWN                                  |
+PLCTAG_DB307_Posiset_Tolleranza                                 |
+PLCTAG_DB307_Posiset_Posi_P                                     |
+PLCTAG_DB307_Posiset_Posi_M                                     |
+PLCTAG_DB307_Posiset_StartValue                                 |
+PLCTAG_DB307_Posiset_Differenza                                 |
+PLCTAG_DB307_RitPosi_PT                                         |
+PLCTAG_DB301_TempoSpruzzaAntiadesivo                            |PLCTAG_SPRUZZATURA
+PLCTAG_DB301_SpruzzaturaAntiadesivo                             |
+PLCTAG_DB310_PienoDaMescolatore                                 |PLCTAG_BENNA    Partenza automatica benna
+PLCTAG_DB310_FC_Aperto                                          |
+PLCTAG_DB310_FC_Chiuso                                          |
+PLCTAG_DB310_unused1                                            |
+PLCTAG_DB310_unused2                                            |
+PLCTAG_DB310_ManuApre                                           |
+PLCTAG_DB310_ManuChiude                                         |
+PLCTAG_DB310_ManuPosi                                           |Ora si usaPLCTAG_SILOGEN_SALITAMANUALEASSE
+PLCTAG_DB310_ManuZero                                           |Ora si usaPLCTAG_SILOGEN_DISCESAMANUALEASSE
+PLCTAG_DB310_ConsensoApre                                       |
+PLCTAG_DB310_ConsensoStart                                      |
+PLCTAG_DB310_InPosizione                                        |
+PLCTAG_DB310_CopyInhibit                                        |
+PLCTAG_DB310_ApreBenna                                          |
+PLCTAG_DB310_RitornoZero                                        |
+PLCTAG_DB310_StartPosiziona                                     |Ora si usaPLCTAG_SILOGEN_MEMSALITABENNA
+PLCTAG_DB310_ConsensoMescolatore                                |
+PLCTAG_DB310_AllarmeApre                                        |
+PLCTAG_DB310_AllarmeChiude                                      |
+PLCTAG_DB310_BennaPiena                                         |
+PLCTAG_DB310_BennaVuota                                         |
+PLCTAG_DB310_AuxPieno                                           |
+PLCTAG_DB310_ChiudeBenna                                        |
+PLCTAG_DB310_AuxPosi                                            |
+PLCTAG_DB310_TimeOutApre_PT                                     |
+PLCTAG_DB310_TimeOutChiude_PT                                   |
+PLCTAG_DB310_TempoScarico_PT                                    |
+PLCTAG_DB310_WORK_RicettaUsata                                  |
+PLCTAG_DB310_WORK_PesoScaricato                                 |
+PLCTAG_DB310_WORK_Destinazione                                  |
+PLCTAG_DB310_WORK_Posizione                                     |
+PLCTAG_DB309_Posizione1..21                                     |PLCTAG_POSIZIONI_SILI
+PLCTAG_DB302_VelocitaInverterTeo                                |PLCTAG_VELOCITA_BENNA_INVERTER
+PLCTAG_DB302_VelocitaInverterReale                              |
+PLCTAG_DB302_ErroreComunicazione                                |
+PLCTAG_DB302_ErroreInverter                                     |
+PLCTAG_DB302_NonProntoInverter                                  |
+PLCTAG_DB322_AckAllarme                                         |PLCTAG_BUFFER_SILO
+PLCTAG_DB322_ScriviParametro                                    |
+PLCTAG_DB322_AbilitaJog                                         |
+PLCTAG_DB322_Jog_DX                                             |
+PLCTAG_DB322_Jog_SX                                             |
+PLCTAG_DB518_FwLocked                                           |PLCTAG_DB518
+PLCTAG_DB518_BwLocked                                           |
+PLCTAG_SILOGEN_AUTOMATICO                                       |PLCTAG_SILOGEN
+PLCTAG_SILOGEN_MANUALE                                          |
+PLCTAG_ERR_ASSE_P                                               |
+PLCTAG_ERR_ASSE_A                                               |
+PLCTAG_SILOGEN_SALITAMANUALEASSE2                               |
+PLCTAG_SILOGEN_DISCESAMANUALEASSE2                              |
+PLCTAG_SILOGEN_SALITAMANUALEASSE                                |
+PLCTAG_SILOGEN_DISCESAMANUALEASSE                               |
+PLCTAG_SILOGEN_MEMSALITABENNA                                   |
+PLCTAG_SILO2_Presenza                                           |PLCTAG_SILO2
+PLCTAG_SILO2_FwLocked                                           |
+PLCTAG_SILO2_BwLocked                                           |
+PLCTAG_SILO2_ZeroEnable                                         |
+PLCTAG_SILO2_PosiEnable                                         |
+PLCTAG_SILO2_FC_Zero                                            |
+PLCTAG_SILO2_ExtraMax                                           |
+PLCTAG_SILO2_FC_Min                                             |
+PLCTAG_SILO2_ExtraMin                                           |
+PLCTAG_SILO2_Bipolar                                            |
+PLCTAG_SILO2_StartUp                                            |
+PLCTAG_SILO2_Preset                                             |
+PLCTAG_SILO2_Target                                             |
+PLCTAG_SILO2_Finestra                                           |
+PLCTAG_SILO2_Value                                              |
+PLCTAG_SILO2_Speed                                              |
+PLCTAG_SILO2_StartSyncro                                        |
+PLCTAG_SILO2_StartPosi                                          |
+PLCTAG_SILO2_Direzione                                          |
+PLCTAG_SILO2_InFinestra                                         |
+PLCTAG_SILO2_SyncroOn                                           |
+PLCTAG_SILO2_AuxZero                                            |
+PLCTAG_SILO2_DifZero                                            |
+PLCTAG_SILO2_MoveMin                                            |
+PLCTAG_SILO2_MoveMax                                            |
+PLCTAG_SILO2_MoveZero                                           |
+PLCTAG_SILO2_SeroSearch                                         |
+PLCTAG_SILO2_AuxStart                                           |
+PLCTAG_SILO2_Zero                                               |
+PLCTAG_SILO2_ZeroError                                          |
+PLCTAG_SILO2_PosiOn                                             |
+PLCTAG_SILO2_InPosition                                         |
+PLCTAG_SILO2_EndPos                                             |
+PLCTAG_SILO2_RapportoImpulsiUnitaMisura                         |
+PLCTAG_SILO2_Zeroset_MoveSpeed                                  |
+PLCTAG_SILO2_Zeroset_SearchSpeed                                |
+PLCTAG_SILO2_Zeroset_ZeroSpeed                                  |
+PLCTAG_SILO2_Posiset_VeloxMax                                   |
+PLCTAG_SILO2_Posiset_VeloxMin                                   |
+PLCTAG_SILO2_Posiset_RampaUP                                    |
+PLCTAG_SILO2_Posiset_RampaDOWN                                  |
+PLCTAG_SILO2_Posiset_Tolleranza                                 |
+PLCTAG_SILO2_Posiset_Posi_P                                     |
+PLCTAG_SILO2_Posiset_Posi_M                                     |
+PLCTAG_SILO2_Posiset_StartValue                                 |
+PLCTAG_SILO2_Posiset_Differenza                                 |
+PLCTAG_SILO2_RitPosi_PT                                         |
+PLCTAG_SILO2_TempoSpruzzaAntiadesivo                            |
+PLCTAG_SILO2_SpruzzaturaAntiadesivo                             |
+PLCTAG_SILO2_PienoDaMescolatore                                 |
+PLCTAG_SILO2_FC_Aperto                                          |
+PLCTAG_SILO2_FC_Chiuso                                          |
+PLCTAG_SILO2_unused1                                            |
+PLCTAG_SILO2_unused2                                            |
+PLCTAG_SILO2_ManuApre                                           |
+PLCTAG_SILO2_ManuChiude                                         |
+PLCTAG_SILO2_ManuPosi                                           |Ora si usaPLCTAG_SILOGEN_SALITAMANUALEASSE2
+PLCTAG_SILO2_ManuZero                                           |Ora si usaPLCTAG_SILOGEN_DISCESAMANUALEASSE2
+PLCTAG_SILO2_ConsensoApre                                       |
+PLCTAG_SILO2_ConsensoStart                                      |
+PLCTAG_SILO2_InPosizione                                        |
+PLCTAG_SILO2_CopyInhibit                                        |
+PLCTAG_SILO2_ApreBenna                                          |
+PLCTAG_SILO2_RitornoZero                                        |
+PLCTAG_SILO2_StartPosiziona                                     |Ora si usaPLCTAG_SILOGEN_MEMSALITABENNA
+PLCTAG_SILO2_ConsensoMescolatore                                |
+PLCTAG_SILO2_AllarmeApre                                        |
+PLCTAG_SILO2_AllarmeChiude                                      |
+PLCTAG_SILO2_BennaPiena                                         |
+PLCTAG_SILO2_BennaVuota                                         |
+PLCTAG_SILO2_AuxPieno                                           |
+PLCTAG_SILO2_ChiudeBenna                                        |
+PLCTAG_SILO2_AuxPosi                                            |
+PLCTAG_SILO2_TimeOutApre_PT                                     |
+PLCTAG_SILO2_TimeOutChiude_PT                                   |
+PLCTAG_SILO2_TempoScarico_PT                                    |
+PLCTAG_SILO2_WORK_RicettaUsata                                  |
+PLCTAG_SILO2_WORK_PesoScaricato                                 |
+PLCTAG_SILO2_WORK_Destinazione                                  |
+PLCTAG_SILO2_WORK_Posizione                                     |
+PLCTAG_SILO2_Posizione1..21                                     |
+PLCTAG_SILO2_VelocitaInverterTeo                                |
+PLCTAG_SILO2_VelocitaInverterReale                              |
+PLCTAG_SILO2_AbilitaJog                                         |
+PLCTAG_SILO2_Jog_DX                                             |
+PLCTAG_SILO2_Jog_SX                                             |
+PLCTAG_SIWA_CMD_LIST_UltimoInserito                             |PLCTAG_SIWA_LOG_COMANDI
+PLCTAG_SIWA_CMD_LIST_Anno1..100                                 |
+PLCTAG_SIWA_CMD_LIST_Mese1..100                                 |
+PLCTAG_SIWA_CMD_LIST_Giorno1..100                               |
+PLCTAG_SIWA_CMD_LIST_Ora1..100                                  |
+PLCTAG_SIWA_CMD_LIST_Minuto1..100                               |
+PLCTAG_SIWA_CMD_LIST_Secondo1..100                              |
+PLCTAG_SIWA_CMD_LIST_Valore1..100                               |
+PLCTAG_Bruciatore2AutomaticoImpulsoRegolazioneModulatore        |PLCTAG_DB75
+PLCTAG_Bruciatore2AutomaticoAbilitaRegolazioneModulatore        |
+PLCTAG_Bruciatore2AutomaticoSegnoRegolazioneModulatore          |
+PLCTAG_Bruciatore2AutomaticoDurataImpulsoRegolazioneModulatore  |
+PLCTAG_EN_FAST                                                  |20130830
+PLCTAG_Comp1..20_Abilitazione                                   |Aggregati
+PLCTAG_Comp1..20_FinePesata                                     |
+PLCTAG_Comp1..20_FineScarico                                    |
+PLCTAG_Step_Bil_AGGREGATI                                       |
+PLCTAG_Step_Bil_FILLER                                          |
+PLCTAG_Step_Bil_BITUME                                          |
+PLCTAG_Step_Bil_VIATOP                                          |
+PLCTAG_Step_Bil_RICICLATO                                       |
+PLCTAG_Step_Bil_SACCHI                                          |
+PLCTAG_Step_Bil_BITUMEGRAV                                      |
+PLCTAG_Step_Bil_ADDBACLEGCNT                                    |
+PLCTAG_Step_Bil_BITUMECNT                                       |
+PLCTAG_Step_Bil_RICICLATOSIWA                                   |
+PLCTAG_Step_Bil_CICLRICICLATOFREDDO                             |
+PLCTAG_ErrCond_SpaccFiller_F2                                   |
+PLCTAG_AvvCaldo_Prenotazione                                    |
+PLCTAG_IN_DUSTFIX_ENABLE                                        |
+PLCTAG_IN_DUSTFIX_TERM                                          |
+PLCTAG_IN_RIT_MIXER_DUSTFIX                                     |
+PLCTAG_IN_RIT_POMPA_DUSTFIX                                     |
+PLCTAG_NM_IN_BIT_BASSA_TEMP_BIT2                                |=1 La temperatura del bitume sono basse (bit generato dalla logica nel Cyb500)
+PLCTAG_Add2_Abilita_MinFlusso                                   |
+PLCTAG_Add2_Tempo_MinFlusso                                     |
+PLCTAG_Filler2_RompiSacchi_Presenza                             |
+PLCTAG_ALARM_Filler2_RompiSacchi                                |
+PLCTAG_ACK_Filler2_RompiSacchi                                  |
+PLCTAG_VALV_F2_Rompisacchi_Codice_Allarme                       |20160613: Valvola rompisacchi F2
+PLCTAG_AI_FiltroDMR_Liv_SX                                      |20151120: Livello Analogico sinistro Tramoggia Sotto FIltro DMR
+PLCTAG_AI_FiltroDMR_Liv_DX                                      |20151120: Livello Analogico destro Tramoggia Sotto FIltro DMR
+PLCTAG_AI_FiltroDMR_Liv_CE                                      |20151228: Livello Analogico centrale Tramoggia Sotto FIltro DMR
+PLCTAG_SILI_PAR_AbilitaCelleCaricoSilo                          |
+PLCTAG_DB5_VisualizzaNavetta                                    |                                                                                      20151124
+PLCTAG_SILI_PAR_FondoScala_Peso                                 |
+PLCTAG_SILI_PAR_FondoScala_Temperature                          |
+PLCTAG_SILI_PAR_CelleSiloStabBilancia                           |
+PLCTAG_SILI_PAR_TempoMinPressTelescarico                        |
+PLCTAG_SILI_PAR_MaxTara                                         |
+PLCTAG_SILI_PAR_Tolleranza                                      |
+PLCTAG_SILI_PAR_NumeroSili                                      |
+PLCTAG_SILI_PAR_NumeroScomparti                                 |
+PLCTAG_SILI_PAR_Diretto                                         |
+PLCTAG_SILI_PAR_DirettoConPeso                                  |
+PLCTAG_SILI_PAR_Rifiuti                                         |
+PLCTAG_SILI_PAR_RifiutiConPeso                                  |
+PLCTAG_SILI_HMI_PesoIniziale_0..10                              |Diretto
+PLCTAG_SILI_HMI_PesoIniziale_21                                 |Rifiuti
+PLCTAG_SILI_HMI_TaraInizialeCella_1..4                          |
+PLCTAG_SILI_HMI_PesoInizialeCamion                              |
+PLCTAG_SILI_HMI_TaraInizialeCamion                              |
+PLCTAG_SILI_HMI_Num_Scomp_Res_Id_Mat                            |20170221 Tecnobeton
+PLCTAG_SILI_PAR_AppScomparto_0..10                              |Diretto
+PLCTAG_SILI_PAR_AppScomparto_21                                 |Rifiuti
+PLCTAG_SILI_PAR_EnableTempoAntBlocco                            |
+PLCTAG_SILI_PAR_TempoAnticipoBlocco0..10                        |Diretto
+PLCTAG_SILI_PAR_TempoAnticipoBlocco21                           |Rifiuti
+PLCTAG_SILI_HMI_TrasfPar                                        |
+PLCTAG_SILI_HMI_AggiornaPar                                     |
+PLCTAG_SILI_HMI_EseguiTaraCella                                 |
+PLCTAG_SILI_HMI_ResetTaraCella                                  |
+PLCTAG_SILI_HMI_NumeroCella                                     |
+PLCTAG_SILI_HMI_ResetCamion                                     |
+PLCTAG_SILI_HMI_AzzeraScomparto                                 |
+PLCTAG_SILI_HMI_ScriviScomparto                                 |
+PLCTAG_SILI_HMI_NumeroScomparto                                 |
+PLCTAG_SILI_HMI_ValorePesoScomparto                             |
+PLCTAG_SILI_HMI_ParametriOK                                     |
+PLCTAG_SILI_HMI_Peso_0..10                                      |
+PLCTAG_SILI_HMI_Peso_21                                         |
+PLCTAG_SILI_HMI_PesoCella_1..4                                  |
+PLCTAG_SILI_HMI_TaraCella_1..4                                  |
+PLCTAG_SILI_HMI_PesoCamion                                      |
+PLCTAG_SILI_HMI_Imp_Carico                                      |
+PLCTAG_SILI_HMI_Imp_Telescarico                                 |
+PLCTAG_SILI_HMI_Imp_Silo_Car_Tele                               |
+PLCTAG_SILI_HMI_ImpastoNetto_Ton                                |
+PLCTAG_SILI_HMI_TaraCamion                                      |
+PLCTAG_SILI_HMI_FineCamion                                      |
+PLCTAG_Totalizzatore_Nastro_Agg                                 |
+PLCTAG_Reset_Totalizzatore_Nastro_Agg                           |
+PLCTAG_Totalizzatore_Nastro_Ric                                 |
+PLCTAG_Reset_Totalizzatore_Nastro_Ric                           |
+PLCTAG_Totalizzatore_Nastro_Ric_Par                             |
+PLCTAG_Reset_Totalizzatore_Nastro_Ric_Par                       |
+PLCTAG_EN_Valvola_Diesel                                        |
+PLCTAG_FC_Valvola_Diesel_AP                                     |
+PLCTAG_PesaCamionValAnalogico                                   |
+PLCTAG_SILI_PAR_PesaCamionEnable                                |
+PLCTAG_SILI_PAR_PesaCamionEnScaling                             |
+PLCTAG_SILI_PAR_PesaCamionScalingAnalogMin                      |
+PLCTAG_SILI_PAR_PesaCamionScalingAnalogMax                      |
+PLCTAG_SILI_PAR_PesaCamionScalingTonMin                         |
+PLCTAG_SILI_PAR_PesaCamionScalingTonMax                         |
+PLCTAG_SILI_PAR_PesaCamionEnFiltro                              |
+PLCTAG_SILI_PAR_PesaCamionSampleTime                            |
+PLCTAG_SILI_PAR_PesaCamionSampleNr                              |
+PLCTAG_SILI_PAR_PesaCamionEnLin                                 |
+PLCTAG_SILI_PAR_PesaCamionNumLin                                |
+PLCTAG_SILI_PAR_PesaCamionLinX0..4                              |
+PLCTAG_SILI_PAR_PesaCamionLinY0..4                              |
+PLCTAG_SILI_PAR_AppScomparto_Temp_0..10                         |
+PLCTAG_SILI_PAR_AppScomparto_Temp_21                            |
+PLCTAG_SILI_PAR_FondoScala_Temp1..8                             |
+PLCTAG_SILI_PAR_ScalaMin_Temp1..8                               |
+PLCTAG_SILI_PAR_ScalaMinAnalog_Temp1..8                         |
+PLCTAG_SILI_HMI_Temperature_Piro1..8                            |
+PLCTAG_SILI_HMI_Storico_ScarichiPesi0..21                       |
+PLCTAG_SILI_HMI_Storico_ScarichiTemperature0..21                |
+PLCTAG_SILI_HMI_Storico_IdMateriale0..21                        |
+PLCTAG_SILI_HMI_Id_Ricetta_Mixer                                |
+PLCTAG_SILI_HMI_Dest_Silo_Prenotata                             |
+PLCTAG_SILI_HMI_Allarme1..16                                    |
+PLCTAG_SILI_HMI_DosaggioInCorso                                 |
+PLCTAG_SILI_HMI_Forz_Id_Mat                                     |
+PLCTAG_SILI_HMI_CamionPresente                                  |
+PLCTAG_PRED_Out_Ric_Auto_Corso                                  |
+PLCTAG_MOT_AVVCALDO_SPEG                                        |
+PLCTAG_MOT_ESCLUDI_SPEGN_VAG                                    |20160920 Esclusione spegnimento vaglio
+PLCTAG_DB5_ViatopScarMixer1..2_Enable                           |20160419 ViatopScarMixer1 Abilitazione
+PLCTAG_DB5_ViatopScarMixer1..2_FondoScala                       |20160419 ViatopScarMixer1 FondoScala Kg
+PLCTAG_DB5_ViatopScarMixer1..2_Tara                             |20160419 ViatopScarMixer1 Tara Kg
+PLCTAG_DB5_ViatopScarMixer1..2_Sicurezza                        |20160419 ViatopScarMixer1 Sicurezza Kg
+PLCTAG_DB5_ViatopScarMixer1..2_Tmout_Pesata                     |20160419 ViatopScarMixer1 Timeout Pesata msec
+PLCTAG_DB5_ViatopScarMixer1..2_Tmout_Scarico                    |20160419 ViatopScarMixer1 Timeout Scarico msec
+PLCTAG_DB5_ViatopScarMixer1..2_Ant_Start_Compressore            |20160419 ViatopScarMixer1 Anticipo Start Compressore msec
+PLCTAG_DB5_ViatopScarMixer1..2_Rit_Stop_Compressore             |20160419 ViatopScarMixer1 Ritardo Stop Compressore msec
+PLCTAG_DB5_ViatopScarMixer1..2_TempoPermanenza                  |20160419 ViatopScarMixer1 Tempo Permanenza msec
+PLCTAG_DB15_ViatopScarMixer1..2_Set                             |20160419 ViatopScarMixer1 Set%
+PLCTAG_DB15_ViatopScarMixer1..2_Lenta                           |20160419 ViatopScarMixer1 Lenta Kg
+PLCTAG_DB15_ViatopScarMixer1..2_Volo                            |20160419 ViatopScarMixer1 Volo Kg
+PLCTAG_DB15_ViatopScarMixer1..2_Ordine                          |20160419 ViatopScarMixer1 Ordine
+PLCTAG_DB15_ViatopScarMixer1..2_Tolleranza                      |20160419 ViatopScarMixer1 Tolleranza Kg
+PLCTAG_DB15_ViatopScarMixer1..2_TStab                           |20160419 ViatopScarMixer1 Tempo Stabilizzazione Bilancia sec
+PLCTAG_DB15_ViatopScarMixer1..2_TStabTara                       |20160419 ViatopScarMixer1 Tempo Stabilizzazione Tara sec
+PLCTAG_DB15_ViatopScarMixer1..2_Ritardo                         |20160419 ViatopScarMixer1 Tempo Ritardo rispetto aggregati sec
+PLCTAG_DB57_ViatopScarMixer1..2_PesataMan                       |20160421 ViatopScarMixer1 Pesata Manuale
+PLCTAG_DB57_ViatopScarMixer1..2_ScaricoMan                      |20160421 ViatopScarMixer1 Scarico Manuale
+PLCTAG_DB57_ViatopScarMixer1..2_StartCompressoreMan             |20160421 ViatopScarMixer1 Start Compressore Manuale
+PLCTAG_DB46_ViatopScarMixer1..2_OutCmdCompressore               |20160421 ViatopScarMixer1 Comando di Pesata
+PLCTAG_DB46_ViatopScarMixer1..2_OutPesata                       |20160421 ViatopScarMixer1 Comando di Pesata
+PLCTAG_DB46_ViatopScarMixer1..2_OutScarico                      |20160421 ViatopScarMixer1 Comando di Pesata
+PLCTAG_DB46_ViatopScarMixer1..2_RitCompressore                  |20160421 ViatopScarMixer1 Ritorno Compressore
+PLCTAG_DB46_ViatopScarMixer1..2_Ack                             |20160421 ViatopScarMixer1 Ack
+PLCTAG_DB46_ViatopScarMixer1..2_Imp_Trit                        |20160421 ViatopScarMixer1 Impulso Cambio Tempo Ritardo
+PLCTAG_DB46_ViatopScarMixer1..2_AI_Peso                         |20160421 ViatopScarMixer1 AI Peso Kg
+PLCTAG_DB61_All_ViatopScarMixer1..2_FineCorsaBilancia           |
+PLCTAG_DB61_All_ViatopScarMixer1..2_NonTara                     |
+PLCTAG_DB61_All_ViatopScarMixer1..2_Sicurezza                   |
+PLCTAG_DB61_All_ViatopScarMixer1..2_FuoriTolleranza             |
+PLCTAG_DB61_All_ViatopScarMixer1..2_LivelloMinimo               |
+PLCTAG_DB61_All_ViatopScarMixer1..2_CompressoreFermo            |
+PLCTAG_DB61_All_ViatopScarMixer1..2_TermicaCompressore          |
+PLCTAG_DB61_All_ViatopScarMixer1..2_ScaricoBilanciaAperto       |
+PLCTAG_DB61_All_ViatopScarMixer1..2_ScaricoBilanciaChiuso       |
+PLCTAG_DB61_All_ViatopScarMixer1..2_TermicaDosaggio             |
+PLCTAG_DB61_All_ViatopScarMixer1..2_TermicaScarico              |
+PLCTAG_DB61_All_ViatopScarMixer1..2_PerditaPeso                 |
+PLCTAG_DB61_All_ViatopScarMixer1..2_Tmout_Pesata                |
+PLCTAG_DB61_All_ViatopScarMixer1..2_Tmout_Scarico               |
+PLCTAG_DB32_ViatopScarMixer1..2_SetKg                           |
+PLCTAG_DB32_ViatopScarMixer1..2_NettoKg                         |
+PLCTAG_DB32_ViatopScarMixer1..2_VoloKg                          |
+PLCTAG_DB46_SemaforoBenna_CmdVerde                              |
+PLCTAG_DB46_SemaforoBenna_DI_Verde                              |
+PLCTAG_DB46_SemaforoSili_CmdVerde                               |
+PLCTAG_DB46_SemaforoSili_DI_Verde                               |
+PLCTAG_DB46_Start_Benna_Cyb500                                  |20160630 Start Benna da Cyb500
+PLCTAG_DB2024_HMI_Start_Pompa_Combustibile                      |20150630 Start Pompa Combustibile col Bruciatore
+PLCTAG_DB2024_HMI_Start_Pompa_Combustibile_Caldo                |20150630 Start Pompa Combustibile col Bruciatore per riavvio a Caldo
+PLCTAG_DB46_XTUA_DRW_Elevatore_Caldo                            |20160915 Gestione XTUA … salva turchi
+PLCTAG_DB46_XTUA_DRW_Elevatore_Ric                              |20160915 Gestione XTUA … salva turchi
+PLCTAG_DB46_XTUA_DRW_Tamburo                                    |20160915 Gestione XTUA … salva turchi
+PLCTAG_DB46_XTUA_DRW_Ventola_Bruc                               |20160915 Gestione XTUA … salva turchi
+PLCTAG_DB46_XTUA_DRW_Tamburo2                                   |20160915 Gestione XTUA … salva turchi
+PLCTAG_DB46_XTUA_DRW_Ventola_Bruc2                              |20160915 Gestione XTUA … salva turchi
+PLCTAG_EN_Valvola_OlioComb                                      |20160923 gestione valvola olio combustibile
+PLCTAG_FC_Valvola_OlioComb_AP                                   |20160923 gestione valvola olio combustibile
+PLCTAG_SLIT_MOTORE8_GestioneInternaSlittamento                  |                                                                                      20161020
+PLCTAG_SLIT_MOTORE8_Soglia1Slittamento                          |                                                                                      20161020
+PLCTAG_SLIT_MOTORE8_TempoSoglia1Slittamento                     |                                                                                      20161020
+PLCTAG_SLIT_MOTORE8_Soglia2Slittamento                          |                                                                                      20161020
+PLCTAG_SLIT_MOTORE8_TempoSoglia2Slittamento                     |                                                                                      20161020
+PLCTAG_SLIT_MOTORE10_GestioneInternaSlittamento                 |                                                                                      20161020
+PLCTAG_SLIT_MOTORE10_Soglia1Slittamento                         |                                                                                      20161020
+PLCTAG_SLIT_MOTORE10_TempoSoglia1Slittamento                    |                                                                                      20161020
+PLCTAG_SLIT_MOTORE10_Soglia2Slittamento                         |                                                                                      20161020
+PLCTAG_SLIT_MOTORE10_TempoSoglia2Slittamento                    |                                                                                      20161020
+PLCTAG_SLIT_MOTORE14_GestioneInternaSlittamento                 |                                                                                      20161020
+PLCTAG_SLIT_MOTORE14_Soglia1Slittamento                         |                                                                                      20161020
+PLCTAG_SLIT_MOTORE14_TempoSoglia1Slittamento                    |                                                                                      20161020
+PLCTAG_SLIT_MOTORE14_Soglia2Slittamento                         |                                                                                      20161020
+PLCTAG_SLIT_MOTORE14_TempoSoglia2Slittamento                    |                                                                                      20161020
+PLCTAG_SLIT_MOTORE21_GestioneInternaSlittamento                 |                                                                                      20161129
+PLCTAG_SLIT_MOTORE21_Soglia1Slittamento                         |                                                                                      20161129
+PLCTAG_SLIT_MOTORE21_TempoSoglia1Slittamento                    |                                                                                      20161129
+PLCTAG_SLIT_MOTORE21_Soglia2Slittamento                         |                                                                                      20161129
+PLCTAG_SLIT_MOTORE21_TempoSoglia2Slittamento                    |                                                                                      20161129
+PLCTAG_SLIT_MOTORE24_GestioneInternaSlittamento                 |                                                                                      20161129
+PLCTAG_SLIT_MOTORE24_Soglia1Slittamento                         |                                                                                      20161129
+PLCTAG_SLIT_MOTORE24_TempoSoglia1Slittamento                    |                                                                                      20161129
+PLCTAG_SLIT_MOTORE24_Soglia2Slittamento                         |                                                                                      20161129
+PLCTAG_SLIT_MOTORE24_TempoSoglia2Slittamento                    |                                                                                      20161129
+PLCTAG_SLIT_MOTORE28_GestioneInternaSlittamento                 |                                                                                      20161020
+PLCTAG_SLIT_MOTORE28_Soglia1Slittamento                         |                                                                                      20161020
+PLCTAG_SLIT_MOTORE28_TempoSoglia1Slittamento                    |                                                                                      20161020
+PLCTAG_SLIT_MOTORE28_Soglia2Slittamento                         |                                                                                      20161020
+PLCTAG_SLIT_MOTORE28_TempoSoglia2Slittamento                    |                                                                                      20161020
+PLCTAG_SLIT_MOTORE30_GestioneInternaSlittamento                 |                                                                                      20161129
+PLCTAG_SLIT_MOTORE30_Soglia1Slittamento                         |                                                                                      20161129
+PLCTAG_SLIT_MOTORE30_TempoSoglia1Slittamento                    |                                                                                      20161129
+PLCTAG_SLIT_MOTORE30_Soglia2Slittamento                         |                                                                                      20161129
+PLCTAG_SLIT_MOTORE30_TempoSoglia2Slittamento                    |                                                                                      20161129
+PLCTAG_SLIT_MOTORE38_GestioneInternaSlittamento                 |                                                                                      20161129
+PLCTAG_SLIT_MOTORE38_Soglia1Slittamento                         |                                                                                      20161129
+PLCTAG_SLIT_MOTORE38_TempoSoglia1Slittamento                    |                                                                                      20161129
+PLCTAG_SLIT_MOTORE38_Soglia2Slittamento                         |                                                                                      20161129
+PLCTAG_SLIT_MOTORE38_TempoSoglia2Slittamento                    |                                                                                      20161129
+PLCTAG_SLIT_MOTORE32_GestioneInternaSlittamento                 |                                                                                      20161129
+PLCTAG_SLIT_MOTORE32_Soglia1Slittamento                         |                                                                                      20161129
+PLCTAG_SLIT_MOTORE32_TempoSoglia1Slittamento                    |                                                                                      20161129
+PLCTAG_SLIT_MOTORE32_Soglia2Slittamento                         |                                                                                      20161129
+PLCTAG_SLIT_MOTORE32_TempoSoglia2Slittamento                    |                                                                                      20161129
+PLCTAG_Motore21_Slittamento_PrimaSoglia                         |                                                                                      20161129
+PLCTAG_Motore25_Slittamento_PrimaSoglia                         |                                                                                      20161129
+PLCTAG_Motore29_Slittamento_PrimaSoglia                         |                                                                                      20161129
+PLCTAG_Motore38_Slittamento_PrimaSoglia                         |                                                                                      20161129
+PLCTAG_Motore44_Slittamento_PrimaSoglia                         |                                                                                      20161129
+PLCTAG_BIL_PNET_Aggregati_Cmd_FormAperto                        |                                                                                      20161021
+PLCTAG_BIL_PNET_Aggregati_Cmd_EseguiTara                        |                                                                                      20161021
+PLCTAG_BIL_PNET_Aggregati_Cmd_EseguiPesoCampione                |                                                                                      20161021
+PLCTAG_BIL_PNET_Aggregati_Cmd_ValPesoCampione                   |                                                                                      20161021
+PLCTAG_BIL_PNET_Aggregati_Cmd_ResetFabbrica                     |                                                                                      20161021
+PLCTAG_BIL_PNET_Aggregati_Cmd_InCorso                           |                                                                                      20161021
+PLCTAG_BIL_PNET_Aggregati_PesoKg                                |                                                                                      20161021
+PLCTAG_BIL_PNET_Aggregati_Presenza                              |                                                                                      20161021
+PLCTAG_BIL_PNET_Aggregati_NumeroDecimali                        |                                                                                      20161021
+PLCTAG_BIL_PNET_Aggregati_Errore                                |                                                                                      20161021
+PLCTAG_BIL_PNET_Filler_Cmd_FormAperto                           |                                                                                      20161021
+PLCTAG_BIL_PNET_Filler_Cmd_EseguiTara                           |                                                                                      20161021
+PLCTAG_BIL_PNET_Filler_Cmd_EseguiPesoCampione                   |                                                                                      20161021
+PLCTAG_BIL_PNET_Filler_Cmd_ValPesoCampione                      |                                                                                      20161021
+PLCTAG_BIL_PNET_Filler_Cmd_ResetFabbrica                        |                                                                                      20161021
+PLCTAG_BIL_PNET_Filler_Cmd_InCorso                              |                                                                                      20161021
+PLCTAG_BIL_PNET_Filler_PesoKg                                   |                                                                                      20161021
+PLCTAG_BIL_PNET_Filler_Presenza                                 |                                                                                      20161021
+PLCTAG_BIL_PNET_Filler_NumeroDecimali                           |                                                                                      20161021
+PLCTAG_BIL_PNET_Filler_Errore                                   |                                                                                      20161021
+PLCTAG_BIL_PNET_Bitume_Cmd_FormAperto                           |                                                                                      20161021
+PLCTAG_BIL_PNET_Bitume_Cmd_EseguiTara                           |                                                                                      20161021
+PLCTAG_BIL_PNET_Bitume_Cmd_EseguiPesoCampione                   |                                                                                      20161021
+PLCTAG_BIL_PNET_Bitume_Cmd_ValPesoCampione                      |                                                                                      20161021
+PLCTAG_BIL_PNET_Bitume_Cmd_ResetFabbrica                        |                                                                                      20161021
+PLCTAG_BIL_PNET_Bitume_Cmd_InCorso                              |                                                                                      20161021
+PLCTAG_BIL_PNET_Bitume_PesoKg                                   |                                                                                      20161021
+PLCTAG_BIL_PNET_Bitume_Presenza                                 |                                                                                      20161021
+PLCTAG_BIL_PNET_Bitume_NumeroDecimali                           |                                                                                      20161021
+PLCTAG_BIL_PNET_Bitume_Errore                                   |                                                                                      20161021
+PLCTAG_BIL_PNET_Riciclato_Cmd_FormAperto                        |                                                                                      20161021
+PLCTAG_BIL_PNET_Riciclato_Cmd_EseguiTara                        |                                                                                      20161021
+PLCTAG_BIL_PNET_Riciclato_Cmd_EseguiPesoCampione                |                                                                                      20161021
+PLCTAG_BIL_PNET_Riciclato_Cmd_ValPesoCampione                   |                                                                                      20161021
+PLCTAG_BIL_PNET_Riciclato_Cmd_ResetFabbrica                     |                                                                                      20161021
+PLCTAG_BIL_PNET_Riciclato_Cmd_InCorso                           |                                                                                      20161021
+PLCTAG_BIL_PNET_Riciclato_PesoKg                                |                                                                                      20161021
+PLCTAG_BIL_PNET_Riciclato_Presenza                              |                                                                                      20161021
+PLCTAG_BIL_PNET_Riciclato_NumeroDecimali                        |                                                                                      20161021
+PLCTAG_BIL_PNET_Riciclato_Errore                                |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop_Cmd_FormAperto                           |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop_Cmd_EseguiTara                           |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop_Cmd_EseguiPesoCampione                   |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop_Cmd_ValPesoCampione                      |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop_Cmd_ResetFabbrica                        |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop_Cmd_InCorso                              |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop_PesoKg                                   |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop_Presenza                                 |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop_NumeroDecimali                           |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop_Errore                                   |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop2_Cmd_FormAperto                          |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop2_Cmd_EseguiTara                          |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop2_Cmd_EseguiPesoCampione                  |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop2_Cmd_ValPesoCampione                     |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop2_Cmd_ResetFabbrica                       |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop2_Cmd_InCorso                             |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop2_PesoKg                                  |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop2_Presenza                                |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop2_NumeroDecimali                          |                                                                                      20161021
+PLCTAG_BIL_PNET_Viatop2_Errore                                  |                                                                                      20161021
+PLCTAG_GEST_FUMI_TAMB_CmdUp                                     |                                                                                      20161128
+PLCTAG_GEST_FUMI_TAMB_CmdDown                                   |                                                                                      20161128
+PLCTAG_GEST_FUMI_TAMB_Modulatore                                |                                                                                      20161128
+PLCTAG_GEST_FUMI_TAMB_Depr_Vaglio                               |                                                                                      20161128
+PLCTAG_GEST_FUMI_TAMB_Fondoscala_depr_vaglio                    |                                                                                      20161128
+PLCTAG_GEST_FUMI_TAMB_Riscalatura_mod_fumi                      |                                                                                      20161128
+PLCTAG_GEST_FUMI_TAMB_Enable                                    |                                                                                      20161128
+PLCTAG_NM_CountDown_Rifiuti                                     |                                                                                      20161129
+PLCTAG_GEST_VEL_TAMB_CmdUp                                      |                                                                                      20161130
+PLCTAG_GEST_VEL_TAMB_CmdDown                                    |                                                                                      20161130
+PLCTAG_GEST_VEL_TAMB_Trasf_DefaultVal                           |                                                                                      20170208
+PLCTAG_GEST_VEL_TAMB_Modulatore                                 |                                                                                      20161130
+PLCTAG_GEST_VEL_TAMB_Max_Vel_Perc                               |                                                                                      20161130
+PLCTAG_GEST_VEL_TAMB_Def_Vel_Perc                               |                                                                                      20170208
+PLCTAG_GEST_VEL_TAMB_Enable                                     |                                                                                      20161130
+PLCTAG_TimerScA                                                 |                                                                                      20161201
+PLCTAG_TempoRitardoAggregati                                    |                                                                                      20161201
+PLCTAG_FirstComponentToDisc                                     |                                                                                      20161201
+PLCTAG_PRED_AssociazionePredRicAJolly                           |                                                                                      20161207
+PLCTAG_SILO_Deodorante_Enable                                   |                                                                                      20161214
+PLCTAG_SILO_Deodorante_RitStart                                 |                                                                                      20161214
+PLCTAG_SILO_Deodorante_RitStop                                  |                                                                                      20161214
+PLCTAG_SILO_Deodorante_MaxDurata                                |                                                                                      20161214
+PLCTAG_SILO_Deodorante_Start                                    |                                                                                      20161214
+PLCTAG_SILO_Deodorante_Stop                                     |                                                                                      20161214
+PLCTAG_SILO_Deodorante_StopMaxDurata                            |                                                                                      20161215
+PLCTAG_Darw_ScaRicFInMixer_Term                                 |                                                                                      20170101
+----------------------------------------------------------------+-----------------------------------------------------------------------------------
