@@ -3,78 +3,59 @@ sono stati raggruppati i tags  (vedi nmin..nmax)
 ----------------------------------------------------------------+-----+-----------------------------------------------------------------------------------
 Nome tag                                                        | I/O |Descrizione
 ----------------------------------------------------------------+-----+-----------------------------------------------------------------------------------
-CistRidTAG_Bitume_Cisterna1..6_TipoLivello                      |     |
-CistRidTAG_Bitume_Cisterna1..6_BloccoValvoleBassaTemperatura    |     |
-CistRidTAG_Bitume_Cisterna1..6_InclusioneAgitatore              |     |
-CistRidTAG_Bitume_Cisterna1..6_TempUnitaLimiteInf               |     |
-CistRidTAG_Bitume_Cisterna1..6_TempUnitaLimitesup               |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloUnitaLimiteInf            |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloUnitaLimiteSup            |     |
-CistRidTAG_Bitume_Cisterna1..6_Densita                          |     |
-CistRidTAG_Bitume_Cisterna1..6_TempGradiLimiteInf               |     |
-CistRidTAG_Bitume_Cisterna1..6_TempGradiLimiteSup               |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloTonLimiteInf              |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloTonLimiteSup              |     |
-CistRidTAG_Bitume_Cisterna1..6_TempGradiAllarmeMin              |     |
-CistRidTAG_Bitume_Cisterna1..6_TempGradiAllarmeMax              |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloTonAllarmeMin             |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloTonAllarmeMax             |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloTonAllarmeZonaMorta       |     |
-CistRidTAG_Bitume_Cisterna1..6_TempGradiAllarmeZonaMorta        |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloMin_DI_Trigger            |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloMax_DI_Trigger            |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloSic_DI_Trigger            |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloPercentualeValore         |     |
-CistRidTAG_Bitume_Cisterna1..6_LivelloTonValore                 |     |
-CistRidTAG_Bitume_Cisterna1..6_TempGradiValore                  |     |
-CistRidTAG_Bitume_Cisterna1..6_AllarmeCodiceGen                 |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita1InverteComando        |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita1TempoTimeOutOpen      |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita1TempoTimeOutClose     |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita1TempoAntirimbalzoF    |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita1Open_DI_Trigger       |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita1Close_DI_Trigger      |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita1AllarmeCodice         |     |
-CistRidTAG_Bitume_Cisterna1..6_DI_ValvRitornoBloccoTemp         |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1InverteComando       |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1TempoTimeOutOpen     |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1TempoTimeOutClose    |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1TempoAntirimbalzo    |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1Open_DI_Trigger      |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1Close_DI_Trigger     |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1AllarmeCodice        |     |
-CistRidTAG_Bitume_Cisterna1..6_DI_ValvCaricoBloccoTemp          |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita2InverteComando        |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita2TempoTimeOutOpen      |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita2TempoTimeOutClose     |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita2TempoAntirimbalzoF    |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita2Open_DI_Trigger       |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita2Close_DI_Trigger      |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvUscita2AllarmeCodice         |     |
-CistRidTAG_Bitume_Cisterna1..6_DI_ValvAuxBloccoTemp             |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata2InverteComando       |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata2TempoTimeOutOpen     |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata2TempoTimeOutClose    |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata2TempoAntirimbalzo    |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata2Open_DI_Trigger      |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata2Close_DI_Trigger     |     |
-CistRidTAG_Bitume_Cisterna1..6_ValvEntrata2AllarmeCodice        |     |
-CistRidTAG_Bitume_Cisterna1..6_NumeroValvolePresenti            |     |
-CistRidTAG_Bitume_Cisterna1..6_AbilitaOrizzontale               |     |
-CistRidTAG_Bitume_Cisterna1..6_DiametroMm                       |     |
-CistRidTAG_Bitume_Cisterna1..6_LunghezzaMm                      |     |
-CistRidTAG_Bitume_Cisterna1..6_AbilitaValvolaMandata            |     |
-CistRidTAG_Bitume_Cisterna1..6_AbilitaValvolaRitorno            |     |
-CistRidTAG_Bitume_Cisterna1..6_AbilitaValvolaCarico             |     |
-CistRidTAG_Bitume_Cisterna1..6_AbilitaValvolaAux                |     |
-CistRidTAG_Bitume_Cisterna1..8_Selezionata_PCL1                 |     |
-CistRidTAG_Selezione_Cisterna_Bitume_PCL1                       |     |
-CistRidTAG_Tempo_Timeout_Cambio_Cisterna_PCL1                   |     |
-CistRidTAG_Timeout_Selezione_PCL1                               |     |
-CistRidTAG_Attesa_Selezione_PCL1                                |     |
-CistRidTAG_Bitume_Cisterna1..8_Selezionata_PCL2                 |     |
-CistRidTAG_Selezione_Cisterna_Bitume_PCL2                       |     |
-CistRidTAG_Tempo_Timeout_Cambio_Cisterna_PCL2                   |     |
-CistRidTAG_Timeout_Selezione_PCL2                               |     |
-CistRidTAG_Attesa_Selezione_PCL2                                |     |
+CistRidTAG_Bitume_Cisterna1..6_TipoLivello                      |  O  |
+CistRidTAG_Bitume_Cisterna1..6_BloccoValvoleBassaTemperatura    |  O  |
+CistRidTAG_Bitume_Cisterna1..6_InclusioneAgitatore              |  O  |
+CistRidTAG_Bitume_Cisterna1..6_TempUnitaLimiteInf               |  O  |
+CistRidTAG_Bitume_Cisterna1..6_TempUnitaLimitesup               |  O  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloUnitaLimiteInf            |  O  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloUnitaLimiteSup            |  O  |
+CistRidTAG_Bitume_Cisterna1..6_Densita                          |  O  |
+CistRidTAG_Bitume_Cisterna1..6_TempGradiLimiteInf               |  O  |
+CistRidTAG_Bitume_Cisterna1..6_TempGradiLimiteSup               |  O  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloTonLimiteInf              |  O  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloTonLimiteSup              |  O  |
+CistRidTAG_Bitume_Cisterna1..6_TempGradiAllarmeMin              |  O  |
+CistRidTAG_Bitume_Cisterna1..6_TempGradiAllarmeMax              |  O  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloTonAllarmeMin             |  O  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloTonAllarmeMax             |  O  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloTonAllarmeZonaMorta       |  O  |
+CistRidTAG_Bitume_Cisterna1..6_TempGradiAllarmeZonaMorta        |  O  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloMin_DI_Trigger            |  I  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloMax_DI_Trigger            |  I  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloSic_DI_Trigger            |  I  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloPercentualeValore         |  O  |
+CistRidTAG_Bitume_Cisterna1..6_LivelloTonValore                 |  I  |
+CistRidTAG_Bitume_Cisterna1..6_TempGradiValore                  |  I  |
+CistRidTAG_Bitume_Cisterna1..6_AllarmeCodiceGen                 |  I  |
+CistRidTAG_Bitume_Cisterna1..6_ValvUscita1..2InverteComando     |  O  |
+CistRidTAG_Bitume_Cisterna1..6_ValvUscita1..2TempoTimeOutOpen   |  O  |
+CistRidTAG_Bitume_Cisterna1..6_ValvUscita1..2TempoTimeOutClose  |  O  |
+CistRidTAG_Bitume_Cisterna1..6_ValvUscita1..2TempoAntirimbalzoF |  O  |
+CistRidTAG_Bitume_Cisterna1..6_ValvUscita1..2Open_DI_Trigger    |  I  |
+CistRidTAG_Bitume_Cisterna1..6_ValvUscita1..2Close_DI_Trigger   |  I  |
+CistRidTAG_Bitume_Cisterna1..6_ValvUscita1..2AllarmeCodice      |  O  |
+CistRidTAG_Bitume_Cisterna1..6_DI_ValvRitornoBloccoTemp         |  I  |
+CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1..2InverteComando    |  O  |
+CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1..2TempoTimeOutOpen  |  O  |
+CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1..2TempoTimeOutClose |  O  |
+CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1..2TempoAntirimbalzo |  O  |
+CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1..2Open_DI_Trigger   |  I  |
+CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1..2Close_DI_Trigger  |  I  |
+CistRidTAG_Bitume_Cisterna1..6_ValvEntrata1..2AllarmeCodice     |  O  |
+CistRidTAG_Bitume_Cisterna1..6_DI_ValvCaricoBloccoTemp          |  I  |
+CistRidTAG_Bitume_Cisterna1..6_DI_ValvAuxBloccoTemp             |  I  |
+CistRidTAG_Bitume_Cisterna1..6_NumeroValvolePresenti            |  O  |
+CistRidTAG_Bitume_Cisterna1..6_AbilitaOrizzontale               |  O  |
+CistRidTAG_Bitume_Cisterna1..6_DiametroMm                       |  O  |
+CistRidTAG_Bitume_Cisterna1..6_LunghezzaMm                      |  O  |
+CistRidTAG_Bitume_Cisterna1..6_AbilitaValvolaMandata            |  O  |
+CistRidTAG_Bitume_Cisterna1..6_AbilitaValvolaRitorno            |  O  |
+CistRidTAG_Bitume_Cisterna1..6_AbilitaValvolaCarico             |  O  |
+CistRidTAG_Bitume_Cisterna1..6_AbilitaValvolaAux                |  O  |
+CistRidTAG_Bitume_Cisterna1..8_Selezionata_PCL1..2              |  O  |
+CistRidTAG_Selezione_Cisterna_Bitume_PCL1..2                    |  O  |
+CistRidTAG_Tempo_Timeout_Cambio_Cisterna_PCL1..2                |  O  |
+CistRidTAG_Timeout_Selezione_PCL1..2                            |  O  |
+CistRidTAG_Attesa_Selezione_PCL1..2                             |  O  |
 ----------------------------------------------------------------+-----+-----------------------------------------------------------------------------------

@@ -3,308 +3,282 @@ sono stati raggruppati i tags  (vedi nmin..nmax)
 ----------------------------------------------------------------+-----+-----------------------------------------------------------------------------------
 Nome tag                                                        | I/O |Descrizione
 ----------------------------------------------------------------+-----+-----------------------------------------------------------------------------------
-LoPortataBitume_idx                                             |     |Valore riferito allo 0 della portata del bitume (Kg/h)
-HiPortataBitume_idx                                             |     |Valore riferito al max della portata del bitume (Kg/h)
-PortataBitume_idx                                               |     |Valore letto portata bitume (Kg/h)
-LoPortataH2O_idx                                                |     |Valore riferito allo 0 della portata dell'acqua (Kg/h)
-HiPortataH2O_idx                                                |     |Valore riferito al max della portata dell'acqua (Kg/h)
-PortataH2O_idx                                                  |     |Valore letto portata dell'acqua (Kg/h)
-LoSetBitume_idx                                                 |     |Valore riferito allo 0 del riferimento del bitume (Kg/h)
-HiSetBitume_idx                                                 |     |Valore riferito al max del riferimento del bitume (Kg/h)
-SetPortataBitume_idx                                            |     |Valore inviato al riferimento bitume (Kg/h)
-LoSetH2O_idx                                                    |     |Valore riferito allo 0 del riferimento dell'acqua (Kg/h)
-HiSetH2O_idx                                                    |     |Valore riferito al max del riferimento dell'acqua (Kg/h)
-SetPortataH2O_idx                                               |     |Valore inviato al riferimento dell'acqua (Kg/h)
-LoSetAggregatiUNUSED_idx                                        |     |Valore riferito allo 0 del riferimento degli aggregati (Kg)
-HiSetAggregatiUNUSED_idx                                        |     |Valore riferito al max del riferimento degli aggregati (Kg)
-PesoAggregatiUNUSED_idx                                         |     |Valore del peso degli aggregati (Kg)
-LoTempBitume_idx                                                |     |Min di riferimento per la temperatura del bitume
-HiTempBitume_idx                                                |     |Max di riferimento per la temperatura del bitume
-TemperaturaBitume_idx                                           |     |Temperatura del bitume
-LoTempBitumeM_idx                                               |     |Min di riferimento per la temperatura del bitume del massico
-HiTempBitumeM_idx                                               |     |Max di riferimento per la temperatura del bitume del massico
-TemperaturaBitumeM_idx                                          |     |Temperatura del bitume del massico
-LoTempOlio_idx                                                  |     |Min di riferimento per la temperatura olio
-HiTempOlio_idx                                                  |     |Max di riferimento per la temperatura olio
-TemperaturaOlio_idx                                             |     |Temperatura olio
-LoTempRampa_idx                                                 |     |Min di riferimento per la temperatura della rampa
-HiTempRampa_idx                                                 |     |Max di riferimento per la temperatura della rampa
-TemperaturaRampa_idx                                            |     |Temperatura della rampa
-LoLIBERO_idx                                                    |     |LIBERO
-HiLIBERO_idx                                                    |     |LIBERO
-LIBERO_idx                                                      |     |LIBERO
-LoPressH2O_idx                                                  |     |Min di riferimento per la pressione acqua
-HiPressH2O_idx                                                  |     |Max di riferimento per la pressione acqua
-PressioneH2O_idx                                                |     |Pressione acqua
-LoPressRampa_idx                                                |     |Min di riferimento per la pressione della rampa
-HiPressRampa_idx                                                |     |Max di riferimento per la pressione della rampa
-PressioneRampa_idx                                              |     |Pressione della rampa
-LoSetPortataBSoft_idx                                           |     |Valore riferito allo 0 della portata del bitume SOFT (Kg/h)
-HiSetPortataBSoft_idx                                           |     |Valore riferito al max della portata del bitume SOFT (Kg/h)
-SetPortataBSoft_idx                                             |     |Valore inviato al riferimento bitume SOFT (Kg/h)
-LoTempBSoftM_idx                                                |     |Min di riferimento per la temperatura del bitume SOFT (massico)
-HiTempBSoftM_idx                                                |     |Max di riferimento per la temperatura del bitume SOFT (massico)
-TemperaturaBSoftM_idx                                           |     |Temperatura del bitume SOFT (massico)
-LoTempOlioBSoft_idx                                             |     |Min di riferimento per la temperatura olio bitume SOFT
-HiTempOlioBSoft_idx                                             |     |Max di riferimento per la temperatura olio bitume SOFT
-TemperaturaOlioBSoft_idx                                        |     |Temperatura olio bitume SOFT
-PercentualeH2O_idx                                              |     |Percentuale di H20 riferita al bitume
-TempoRegolatoreH2O_idx                                          |     |Tempo di scansione per regolare H2O (msec.)
-GuadagnoRegolatoreH2O_idx                                       |     |Fattore moltiplicativo per aumento/riduzione acqua
-BandaMortaRegolatoreH2O_idx                                     |     |Banda morta regolatore
-RitardoStabMisuraBitume_idx                                     |     |Ritardo stabilizzazione misura bitume
-VelocitaInverterH2O_idx                                         |     |Velocità inverter
-AutomaticoCiclo_idx                                             |     |Gestione automatica del ciclo
-Emergenza_idx                                                   |     |Stato di emergenza
-AbilitaCiclo_idx                                                |     |Abilitazione al ciclo di schiumatura
-ScaricoAggregati_idx                                            |     |Scarico aggregati
-CollegamentoPC_idx                                              |     |Collegamento PC
-WatchDog_idx                                                    |     |Controllo comunicazione (connessione PC)
-AutomaticoMotori_Idx                                            |     |Gestione automatica dei motori
-PesoAggregati_idx                                               |     |Peso degli aggregati
-MinPressioneRampa_idx                                           |     |Minima pressione della rampa
-MaxPressioneRampa_idx                                           |     |Massima pressione della rampa
-MinTemperaturaRampa_idx                                         |     |Minima temperatura della rampa
-MaxTemperaturaRampa_idx                                         |     |Massima temperatura della rampa
-TimeoutPressioneRampa_idx                                       |     |Timeout nel controllo della bassa pressione della rampa
-All_001_idx                                                     |     |
-All_002_idx                                                     |     |
-All_003_idx                                                     |     |
-All_004_idx                                                     |     |Timeout accensione pompa bitume
-All_005_idx                                                     |     |Mancato ritorno accensione pompa bitume
-All_006_idx                                                     |     |
-All_007_idx                                                     |     |
-All_008_idx                                                     |     |Pompa bitume accesa avanti e indietro
-All_009_idx                                                     |     |Anomalia segnalata dalla pompa bitume
-All_010_idx                                                     |     |Timeout valvola bitume
-All_011_idx                                                     |     |Mancato ritorno valvola bitume
-All_012_idx                                                     |     |Apertura e chiusura valvola bitume
-All_013_idx                                                     |     |Timeout valvola immissione bitume
-All_014_idx                                                     |     |Mancato ritorno valvola immissione bitume
-All_015_idx                                                     |     |Apertura e chiusura valvola immissione bitume
-All_016_idx                                                     |     |Timeout accensione pompa H20
-All_017_idx                                                     |     |Mancato ritorno accensione pompa H20
-All_018_idx                                                     |     |Anomalia segnalata dalla pompa H2O
-All_019_idx                                                     |     |Timeout valvola H2O
-All_020_idx                                                     |     |Mancato ritorno valvola H20
-All_021_idx                                                     |     |Apertura e chiusura valvola H2O
-All_022_idx                                                     |     |Timeout impulsi bitume
-All_023_idx                                                     |     |Timeout apertura valvola solvente
-All_024_idx                                                     |     |Mancato ritorno apertura valvola solvente
-All_025_idx                                                     |     |Timeout valvola immissione H2O
-All_026_idx                                                     |     |Mancato ritorno valvola immissione H20
-All_027_idx                                                     |     |Apertura e chiusura valvola immissione H2O
-All_028_idx                                                     |     |Percentuale bitume errata
-All_029_idx                                                     |     |Peso aggregati errato
-All_030_idx                                                     |     |Ciclo interrotto
-All_031_idx                                                     |     |Fuori tolleranza bitume HARD
-All_032_idx                                                     |     |
-All_033_idx                                                     |     |Pompa bitume spenta
-All_034_idx                                                     |     |Pompa H2O spenta
-All_035_idx                                                     |     |
-All_036_idx                                                     |     |Valvola solvente aperta
-All_037_idx                                                     |     |Bassa temperatura bitume
-All_038_idx                                                     |     |Alta temperatura bitume
-All_039_idx                                                     |     |Bassa temperatura bitume (massico)
-All_040_idx                                                     |     |Alta temperatura bitume (massico)
-All_041_idx                                                     |     |Bassa temperatura olio
-All_042_idx                                                     |     |Alta temperatura olio
-All_043_idx                                                     |     |
-All_044_idx                                                     |     |
-All_045_idx                                                     |     |Bassa pressione acqua
-All_046_idx                                                     |     |Alta pressione acqua
-All_047_idx                                                     |     |Bassa pressione rampa
-All_048_idx                                                     |     |Alta pressione rampa
-All_049_idx                                                     |     |Bassa temperatura rampa
-All_050_idx                                                     |     |Alta temperatura rampa
-All_051_idx                                                     |     |
-All_052_idx                                                     |     |
-All_053_idx                                                     |     |
-All_054_idx                                                     |     |
-All_055_idx                                                     |     |
-All_056_idx                                                     |     |
-All_057_idx                                                     |     |
-All_058_idx                                                     |     |
-All_059_idx                                                     |     |
-All_060_idx                                                     |     |
-All_061_idx                                                     |     |
-All_062_idx                                                     |     |
-All_063_idx                                                     |     |
-All_064_idx                                                     |     |Anomalia lettura analogica peso aggregati
-All_065_idx                                                     |     |Anomalia lettura analogica portata bitume
-All_066_idx                                                     |     |Anomalia lettura analogica temperatura bitume
-All_067_idx                                                     |     |Anomalia lettura analogica temperatura bitume (massico)
-All_068_idx                                                     |     |Anomalia lettura analogica temperatura olio
-All_069_idx                                                     |     |
-All_070_idx                                                     |     |Anomalia lettura analogica pressione H2O
-All_071_idx                                                     |     |Anomalia lettura analogica portata H2O
-All_072_idx                                                     |     |Anomalia lettura analogica pressione rampa
-All_073_idx                                                     |     |Anomalia lettura analogica temperatura rampa
-All_074_idx                                                     |     |
-All_075_idx                                                     |     |
-All_076_idx                                                     |     |
-All_077_idx                                                     |     |
-All_078_idx                                                     |     |
-All_079_idx                                                     |     |
-All_080_idx                                                     |     |Timeout accensione pompa bitume SOFT
-All_081_idx                                                     |     |Mancato ritorno accensione pompa bitume SOFT
-All_082_idx                                                     |     |Pompa bitume SOFT accesa avanti e indietro
-All_083_idx                                                     |     |Anomalia segnalata dalla pompa bitume SOFT
-All_084_idx                                                     |     |Timeout valvola bitume SOFT
-All_085_idx                                                     |     |Mancato ritorno valvola bitume SOFT
-All_086_idx                                                     |     |Apertura e chiusura valvola bitume SOFT
-All_087_idx                                                     |     |Timeout valvola immissione bitume SOFT
-All_088_idx                                                     |     |Mancato ritorno valvola immissione bitume SOFT
-All_089_idx                                                     |     |Apertura e chiusura valvola immissione bitume SOFT
-All_090_idx                                                     |     |Timeout impulsi bitume SOFT
-All_091_idx                                                     |     |Percentuale bitume SOFT errata
-All_092_idx                                                     |     |Peso aggregati errato (SOFT)
-All_093_idx                                                     |     |Ciclo interrotto (SOFT)
-All_094_idx                                                     |     |Pompa bitume SOFT spenta
-All_095_idx                                                     |     |Fuori tolleranza bitume SOFT
-All_096_idx                                                     |     |
-All_097_idx                                                     |     |Bassa temperatura bitume SOFT (massico)
-All_098_idx                                                     |     |Alta temperatura bitume SOFT (massico)
-All_099_idx                                                     |     |
-All_100_idx                                                     |     |
-All_101_idx                                                     |     |
-All_102_idx                                                     |     |
-All_103_idx                                                     |     |
-All_104_idx                                                     |     |
-All_105_idx                                                     |     |
-All_106_idx                                                     |     |
-All_107_idx                                                     |     |
-All_108_idx                                                     |     |
-All_109_idx                                                     |     |
-All_110_idx                                                     |     |
-All_111_idx                                                     |     |
-All_112_idx                                                     |     |
-All_113_idx                                                     |     |
-All_114_idx                                                     |     |
-All_115_idx                                                     |     |
-All_116_idx                                                     |     |
-All_117_idx                                                     |     |
-All_118_idx                                                     |     |
-All_119_idx                                                     |     |
-All_120_idx                                                     |     |
-All_121_idx                                                     |     |
-All_122_idx                                                     |     |
-All_123_idx                                                     |     |
-All_124_idx                                                     |     |
-All_125_idx                                                     |     |
-All_126_idx                                                     |     |
-All_127_idx                                                     |     |
-All_128_idx                                                     |     |
-horn_alarm_idx                                                  |     |Segnale acustico
-lamp_alarm_idx                                                  |     |Segnale luminoso
-alarm_on_idx                                                    |     |Allarme presente
-alarm_reset_idx                                                 |     |Reset allarmi
-IvalvBitumeON_idx                                               |     |Stato della valvola del bitume: aperta
-IvalvBitumeOFF_idx                                              |     |Stato della valvola del bitume: chiusa (ricircolo)
-IpompaBitumeAvanti_idx                                          |     |Stato della pompa del bitume: accesa avanti
-IpompaBitumeIndietro_idx                                        |     |Stato della pompa del bitume: accesa indietro
-IvalvImmissBitumeON_idx                                         |     |Stato della valvola di immissione del bitume: aperta
-IvalvImmissBitumeOFF_idx                                        |     |Stato della valvola di immissione del bitume: chiusa
-IpompaAcquaON_idx                                               |     |Stato della pompa acqua: accesa
-IvalvAcquaON_idx                                                |     |Stato della valvola acqua: aperta (ricircolo)
-IvalvAcquaOFF_idx                                               |     |Stato della valvola acqua: chiusa
-IvalvImmissAcquaON_idx                                          |     |Stato della valvola di immissione acqua: aperta
-IvalvImmissAcquaOFF_idx                                         |     |Stato della valvola di immissione acqua: chiusa
-DosaggioInCorso_idx                                             |     |Procedura di dosaggio in corso
-ManValvBitume_idx                                               |     |Comando manuale della valvola bitume
-ManPompaBitume_idx                                              |     |Comando manuale della pompa bitume
-ManPompaBitumeIndietro_idx                                      |     |Comando manuale della pompa bitume indietro
-ManValvImmissioneBitume_idx                                     |     |Comando manuale della valvola immissione bitume
-ManPompaAcqua_idx                                               |     |Comando manuale della pompa acqua
-ManValvAcqua_idx                                                |     |Comando manuale della valvola acqua
-ManValvImmissSolvente_idx                                       |     |Comando manuale della valvola immissione solvente
-BitumeAperto_idx                                                |     |Segnalazione di bitume aperto
-AbortCicloBitume_idx                                            |     |Interruzione del ciclo
-StepBitume_idx                                                  |     |Passo di dosaggio del bitume
-PercentualeBitume_idx                                           |     |Percentuale di dosaggio del bitume
-SetImpulsiBitume_idx                                            |     |Numero di impulsi calcolati in base al peso inerti
-ConteggioImpulsiBitume_idx                                      |     |Numero di impulsi conteggiati
-MinPesoAggregati_idx                                            |     |Minimo peso degli aggregati (allarme se inferiore)
-MinTemperaturaBitume_idx                                        |     |Minima temperatura del bitume (allarme se inferiore)
-MaxTemperaturaBitume_idx                                        |     |Massima temperatura del bitume (allarme se superiore)
-DeltaTemperaturaOlio_idx                                        |     |Differenza min/max fra temperatura bitume e olio
-MinPressioneAcqua_idx                                           |     |Minima pressione dell'acqua (allarme se inferiore)
-MaxPressioneAcqua_idx                                           |     |Massima pressione dell'acqua (allarme se superiore)
-RitardoAvvioCiclo_idx                                           |     |Ritardo all'avvio del ciclo (dallo scarico aggregati)
-RitardoAvvioCiclo_ET_idx                                        |     |Ritardo avvio ciclo tempo trascorso
-RitardoAvvioBitume_idx                                          |     |Ritardo all'avvio del bitume (dall'acqua)
-RitardoFineAcqua_idx                                            |     |Ritardo alla fine dell'acqua (dalla fine del bitume)
-TempoValvBitume_idx                                             |     |Timeout comando di apertura/chiusura della valvola del bitume
-TempoPompaBitume_idx                                            |     |Timeout accensione/spegnimento della pompa del bitume
-TempoValvImmissBitume_idx                                       |     |Timeout comando di apertura/chiusura valvola immissione bitume
-TempoBassaTempBitume_idx                                        |     |Timeout bassa temperatura del bitume
-TempoPompaAcqua_idx                                             |     |Timeout accensione/spegnimento della pompa acqua
-TempoValvAcqua_idx                                              |     |Timeout comando di apertura/chiusura valvola acqua
-TempoValvSolvente_idx                                           |     |Timeout comando di apertura/chiusura valvola del solvente
-TempoImpulsiBitume_idx                                          |     |Timeout nella sequenza degli impulsi del bitume
-TolleranzaHard_idx                                              |     |Tolleranza sulla pesata
-NettoBitumeHard_idx                                             |     |Netto bitume Hard in Kg
-NumeroImpulsiKgHard_idx                                         |     |1/Numero di impulsi per Kg
-VelocitaInverterHard_idx                                        |     |Velocità inverter
-IvalvBSoftON_idx                                                |     |Stato della valvola del bitume: aperta
-IvalvBSoftOFF_idx                                               |     |Stato della valvola del bitume: chiusa (ricircolo)
-IpompaBSoftAvanti_idx                                           |     |Stato della pompa del bitume: accesa avanti
-IpompaBSoftIndietro_idx                                         |     |Stato della pompa del bitume: accesa indietro
-IvalvImmissBSoftON_idx                                          |     |Stato della valvola di immissione del bitume: aperta
-IvalvImmissBSoftOFF_idx                                         |     |Stato della valvola di immissione del bitume: chiusa
-DosaggioInCorsoBSoft_idx                                        |     |Procedura di dosaggio in corso
-ManValvBSoft_idx                                                |     |Comando manuale della valvola bitume
-ManPompaBSoft_idx                                               |     |Comando manuale della pompa bitume
-ManPompaBSoftIndietro_idx                                       |     |Comando manuale della pompa bitume indietro
-ManValvImmissioneBSoft_idx                                      |     |Comando manuale della valvola immissione bitume
-BSoftAperto_idx                                                 |     |Segnalazione di bitume aperto
-AbortCicloBsoft_idx                                             |     |Interruzione del ciclo
-abilitabitumesoft_idx                                           |     |Bitume SOFT gestito dal PLC Schiumato
-StepBSoft_idx                                                   |     |Passo di dosaggio del bitume
-PercentualeBSoft_idx                                            |     |Percentuale di dosaggio del bitume
-SetImpulsiBSoft_idx                                             |     |Numero di impulsi calcolati in base al peso inerti
-ConteggioImpulsiBSoft_idx                                       |     |Numero di impulsi conteggiati
-MinPesoAggregatiBSoft_idx                                       |     |Minimo peso degli aggregati (allarme se inferiore)
-MinTemperaturaBSoft_idx                                         |     |Minima temperatura del bitume (allarme se inferiore)
-MaxTemperaturaBSoft_idx                                         |     |Massima temperatura del bitume (allarme se superiore)
-MinPressioneBSoft_idx                                           |     |Minima pressione del bitume (allarme se inferiore)
-MaxPressioneBSoft_idx                                           |     |Massima pressione del bitume (allarme se superiore)
-RitardoAvvioCicloBSoft_idx                                      |     |Ritardo all'avvio del ciclo (dallo scarico aggregati)
-RitardoAvvioCicloBSoft_ET_idx                                   |     |Ritardo avvio ciclo tempo trascorso
-TempoValvBSoft_idx                                              |     |Timeout comando di apertura/chiusura della valvola del bitume
-TempoPompaBSoft_idx                                             |     |Timeout accensione/spegnimento della pompa del bitume
-TempoValvImmissBSoft_idx                                        |     |Timeout comando di apertura/chiusura valvola immissione bitume
-TempoBassaTempBSoft_idx                                         |     |Timeout bassa temperatura del bitume
-TempoImpulsiBSoft_idx                                           |     |Timeout nella sequenza degli impulsi del bitume
-TolleranzaSoft_idx                                              |     |Tolleranza sulla pesata
-NettoBitumeSoft_idx                                             |     |Netto bitume Soft in Kg
-NumeroImpulsiKgSoft_idx                                         |     |1/Numero di impulsi per Kg
-VelocitaInverterSoft_idx                                        |     |Velocità inverter
-ValoreAnalogico0_idx                                            |     |
-ValoreAnalogico1_idx                                            |     |
-ValoreAnalogico2_idx                                            |     |
-ValoreAnalogico3_idx                                            |     |
-ValoreAnalogico4_idx                                            |     |
-ValoreAnalogico5_idx                                            |     |
-ValoreAnalogico6_idx                                            |     |
-ValoreAnalogico7_idx                                            |     |
-ValoreAnalogico8_idx                                            |     |
-ValoreAnalogico9_idx                                            |     |
-ValoreAnalogico10_idx                                           |     |
-ValoreAnalogico11_idx                                           |     |
-ValoreAnalogico12_idx                                           |     |
-ValoreAnalogico13_idx                                           |     |
-ValoreAnalogico14_idx                                           |     |
-ValoreAnalogico15_idx                                           |     |
-DO_Pompa_Soft_Comando_idx                                       |     |
-DI_Pompa_Soft_Ritorno_idx                                       |     |
-DI_Pompa_Soft_Termica_idx                                       |     |
-DO_Pompa_Soft_Comando_Inversione_idx                            |     |
-DI_Pompa_Soft_Ritorno_Inversione_idx                            |     |
-ValoreDigitale0_idx                                             |     |
-ValoreDigitale1_idx                                             |     |
-ValoreDigitale2_idx                                             |     |
-ValoreDigitale3_idx                                             |     |
-ValoreDigitale4_idx                                             |     |
-ValoreDigitale5_idx                                             |     |
+LoPortataBitume_idx                                             |  O  |Valore riferito allo 0 della portata del bitume (Kg/h)
+HiPortataBitume_idx                                             |  O  |Valore riferito al max della portata del bitume (Kg/h)
+PortataBitume_idx                                               |  I  |Valore letto portata bitume (Kg/h)
+LoPortataH2O_idx                                                |  O  |Valore riferito allo 0 della portata dell'acqua (Kg/h)
+HiPortataH2O_idx                                                |  O  |Valore riferito al max della portata dell'acqua (Kg/h)
+PortataH2O_idx                                                  |  I  |Valore letto portata dell'acqua (Kg/h)
+LoSetBitume_idx                                                 |  O  |Valore riferito allo 0 del riferimento del bitume (Kg/h)
+HiSetBitume_idx                                                 |  O  |Valore riferito al max del riferimento del bitume (Kg/h)
+SetPortataBitume_idx                                            |  O  |Valore inviato al riferimento bitume (Kg/h)
+LoSetH2O_idx                                                    |  O  |Valore riferito allo 0 del riferimento dell'acqua (Kg/h)
+HiSetH2O_idx                                                    |  O  |Valore riferito al max del riferimento dell'acqua (Kg/h)
+SetPortataH2O_idx                                               |  O  |Valore inviato al riferimento dell'acqua (Kg/h)
+LoTempBitume_idx                                                |  O  |Min di riferimento per la temperatura del bitume
+HiTempBitume_idx                                                |  O  |Max di riferimento per la temperatura del bitume
+TemperaturaBitume_idx                                           |  I  |Temperatura del bitume
+LoTempBitumeM_idx                                               |  O  |Min di riferimento per la temperatura del bitume del massico
+HiTempBitumeM_idx                                               |  O  |Max di riferimento per la temperatura del bitume del massico
+TemperaturaBitumeM_idx                                          |  I  |Temperatura del bitume del massico
+LoTempOlio_idx                                                  |  O  |Min di riferimento per la temperatura olio
+HiTempOlio_idx                                                  |  O  |Max di riferimento per la temperatura olio
+TemperaturaOlio_idx                                             |  I  |Temperatura olio
+LoTempRampa_idx                                                 |  O  |Min di riferimento per la temperatura della rampa
+HiTempRampa_idx                                                 |  O  |Max di riferimento per la temperatura della rampa
+TemperaturaRampa_idx                                            |  I  |Temperatura della rampa
+LoPressH2O_idx                                                  |  O  |Min di riferimento per la pressione acqua
+HiPressH2O_idx                                                  |  O  |Max di riferimento per la pressione acqua
+PressioneH2O_idx                                                |  I  |Pressione acqua
+LoPressRampa_idx                                                |  O  |Min di riferimento per la pressione della rampa
+HiPressRampa_idx                                                |  O  |Max di riferimento per la pressione della rampa
+PressioneRampa_idx                                              |  I  |Pressione della rampa
+LoSetPortataBSoft_idx                                           |  O  |Valore riferito allo 0 della portata del bitume SOFT (Kg/h)
+HiSetPortataBSoft_idx                                           |  O  |Valore riferito al max della portata del bitume SOFT (Kg/h)
+SetPortataBSoft_idx                                             |  O  |Valore inviato al riferimento bitume SOFT (Kg/h)
+LoTempBSoftM_idx                                                |  O  |Min di riferimento per la temperatura del bitume SOFT (massico)
+HiTempBSoftM_idx                                                |  O  |Max di riferimento per la temperatura del bitume SOFT (massico)
+TemperaturaBSoftM_idx                                           |  I  |Temperatura del bitume SOFT (massico)
+LoTempOlioBSoft_idx                                             |  O  |Min di riferimento per la temperatura olio bitume SOFT
+HiTempOlioBSoft_idx                                             |  O  |Max di riferimento per la temperatura olio bitume SOFT
+TemperaturaOlioBSoft_idx                                        |  I  |Temperatura olio bitume SOFT
+PercentualeH2O_idx                                              |  O  |Percentuale di H20 riferita al bitume
+TempoRegolatoreH2O_idx                                          |  O  |Tempo di scansione per regolare H2O (msec.)
+GuadagnoRegolatoreH2O_idx                                       |  O  |Fattore moltiplicativo per aumento/riduzione acqua
+BandaMortaRegolatoreH2O_idx                                     |  O  |Banda morta regolatore
+RitardoStabMisuraBitume_idx                                     |  O  |Ritardo stabilizzazione misura bitume
+VelocitaInverterH2O_idx                                         |  I  |Velocità inverter
+AutomaticoCiclo_idx                                             |  O  |Gestione automatica del ciclo
+Emergenza_idx                                                   |  O  |Stato di emergenza
+AbilitaCiclo_idx                                                |  O  |Abilitazione al ciclo di schiumatura
+ScaricoAggregati_idx                                            |  O  |Scarico aggregati
+CollegamentoPC_idx                                              |  O  |Collegamento PC
+WatchDog_idx                                                    |  O  |Controllo comunicazione (connessione PC)
+AutomaticoMotori_Idx                                            |  O  |Gestione automatica dei motori
+PesoAggregati_idx                                               |  I  |Peso degli aggregati
+MinPressioneRampa_idx                                           |  O  |Minima pressione della rampa
+MaxPressioneRampa_idx                                           |  O  |Massima pressione della rampa
+MinTemperaturaRampa_idx                                         |  O  |Minima temperatura della rampa
+MaxTemperaturaRampa_idx                                         |  O  |Massima temperatura della rampa
+TimeoutPressioneRampa_idx                                       |  I  |Timeout nel controllo della bassa pressione della rampa
+All_001_idx                                                     |  I  |
+All_002_idx                                                     |  I  |
+All_003_idx                                                     |  I  |
+All_004_idx                                                     |  I  |Timeout accensione pompa bitume
+All_005_idx                                                     |  I  |Mancato ritorno accensione pompa bitume
+All_006_idx                                                     |  I  |
+All_007_idx                                                     |  I  |
+All_008_idx                                                     |  I  |Pompa bitume accesa avanti e indietro
+All_009_idx                                                     |  I  |Anomalia segnalata dalla pompa bitume
+All_010_idx                                                     |  I  |Timeout valvola bitume
+All_011_idx                                                     |  I  |Mancato ritorno valvola bitume
+All_012_idx                                                     |  I  |Apertura e chiusura valvola bitume
+All_013_idx                                                     |  I  |Timeout valvola immissione bitume
+All_014_idx                                                     |  I  |Mancato ritorno valvola immissione bitume
+All_015_idx                                                     |  I  |Apertura e chiusura valvola immissione bitume
+All_016_idx                                                     |  I  |Timeout accensione pompa H20
+All_017_idx                                                     |  I  |Mancato ritorno accensione pompa H20
+All_018_idx                                                     |  I  |Anomalia segnalata dalla pompa H2O
+All_019_idx                                                     |  I  |Timeout valvola H2O
+All_020_idx                                                     |  I  |Mancato ritorno valvola H20
+All_021_idx                                                     |  I  |Apertura e chiusura valvola H2O
+All_022_idx                                                     |  I  |Timeout impulsi bitume
+All_023_idx                                                     |  I  |Timeout apertura valvola solvente
+All_024_idx                                                     |  I  |Mancato ritorno apertura valvola solvente
+All_025_idx                                                     |  I  |Timeout valvola immissione H2O
+All_026_idx                                                     |  I  |Mancato ritorno valvola immissione H20
+All_027_idx                                                     |  I  |Apertura e chiusura valvola immissione H2O
+All_028_idx                                                     |  I  |Percentuale bitume errata
+All_029_idx                                                     |  I  |Peso aggregati errato
+All_030_idx                                                     |  I  |Ciclo interrotto
+All_031_idx                                                     |  I  |Fuori tolleranza bitume HARD
+All_032_idx                                                     |  I  |
+All_033_idx                                                     |  I  |Pompa bitume spenta
+All_034_idx                                                     |  I  |Pompa H2O spenta
+All_035_idx                                                     |  I  |
+All_036_idx                                                     |  I  |Valvola solvente aperta
+All_037_idx                                                     |  I  |Bassa temperatura bitume
+All_038_idx                                                     |  I  |Alta temperatura bitume
+All_039_idx                                                     |  I  |Bassa temperatura bitume (massico)
+All_040_idx                                                     |  I  |Alta temperatura bitume (massico)
+All_041_idx                                                     |  I  |Bassa temperatura olio
+All_042_idx                                                     |  I  |Alta temperatura olio
+All_043_idx                                                     |  I  |
+All_044_idx                                                     |  I  |
+All_045_idx                                                     |  I  |Bassa pressione acqua
+All_046_idx                                                     |  I  |Alta pressione acqua
+All_047_idx                                                     |  I  |Bassa pressione rampa
+All_048_idx                                                     |  I  |Alta pressione rampa
+All_049_idx                                                     |  I  |Bassa temperatura rampa
+All_050_idx                                                     |  I  |Alta temperatura rampa
+All_051_idx                                                     |  I  |
+All_052_idx                                                     |  I  |
+All_053_idx                                                     |  I  |
+All_054_idx                                                     |  I  |
+All_055_idx                                                     |  I  |
+All_056_idx                                                     |  I  |
+All_057_idx                                                     |  I  |
+All_058_idx                                                     |  I  |
+All_059_idx                                                     |  I  |
+All_060_idx                                                     |  I  |
+All_061_idx                                                     |  I  |
+All_062_idx                                                     |  I  |
+All_063_idx                                                     |  I  |
+All_064_idx                                                     |  I  |Anomalia lettura analogica peso aggregati
+All_065_idx                                                     |  I  |Anomalia lettura analogica portata bitume
+All_066_idx                                                     |  I  |Anomalia lettura analogica temperatura bitume
+All_067_idx                                                     |  I  |Anomalia lettura analogica temperatura bitume (massico)
+All_068_idx                                                     |  I  |Anomalia lettura analogica temperatura olio
+All_069_idx                                                     |  I  |
+All_070_idx                                                     |  I  |Anomalia lettura analogica pressione H2O
+All_071_idx                                                     |  I  |Anomalia lettura analogica portata H2O
+All_072_idx                                                     |  I  |Anomalia lettura analogica pressione rampa
+All_073_idx                                                     |  I  |Anomalia lettura analogica temperatura rampa
+All_074_idx                                                     |  I  |
+All_075_idx                                                     |  I  |
+All_076_idx                                                     |  I  |
+All_077_idx                                                     |  I  |
+All_078_idx                                                     |  I  |
+All_079_idx                                                     |  I  |
+All_080_idx                                                     |  I  |Timeout accensione pompa bitume SOFT
+All_081_idx                                                     |  I  |Mancato ritorno accensione pompa bitume SOFT
+All_082_idx                                                     |  I  |Pompa bitume SOFT accesa avanti e indietro
+All_083_idx                                                     |  I  |Anomalia segnalata dalla pompa bitume SOFT
+All_084_idx                                                     |  I  |Timeout valvola bitume SOFT
+All_085_idx                                                     |  I  |Mancato ritorno valvola bitume SOFT
+All_086_idx                                                     |  I  |Apertura e chiusura valvola bitume SOFT
+All_087_idx                                                     |  I  |Timeout valvola immissione bitume SOFT
+All_088_idx                                                     |  I  |Mancato ritorno valvola immissione bitume SOFT
+All_089_idx                                                     |  I  |Apertura e chiusura valvola immissione bitume SOFT
+All_090_idx                                                     |  I  |Timeout impulsi bitume SOFT
+All_091_idx                                                     |  I  |Percentuale bitume SOFT errata
+All_092_idx                                                     |  I  |Peso aggregati errato (SOFT)
+All_093_idx                                                     |  I  |Ciclo interrotto (SOFT)
+All_094_idx                                                     |  I  |Pompa bitume SOFT spenta
+All_095_idx                                                     |  I  |Fuori tolleranza bitume SOFT
+All_096_idx                                                     |  I  |
+All_097_idx                                                     |  I  |Bassa temperatura bitume SOFT (massico)
+All_098_idx                                                     |  I  |Alta temperatura bitume SOFT (massico)
+All_099_idx                                                     |  I  |
+All_100_idx                                                     |  I  |
+All_101_idx                                                     |  I  |
+All_102_idx                                                     |  I  |
+All_103_idx                                                     |  I  |
+All_104_idx                                                     |  I  |
+All_105_idx                                                     |  I  |
+All_106_idx                                                     |  I  |
+All_107_idx                                                     |  I  |
+All_108_idx                                                     |  I  |
+All_109_idx                                                     |  I  |
+All_110_idx                                                     |  I  |
+All_111_idx                                                     |  I  |
+All_112_idx                                                     |  I  |
+All_113_idx                                                     |  I  |
+All_114_idx                                                     |  I  |
+All_115_idx                                                     |  I  |
+All_116_idx                                                     |  I  |
+All_117_idx                                                     |  I  |
+All_118_idx                                                     |  I  |
+All_119_idx                                                     |  I  |
+All_120_idx                                                     |  I  |
+All_121_idx                                                     |  I  |
+All_122_idx                                                     |  I  |
+All_123_idx                                                     |  I  |
+All_124_idx                                                     |  I  |
+All_125_idx                                                     |  I  |
+All_126_idx                                                     |  I  |
+All_127_idx                                                     |  I  |
+All_128_idx                                                     |  I  |
+horn_alarm_idx                                                  |  I  |Segnale acustico
+lamp_alarm_idx                                                  |  I  |Segnale luminoso
+alarm_on_idx                                                    |  I  |Allarme presente
+alarm_reset_idx                                                 |  I  |Reset allarmi
+IvalvBitumeON_idx                                               |  I  |Stato della valvola del bitume: aperta
+IvalvBitumeOFF_idx                                              |  I  |Stato della valvola del bitume: chiusa (ricircolo)
+IpompaBitumeAvanti_idx                                          |  I  |Stato della pompa del bitume: accesa avanti
+IpompaBitumeIndietro_idx                                        |  I  |Stato della pompa del bitume: accesa indietro
+IvalvImmissBitumeON_idx                                         |  I  |Stato della valvola di immissione del bitume: aperta
+IvalvImmissBitumeOFF_idx                                        |  I  |Stato della valvola di immissione del bitume: chiusa
+IpompaAcquaON_idx                                               |  I  |Stato della pompa acqua: accesa
+IvalvAcquaON_idx                                                |  I  |Stato della valvola acqua: aperta (ricircolo)
+IvalvAcquaOFF_idx                                               |  I  |Stato della valvola acqua: chiusa
+IvalvImmissAcquaON_idx                                          |  I  |Stato della valvola di immissione acqua: aperta
+IvalvImmissAcquaOFF_idx                                         |  I  |Stato della valvola di immissione acqua: chiusa
+DosaggioInCorso_idx                                             |  I  |Procedura di dosaggio in corso
+ManValvBitume_idx                                               |  O  |Comando manuale della valvola bitume
+ManPompaBitume_idx                                              |  O  |Comando manuale della pompa bitume
+ManPompaBitumeIndietro_idx                                      |  O  |Comando manuale della pompa bitume indietro
+ManValvImmissioneBitume_idx                                     |  O  |Comando manuale della valvola immissione bitume
+ManPompaAcqua_idx                                               |  O  |Comando manuale della pompa acqua
+ManValvAcqua_idx                                                |  O  |Comando manuale della valvola acqua
+ManValvImmissSolvente_idx                                       |  O  |Comando manuale della valvola immissione solvente
+BitumeAperto_idx                                                |  O  |Segnalazione di bitume aperto
+AbortCicloBitume_idx                                            |  O  |Interruzione del ciclo
+StepBitume_idx                                                  |  I  |Passo di dosaggio del bitume
+PercentualeBitume_idx                                           |  O  |Percentuale di dosaggio del bitume
+SetImpulsiBitume_idx                                            |  O  |Numero di impulsi calcolati in base al peso inerti
+ConteggioImpulsiBitume_idx                                      |  I  |Numero di impulsi conteggiati
+MinPesoAggregati_idx                                            |  O  |Minimo peso degli aggregati (allarme se inferiore)
+MinTemperaturaBitume_idx                                        |  O  |Minima temperatura del bitume (allarme se inferiore)
+MaxTemperaturaBitume_idx                                        |  O  |Massima temperatura del bitume (allarme se superiore)
+DeltaTemperaturaOlio_idx                                        |  O  |Differenza min/max fra temperatura bitume e olio
+MinPressioneAcqua_idx                                           |  O  |Minima pressione dell'acqua (allarme se inferiore)
+MaxPressioneAcqua_idx                                           |  O  |Massima pressione dell'acqua (allarme se superiore)
+RitardoAvvioCiclo_idx                                           |  O  |Ritardo all'avvio del ciclo (dallo scarico aggregati)
+RitardoAvvioCiclo_ET_idx                                        |  O  |Ritardo avvio ciclo tempo trascorso
+RitardoAvvioBitume_idx                                          |  O  |Ritardo all'avvio del bitume (dall'acqua)
+RitardoFineAcqua_idx                                            |  O  |Ritardo alla fine dell'acqua (dalla fine del bitume)
+TempoValvBitume_idx                                             |  O  |Timeout comando di apertura/chiusura della valvola del bitume
+TempoPompaBitume_idx                                            |  O  |Timeout accensione/spegnimento della pompa del bitume
+TempoValvImmissBitume_idx                                       |  O  |Timeout comando di apertura/chiusura valvola immissione bitume
+TempoBassaTempBitume_idx                                        |  O  |Timeout bassa temperatura del bitume
+TempoPompaAcqua_idx                                             |  O  |Timeout accensione/spegnimento della pompa acqua
+TempoValvAcqua_idx                                              |  O  |Timeout comando di apertura/chiusura valvola acqua
+TempoValvSolvente_idx                                           |  O  |Timeout comando di apertura/chiusura valvola del solvente
+TempoImpulsiBitume_idx                                          |  O  |Timeout nella sequenza degli impulsi del bitume
+TolleranzaHard_idx                                              |  O  |Tolleranza sulla pesata
+NettoBitumeHard_idx                                             |  I  |Netto bitume Hard in Kg
+NumeroImpulsiKgHard_idx                                         |  I  |1/Numero di impulsi per Kg
+VelocitaInverterHard_idx                                        |  I  |Velocità inverter
+IvalvBSoftON_idx                                                |  I  |Stato della valvola del bitume: aperta
+IvalvBSoftOFF_idx                                               |  I  |Stato della valvola del bitume: chiusa (ricircolo)
+IpompaBSoftAvanti_idx                                           |  I  |Stato della pompa del bitume: accesa avanti
+IpompaBSoftIndietro_idx                                         |  I  |Stato della pompa del bitume: accesa indietro
+IvalvImmissBSoftON_idx                                          |  I  |Stato della valvola di immissione del bitume: aperta
+IvalvImmissBSoftOFF_idx                                         |  I  |Stato della valvola di immissione del bitume: chiusa
+DosaggioInCorsoBSoft_idx                                        |  O  |Procedura di dosaggio in corso
+ManValvBSoft_idx                                                |  O  |Comando manuale della valvola bitume
+ManPompaBSoft_idx                                               |  O  |Comando manuale della pompa bitume
+ManPompaBSoftIndietro_idx                                       |  O  |Comando manuale della pompa bitume indietro
+ManValvImmissioneBSoft_idx                                      |  O  |Comando manuale della valvola immissione bitume
+BSoftAperto_idx                                                 |  O  |Segnalazione di bitume aperto
+AbortCicloBsoft_idx                                             |  O  |Interruzione del ciclo
+abilitabitumesoft_idx                                           |  O  |Bitume SOFT gestito dal PLC Schiumato
+StepBSoft_idx                                                   |  O  |Passo di dosaggio del bitume
+PercentualeBSoft_idx                                            |  O  |Percentuale di dosaggio del bitume
+SetImpulsiBSoft_idx                                             |  O  |Numero di impulsi calcolati in base al peso inerti
+ConteggioImpulsiBSoft_idx                                       |  I  |Numero di impulsi conteggiati
+MinPesoAggregatiBSoft_idx                                       |  O  |Minimo peso degli aggregati (allarme se inferiore)
+MinTemperaturaBSoft_idx                                         |  O  |Minima temperatura del bitume (allarme se inferiore)
+MaxTemperaturaBSoft_idx                                         |  O  |Massima temperatura del bitume (allarme se superiore)
+MinPressioneBSoft_idx                                           |  O  |Minima pressione del bitume (allarme se inferiore)
+MaxPressioneBSoft_idx                                           |  O  |Massima pressione del bitume (allarme se superiore)
+RitardoAvvioCicloBSoft_idx                                      |  O  |Ritardo all'avvio del ciclo (dallo scarico aggregati)
+RitardoAvvioCicloBSoft_ET_idx                                   |  O  |Ritardo avvio ciclo tempo trascorso
+TempoValvBSoft_idx                                              |  O  |Timeout comando di apertura/chiusura della valvola del bitume
+TempoPompaBSoft_idx                                             |  O  |Timeout accensione/spegnimento della pompa del bitume
+TempoValvImmissBSoft_idx                                        |  O  |Timeout comando di apertura/chiusura valvola immissione bitume
+TempoBassaTempBSoft_idx                                         |  O  |Timeout bassa temperatura del bitume
+TempoImpulsiBSoft_idx                                           |  O  |Timeout nella sequenza degli impulsi del bitume
+TolleranzaSoft_idx                                              |  O  |Tolleranza sulla pesata
+NettoBitumeSoft_idx                                             |  O  |Netto bitume Soft in Kg
+NumeroImpulsiKgSoft_idx                                         |  O  |1/Numero di impulsi per Kg
+VelocitaInverterSoft_idx                                        |  I  |Velocità inverter
+ValoreAnalogico0..15_idx                                        |  O  |
+DO_Pompa_Soft_Comando_idx                                       |  O  |
+DI_Pompa_Soft_Ritorno_idx                                       |  O  |
+DI_Pompa_Soft_Termica_idx                                       |  O  |
+DO_Pompa_Soft_Comando_Inversione_idx                            |  O  |
+DI_Pompa_Soft_Ritorno_Inversione_idx                            |  I  |
+ValoreDigitale0..5_idx                                          |  O  |
 ----------------------------------------------------------------+-----+-----------------------------------------------------------------------------------
