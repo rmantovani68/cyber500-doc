@@ -59,30 +59,16 @@ AQUABTAG_PT_Batch_Type                                          |Type of Plant (
 AQUABTAG_PT_Batch_Gravity                                       |Type of Plant Batch Gravity
 AQUABTAG_PT_ContinuousAcqTime                                   |Time of periodic acquisition of totalization in Continuos Plant [msec]
 AQUABTAG_BIT_BitumenType                                        |BitumenType
-AQUABTAG_BIT_BitumenTempMinAlarm_1                              |Bitumen Limit Min Alarm Temperature [*C]
-AQUABTAG_BIT_BitumenTempMinAlarm_2                              |Bitumen Limit Min Alarm Temperature [*C]
-AQUABTAG_BIT_BitumenTempMinAlarm_3                              |Bitumen Limit Min Alarm Temperature [*C]
-AQUABTAG_BIT_BitumenTempMinAlarm_4                              |Bitumen Limit Min Alarm Temperature [*C]
-AQUABTAG_BIT_BitumenTempMaxAlarm_1                              |Bitumen Limit Min Alarm Temperature [*C]
-AQUABTAG_BIT_BitumenTempMaxAlarm_2                              |Bitumen Limit Min Alarm Temperature [*C]
-AQUABTAG_BIT_BitumenTempMaxAlarm_3                              |Bitumen Limit Min Alarm Temperature [*C]
-AQUABTAG_BIT_BitumenTempMaxAlarm_4                              |Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_BitumenTempMinAlarm_1..4                           |Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_BitumenTempMaxAlarm_1..4                           |Bitumen Limit Min Alarm Temperature [*C]
 AQUABTAG_BIT_LT_PulseLiter                                      |Pulse/Liter
 AQUABTAG_BIT_LT_Density                                         |Density [Kg/dm^3]
 AQUABTAG_BIT_LT_TimeBase                                        |Resolution of output[msec]
 AQUABTAG_BIT_BS_NumberSamples                                   |Number of Samples for Average
 AQUABTAG_BIT_BS_TimeBase                                        |Resolution of output[msec]
 AQUABTAG_BIT_PS_NumberOfPoint                                   |Bitumen Number Of Point for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsX_1                                       |Bitumen X of Points for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsX_2                                       |Bitumen X of Points for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsX_3                                       |Bitumen X of Points for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsX_4                                       |Bitumen X of Points for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsX_5                                       |Bitumen X of Points for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsY_1                                       |Bitumen Y of Points for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsY_2                                       |Bitumen Y of Points for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsY_3                                       |Bitumen Y of Points for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsY_4                                       |Bitumen Y of Points for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsY_5                                       |Bitumen Y of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsX_1..5                                    |Bitumen X of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsY_1..5                                    |Bitumen Y of Points for linear approssimation (Speed-Flow)
 AQUABTAG_BIT_STAB_START                                         |Stabilization of Aggregates
 AQUABTAG_BIT_STAB_STOP                                          |Stabilization of Bitumen
 AQUABTAG_BIT_Fixed_Bitumen_Tare                                 |Fixed value of bitumen tare for batch plant [Kg]
@@ -106,16 +92,8 @@ AQUABTAG_H20PUMP_H2OMaxSpeed                                    |Max value of pu
 AQUABTAG_H20PUMP_StartTimeout                                   |Start timeout [sec]
 AQUABTAG_H20PUMP_StopTimeout                                    |Stop timeout [sec]
 AQUABTAG_H20PUMP_NumberOfPoint                                  |H20 Number Of Point for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsX_1                                      |H20 X of Points for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsX_2                                      |H20 X of Points for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsX_3                                      |H20 X of Points for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsX_4                                      |H20 X of Points for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsX_5                                      |H20 X of Points for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsY_1                                      |H20 Y of Points for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsY_2                                      |H20 Y of Points for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsY_3                                      |H20 Y of Points for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsY_4                                      |H20 Y of Points for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsY_5                                      |H20 Y of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsX_1..5                                   |H20 X of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsY_1..5                                   |H20 Y of Points for linear approssimation (Flow-Speed)
 AQUABTAG_VALVE_H2O_TimeOut_Open                                 |Timeout Open
 AQUABTAG_VALVE_H2O_TimeOut_Close                                |Timeout Close
 AQUABTAG_VALVE_H2O_Trigger                                      |Trigger
