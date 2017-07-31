@@ -1,232 +1,1880 @@
 Lista tags in plc5
 sono stati raggruppati i tags  (vedi nmin..nmax)
-----------------------------------------------------------------+-----------------------------------------------------------------------------------
-Nome tag                                                        |Descrizione
-----------------------------------------------------------------+-----------------------------------------------------------------------------------
-AQUABTAG_AN_H2OPressure_AnalogIN_MAX                            |H2O Pressure Parameter: AnalogIN MIN
-AQUABTAG_AN_H2OPressure_AnalogIN_MIN                            |H2O Pressure Parameter: AnalogIN Max
-AQUABTAG_AN_H2OPressure_OUT_MAX                                 |H2O Pressure Parameter: OUT Min [bar]
-AQUABTAG_AN_H2OPressure_OUT_MIN                                 |H2O Pressure Parameter: OUT Max [bar]
-AQUABTAG_AN_H2OFlow_AnalogIN_MAX                                |H2O Flow Parameter: AnalogIN MIN
-AQUABTAG_AN_H2OFlow_AnalogIN_MIN                                |H2O Flow Parameter: AnalogIN Max
-AQUABTAG_AN_H2OFlow_OUT_MAX                                     |H2O Flow Parameter: OUT Min [Kg/min]
-AQUABTAG_AN_H2OFlow_OUT_MIN                                     |H2O Flow Parameter: OUT Max [Kg/min]
-AQUABTAG_AN_H2OINSpeed_AnalogIN_MAX                             |H2O IN Speed Inverter Pump Parameter: AnalogIN_MIN
-AQUABTAG_AN_H2OINSpeed_AnalogIN_MIN                             |H2O IN Speed Inverter Pump Parameter: AnalogIN_MAX
-AQUABTAG_AN_H2OINSpeed_OUT_MAX                                  |H2O IN Speed Inverter Pump Parameter: OUT MIN [rpm]
-AQUABTAG_AN_H2OINSpeed_OUT_MIN                                  |H2O IN Speed Inverter Pump Parameter: OUT MAX [rpm]
-AQUABTAG_AN_H2OOUTSpeed_AnalogIN_MAX                            |H2O OUT Speed Inverter Pump Parameter: AnalogIN_MIN
-AQUABTAG_AN_H2OOUTSpeed_AnalogIN_MIN                            |H2O OUT Speed Inverter Pump Parameter: AnalogIN_MAX
-AQUABTAG_AN_H2OOUTSpeed_OUT_MAX                                 |H2O OUT Speed Inverter Pump Parameter: OUT MIN [rpm]
-AQUABTAG_AN_H2OOUTSpeed_OUT_MIN                                 |H2O OUT Speed Inverter Pump Parameter: OUT MAX [rpm]
-AQUABTAG_AN_BitSpeedPum_AnalogIN_MAX                            |Bitumen Inverter Speed Pump Parameter: AnalogIN_MIN
-AQUABTAG_AN_BitSpeedPum_AnalogIN_MIN                            |Bitumen Inverter Speed Pump Parameter: AnalogIN_MAX
-AQUABTAG_AN_BitSpeedPum_OUT_MAX                                 |Bitumen Inverter Speed Pump Parameter: OUT_MIN [rpm]
-AQUABTAG_AN_BitSpeedPum_OUT_MIN                                 |Bitumen Inverter Speed Pump Parameter: OUT_MAX [rpm]
-AQUABTAG_AN_BitTemp_AnalogIN_MAX                                |Bitumen Temperature Parameter: AnalogIN MIN
-AQUABTAG_AN_BitTemp_AnalogIN_MIN                                |Bitumen Temperature Parameter: AnalogIN MAX
-AQUABTAG_AN_BitTemp_OUT_MAX                                     |Bitumen Temperature Parameter: OUT MIN [C°]
-AQUABTAG_AN_BitTemp_OUT_MIN                                     |Bitumen Temperature Parameter: OUT MAX [C°]
-AQUABTAG_AN_BitMassFlow_AnalogIN_MAX                            |Bitumen Massic Flow Parameter: AnalogIN Min
-AQUABTAG_AN_BitMassFlow_AnalogIN_MIN                            |Bitumen Massic Flow Parameter: AnalogIN Max
-AQUABTAG_AN_BitMassFlow_OUT_MAX                                 |Bitumen Massic Flow Parameter: OUT Min [Kg/sec]
-AQUABTAG_AN_BitMassFlow_OUT_MIN                                 |Bitumen Massic Flow Parameter: OUT Max [Kg/sec]
-AQUABTAG_AN_BitWeight_AnalogIN_MAX                              |Bitumen Weight Parameter: AnalogIN_MIN
-AQUABTAG_AN_BitWeight_AnalogIN_MIN                              |Bitumen Weight Parameter: AnalogIN_MAX
-AQUABTAG_AN_BitWeight_OUT_MAX                                   |Bitumen Weight Parameter: OUT_MIN [Kg]
-AQUABTAG_AN_BitWeight_OUT_MIN                                   |Bitumen Weight Parameter: OUT_MAX [Kg]
-AQUABTAG_AN_BitTare_AnalogIN_MAX                                |Bitumen Tare Parameter: AnalogIN_MIN
-AQUABTAG_AN_BitTare_AnalogIN_MIN                                |Bitumen Tare Parameter: AnalogIN_MAX
-AQUABTAG_AN_BitTare_OUT_MAX                                     |Bitumen Tare Parameter: OUT_MIN [Kg]
-AQUABTAG_AN_BitTare_OUT_MIN                                     |Bitumen Tare Parameter: OUT_MAX [Kg]
-AQUABTAG_AN_H2OFlowTransientCompens                             |Compensation value for the transient of the H2O flow meter [kg]
-AQUABTAG_MAX_H2OValvDelayOnCloseBi                              |H2O Valve Delay on Open From Spraying Bitumen Parameter [sec]
-AQUABTAG_MAX_H2OValvDelayOnOpenBi                               |H2O Valve Delay on Close From Spraying Bitumen Parameter [sec]
-AQUABTAG_MAX_AlarmHighPressureH2O                               |H20 Alarm Limit for High Pressure [bar]
-AQUABTAG_MAX_DelayAlarHighPressureH2                            |H20 Delay Alarm Limit for High Pressure [sec]
-AQUABTAG_MAX_PercentualCloseH20                                 |H20 Percentage of Bitumen to close H20 [%] (=0 disabled)
-AQUABTAG_MAX_MinH2OFlowAlarmDela                                |Delay check for minimum H2O flow alarm [sec]
-AQUABTAG_MAX_MinH2OFlow                                         |Check for minimum H2O flow alarm [Kg/min]
-AQUABTAG_MAX_BitFlowOnH2OCloseDelay                             |Bitumen flow value during the delay of the H2O valve close
-AQUABTAG_MAX_AlarmLowPressureH2O                                |H20 Alarm Limit for Low Pressure [bar]
-AQUABTAG_MAX_DelayAlarLowPressureH2                             |H20 Delay Alarm Limit for Low Pressure [sec]
-AQUABTAG_PUR_TimePurgeSecStep1                                  |Purge H20 Step 1 Time Duration[sec]
-AQUABTAG_PUR_TimePurgeSecStep2                                  |Purge H20 Step 2 Time Duration[sec]
-AQUABTAG_TRI_DelayOnStartTrickle                                |Trickle H2O Delay On Start[sec]
-AQUABTAG_TRI_DelayOnStopTrickle                                 |Trickle H2O Delay On Stop[sec]
-AQUABTAG_PT_SelectBitFlowInputSource                            |Selection of Flow Input Source (1=Massic,2=LiterCounter,3=Scale,4=Speed Inv )
-AQUABTAG_PT_Batch_Type                                          |Type of Plant (0=Continuos,1=Batch)
-AQUABTAG_PT_Batch_Gravity                                       |Type of Plant Batch Gravity
-AQUABTAG_PT_ContinuousAcqTime                                   |Time of periodic acquisition of totalization in Continuos Plant [msec]
-AQUABTAG_BIT_BitumenType                                        |BitumenType
-AQUABTAG_BIT_BitumenTempMinAlarm_1..4                           |Bitumen Limit Min Alarm Temperature [*C]
-AQUABTAG_BIT_BitumenTempMaxAlarm_1..4                           |Bitumen Limit Min Alarm Temperature [*C]
-AQUABTAG_BIT_LT_PulseLiter                                      |Pulse/Liter
-AQUABTAG_BIT_LT_Density                                         |Density [Kg/dm^3]
-AQUABTAG_BIT_LT_TimeBase                                        |Resolution of output[msec]
-AQUABTAG_BIT_BS_NumberSamples                                   |Number of Samples for Average
-AQUABTAG_BIT_BS_TimeBase                                        |Resolution of output[msec]
-AQUABTAG_BIT_PS_NumberOfPoint                                   |Bitumen Number Of Point for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsX_1..5                                    |Bitumen X of Points for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_PS_PointsY_1..5                                    |Bitumen Y of Points for linear approssimation (Speed-Flow)
-AQUABTAG_BIT_STAB_START                                         |Stabilization of Aggregates
-AQUABTAG_BIT_STAB_STOP                                          |Stabilization of Bitumen
-AQUABTAG_BIT_Fixed_Bitumen_Tare                                 |Fixed value of bitumen tare for batch plant [Kg]
-AQUABTAG_BIT_Init_Flow_Hold_Delay                               |Time to hold the previous flow value during when the discharge phase begin msec
-AQUABTAG_H20POND_Ponderal_Volumetric                            |0 Volumetric, =1 Ponderal
-AQUABTAG_H20POND_G                                              |Gain PID Ponderal H20
-AQUABTAG_H20POND_TI                                             |TI PID Ponderal H20
-AQUABTAG_H20POND_TD                                             |TD PID Ponderal H20
-AQUABTAG_H20POND_DeadBand                                       |Dead Band PID Ponderal H20 PID
-AQUABTAG_H20POND_Tc                                             |Time of sample [msec] PID
-AQUABTAG_H20POND_MaxLimitOutput                                 |Max Limit of Output PID
-AQUABTAG_H20POND_MinLimitOutput                                 |Min Limit of Output PID
-AQUABTAG_H20POND_InitialTI                                      |Initial Value of Integral (on rise up of ACTIVATE)
-AQUABTAG_H20POND_EnableP                                        |1 if Proportional is enabled
-AQUABTAG_H20POND_EnableI                                        |1 if Integral is enabled
-AQUABTAG_H20POND_EnableD                                        |1 if Derivative is enabled
-AQUABTAG_H20POND_EnableTheoriticalLimit                         |1 The output is limited on Theoretical Window
-AQUABTAG_H20PUMP_TheoreticalZone                                |This value is used for determinate the Theoretical window that limit the output
-AQUABTAG_H20PUMP_H20SpeedPumpOnRecycle                          |Speed Pump on Recycle [%]
-AQUABTAG_H20PUMP_H2OMaxSpeed                                    |Max value of pump [% of Output Voltage]
-AQUABTAG_H20PUMP_StartTimeout                                   |Start timeout [sec]
-AQUABTAG_H20PUMP_StopTimeout                                    |Stop timeout [sec]
-AQUABTAG_H20PUMP_NumberOfPoint                                  |H20 Number Of Point for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsX_1..5                                   |H20 X of Points for linear approssimation (Flow-Speed)
-AQUABTAG_H20PUMP_PointsY_1..5                                   |H20 Y of Points for linear approssimation (Flow-Speed)
-AQUABTAG_VALVE_H2O_TimeOut_Open                                 |Timeout Open
-AQUABTAG_VALVE_H2O_TimeOut_Close                                |Timeout Close
-AQUABTAG_VALVE_H2O_Trigger                                      |Trigger
-AQUABTAG_VALVE_H2O_Simulate                                     |Simulate Valve
-AQUABTAG_VALVE_H2O_Inverted                                     |Inverted Valve
-AQUABTAG_VALVE_H2O_3Ways                                        |Enable the three-way property
-AQUABTAG_VALVE_PURGE_TimeOut_Open                               |Timeout Open
-AQUABTAG_VALVE_PURGE_TimeOut_Close                              |Timeout Close
-AQUABTAG_VALVE_PURGE_Trigger                                    |Trigger
-AQUABTAG_VALVE_PURGE_Simulate                                   |Simulate Valve
-AQUABTAG_VALVE_PURGE_Inverted                                   |Inverted Valve
-AQUABTAG_VALVE_TRICKLE_TimeOut_Open                             |Timeout Open
-AQUABTAG_VALVE_TRICKLE_TimeOut_Close                            |Timeout Close
-AQUABTAG_VALVE_TRICKLE_Trigger                                  |Trigger
-AQUABTAG_VALVE_TRICKLE_Simulate                                 |Simulate Valve
-AQUABTAG_VALVE_TRICKLE_Inverted                                 |Inverted Valve
-AQUABTAG_OPT_ManageH2OAndCycleRecipe                            |0 Management of H2O and Cycle Recipe Totalizator made by PLC, =1 made by HMI
-AQUABTAG_CUS_CloseTrickleDuringPurge                            |Enable Close Trickle During Purge
-AQUABTAG_CUS_AutoPurgeOnStopCycle                               |Enable Auto Purge On Stop Cycle
-AQUABTAG_AL_DELAY_TOLERANCE_ALARM                               |Delay for Tolerance Alarm in Continuos Plant [msec]
-AQUABTAG_OPT_S7_Connection_Enable                               |S7 Connection is enabled
-AQUABTAG_OPT_S7_CYB500_Control                                  |The control is managed from the Cybertronic 500
-AQUABTAG_AI_H2O_Pressure                                        |Analog Input: H20 Pressure [bar]
-AQUABTAG_AI_H2O_Flow                                            |Analog Input: H20 Flow [Kg/min]
-AQUABTAG_AI_Bit_Flow                                            |Analog Input: Bitumen Flow [Kg/min]
-AQUABTAG_AI_Bit_Temperature                                     |Analog Input: Bitumen_Temperature [C°]
-AQUABTAG_AI_Bit_Inverter_Pump_Speed                             |Analog Input: Bitumen Inverter Pump Speed [rpm]
-AQUABTAG_AI_H2O_Inverter_Pump_Speed                             |Analog Input: H20 Inverter Pump Speed [rpm]
-AQUABTAG_AI_Bit_Weight                                          |Analog Input: Bitumen Weight [Kg]
-AQUABTAG_AI_Bit_Tare                                            |Analog Input: Bitumen Tare [Kg]
-AQUABTAG_AO_H2O_Inverter_Pump_Speed                             |Analog Output: H20 Inverter Pump Speed [rpm]
-AQUABTAG_DI_H2O_Minimum_Level_Tank                              |Digital Input: H2O_Minimum_Level_Tank
-AQUABTAG_DI_H2O_Pump_Return                                     |Digital Input: H2O_Pump_Return
-AQUABTAG_DI_H2O_Pump_TripOverload                               |Digital Input: H2O_Pump_TripOverload
-AQUABTAG_DI_Bit_InSpraying                                      |Digital Input: Bitumen in Spraying
-AQUABTAG_DI_Bit_DosingEnd                                       |Digital Input: Bitumen Ending Dosing
-AQUABTAG_DI_Bit_FlowMeter                                       |Digital Input: Bitumen FlowMeter [pulse/liter]
-AQUABTAG_DI_Agg_DoorOpened                                      |Digital Input: Aggregates Door Opened
-AQUABTAG_DI_Bit_Pump_Return                                     |Digital Input: Bitumen Pump Return
-AQUABTAG_DI_EnableAquaBlackFromOut                              |Digital Input: EnableAquaBlack from Out
-AQUABTAG_DO_H2O_OpenValve                                       |Digital Output: H2O Open Valve
-AQUABTAG_DO_H2O_StartPump                                       |Digital Output: H2O Start Pump
-AQUABTAG_DO_Air_OpenPurge                                       |Digital Output: Air Open Purge of Injector
-AQUABTAG_DO_Air_CloseTrickleValv                                |Digital Output: Air_CloseTrickleValv
-AQUABTAG_DO_Air_CloseBleedValv                                  |Digital Output: Air_CloseBleedValv
-AQUABTAG_DO_Auto_Dosing_Start                                   |Digital Output: Dosing is started in automatic mode
-AQUABTAG_ALARM_H2O_PUMP_Start_Timeout                           |
-AQUABTAG_ALARM_H2O_PUMP_FeedBack_Error                          |
-AQUABTAG_ALARM_H2O_PUMP_Overload_Tripped                        |
-AQUABTAG_ALARM_H2O_PUMP_Stop_Timeout                            |
-AQUABTAG_ALARM_H2O_VALVE_BothClose                              |
-AQUABTAG_ALARM_H2O_VALVE_BothOpen                               |
-AQUABTAG_ALARM_H2O_VALVE_Open_Timeout                           |
-AQUABTAG_ALARM_H2O_VALVE_Close_Timeout                          |
-AQUABTAG_ALARM_H2O_VALVE_Incongrous_FeedBack                    |
-AQUABTAG_ALARM_PURGE_VALVE_BothClose                            |
-AQUABTAG_ALARM_PURGE_VALVE_BothOpen                             |
-AQUABTAG_ALARM_PURGE_VALVE_Open_Timeout                         |
-AQUABTAG_ALARM_PURGE_VALVE_Close_Timeout                        |
-AQUABTAG_ALARM_PURGE_VALVE_Incongrous_FeedBack                  |
-AQUABTAG_ALARM_TRICKLE_VALVE_BothClose                          |
-AQUABTAG_ALARM_TRICKLE_VALVE_BothOpen                           |
-AQUABTAG_ALARM_TRICKLE_VALVE_Open_Timeout                       |
-AQUABTAG_ALARM_TRICKLE_VALVE_Close_Timeout                      |
-AQUABTAG_ALARM_TRICKLE_VALVE_Incongrous_FeedBack                |
-AQUABTAG_ALARM_BITUMEN_TEMPERATURE                              |
-AQUABTAG_ALARM_H2O_MINIMUM_LEVEL_TANK                           |
-AQUABTAG_ALARM_H2O_FLOW_ERROR                                   |
-AQUABTAG_ALARM_BITUMEN_INVALID_TYPE                             |
-AQUABTAG_ALARM_BITUMEN_PULSE_FLOW_CONVERSION_ERROR              |
-AQUABTAG_ALARM_H2O_MINIMUM_PRESSURE                             |
-AQUABTAG_ALARM_H2O_MAX_PRESSURE                                 |
-AQUABTAG_ALARM_TOLERANCE_ERROR                                  |
-AQUABTAG_ALARM_S7_TIMEOUT                                       |
-AQUABTAG_H2OValve_FeedBack                                      |
-AQUABTAG_PURGEValve_FeedBack                                    |
-AQUABTAG_TRICKLEValve_FeedBack                                  |
-AQUABTAG_FromPLC_H2O_Partial                                    |Partial every cycle
-AQUABTAG_FromPLC_H2O_Partial_Recipe                             |Partial every recipe
-AQUABTAG_FromPLC_H2O_Total                                      |Total
-AQUABTAG_FromPLC_H2O_Flow                                       |Flow [Kg/min]
-AQUABTAG_FromPLC_H2O_Pressure                                   |Pressure [bar]
-AQUABTAG_FromPLC_BIT_Partial                                    |Partial every cycle
-AQUABTAG_FromPLC_BIT_Partial_Recipe                             |Partial every recipe
-AQUABTAG_FromPLC_BIT_Total                                      |Total
-AQUABTAG_FromPLC_BIT_FlowCalculated                             |Flow Calculated [kg/sec]
-AQUABTAG_FromPLC_BIT_Weight                                     |Weight [kg]
-AQUABTAG_FromPLC_BIT_FlowMediumCalculated                       |Flow Medium Calculated at the end of batch[kg/sec]
-AQUABTAG_FromPLC_BIT_TimeSpraying                               |Time of Spraying at the end of batch [sec]
-AQUABTAG_FromPLC_Cycle_TotalCycle                               |Total of Cycle
-AQUABTAG_FromPLC_Cycle_RecipeCycle                              |Recipe Cycle
-AQUABTAG_FromPLC_ChangeAtFlight                                 |Pulse Change at Flight
-AQUABTAG_FromPLC_StartFromExternal                              |HMI Start Dosing Command from External
-AQUABTAG_FromPLC_BIT_Recipe_Min_Temp                            |BIT Recipe Min Temp
-AQUABTAG_FromPLC_BIT_Recipe_Max_Temp                            |BIT Recipe Max Temp
-AQUABTAG_FromPLC_Istantaneous_H2OPartial                        |H2O Istantaneous Partial
-AQUABTAG_FromPLC_Istantaneous_H2OPartial_Recipe                 |H2O Istantaneous Recipe
-AQUABTAG_FromPLC_Istantaneous_H2OTotal                          |H2O Total
-AQUABTAG_FromPLC_Istantaneous_BIT                               |BIT Istantaneous Partial
-AQUABTAG_FromPLC_Istantaneous_CYCLE_Recipe                      |CYCLE Recipe
-AQUABTAG_BitumenTemperature                                     |Bitumen temperature [*C]
-AQUABTAG_H2OActualPumpSpeed                                     |H2O Actual pump speed [%]
-AQUABTAG_IstantaneousTotalH2O_Ton                               |Istantaneous Total H2O Ton
-AQUABTAG_TotalCycle_real                                        |Total Cycle Real
-AQUABTAG_H2O_Press_Peak                                         |H2O pressure peak [bar]
-AQUABTAG_H2O_Theor_Flow                                         |H2O theoretical flow [Kg/min]
-AQUABTAG_FROM_HMI_Ack                                           |Ack from HMI
-AQUABTAG_FROM_HMI_Factory_Reset                                 |Factory Reset
-AQUABTAG_FROM_HMI_Start_Purge                                   |HMI Manual Start Purge
-AQUABTAG_FROM_HMI_Start_Trickle                                 |HMI Manual Start Trickle
-AQUABTAG_FROM_HMI_Start_H2O_Valv                                |HMI Manual Start H2O Valv
-AQUABTAG_FROM_HMI_Start_H2O_Pump                                |HMI Manual Start H2O Pump
-AQUABTAG_FROM_HMI_Manual                                        |HMI Manual Command
-AQUABTAG_FROM_HMI_Start                                         |HMI Start Dosing Command
-AQUABTAG_FROM_HMI_Stop                                          |HMI Stop Dosing Command
-AQUABTAG_FROM_HMI_Abort                                         |HMI Abort Dosing Command
-AQUABTAG_FROM_HMI_ManualSpeedH2OPump                            |HMI H2O Speed Pump on Manual mode [%]
-AQUABTAG_SW_VERSION_PLC_Major                                   |
-AQUABTAG_SW_VERSION_PLC_Minor                                   |
-AQUABTAG_SW_VERSION_PLC_Revision                                |
-AQUABTAG_SW_VERSION_PLC_Fix                                     |
-AQUABTAG_REC_ACT_ChangeAtFlight                                 |ACTUAL Recipe: Reservation Change At Flight
-AQUABTAG_REC_ACT_PERCENTAGE_H2O                                 |ACTUAL Recipe: Percentage Value of H2O respect Bitumen
-AQUABTAG_REC_ACT_BITUMEN_SELECTION                              |ACTUAL Recipe: Selection of Bitumen
-AQUABTAG_REC_ACT_BIT_MIN_FLOW                                   |ACTUAL Recipe: Minimum Bitumen Flow [Kg/min]
-AQUABTAG_REC_ACT_TOLERANCE_H2O                                  |ACTUAL Recipe: Tolerance on Error H20 Flow [%]
-AQUABTAG_REC_ACT_BITUMEN_DISCH_2_STEPS                          |ACTUAL Recipe: Enable the unloading the bitumen in 2 steps
-AQUABTAG_NXT_ChangeAtFlight                                     |NEXT Recipe: Reservation Change At Flight
-AQUABTAG_NXT_PERCENTAGE_H2O                                     |NEXT Recipe: Percentage Value of H2O respect Bitumen
-AQUABTAG_NXT_BITUMEN_SELECTION                                  |NEXT Recipe: Selection of Bitumen
-AQUABTAG_NXT_BIT_MIN_FLOW                                       |NEXT Recipe: Minimum Bitumen Flow [Kg/min]
-AQUABTAG_NXT_TOLERANCE_H2O                                      |NEXT Recipe: Tolerance on Error H20 Flow [%]
-AQUABTAG_NXT_BITUMEN_DISCH_2_STEPS                              |NEXT Recipe: Enable the unloading the bitumen in 2 steps
-AQUABTAG_AUTO_DOSING_STATUS                                     |Dosaggio in automatico attivo
-AQUABTAG_MANUAL_MODE_STATUS                                     |Manual Mode stato attivo
-----------------------------------------------------------------+-----------------------------------------------------------------------------------
+----------------------------------------------------------------+-----+-----------------------------------------------------------------------------------
+Nome tag                                                        | I/O |Descrizione
+----------------------------------------------------------------+-----+-----------------------------------------------------------------------------------
+AQUABTAG_AN_H2OPressure_AnalogIN_MAX                            |     |H2O Pressure Parameter: AnalogIN MIN
+AQUABTAG_AN_H2OPressure_AnalogIN_MIN                            |     |H2O Pressure Parameter: AnalogIN Max
+AQUABTAG_AN_H2OPressure_OUT_MAX                                 |     |H2O Pressure Parameter: OUT Min [bar]
+AQUABTAG_AN_H2OPressure_OUT_MIN                                 |     |H2O Pressure Parameter: OUT Max [bar]
+AQUABTAG_AN_H2OFlow_AnalogIN_MAX                                |     |H2O Flow Parameter: AnalogIN MIN
+AQUABTAG_AN_H2OFlow_AnalogIN_MIN                                |     |H2O Flow Parameter: AnalogIN Max
+AQUABTAG_AN_H2OFlow_OUT_MAX                                     |     |H2O Flow Parameter: OUT Min [Kg/min]
+AQUABTAG_AN_H2OFlow_OUT_MIN                                     |     |H2O Flow Parameter: OUT Max [Kg/min]
+AQUABTAG_AN_H2OINSpeed_AnalogIN_MAX                             |     |H2O IN Speed Inverter Pump Parameter: AnalogIN_MIN
+AQUABTAG_AN_H2OINSpeed_AnalogIN_MIN                             |     |H2O IN Speed Inverter Pump Parameter: AnalogIN_MAX
+AQUABTAG_AN_H2OINSpeed_OUT_MAX                                  |     |H2O IN Speed Inverter Pump Parameter: OUT MIN [rpm]
+AQUABTAG_AN_H2OINSpeed_OUT_MIN                                  |     |H2O IN Speed Inverter Pump Parameter: OUT MAX [rpm]
+AQUABTAG_AN_H2OOUTSpeed_AnalogIN_MAX                            |     |H2O OUT Speed Inverter Pump Parameter: AnalogIN_MIN
+AQUABTAG_AN_H2OOUTSpeed_AnalogIN_MIN                            |     |H2O OUT Speed Inverter Pump Parameter: AnalogIN_MAX
+AQUABTAG_AN_H2OOUTSpeed_OUT_MAX                                 |     |H2O OUT Speed Inverter Pump Parameter: OUT MIN [rpm]
+AQUABTAG_AN_H2OOUTSpeed_OUT_MIN                                 |     |H2O OUT Speed Inverter Pump Parameter: OUT MAX [rpm]
+AQUABTAG_AN_BitSpeedPum_AnalogIN_MAX                            |     |Bitumen Inverter Speed Pump Parameter: AnalogIN_MIN
+AQUABTAG_AN_BitSpeedPum_AnalogIN_MIN                            |     |Bitumen Inverter Speed Pump Parameter: AnalogIN_MAX
+AQUABTAG_AN_BitSpeedPum_OUT_MAX                                 |     |Bitumen Inverter Speed Pump Parameter: OUT_MIN [rpm]
+AQUABTAG_AN_BitSpeedPum_OUT_MIN                                 |     |Bitumen Inverter Speed Pump Parameter: OUT_MAX [rpm]
+AQUABTAG_AN_BitTemp_AnalogIN_MAX                                |     |Bitumen Temperature Parameter: AnalogIN MIN
+AQUABTAG_AN_BitTemp_AnalogIN_MIN                                |     |Bitumen Temperature Parameter: AnalogIN MAX
+AQUABTAG_AN_BitTemp_OUT_MAX                                     |     |Bitumen Temperature Parameter: OUT MIN [C°]
+AQUABTAG_AN_BitTemp_OUT_MIN                                     |     |Bitumen Temperature Parameter: OUT MAX [C°]
+AQUABTAG_AN_BitMassFlow_AnalogIN_MAX                            |     |Bitumen Massic Flow Parameter: AnalogIN Min
+AQUABTAG_AN_BitMassFlow_AnalogIN_MIN                            |     |Bitumen Massic Flow Parameter: AnalogIN Max
+AQUABTAG_AN_BitMassFlow_OUT_MAX                                 |     |Bitumen Massic Flow Parameter: OUT Min [Kg/sec]
+AQUABTAG_AN_BitMassFlow_OUT_MIN                                 |     |Bitumen Massic Flow Parameter: OUT Max [Kg/sec]
+AQUABTAG_AN_BitWeight_AnalogIN_MAX                              |     |Bitumen Weight Parameter: AnalogIN_MIN
+AQUABTAG_AN_BitWeight_AnalogIN_MIN                              |     |Bitumen Weight Parameter: AnalogIN_MAX
+AQUABTAG_AN_BitWeight_OUT_MAX                                   |     |Bitumen Weight Parameter: OUT_MIN [Kg]
+AQUABTAG_AN_BitWeight_OUT_MIN                                   |     |Bitumen Weight Parameter: OUT_MAX [Kg]
+AQUABTAG_AN_BitTare_AnalogIN_MAX                                |     |Bitumen Tare Parameter: AnalogIN_MIN
+AQUABTAG_AN_BitTare_AnalogIN_MIN                                |     |Bitumen Tare Parameter: AnalogIN_MAX
+AQUABTAG_AN_BitTare_OUT_MAX                                     |     |Bitumen Tare Parameter: OUT_MIN [Kg]
+AQUABTAG_AN_BitTare_OUT_MIN                                     |     |Bitumen Tare Parameter: OUT_MAX [Kg]
+AQUABTAG_AN_H2OFlowTransientCompens                             |     |Compensation value for the transient of the H2O flow meter [kg]
+AQUABTAG_MAX_H2OValvDelayOnCloseBi                              |     |H2O Valve Delay on Open From Spraying Bitumen Parameter [sec]
+AQUABTAG_MAX_H2OValvDelayOnOpenBi                               |     |H2O Valve Delay on Close From Spraying Bitumen Parameter [sec]
+AQUABTAG_MAX_AlarmHighPressureH2O                               |     |H20 Alarm Limit for High Pressure [bar]
+AQUABTAG_MAX_DelayAlarHighPressureH2                            |     |H20 Delay Alarm Limit for High Pressure [sec]
+AQUABTAG_MAX_PercentualCloseH20                                 |     |H20 Percentage of Bitumen to close H20 [%] (=0 disabled)
+AQUABTAG_MAX_MinH2OFlowAlarmDela                                |     |Delay check for minimum H2O flow alarm [sec]
+AQUABTAG_MAX_MinH2OFlow                                         |     |Check for minimum H2O flow alarm [Kg/min]
+AQUABTAG_MAX_BitFlowOnH2OCloseDelay                             |     |Bitumen flow value during the delay of the H2O valve close
+AQUABTAG_MAX_AlarmLowPressureH2O                                |     |H20 Alarm Limit for Low Pressure [bar]
+AQUABTAG_MAX_DelayAlarLowPressureH2                             |     |H20 Delay Alarm Limit for Low Pressure [sec]
+AQUABTAG_PUR_TimePurgeSecStep1                                  |     |Purge H20 Step 1 Time Duration[sec]
+AQUABTAG_PUR_TimePurgeSecStep2                                  |     |Purge H20 Step 2 Time Duration[sec]
+AQUABTAG_TRI_DelayOnStartTrickle                                |     |Trickle H2O Delay On Start[sec]
+AQUABTAG_TRI_DelayOnStopTrickle                                 |     |Trickle H2O Delay On Stop[sec]
+AQUABTAG_PT_SelectBitFlowInputSource                            |     |Selection of Flow Input Source (1=Massic,2=LiterCounter,3=Scale,4=Speed Inv )
+AQUABTAG_PT_Batch_Type                                          |     |Type of Plant (0=Continuos,1=Batch)
+AQUABTAG_PT_Batch_Gravity                                       |     |Type of Plant Batch Gravity
+AQUABTAG_PT_ContinuousAcqTime                                   |     |Time of periodic acquisition of totalization in Continuos Plant [msec]
+AQUABTAG_BIT_BitumenType                                        |     |BitumenType
+AQUABTAG_BIT_BitumenTempMinAlarm_1..4                           |     |Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_BitumenTempMaxAlarm_1..4                           |     |Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_LT_PulseLiter                                      |     |Pulse/Liter
+AQUABTAG_BIT_LT_Density                                         |     |Density [Kg/dm^3]
+AQUABTAG_BIT_LT_TimeBase                                        |     |Resolution of output[msec]
+AQUABTAG_BIT_BS_NumberSamples                                   |     |Number of Samples for Average
+AQUABTAG_BIT_BS_TimeBase                                        |     |Resolution of output[msec]
+AQUABTAG_BIT_PS_NumberOfPoint                                   |     |Bitumen Number Of Point for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsX_1..5                                    |     |Bitumen X of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsY_1..5                                    |     |Bitumen Y of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_STAB_START                                         |     |Stabilization of Aggregates
+AQUABTAG_BIT_STAB_STOP                                          |     |Stabilization of Bitumen
+AQUABTAG_BIT_Fixed_Bitumen_Tare                                 |     |Fixed value of bitumen tare for batch plant [Kg]
+AQUABTAG_BIT_Init_Flow_Hold_Delay                               |     |Time to hold the previous flow value during when the discharge phase begin msec
+AQUABTAG_H20POND_Ponderal_Volumetric                            |     |0 Volumetric, =1 Ponderal
+AQUABTAG_H20POND_G                                              |     |Gain PID Ponderal H20
+AQUABTAG_H20POND_TI                                             |     |TI PID Ponderal H20
+AQUABTAG_H20POND_TD                                             |     |TD PID Ponderal H20
+AQUABTAG_H20POND_DeadBand                                       |     |Dead Band PID Ponderal H20 PID
+AQUABTAG_H20POND_Tc                                             |     |Time of sample [msec] PID
+AQUABTAG_H20POND_MaxLimitOutput                                 |     |Max Limit of Output PID
+AQUABTAG_H20POND_MinLimitOutput                                 |     |Min Limit of Output PID
+AQUABTAG_H20POND_InitialTI                                      |     |Initial Value of Integral (on rise up of ACTIVATE)
+AQUABTAG_H20POND_EnableP                                        |     |1 if Proportional is enabled
+AQUABTAG_H20POND_EnableI                                        |     |1 if Integral is enabled
+AQUABTAG_H20POND_EnableD                                        |     |1 if Derivative is enabled
+AQUABTAG_H20POND_EnableTheoriticalLimit                         |     |1 The output is limited on Theoretical Window
+AQUABTAG_H20PUMP_TheoreticalZone                                |     |This value is used for determinate the Theoretical window that limit the output
+AQUABTAG_H20PUMP_H20SpeedPumpOnRecycle                          |     |Speed Pump on Recycle [%]
+AQUABTAG_H20PUMP_H2OMaxSpeed                                    |     |Max value of pump [% of Output Voltage]
+AQUABTAG_H20PUMP_StartTimeout                                   |     |Start timeout [sec]
+AQUABTAG_H20PUMP_StopTimeout                                    |     |Stop timeout [sec]
+AQUABTAG_H20PUMP_NumberOfPoint                                  |     |H20 Number Of Point for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsX_1..5                                   |     |H20 X of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsY_1..5                                   |     |H20 Y of Points for linear approssimation (Flow-Speed)
+AQUABTAG_VALVE_H2O_TimeOut_Open                                 |     |Timeout Open
+AQUABTAG_VALVE_H2O_TimeOut_Close                                |     |Timeout Close
+AQUABTAG_VALVE_H2O_Trigger                                      |     |Trigger
+AQUABTAG_VALVE_H2O_Simulate                                     |     |Simulate Valve
+AQUABTAG_VALVE_H2O_Inverted                                     |     |Inverted Valve
+AQUABTAG_VALVE_H2O_3Ways                                        |     |Enable the three-way property
+AQUABTAG_VALVE_PURGE_TimeOut_Open                               |     |Timeout Open
+AQUABTAG_VALVE_PURGE_TimeOut_Close                              |     |Timeout Close
+AQUABTAG_VALVE_PURGE_Trigger                                    |     |Trigger
+AQUABTAG_VALVE_PURGE_Simulate                                   |     |Simulate Valve
+AQUABTAG_VALVE_PURGE_Inverted                                   |     |Inverted Valve
+AQUABTAG_VALVE_TRICKLE_TimeOut_Open                             |     |Timeout Open
+AQUABTAG_VALVE_TRICKLE_TimeOut_Close                            |     |Timeout Close
+AQUABTAG_VALVE_TRICKLE_Trigger                                  |     |Trigger
+AQUABTAG_VALVE_TRICKLE_Simulate                                 |     |Simulate Valve
+AQUABTAG_VALVE_TRICKLE_Inverted                                 |     |Inverted Valve
+AQUABTAG_OPT_ManageH2OAndCycleRecipe                            |     |0 Management of H2O and Cycle Recipe Totalizator made by PLC, =1 made by HMI
+AQUABTAG_CUS_CloseTrickleDuringPurge                            |     |Enable Close Trickle During Purge
+AQUABTAG_CUS_AutoPurgeOnStopCycle                               |     |Enable Auto Purge On Stop Cycle
+AQUABTAG_AL_DELAY_TOLERANCE_ALARM                               |     |Delay for Tolerance Alarm in Continuos Plant [msec]
+AQUABTAG_OPT_S7_Connection_Enable                               |     |S7 Connection is enabled
+AQUABTAG_OPT_S7_CYB500_Control                                  |     |The control is managed from the Cybertronic 500
+AQUABTAG_AI_H2O_Pressure                                        |     |Analog Input: H20 Pressure [bar]
+AQUABTAG_AI_H2O_Flow                                            |     |Analog Input: H20 Flow [Kg/min]
+AQUABTAG_AI_Bit_Flow                                            |     |Analog Input: Bitumen Flow [Kg/min]
+AQUABTAG_AI_Bit_Temperature                                     |     |Analog Input: Bitumen_Temperature [C°]
+AQUABTAG_AI_Bit_Inverter_Pump_Speed                             |     |Analog Input: Bitumen Inverter Pump Speed [rpm]
+AQUABTAG_AI_H2O_Inverter_Pump_Speed                             |     |Analog Input: H20 Inverter Pump Speed [rpm]
+AQUABTAG_AI_Bit_Weight                                          |     |Analog Input: Bitumen Weight [Kg]
+AQUABTAG_AI_Bit_Tare                                            |     |Analog Input: Bitumen Tare [Kg]
+AQUABTAG_AO_H2O_Inverter_Pump_Speed                             |     |Analog Output: H20 Inverter Pump Speed [rpm]
+AQUABTAG_DI_H2O_Minimum_Level_Tank                              |     |Digital Input: H2O_Minimum_Level_Tank
+AQUABTAG_DI_H2O_Pump_Return                                     |     |Digital Input: H2O_Pump_Return
+AQUABTAG_DI_H2O_Pump_TripOverload                               |     |Digital Input: H2O_Pump_TripOverload
+AQUABTAG_DI_Bit_InSpraying                                      |     |Digital Input: Bitumen in Spraying
+AQUABTAG_DI_Bit_DosingEnd                                       |     |Digital Input: Bitumen Ending Dosing
+AQUABTAG_DI_Bit_FlowMeter                                       |     |Digital Input: Bitumen FlowMeter [pulse/liter]
+AQUABTAG_DI_Agg_DoorOpened                                      |     |Digital Input: Aggregates Door Opened
+AQUABTAG_DI_Bit_Pump_Return                                     |     |Digital Input: Bitumen Pump Return
+AQUABTAG_DI_EnableAquaBlackFromOut                              |     |Digital Input: EnableAquaBlack from Out
+AQUABTAG_DO_H2O_OpenValve                                       |     |Digital Output: H2O Open Valve
+AQUABTAG_DO_H2O_StartPump                                       |     |Digital Output: H2O Start Pump
+AQUABTAG_DO_Air_OpenPurge                                       |     |Digital Output: Air Open Purge of Injector
+AQUABTAG_DO_Air_CloseTrickleValv                                |     |Digital Output: Air_CloseTrickleValv
+AQUABTAG_DO_Air_CloseBleedValv                                  |     |Digital Output: Air_CloseBleedValv
+AQUABTAG_DO_Auto_Dosing_Start                                   |     |Digital Output: Dosing is started in automatic mode
+AQUABTAG_ALARM_H2O_PUMP_Start_Timeout                           |     |
+AQUABTAG_ALARM_H2O_PUMP_FeedBack_Error                          |     |
+AQUABTAG_ALARM_H2O_PUMP_Overload_Tripped                        |     |
+AQUABTAG_ALARM_H2O_PUMP_Stop_Timeout                            |     |
+AQUABTAG_ALARM_H2O_VALVE_BothClose                              |     |
+AQUABTAG_ALARM_H2O_VALVE_BothOpen                               |     |
+AQUABTAG_ALARM_H2O_VALVE_Open_Timeout                           |     |
+AQUABTAG_ALARM_H2O_VALVE_Close_Timeout                          |     |
+AQUABTAG_ALARM_H2O_VALVE_Incongrous_FeedBack                    |     |
+AQUABTAG_ALARM_PURGE_VALVE_BothClose                            |     |
+AQUABTAG_ALARM_PURGE_VALVE_BothOpen                             |     |
+AQUABTAG_ALARM_PURGE_VALVE_Open_Timeout                         |     |
+AQUABTAG_ALARM_PURGE_VALVE_Close_Timeout                        |     |
+AQUABTAG_ALARM_PURGE_VALVE_Incongrous_FeedBack                  |     |
+AQUABTAG_ALARM_TRICKLE_VALVE_BothClose                          |     |
+AQUABTAG_ALARM_TRICKLE_VALVE_BothOpen                           |     |
+AQUABTAG_ALARM_TRICKLE_VALVE_Open_Timeout                       |     |
+AQUABTAG_ALARM_TRICKLE_VALVE_Close_Timeout                      |     |
+AQUABTAG_ALARM_TRICKLE_VALVE_Incongrous_FeedBack                |     |
+AQUABTAG_ALARM_BITUMEN_TEMPERATURE                              |     |
+AQUABTAG_ALARM_H2O_MINIMUM_LEVEL_TANK                           |     |
+AQUABTAG_ALARM_H2O_FLOW_ERROR                                   |     |
+AQUABTAG_ALARM_BITUMEN_INVALID_TYPE                             |     |
+AQUABTAG_ALARM_BITUMEN_PULSE_FLOW_CONVERSION_ERROR              |     |
+AQUABTAG_ALARM_H2O_MINIMUM_PRESSURE                             |     |
+AQUABTAG_ALARM_H2O_MAX_PRESSURE                                 |     |
+AQUABTAG_ALARM_TOLERANCE_ERROR                                  |     |
+AQUABTAG_ALARM_S7_TIMEOUT                                       |     |
+AQUABTAG_H2OValve_FeedBack                                      |     |
+AQUABTAG_PURGEValve_FeedBack                                    |     |
+AQUABTAG_TRICKLEValve_FeedBack                                  |     |
+AQUABTAG_FromPLC_H2O_Partial                                    |     |Partial every cycle
+AQUABTAG_FromPLC_H2O_Partial_Recipe                             |     |Partial every recipe
+AQUABTAG_FromPLC_H2O_Total                                      |     |Total
+AQUABTAG_FromPLC_H2O_Flow                                       |     |Flow [Kg/min]
+AQUABTAG_FromPLC_H2O_Pressure                                   |     |Pressure [bar]
+AQUABTAG_FromPLC_BIT_Partial                                    |     |Partial every cycle
+AQUABTAG_FromPLC_BIT_Partial_Recipe                             |     |Partial every recipe
+AQUABTAG_FromPLC_BIT_Total                                      |     |Total
+AQUABTAG_FromPLC_BIT_FlowCalculated                             |     |Flow Calculated [kg/sec]
+AQUABTAG_FromPLC_BIT_Weight                                     |     |Weight [kg]
+AQUABTAG_FromPLC_BIT_FlowMediumCalculated                       |     |Flow Medium Calculated at the end of batch[kg/sec]
+AQUABTAG_FromPLC_BIT_TimeSpraying                               |     |Time of Spraying at the end of batch [sec]
+AQUABTAG_FromPLC_Cycle_TotalCycle                               |     |Total of Cycle
+AQUABTAG_FromPLC_Cycle_RecipeCycle                              |     |Recipe Cycle
+AQUABTAG_FromPLC_ChangeAtFlight                                 |     |Pulse Change at Flight
+AQUABTAG_FromPLC_StartFromExternal                              |     |HMI Start Dosing Command from External
+AQUABTAG_FromPLC_BIT_Recipe_Min_Temp                            |     |BIT Recipe Min Temp
+AQUABTAG_FromPLC_BIT_Recipe_Max_Temp                            |     |BIT Recipe Max Temp
+AQUABTAG_FromPLC_Istantaneous_H2OPartial                        |     |H2O Istantaneous Partial
+AQUABTAG_FromPLC_Istantaneous_H2OPartial_Recipe                 |     |H2O Istantaneous Recipe
+AQUABTAG_FromPLC_Istantaneous_H2OTotal                          |     |H2O Total
+AQUABTAG_FromPLC_Istantaneous_BIT                               |     |BIT Istantaneous Partial
+AQUABTAG_FromPLC_Istantaneous_CYCLE_Recipe                      |     |CYCLE Recipe
+AQUABTAG_BitumenTemperature                                     |     |Bitumen temperature [*C]
+AQUABTAG_H2OActualPumpSpeed                                     |     |H2O Actual pump speed [%]
+AQUABTAG_IstantaneousTotalH2O_Ton                               |     |Istantaneous Total H2O Ton
+AQUABTAG_TotalCycle_real                                        |     |Total Cycle Real
+AQUABTAG_H2O_Press_Peak                                         |     |H2O pressure peak [bar]
+AQUABTAG_H2O_Theor_Flow                                         |     |H2O theoretical flow [Kg/min]
+AQUABTAG_FROM_HMI_Ack                                           |     |Ack from HMI
+AQUABTAG_FROM_HMI_Factory_Reset                                 |     |Factory Reset
+AQUABTAG_FROM_HMI_Start_Purge                                   |     |HMI Manual Start Purge
+AQUABTAG_FROM_HMI_Start_Trickle                                 |     |HMI Manual Start Trickle
+AQUABTAG_FROM_HMI_Start_H2O_Valv                                |     |HMI Manual Start H2O Valv
+AQUABTAG_FROM_HMI_Start_H2O_Pump                                |     |HMI Manual Start H2O Pump
+AQUABTAG_FROM_HMI_Manual                                        |     |HMI Manual Command
+AQUABTAG_FROM_HMI_Start                                         |     |HMI Start Dosing Command
+AQUABTAG_FROM_HMI_Stop                                          |     |HMI Stop Dosing Command
+AQUABTAG_FROM_HMI_Abort                                         |     |HMI Abort Dosing Command
+AQUABTAG_FROM_HMI_ManualSpeedH2OPump                            |     |HMI H2O Speed Pump on Manual mode [%]
+AQUABTAG_SW_VERSION_PLC_Major                                   |     |
+AQUABTAG_SW_VERSION_PLC_Minor                                   |     |
+AQUABTAG_SW_VERSION_PLC_Revision                                |     |
+AQUABTAG_SW_VERSION_PLC_Fix                                     |     |
+AQUABTAG_REC_ACT_ChangeAtFlight                                 |     |ACTUAL Recipe: Reservation Change At Flight
+AQUABTAG_REC_ACT_PERCENTAGE_H2O                                 |     |ACTUAL Recipe: Percentage Value of H2O respect Bitumen
+AQUABTAG_REC_ACT_BITUMEN_SELECTION                              |     |ACTUAL Recipe: Selection of Bitumen
+AQUABTAG_REC_ACT_BIT_MIN_FLOW                                   |     |ACTUAL Recipe: Minimum Bitumen Flow [Kg/min]
+AQUABTAG_REC_ACT_TOLERANCE_H2O                                  |     |ACTUAL Recipe: Tolerance on Error H20 Flow [%]
+AQUABTAG_REC_ACT_BITUMEN_DISCH_2_STEPS                          |     |ACTUAL Recipe: Enable the unloading the bitumen in 2 steps
+AQUABTAG_NXT_ChangeAtFlight                                     |     |NEXT Recipe: Reservation Change At Flight
+AQUABTAG_NXT_PERCENTAGE_H2O                                     |     |NEXT Recipe: Percentage Value of H2O respect Bitumen
+AQUABTAG_NXT_BITUMEN_SELECTION                                  |     |NEXT Recipe: Selection of Bitumen
+AQUABTAG_NXT_BIT_MIN_FLOW                                       |     |NEXT Recipe: Minimum Bitumen Flow [Kg/min]
+AQUABTAG_NXT_TOLERANCE_H2O                                      |     |NEXT Recipe: Tolerance on Error H20 Flow [%]
+AQUABTAG_NXT_BITUMEN_DISCH_2_STEPS                              |     |NEXT Recipe: Enable the unloading the bitumen in 2 steps
+AQUABTAG_AUTO_DOSING_STATUS                                     |     |Dosaggio in automatico attivo
+AQUABTAG_MANUAL_MODE_STATUS                                     |     |Manual Mode stato attivo
+----------------------------------------------------------------|     +-----------------------------------------------------------------------------------
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                |
+                                                                +-----
