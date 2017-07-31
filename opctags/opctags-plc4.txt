@@ -598,15 +598,11 @@ PLCTAG_NM_NASTRITimeoutNRicC                                    |Timeout Nastri 
 PLCTAG_NM_ParametriOK                                           |
 PLCTAG_NM_AccesoForzatoPLC_1..100                               |=1 il comando manuale non è accettato e deve essere azzerato; azzerare anche questo toggle
 PLCTAG_NM_SpentoForzatoPLC_1..100                               |
-PLCTAG_NM_OUT_Blocca_Scar_F1                                    |
-PLCTAG_NM_OUT_Blocca_Scar_F2                                    |
+PLCTAG_NM_OUT_Blocca_Scar_F1..2                                 |
 PLCTAG_NM_OUT_PrenotaAvvCaldo                                   |
-PLCTAG_NM_IN_START_BRUC1                                        |Almeno un predosatore su Nastro Collettore 2 (al momento non usata)
-PLCTAG_NM_IN_START_BRUC2                                        |Almeno un predosatore su Nastro Collettore 3 (al momento non usata)
-PLCTAG_NM_IN_START_RID_BRUC1                                    |Almeno un predosatore su Nastro Riciclato Caldo (al momento non usata)
-PLCTAG_NM_IN_START_RID_BRUC2                                    |Almeno un predosatore su Nastro Riciclato Freddo (al momento non usata)
-PLCTAG_NM_IN_START_STOPBRUC1                                    |
-PLCTAG_NM_IN_START_STOPBRUC2                                    |
+PLCTAG_NM_IN_START_BRUC1..2                                     |Almeno un predosatore su Nastro Collettore 2 (al momento non usata)
+PLCTAG_NM_IN_START_RID_BRUC1..2                                 |Almeno un predosatore su Nastro Riciclato Caldo (al momento non usata)
+PLCTAG_NM_IN_START_STOPBRUC1..2                                 |
 PLCTAG_NM_MOTORE1..100_Presente                                 |Il Motore è presente
 PLCTAG_NM_MOTORE1..100_UscitaInvertita                          |=1 Uscita Motore Invertito
 PLCTAG_NM_MOTORE1..100_RitornoInvertito                         |=1 Ritorno Motore Invertito
