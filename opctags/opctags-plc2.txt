@@ -36,43 +36,43 @@ CistTAG_Combustibile_DI_SicRiscBoostCisterna1..10               |  I  |
 CistTAG_Combustibile_DI_TermicaRiscCisterna1..10                |  I  |
 CistTAG_Bitume_ValvoleGestioneManuale_ZZZ                       |  O  |
 CistTAG_Bitume_ArrestoEmergenzaValvole                          |  O  |
-CistTAG_Bitume_DI_PompaCircLegante                              |  O  |
+CistTAG_Bitume_DI_PompaCircLegante                              |  I  |
 CistTAG_CONTALITRI_ATTIVAZIONE                                  |  O  |
 CistTAG_Bitume_Watchdog                                         |  O  |
 CistTAG_Bitume_ForzaOperazioneSuAllarme_ZZZ                     |  O  |
 CistTAG_Bitume_AckAllarme                                       |  O  |
-CistTAG_Bitume_DB9_DBX14                                        |     |
+CistTAG_Bitume_DB9_DBX14                                        |  O  |
 CistTAG_Bitume_DI_PompaCircLegante2                             |  I  |
-CistTAG_Bitume_NumeroCisterne                                   |     |
-CistTAG_Bitume_NumeroCisternaDefault                            |     |
-CistTAG_Bitume_CodiceOperazione_1..2                            |     |
-CistTAG_Bitume_CisternaSorgente_1..3                            |     |
-CistTAG_Bitume_CisternaDestinazione_1                           |     |
-CistTAG_Bitume_CMD_StartOperazione_1..2                         |     |
-CistTAG_Bitume_CMD_StopOperazione_1..2                          |     |
-CistTAG_Bitume_CMD_AzzeraTara                                   |     |
-CistTAG_Bitume_AzzeraTaraCisternaNumero                         |     |
-CistTAG_Bitume_Allarme0..31                                     |     |
-CistTAG_Bitume_DI_AriaImpiantoCisterneOK                        |     |
-CistTAG_Bitume_DI_Compressore                                   |     |
-CistTAG_Bitume_TempMinConsensoStartPompaCarico                  |     |
-CistTAG_Bitume_TempMinCircuito                                  |     |
-CistTAG_Emulsione_ValvoleGestioneManuale                        |     |
-CistTAG_Emulsione_ArrestoEmergenzaValvole                       |     |
-CistTAG_Emulsione_DI_PompaCircEmulsione                         |     |
-CistTAG_Emulsione_ForzaOperazioneSuAllarme                      |     |
-CistTAG_Emulsione_NumeroCisterneDB9                             |     |
-CistTAG_Emulsione_NumeroCisternaDefaultDB9                      |     |
-CistTAG_Emulsione_CodiceOperazioneCisternaDaEseguire            |     |
-CistTAG_Emulsione_NumeroCisternaAlimImp_NEW                     |     |
-CistTAG_Emulsione_NumeroCisternaAlimImp_OLD                     |     |
-CistTAG_Emulsione_NumeroCisternaCarico                          |     |
-CistTAG_Emulsione_CMD_StartOperazioneCisterna                   |     |
-CistTAG_Emulsione_CMD_StopOperazioneCisterna                    |     |
-CistTAG_Emulsione_CMD_AzzeraTara                                |     |
-CistTAG_Emulsione_CodiceOperazioneCisternaInCorso               |     |
-CistTAG_Emulsione_AzzeraTaraCisternaNumero                      |     |
-CistTAG_Emulsione_Allarme0..31                                  |     |
+CistTAG_Bitume_NumeroCisterne                                   |  O  |
+CistTAG_Bitume_NumeroCisternaDefault                            |  O  |
+CistTAG_Bitume_CodiceOperazione_1..2                            |  O  |
+CistTAG_Bitume_CisternaSorgente_1..3                            |  O  |
+CistTAG_Bitume_CisternaDestinazione_1                           |  O  |
+CistTAG_Bitume_CMD_StartOperazione_1..2                         |  O  |
+CistTAG_Bitume_CMD_StopOperazione_1..2                          |  O  |
+CistTAG_Bitume_CMD_AzzeraTara                                   |  O  |
+CistTAG_Bitume_AzzeraTaraCisternaNumero                         |  O  |
+CistTAG_Bitume_Allarme0..31                                     |  O  |
+CistTAG_Bitume_DI_AriaImpiantoCisterneOK                        |  I  |
+CistTAG_Bitume_DI_Compressore                                   |  I  |
+CistTAG_Bitume_TempMinConsensoStartPompaCarico                  |  O  |
+CistTAG_Bitume_TempMinCircuito                                  |  O  |
+CistTAG_Emulsione_ValvoleGestioneManuale                        |  O  |
+CistTAG_Emulsione_ArrestoEmergenzaValvole                       |  O  |
+CistTAG_Emulsione_DI_PompaCircEmulsione                         |  I  |
+CistTAG_Emulsione_ForzaOperazioneSuAllarme                      |  O  |
+CistTAG_Emulsione_NumeroCisterneDB9                             |  O  |
+CistTAG_Emulsione_NumeroCisternaDefaultDB9                      |  O  |
+CistTAG_Emulsione_CodiceOperazioneCisternaDaEseguire            |  O  |
+CistTAG_Emulsione_NumeroCisternaAlimImp_NEW                     |  O  |
+CistTAG_Emulsione_NumeroCisternaAlimImp_OLD                     |  O  |
+CistTAG_Emulsione_NumeroCisternaCarico                          |  O  |
+CistTAG_Emulsione_CMD_StartOperazioneCisterna                   |  O  |
+CistTAG_Emulsione_CMD_StopOperazioneCisterna                    |  O  |
+CistTAG_Emulsione_CMD_AzzeraTara                                |  O  |
+CistTAG_Emulsione_CodiceOperazioneCisternaInCorso               |  O  |
+CistTAG_Emulsione_AzzeraTaraCisternaNumero                      |  O  |
+CistTAG_Emulsione_Allarme0..31                                  |  O  |
 CistTAG_Emulsione_DI_ValvBypassOpen                             |  I  |
 CistTAG_Emulsione_DI_ValvLineaOpen                              |  I  |
 CistTAG_Emulsione_DI_ValvBypassClose                            |  I  |
@@ -81,221 +81,207 @@ CistTAG_Emulsione_DI_ValvCaricoOpen                             |  I  |
 CistTAG_Emulsione_DI_ValvCaricoClose                            |  I  |
 CistTAG_Emulsione_DI_ValvAntiritOpen                            |  I  |
 CistTAG_Emulsione_DI_ValvAntiritClose                           |  I  |
-CistTAG_Emulsione_TempMinConsensoStartPompaCarico               |     |
-CistTAG_Bitume_Valvola_0..22_FC_Valvola_Aperta                  |     |
-CistTAG_Bitume_Valvola_0..22_FC_Valvola_Chiusa                  |     |
-CistTAG_Bitume_Valvola_0..22_DI_Apertura                        |     |
-CistTAG_Bitume_Valvola_0..22_DI_Chiusura                        |     |
-CistTAG_Bitume_Valvola_0..22_DI_Blocco_Temperatura              |     |
-CistTAG_Bitume_Valvola_0..22_PARA_Inversione_Comando_Valvola    |     |
-CistTAG_Bitume_Valvola_0..22_PARA_EN_Gestione_Valvola           |     |
-CistTAG_Bitume_Valvola_0..22_PARA_EN_Tipo_Valvola_Manuale       |     |
-CistTAG_Bitume_Valvola_0..22_PARA_EN_CMD_Doppio                 |     |
-CistTAG_Bitume_Valvola_0..22_PARA_TimeOut_Scambio_AP            |     |
-CistTAG_Bitume_Valvola_0..22_PARA_TimeOut_Scambio_CH            |     |
-CistTAG_Bitume_Valvola_0..22_PARA_Tempo_Trigger_FC              |     |
-CistTAG_Bitume_Valvola_0..22_CMD_Valvola                        |     |
-CistTAG_Bitume_Valvola_0..22_VALV_AP_Triggerata                 |     |
-CistTAG_Bitume_Valvola_0..22_VALV_CH_Triggerata                 |     |
-CistTAG_Bitume_Valvola_0..22_Codice_Allarme                     |     |
-CistTAG_Bitume_Valvola_0..22_OUT_Tempo_AP                       |     |
-CistTAG_Bitume_Valvola_0..22_OUT_Tempo_CH                       |     |
-CistTAG_Bitume_Valvola_0..22_NR_Operazioni_Apertura             |     |
-CistTAG_Bitume_Valvola_0..22_NR_Operazioni_Chiusura             |     |
-CistTAG_Bitume_Valvola_23_VALV_AP_Triggerata                    |     |
-CistTAG_Bitume_Valvola_23_VALV_CH_Triggerata                    |     |
-CistTAG_Bitume_Valvola_23_Codice_Allarme                        |     |
-CistTAG_Bitume_Valvola_24_VALV_AP_Triggerata                    |     |
-CistTAG_Bitume_Valvola_24_VALV_CH_Triggerata                    |     |
-CistTAG_Bitume_Valvola_24_Codice_Allarme                        |     |
-CistTAG_Bitume_Valvola_25_VALV_AP_Triggerata                    |     |
-CistTAG_Bitume_Valvola_25_VALV_CH_Triggerata                    |     |
-CistTAG_Bitume_Valvola_25_Codice_Allarme                        |     |
-CistTAG_Emulsione_Valvola_0..13_FC_Valvola_Aperta               |     |
-CistTAG_Emulsione_Valvola_0..13_FC_Valvola_Chiusa               |     |
-CistTAG_Emulsione_Valvola_0..13_DI_Apertura                     |     |
-CistTAG_Emulsione_Valvola_0..13_DI_Chiusura                     |     |
-CistTAG_Emulsione_Valvola_0..13_DI_Blocco_Temperatura           |     |
-CistTAG_Emulsione_Valvola_0..13_PARA_Inversione_Comando_Valvola |     |
-CistTAG_Emulsione_Valvola_0..13_PARA_EN_Gestione_Valvola        |     |
-CistTAG_Emulsione_Valvola_0..13_PARA_EN_Tipo_Valvola_Manuale    |     |
-CistTAG_Emulsione_Valvola_0..13_PARA_EN_CMD_Doppio              |     |
-CistTAG_Emulsione_Valvola_0..13_PARA_TimeOut_Scambio_AP         |     |
-CistTAG_Emulsione_Valvola_0..13_PARA_TimeOut_Scambio_CH         |     |
-CistTAG_Emulsione_Valvola_0..13_PARA_Tempo_Trigger_FC           |     |
-CistTAG_Emulsione_Valvola_0..13_CMD_Valvola                     |     |
-CistTAG_Emulsione_Valvola_0..13_VALV_AP_Triggerata              |     |
-CistTAG_Emulsione_Valvola_0..13_VALV_CH_Triggerata              |     |
-CistTAG_Emulsione_Valvola_0..13_Codice_Allarme                  |     |
-CistTAG_Emulsione_Valvola_0..13_OUT_Tempo_AP                    |     |
-CistTAG_Emulsione_Valvola_0..13_OUT_Tempo_CH                    |     |
-CistTAG_Emulsione_Valvola_0..13_NR_Operazioni_Apertura          |     |
-CistTAG_Emulsione_Valvola_0..13_NR_Operazioni_Chiusura          |     |
-CistTAG_Combustibile_Valvola_0..9_FC_Valvola_Aperta             |     |
-CistTAG_Combustibile_Valvola_0..9_FC_Valvola_Chiusa             |     |
-CistTAG_Combustibile_Valvola_0..9_DI_Apertura                   |     |
-CistTAG_Combustibile_Valvola_0..9_DI_Chiusura                   |     |
-CistTAG_Combustibile_Valvola_0..9_DI_Blocco_Temperatura         |     |
-CistTAG_Combustibile_Valvola_0..9_PARA_Inversione_Comando_Valvol|     |
-CistTAG_Combustibile_Valvola_0..9_PARA_EN_Gestione_Valvola      |     |
-CistTAG_Combustibile_Valvola_0..9_PARA_EN_Tipo_Valvola_Manuale  |     |
-CistTAG_Combustibile_Valvola_0..9_PARA_EN_CMD_Doppio            |     |
-CistTAG_Combustibile_Valvola_0..9_PARA_TimeOut_Scambio_AP       |     |
-CistTAG_Combustibile_Valvola_0..9_PARA_TimeOut_Scambio_CH       |     |
-CistTAG_Combustibile_Valvola_0..9_PARA_Tempo_Trigger_FC         |     |
-CistTAG_Combustibile_Valvola_0..9_CMD_Valvola                   |     |
-CistTAG_Combustibile_Valvola_0..9_VALV_AP_Triggerata            |     |
-CistTAG_Combustibile_Valvola_0..9_VALV_CH_Triggerata            |     |
-CistTAG_Combustibile_Valvola_0..9_Codice_Allarme                |     |
-CistTAG_Combustibile_Valvola_0..9_OUT_Tempo_AP                  |     |
-CistTAG_Combustibile_Valvola_0..9_OUT_Tempo_CH                  |     |
-CistTAG_Combustibile_Valvola_0..9_NR_Operazioni_Apertura        |     |
-CistTAG_Combustibile_Valvola_0..9_NR_Operazioni_Chiusura        |     |
-CistTAG_Bitume_Cisterna1..10_Agitatore_CmdAvvio                 |     |
-CistTAG_Bitume_Cisterna1..10_Agitatore_Ritorno                  |     |
-CistTAG_Bitume_Cisterna1..10_AbilitazioneAgitatore              |     |
-CistTAG_Bitume_Cisterna1..10_PID_GAIN                           |     |
-CistTAG_Bitume_Cisterna1..10_PID_TI                             |     |
-CistTAG_Bitume_Cisterna1..10_PID_TD                             |     |
-CistTAG_Bitume_Cisterna1..10_PID_ControlZone                    |     |
-CistTAG_Mixer_PID_GAIN                                          |     |
-CistTAG_Mixer_PID_TI                                            |     |
-CistTAG_Mixer_PID_TD                                            |     |
-CistTAG_Mixer_PID_ControlZone                                   |     |
-CistTAG_Pannello_OperazioneBitumeCarico                         |     |
-CistTAG_Pannello_OperazioneBitume                               |     |
-CistTAG_Pannello_OperazioneEmulsione                            |     |
-CistTAG_Pannello_ComandoAuxIncluso_1..8                         |     |
-CistTAG_Sel_turni_settim_giorn                                  |     |
-CistTAG_Stato_LED_CALDAIA1..2                                   |     |
-CistTAG_Bitume_Cisterna1..10_TipoLivello                        |     |
-CistTAG_Bitume_Cisterna1..10_BloccoValvoleBassaTemperatura      |     |
-CistTAG_Bitume_Cisterna1..10_InclusioneAgitatore                |     |
-CistTAG_Bitume_Cisterna1..10_TempUnitaLimiteInf                 |     |
-CistTAG_Bitume_Cisterna1..10_TempUnitaLimitesup                 |     |
-CistTAG_Bitume_Cisterna1..10_LivelloUnitaLimiteInf              |     |
-CistTAG_Bitume_Cisterna1..10_LivelloUnitaLimiteSup              |     |
-CistTAG_Bitume_Cisterna1..10_Densita                            |     |
-CistTAG_Bitume_Cisterna1..10_TempGradiLimiteInf                 |     |
-CistTAG_Bitume_Cisterna1..10_TempGradiLimiteSup                 |     |
-CistTAG_Bitume_Cisterna1..10_LivelloTonLimiteInf                |     |
-CistTAG_Bitume_Cisterna1..10_LivelloTonLimiteSup                |     |
-CistTAG_Bitume_Cisterna1..10_TempGradiAllarmeMin                |     |
-CistTAG_Bitume_Cisterna1..10_TempGradiAllarmeMax                |     |
-CistTAG_Bitume_Cisterna1..10_LivelloTonAllarmeMin               |     |
-CistTAG_Bitume_Cisterna1..10_LivelloTonAllarmeMax               |     |
-CistTAG_Bitume_Cisterna1..10_LivelloTonAllarmeZonaMorta         |     |
-CistTAG_Bitume_Cisterna1..10_TempGradiAllarmeZonaMorta          |     |
-CistTAG_Bitume_Cisterna1..10_LivelloMin_DI_Trigger              |     |
-CistTAG_Bitume_Cisterna1..10_LivelloMax_DI_Trigger              |     |
-CistTAG_Bitume_Cisterna1..10_LivelloSic_DI_Trigger              |     |
-CistTAG_Bitume_Cisterna1..10_LivelloPercentualeValore           |     |
-CistTAG_Bitume_Cisterna1..10_LivelloTonValore                   |     |
-CistTAG_Bitume_Cisterna1..10_TempGradiValore                    |     |
-CistTAG_Bitume_Cisterna1..10_AllarmeCodiceGen                   |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita1InverteComando          |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita1TempoTimeOutOpen        |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita1TempoTimeOutClose       |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita1TempoAntirimbalzoFC     |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita1Open_DI_Trigger         |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita1Close_DI_Trigger        |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita1AllarmeCodice           |     |
-CistTAG_Bitume_Cisterna1..10_DI_ValvRitornoBloccoTemp           |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata1InverteComando         |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata1TempoTimeOutOpen       |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata1TempoTimeOutClose      |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata1TempoAntirimbalzoFC    |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata1Open_DI_Trigger        |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata1Close_DI_Trigger       |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata1AllarmeCodice          |     |
-CistTAG_Bitume_Cisterna1..10_DI_ValvCaricoBloccoTemp            |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita2InverteComando          |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita2TempoTimeOutOpen        |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita2TempoTimeOutClose       |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita2TempoAntirimbalzoFC     |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita2Open_DI_Trigger         |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita2Close_DI_Trigger        |     |
-CistTAG_Bitume_Cisterna1..10_ValvUscita2AllarmeCodice           |     |
-CistTAG_Bitume_Cisterna1..10_DI_ValvAuxBloccoTemp               |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata2InverteComando         |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata2TempoTimeOutOpen       |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata2TempoTimeOutClose      |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata2TempoAntirimbalzoFC    |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata2Open_DI_Trigger        |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata2Close_DI_Trigger       |     |
-CistTAG_Bitume_Cisterna1..10_ValvEntrata2AllarmeCodice          |     |
-CistTAG_Bitume_Cisterna1..10_NumeroValvolePresenti              |     |
-CistTAG_Bitume_Cisterna1..10_AbilitaOrizzontale                 |     |
-CistTAG_Bitume_Cisterna1..10_DiametroMm                         |     |
-CistTAG_Bitume_Cisterna1..10_LunghezzaMm                        |     |
-CistTAG_Bitume_Cisterna1..10_AbilitaValvolaMandata              |     |
-CistTAG_Bitume_Cisterna1..10_AbilitaValvolaRitorno              |     |
-CistTAG_Bitume_Cisterna1..10_AbilitaValvolaCarico               |     |
-CistTAG_Bitume_Cisterna1..10_AbilitaValvolaAux                  |     |
-CistTAG_Emulsione_Cisterna1..10_TipoLivello                     |     |
-CistTAG_Emulsione_Cisterna1..10_BloccoValvoleBassaTemperatura   |     |
-CistTAG_Emulsione_Cisterna1..10_InclusioneAgitatore             |     |
-CistTAG_Emulsione_Cisterna1..10_TempUnitaLimiteInf              |     |
-CistTAG_Emulsione_Cisterna1..10_TempUnitaLimieSup               |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloUnitaLimiteInf           |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloUnitaLimiteSup           |     |
-CistTAG_Emulsione_Cisterna1..10_Densita                         |     |
-CistTAG_Emulsione_Cisterna1..10_TempGradiLimiteInf              |     |
-CistTAG_Emulsione_Cisterna1..10_TempGradiLimiteSup              |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloTonLimiteInf             |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloTonLimiteSup             |     |
-CistTAG_Emulsione_Cisterna1..10_TempGradiAllarmeMin             |     |
-CistTAG_Emulsione_Cisterna1..10_TempGradiAllarmeMax             |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloTonAllarmeMin            |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloTonAllarmeMax            |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloTonAllarmeZonaMorta      |     |
-CistTAG_Emulsione_Cisterna1..10_TempGradiAllarmeZonaMorta       |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloMin_DI_Trigger           |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloMax_DI_Trigger           |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloSic_DI_Trigger           |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloPercentualeValore        |     |
-CistTAG_Emulsione_Cisterna1..10_LivelloTonValore                |     |
-CistTAG_Emulsione_Cisterna1..10_TempGradiValore                 |     |
-CistTAG_Emulsione_Cisterna1..10_AllarmeCodiceGen                |     |
-CistTAG_Emulsione_Cisterna1..10_ValvMandataInverteComando       |     |
-CistTAG_Emulsione_Cisterna1..10_ValvMandataTempoTimeOutOpen     |     |
-CistTAG_Emulsione_Cisterna1..10_ValvMandataTempoTimeOutClose    |     |
-CistTAG_Emulsione_Cisterna1..10_ValvMandataTempoAntirimbalzoFC  |     |
-CistTAG_Emulsione_Cisterna1..10_ValvMandataOpen_DI_Trigger      |     |
-CistTAG_Emulsione_Cisterna1..10_ValvMandataClose_DI_Trigger     |     |
-CistTAG_Emulsione_Cisterna1..10_ValvMandataAllarmeCodice        |     |
-CistTAG_Emulsione_Cisterna1..10_DI_ValvRitornoBloccoTemp        |     |
-CistTAG_Emulsione_Cisterna1..10_ValvRitornoInverteComando       |     |
-CistTAG_Emulsione_Cisterna1..10_ValvRitornoTempoTimeOutOpen     |     |
-CistTAG_Emulsione_Cisterna1..10_ValvRitornoTempoTimeOutClose    |     |
-CistTAG_Emulsione_Cisterna1..10_ValvRitornoTempoAntirimbalzoFC  |     |
-CistTAG_Emulsione_Cisterna1..10_ValvRitornoOpen_DI_Trigger      |     |
-CistTAG_Emulsione_Cisterna1..10_ValvRitornoClose_DI_Trigger     |     |
-CistTAG_Emulsione_Cisterna1..10_ValvRitornoAllarmeCodice        |     |
-CistTAG_Emulsione_Cisterna1..10_DI_ValvCaricoBloccoTemp         |     |
-CistTAG_Emulsione_Cisterna1..10_ValvCaricoInverteComando        |     |
-CistTAG_Emulsione_Cisterna1..10_ValvCaricoTempoTimeOutOpen      |     |
-CistTAG_Emulsione_Cisterna1..10_ValvCaricoTempoTimeOutClose     |     |
-CistTAG_Emulsione_Cisterna1..10_ValvCaricoTempoAntirimbalzoFC   |     |
-CistTAG_Emulsione_Cisterna1..10_ValvCaricoOpen_DI_Trigger       |     |
-CistTAG_Emulsione_Cisterna1..10_ValvCaricoClose_DI_Trigger      |     |
-CistTAG_Emulsione_Cisterna1..10_ValvCaricoAllarmeCodice         |     |
-CistTAG_Emulsione_Cisterna1..10_DI_ValvAuxBloccoTemp            |     |
-CistTAG_Emulsione_Cisterna1..10_ValvAuxInverteComando           |     |
-CistTAG_Emulsione_Cisterna1..10_ValvAuxTempoTimeOutOpen         |     |
-CistTAG_Emulsione_Cisterna1..10_ValvAuxTempoTimeOutClose        |     |
-CistTAG_Emulsione_Cisterna1..10_ValvAuxTempoAntirimbalzoFC      |     |
-CistTAG_Emulsione_Cisterna1..10_ValvAuxOpen_DI_Trigger          |     |
-CistTAG_Emulsione_Cisterna1..10_ValvAuxClose_DI_Trigger         |     |
-CistTAG_Emulsione_Cisterna1..10_ValvAuxAllarmeCodice            |     |
-CistTAG_Emulsione_Cisterna1..10_NumeroValvolePresenti           |     |
-CistTAG_Emulsione_Cisterna1..10_AbilitaOrizzontale              |     |
-CistTAG_Emulsione_Cisterna1..10_DiametroMm                      |     |
-CistTAG_Emulsione_Cisterna1..10_LunghezzaMm                     |     |
-CistTAG_Emulsione_Cisterna1..10_AbilitaValvolaMandata           |     |
-CistTAG_Emulsione_Cisterna1..10_AbilitaValvolaRitorno           |     |
-CistTAG_Emulsione_Cisterna1..10_AbilitaValvolaCarico            |     |
-CistTAG_Emulsione_Cisterna1..10_AbilitaValvolaAux               |     |
+CistTAG_Emulsione_TempMinConsensoStartPompaCarico               |  O  |
+CistTAG_Bitume_Valvola_0..22_FC_Valvola_Aperta                  |  O  |
+CistTAG_Bitume_Valvola_0..22_FC_Valvola_Chiusa                  |  O  |
+CistTAG_Bitume_Valvola_0..22_DI_Apertura                        |  I  |
+CistTAG_Bitume_Valvola_0..22_DI_Chiusura                        |  I  |
+CistTAG_Bitume_Valvola_0..22_DI_Blocco_Temperatura              |  I  |
+CistTAG_Bitume_Valvola_0..22_PARA_Inversione_Comando_Valvola    |  O  |
+CistTAG_Bitume_Valvola_0..22_PARA_EN_Gestione_Valvola           |  O  |
+CistTAG_Bitume_Valvola_0..22_PARA_EN_Tipo_Valvola_Manuale       |  O  |
+CistTAG_Bitume_Valvola_0..22_PARA_EN_CMD_Doppio                 |  O  |
+CistTAG_Bitume_Valvola_0..22_PARA_TimeOut_Scambio_AP            |  O  |
+CistTAG_Bitume_Valvola_0..22_PARA_TimeOut_Scambio_CH            |  O  |
+CistTAG_Bitume_Valvola_0..22_PARA_Tempo_Trigger_FC              |  O  |
+CistTAG_Bitume_Valvola_0..22_CMD_Valvola                        |  O  |
+CistTAG_Bitume_Valvola_0..22_VALV_AP_Triggerata                 |  O  |
+CistTAG_Bitume_Valvola_0..22_VALV_CH_Triggerata                 |  O  |
+CistTAG_Bitume_Valvola_0..22_Codice_Allarme                     |  O  |
+CistTAG_Bitume_Valvola_0..22_OUT_Tempo_AP                       |  O  |
+CistTAG_Bitume_Valvola_0..22_OUT_Tempo_CH                       |  O  |
+CistTAG_Bitume_Valvola_0..22_NR_Operazioni_Apertura             |  O  |
+CistTAG_Bitume_Valvola_0..22_NR_Operazioni_Chiusura             |  O  |
+CistTAG_Bitume_Valvola_23_VALV_AP_Triggerata                    |  O  |
+CistTAG_Bitume_Valvola_23_VALV_CH_Triggerata                    |  O  |
+CistTAG_Bitume_Valvola_23_Codice_Allarme                        |  O  |
+CistTAG_Bitume_Valvola_24_VALV_AP_Triggerata                    |  O  |
+CistTAG_Bitume_Valvola_24_VALV_CH_Triggerata                    |  O  |
+CistTAG_Bitume_Valvola_24_Codice_Allarme                        |  O  |
+CistTAG_Bitume_Valvola_25_VALV_AP_Triggerata                    |  O  |
+CistTAG_Bitume_Valvola_25_VALV_CH_Triggerata                    |  O  |
+CistTAG_Bitume_Valvola_25_Codice_Allarme                        |  O  |
+CistTAG_Emulsione_Valvola_0..13_FC_Valvola_Aperta               |  O  |
+CistTAG_Emulsione_Valvola_0..13_FC_Valvola_Chiusa               |  O  |
+CistTAG_Emulsione_Valvola_0..13_DI_Apertura                     |  I  |
+CistTAG_Emulsione_Valvola_0..13_DI_Chiusura                     |  I  |
+CistTAG_Emulsione_Valvola_0..13_DI_Blocco_Temperatura           |  I  |
+CistTAG_Emulsione_Valvola_0..13_PARA_Inversione_Comando_Valvola |  O  |
+CistTAG_Emulsione_Valvola_0..13_PARA_EN_Gestione_Valvola        |  O  |
+CistTAG_Emulsione_Valvola_0..13_PARA_EN_Tipo_Valvola_Manuale    |  O  |
+CistTAG_Emulsione_Valvola_0..13_PARA_EN_CMD_Doppio              |  O  |
+CistTAG_Emulsione_Valvola_0..13_PARA_TimeOut_Scambio_AP         |  O  |
+CistTAG_Emulsione_Valvola_0..13_PARA_TimeOut_Scambio_CH         |  O  |
+CistTAG_Emulsione_Valvola_0..13_PARA_Tempo_Trigger_FC           |  O  |
+CistTAG_Emulsione_Valvola_0..13_CMD_Valvola                     |  O  |
+CistTAG_Emulsione_Valvola_0..13_VALV_AP_Triggerata              |  O  |
+CistTAG_Emulsione_Valvola_0..13_VALV_CH_Triggerata              |  O  |
+CistTAG_Emulsione_Valvola_0..13_Codice_Allarme                  |  O  |
+CistTAG_Emulsione_Valvola_0..13_OUT_Tempo_AP                    |  O  |
+CistTAG_Emulsione_Valvola_0..13_OUT_Tempo_CH                    |  O  |
+CistTAG_Emulsione_Valvola_0..13_NR_Operazioni_Apertura          |  O  |
+CistTAG_Emulsione_Valvola_0..13_NR_Operazioni_Chiusura          |  O  |
+CistTAG_Combustibile_Valvola_0..9_FC_Valvola_Aperta             |  O  |
+CistTAG_Combustibile_Valvola_0..9_FC_Valvola_Chiusa             |  O  |
+CistTAG_Combustibile_Valvola_0..9_DI_Apertura                   |  I  |
+CistTAG_Combustibile_Valvola_0..9_DI_Chiusura                   |  I  |
+CistTAG_Combustibile_Valvola_0..9_DI_Blocco_Temperatura         |  I  |
+CistTAG_Combustibile_Valvola_0..9_PARA_Inversione_Comando_Valvol|  O  |
+CistTAG_Combustibile_Valvola_0..9_PARA_EN_Gestione_Valvola      |  O  |
+CistTAG_Combustibile_Valvola_0..9_PARA_EN_Tipo_Valvola_Manuale  |  O  |
+CistTAG_Combustibile_Valvola_0..9_PARA_EN_CMD_Doppio            |  O  |
+CistTAG_Combustibile_Valvola_0..9_PARA_TimeOut_Scambio_AP       |  O  |
+CistTAG_Combustibile_Valvola_0..9_PARA_TimeOut_Scambio_CH       |  O  |
+CistTAG_Combustibile_Valvola_0..9_PARA_Tempo_Trigger_FC         |  O  |
+CistTAG_Combustibile_Valvola_0..9_CMD_Valvola                   |  O  |
+CistTAG_Combustibile_Valvola_0..9_VALV_AP_Triggerata            |  O  |
+CistTAG_Combustibile_Valvola_0..9_VALV_CH_Triggerata            |  O  |
+CistTAG_Combustibile_Valvola_0..9_Codice_Allarme                |  O  |
+CistTAG_Combustibile_Valvola_0..9_OUT_Tempo_AP                  |  O  |
+CistTAG_Combustibile_Valvola_0..9_OUT_Tempo_CH                  |  O  |
+CistTAG_Combustibile_Valvola_0..9_NR_Operazioni_Apertura        |  O  |
+CistTAG_Combustibile_Valvola_0..9_NR_Operazioni_Chiusura        |  O  |
+CistTAG_Bitume_Cisterna1..10_Agitatore_CmdAvvio                 |  O  |
+CistTAG_Bitume_Cisterna1..10_Agitatore_Ritorno                  |  O  |
+CistTAG_Bitume_Cisterna1..10_AbilitazioneAgitatore              |  O  |
+CistTAG_Bitume_Cisterna1..10_PID_GAIN                           |  O  |
+CistTAG_Bitume_Cisterna1..10_PID_TI                             |  O  |
+CistTAG_Bitume_Cisterna1..10_PID_TD                             |  O  |
+CistTAG_Bitume_Cisterna1..10_PID_ControlZone                    |  O  |
+CistTAG_Mixer_PID_GAIN                                          |  O  |
+CistTAG_Mixer_PID_TI                                            |  O  |
+CistTAG_Mixer_PID_TD                                            |  O  |
+CistTAG_Mixer_PID_ControlZone                                   |  O  |
+CistTAG_Pannello_OperazioneBitumeCarico                         |  O  |
+CistTAG_Pannello_OperazioneBitume                               |  O  |
+CistTAG_Pannello_OperazioneEmulsione                            |  O  |
+CistTAG_Pannello_ComandoAuxIncluso_1..8                         |  O  |
+CistTAG_Sel_turni_settim_giorn                                  |  O  |
+CistTAG_Stato_LED_CALDAIA1..2                                   |  O  |
+CistTAG_Bitume_Cisterna1..10_TipoLivello                        |  O  |
+CistTAG_Bitume_Cisterna1..10_BloccoValvoleBassaTemperatura      |  O  |
+CistTAG_Bitume_Cisterna1..10_InclusioneAgitatore                |  O  |
+CistTAG_Bitume_Cisterna1..10_TempUnitaLimiteInf                 |  O  |
+CistTAG_Bitume_Cisterna1..10_TempUnitaLimitesup                 |  O  |
+CistTAG_Bitume_Cisterna1..10_LivelloUnitaLimiteInf              |  O  |
+CistTAG_Bitume_Cisterna1..10_LivelloUnitaLimiteSup              |  O  |
+CistTAG_Bitume_Cisterna1..10_Densita                            |  O  |
+CistTAG_Bitume_Cisterna1..10_TempGradiLimiteInf                 |  O  |
+CistTAG_Bitume_Cisterna1..10_TempGradiLimiteSup                 |  O  |
+CistTAG_Bitume_Cisterna1..10_LivelloTonLimiteInf                |  O  |
+CistTAG_Bitume_Cisterna1..10_LivelloTonLimiteSup                |  O  |
+CistTAG_Bitume_Cisterna1..10_TempGradiAllarmeMin                |  O  |
+CistTAG_Bitume_Cisterna1..10_TempGradiAllarmeMax                |  O  |
+CistTAG_Bitume_Cisterna1..10_LivelloTonAllarmeMin               |  O  |
+CistTAG_Bitume_Cisterna1..10_LivelloTonAllarmeMax               |  O  |
+CistTAG_Bitume_Cisterna1..10_LivelloTonAllarmeZonaMorta         |  O  |
+CistTAG_Bitume_Cisterna1..10_TempGradiAllarmeZonaMorta          |  O  |
+CistTAG_Bitume_Cisterna1..10_LivelloMin_DI_Trigger              |  I  |
+CistTAG_Bitume_Cisterna1..10_LivelloMax_DI_Trigger              |  I  |
+CistTAG_Bitume_Cisterna1..10_LivelloSic_DI_Trigger              |  I  |
+CistTAG_Bitume_Cisterna1..10_LivelloPercentualeValore           |  O  |
+CistTAG_Bitume_Cisterna1..10_LivelloTonValore                   |  O  |
+CistTAG_Bitume_Cisterna1..10_TempGradiValore                    |  O  |
+CistTAG_Bitume_Cisterna1..10_AllarmeCodiceGen                   |  O  |
+CistTAG_Bitume_Cisterna1..10_ValvUscita1..2InverteComando       |  O  |
+CistTAG_Bitume_Cisterna1..10_ValvUscita1..2TempoTimeOutOpen     |  O  |
+CistTAG_Bitume_Cisterna1..10_ValvUscita1..2TempoTimeOutClose    |  O  |
+CistTAG_Bitume_Cisterna1..10_ValvUscita1..2TempoAntirimbalzoFC  |  O  |
+CistTAG_Bitume_Cisterna1..10_ValvUscita1..2Open_DI_Trigger      |  I  |
+CistTAG_Bitume_Cisterna1..10_ValvUscita1..2Close_DI_Trigger     |  I  |
+CistTAG_Bitume_Cisterna1..10_ValvUscita1..2AllarmeCodice        |  O  |
+CistTAG_Bitume_Cisterna1..10_DI_ValvRitornoBloccoTemp           |  I  |
+CistTAG_Bitume_Cisterna1..10_ValvEntrata1..2InverteComando      |  O  |
+CistTAG_Bitume_Cisterna1..10_ValvEntrata1..2TempoTimeOutOpen    |  O  |
+CistTAG_Bitume_Cisterna1..10_ValvEntrata1..2TempoTimeOutClose   |  O  |
+CistTAG_Bitume_Cisterna1..10_ValvEntrata1..2TempoAntirimbalzoFC |  O  |
+CistTAG_Bitume_Cisterna1..10_ValvEntrata1..2Open_DI_Trigger     |  I  |
+CistTAG_Bitume_Cisterna1..10_ValvEntrata1..2Close_DI_Trigger    |  I  |
+CistTAG_Bitume_Cisterna1..10_ValvEntrata1..2AllarmeCodice       |  O  |
+CistTAG_Bitume_Cisterna1..10_DI_ValvCaricoBloccoTemp            |  I  |
+CistTAG_Bitume_Cisterna1..10_DI_ValvAuxBloccoTemp               |  I  |
+CistTAG_Bitume_Cisterna1..10_NumeroValvolePresenti              |  O  |
+CistTAG_Bitume_Cisterna1..10_AbilitaOrizzontale                 |  O  |
+CistTAG_Bitume_Cisterna1..10_DiametroMm                         |  O  |
+CistTAG_Bitume_Cisterna1..10_LunghezzaMm                        |  O  |
+CistTAG_Bitume_Cisterna1..10_AbilitaValvolaMandata              |  O  |
+CistTAG_Bitume_Cisterna1..10_AbilitaValvolaRitorno              |  O  |
+CistTAG_Bitume_Cisterna1..10_AbilitaValvolaCarico               |  O  |
+CistTAG_Bitume_Cisterna1..10_AbilitaValvolaAux                  |  O  |
+CistTAG_Emulsione_Cisterna1..10_TipoLivello                     |  O  |
+CistTAG_Emulsione_Cisterna1..10_BloccoValvoleBassaTemperatura   |  O  |
+CistTAG_Emulsione_Cisterna1..10_InclusioneAgitatore             |  O  |
+CistTAG_Emulsione_Cisterna1..10_TempUnitaLimiteInf              |  O  |
+CistTAG_Emulsione_Cisterna1..10_TempUnitaLimieSup               |  O  |
+CistTAG_Emulsione_Cisterna1..10_LivelloUnitaLimiteInf           |  O  |
+CistTAG_Emulsione_Cisterna1..10_LivelloUnitaLimiteSup           |  O  |
+CistTAG_Emulsione_Cisterna1..10_Densita                         |  O  |
+CistTAG_Emulsione_Cisterna1..10_TempGradiLimiteInf              |  O  |
+CistTAG_Emulsione_Cisterna1..10_TempGradiLimiteSup              |  O  |
+CistTAG_Emulsione_Cisterna1..10_LivelloTonLimiteInf             |  O  |
+CistTAG_Emulsione_Cisterna1..10_LivelloTonLimiteSup             |  O  |
+CistTAG_Emulsione_Cisterna1..10_TempGradiAllarmeMin             |  O  |
+CistTAG_Emulsione_Cisterna1..10_TempGradiAllarmeMax             |  O  |
+CistTAG_Emulsione_Cisterna1..10_LivelloTonAllarmeMin            |  O  |
+CistTAG_Emulsione_Cisterna1..10_LivelloTonAllarmeMax            |  O  |
+CistTAG_Emulsione_Cisterna1..10_LivelloTonAllarmeZonaMorta      |  O  |
+CistTAG_Emulsione_Cisterna1..10_TempGradiAllarmeZonaMorta       |  O  |
+CistTAG_Emulsione_Cisterna1..10_LivelloMin_DI_Trigger           |  I  |
+CistTAG_Emulsione_Cisterna1..10_LivelloMax_DI_Trigger           |  I  |
+CistTAG_Emulsione_Cisterna1..10_LivelloSic_DI_Trigger           |  I  |
+CistTAG_Emulsione_Cisterna1..10_LivelloPercentualeValore        |  O  |
+CistTAG_Emulsione_Cisterna1..10_LivelloTonValore                |  O  |
+CistTAG_Emulsione_Cisterna1..10_TempGradiValore                 |  O  |
+CistTAG_Emulsione_Cisterna1..10_AllarmeCodiceGen                |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvMandataInverteComando       |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvMandataTempoTimeOutOpen     |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvMandataTempoTimeOutClose    |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvMandataTempoAntirimbalzoFC  |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvMandataOpen_DI_Trigger      |  I  |
+CistTAG_Emulsione_Cisterna1..10_ValvMandataClose_DI_Trigger     |  I  |
+CistTAG_Emulsione_Cisterna1..10_ValvMandataAllarmeCodice        |  O  |
+CistTAG_Emulsione_Cisterna1..10_DI_ValvRitornoBloccoTemp        |  I  |
+CistTAG_Emulsione_Cisterna1..10_ValvRitornoInverteComando       |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvRitornoTempoTimeOutOpen     |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvRitornoTempoTimeOutClose    |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvRitornoTempoAntirimbalzoFC  |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvRitornoOpen_DI_Trigger      |  I  |
+CistTAG_Emulsione_Cisterna1..10_ValvRitornoClose_DI_Trigger     |  I  |
+CistTAG_Emulsione_Cisterna1..10_ValvRitornoAllarmeCodice        |  O  |
+CistTAG_Emulsione_Cisterna1..10_DI_ValvCaricoBloccoTemp         |  I  |
+CistTAG_Emulsione_Cisterna1..10_ValvCaricoInverteComando        |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvCaricoTempoTimeOutOpen      |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvCaricoTempoTimeOutClose     |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvCaricoTempoAntirimbalzoFC   |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvCaricoOpen_DI_Trigger       |  I  |
+CistTAG_Emulsione_Cisterna1..10_ValvCaricoClose_DI_Trigger      |  I  |
+CistTAG_Emulsione_Cisterna1..10_ValvCaricoAllarmeCodice         |  O  |
+CistTAG_Emulsione_Cisterna1..10_DI_ValvAuxBloccoTemp            |  I  |
+CistTAG_Emulsione_Cisterna1..10_ValvAuxInverteComando           |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvAuxTempoTimeOutOpen         |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvAuxTempoTimeOutClose        |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvAuxTempoAntirimbalzoFC      |  O  |
+CistTAG_Emulsione_Cisterna1..10_ValvAuxOpen_DI_Trigger          |  I  |
+CistTAG_Emulsione_Cisterna1..10_ValvAuxClose_DI_Trigger         |  I  |
+CistTAG_Emulsione_Cisterna1..10_ValvAuxAllarmeCodice            |  O  |
+CistTAG_Emulsione_Cisterna1..10_NumeroValvolePresenti           |  O  |
+CistTAG_Emulsione_Cisterna1..10_AbilitaOrizzontale              |  O  |
+CistTAG_Emulsione_Cisterna1..10_DiametroMm                      |  O  |
+CistTAG_Emulsione_Cisterna1..10_LunghezzaMm                     |  O  |
+CistTAG_Emulsione_Cisterna1..10_AbilitaValvolaMandata           |  O  |
+CistTAG_Emulsione_Cisterna1..10_AbilitaValvolaRitorno           |  O  |
+CistTAG_Emulsione_Cisterna1..10_AbilitaValvolaCarico            |  O  |
+CistTAG_Emulsione_Cisterna1..10_AbilitaValvolaAux               |  O  |
 CistTAG_Combustibile_Cisterna1..10_TipoLivello                  |  O  |
 CistTAG_Combustibile_Cisterna1..10_BloccoValvoleBassaTemperatura|  O  |
 CistTAG_Combustibile_Cisterna1..10_InclusioneAgitatore          |  O  |
@@ -312,150 +298,150 @@ CistTAG_Combustibile_Cisterna1..10_TempGradiAllarmeMin          |  O  |
 CistTAG_Combustibile_Cisterna1..10_TempGradiAllarmeMax          |  O  |
 CistTAG_Combustibile_Cisterna1..10_LivelloTonAllarmeMin         |  O  |
 CistTAG_Combustibile_Cisterna1..10_LivelloTonAllarmeMax         |  O  |
-CistTAG_Combustibile_Cisterna1..10_LivelloTonAllarmeZonaMorta   |     |
-CistTAG_Combustibile_Cisterna1..10_TempGradiAllarmeZonaMorta    |     |
-CistTAG_Combustibile_Cisterna1..10_LivelloMin_DI_Trigger        |     |
-CistTAG_Combustibile_Cisterna1..10_LivelloMax_DI_Trigger        |     |
-CistTAG_Combustibile_Cisterna1..10_LivelloSic_DI_Trigger        |     |
-CistTAG_Combustibile_Cisterna1..10_LivelloPercentualeValore     |     |
-CistTAG_Combustibile_Cisterna1..10_LivelloTonValore             |     |
-CistTAG_Combustibile_Cisterna1..10_TempGradiValore              |     |
-CistTAG_Combustibile_Cisterna1..10_AllarmeCodiceGen             |     |
-CistTAG_Combustibile_Cisterna1..10_ValvMandataInverteComando    |     |
-CistTAG_Combustibile_Cisterna1..10_ValvMandataTempoTimeOutOpen  |     |
-CistTAG_Combustibile_Cisterna1..10_ValvMandataTempoTimeOutClose |     |
-CistTAG_Combustibile_Cisterna1..10_ValvMandataTempoAntirimbalzoF|     |
-CistTAG_Combustibile_Cisterna1..10_ValvMandataOpen_DI_Trigger   |     |
-CistTAG_Combustibile_Cisterna1..10_ValvMandataClose_DI_Trigger  |     |
-CistTAG_Combustibile_Cisterna1..10_ValvMandataAllarmeCodice     |     |
-CistTAG_Combustibile_Cisterna1..10_DI_ValvRitornoBloccoTemp     |     |
-CistTAG_Combustibile_Cisterna1..10_ValvRitornoInverteComando    |     |
-CistTAG_Combustibile_Cisterna1..10_ValvRitornoTempoTimeOutOpen  |     |
-CistTAG_Combustibile_Cisterna1..10_ValvRitornoTempoTimeOutClose |     |
-CistTAG_Combustibile_Cisterna1..10_ValvRitornoTempoAntirimbalzoF|     |
-CistTAG_Combustibile_Cisterna1..10_ValvRitornoOpen_DI_Trigger   |     |
-CistTAG_Combustibile_Cisterna1..10_ValvRitornoClose_DI_Trigger  |     |
-CistTAG_Combustibile_Cisterna1..10_ValvRitornoAllarmeCodice     |     |
-CistTAG_Combustibile_Cisterna1..10_DI_ValvCaricoBloccoTemp      |     |
-CistTAG_Combustibile_Cisterna1..10_ValvCaricoInverteComando     |     |
-CistTAG_Combustibile_Cisterna1..10_ValvCaricoTempoTimeOutOpen   |     |
-CistTAG_Combustibile_Cisterna1..10_ValvCaricoTempoTimeOutClose  |     |
-CistTAG_Combustibile_Cisterna1..10_ValvCaricoTempoAntirimbalzoFC|     |
-CistTAG_Combustibile_Cisterna1..10_ValvCaricoOpen_DI_Trigger    |     |
-CistTAG_Combustibile_Cisterna1..10_ValvCaricoClose_DI_Trigger   |     |
-CistTAG_Combustibile_Cisterna1..10_ValvCaricoAllarmeCodice      |     |
-CistTAG_Combustibile_Cisterna1..10_DI_ValvAuxBloccoTemp         |     |
-CistTAG_Combustibile_Cisterna1..10_ValvAuxInverteComando        |     |
-CistTAG_Combustibile_Cisterna1..10_ValvAuxTempoTimeOutOpen      |     |
-CistTAG_Combustibile_Cisterna1..10_ValvAuxTempoTimeOutClose     |     |
-CistTAG_Combustibile_Cisterna1..10_ValvAuxTempoAntirimbalzoFC   |     |
-CistTAG_Combustibile_Cisterna1..10_ValvAuxOpen_DI_Trigger       |     |
-CistTAG_Combustibile_Cisterna1..10_ValvAuxClose_DI_Trigger      |     |
-CistTAG_Combustibile_Cisterna1..10_ValvAuxAllarmeCodice         |     |
-CistTAG_Combustibile_Cisterna1..10_NumeroValvolePresenti        |     |
-CistTAG_Combustibile_Cisterna1..10_AbilitaOrizzontale           |     |
-CistTAG_Combustibile_Cisterna1..10_DiametroMm                   |     |
-CistTAG_Combustibile_Cisterna1..10_LunghezzaMm                  |     |
-CistTAG_Combustibile_Cisterna1..10_AbilitaValvolaMandata        |     |
-CistTAG_Combustibile_Cisterna1..10_AbilitaValvolaRitorno        |     |
-CistTAG_Combustibile_Cisterna1..10_AbilitaValvolaCarico         |     |
-CistTAG_Combustibile_Cisterna1..10_AbilitaValvolaAux            |     |
-CistTAG_AUX_RiscLineaCircBitume_CmdStart                        |     |
-CistTAG_AUX_RiscLineaCircBitume_DI_Termica                      |     |
-CistTAG_AUX_RiscLineaCaricoBitume_CmdStart                      |     |
-CistTAG_AUX_RiscLineaCaricoBitume_DI_Termica                    |     |
-CistTAG_AUX_RiscPompaCircBitume_CmdStart                        |     |
-CistTAG_AUX_RiscPompaCircBitume_DI_Termica                      |     |
-CistTAG_AUX_RiscLineaMixer_CmdStart                             |     |
-CistTAG_AUX_RiscLineaMixer_DI_Termica                           |     |
-CistTAG_AUX_RiscLineaCombustibile_CmdStart                      |     |
-CistTAG_AUX_RiscLineaCombustibile_DI_Termica                    |     |
-CistTAG_AUX_Scambiatore_CmdStart                                |     |
-CistTAG_AUX_Scambiatore_DI_Termica                              |     |
-CistTAG_AUX_RiscAdditivo_CmdStart                               |     |
-CistTAG_AUX_RiscAdditivo_DI_Termica                             |     |
-CistTAG_AUX_Agitatore_CmdStart                                  |     |
-CistTAG_AUX_Agitatore_DI_Termica                                |     |
-CistTAG_AUX_AlimentazioneCisterne_CmdStart                      |     |
-CistTAG_AUX_AlimentazioneCisterne_DI_Termica                    |     |
-CistTAG_AUX_RiscLinea1..4Emulsione_CmdStart                     |     |
-CistTAG_AUX_RiscLinea1..4Emulsione_DI_Termica                   |     |
+CistTAG_Combustibile_Cisterna1..10_LivelloTonAllarmeZonaMorta   |  O  |
+CistTAG_Combustibile_Cisterna1..10_TempGradiAllarmeZonaMorta    |  O  |
+CistTAG_Combustibile_Cisterna1..10_LivelloMin_DI_Trigger        |  I  |
+CistTAG_Combustibile_Cisterna1..10_LivelloMax_DI_Trigger        |  I  |
+CistTAG_Combustibile_Cisterna1..10_LivelloSic_DI_Trigger        |  I  |
+CistTAG_Combustibile_Cisterna1..10_LivelloPercentualeValore     |  O  |
+CistTAG_Combustibile_Cisterna1..10_LivelloTonValore             |  O  |
+CistTAG_Combustibile_Cisterna1..10_TempGradiValore              |  O  |
+CistTAG_Combustibile_Cisterna1..10_AllarmeCodiceGen             |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvMandataInverteComando    |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvMandataTempoTimeOutOpen  |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvMandataTempoTimeOutClose |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvMandataTempoAntirimbalzoF|  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvMandataOpen_DI_Trigger   |  I  |
+CistTAG_Combustibile_Cisterna1..10_ValvMandataClose_DI_Trigger  |  I  |
+CistTAG_Combustibile_Cisterna1..10_ValvMandataAllarmeCodice     |  O  |
+CistTAG_Combustibile_Cisterna1..10_DI_ValvRitornoBloccoTemp     |  I  |
+CistTAG_Combustibile_Cisterna1..10_ValvRitornoInverteComando    |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvRitornoTempoTimeOutOpen  |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvRitornoTempoTimeOutClose |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvRitornoTempoAntirimbalzoF|  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvRitornoOpen_DI_Trigger   |  I  |
+CistTAG_Combustibile_Cisterna1..10_ValvRitornoClose_DI_Trigger  |  I  |
+CistTAG_Combustibile_Cisterna1..10_ValvRitornoAllarmeCodice     |  O  |
+CistTAG_Combustibile_Cisterna1..10_DI_ValvCaricoBloccoTemp      |  I  |
+CistTAG_Combustibile_Cisterna1..10_ValvCaricoInverteComando     |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvCaricoTempoTimeOutOpen   |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvCaricoTempoTimeOutClose  |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvCaricoTempoAntirimbalzoFC|  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvCaricoOpen_DI_Trigger    |  I  |
+CistTAG_Combustibile_Cisterna1..10_ValvCaricoClose_DI_Trigger   |  I  |
+CistTAG_Combustibile_Cisterna1..10_ValvCaricoAllarmeCodice      |  O  |
+CistTAG_Combustibile_Cisterna1..10_DI_ValvAuxBloccoTemp         |  I  |
+CistTAG_Combustibile_Cisterna1..10_ValvAuxInverteComando        |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvAuxTempoTimeOutOpen      |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvAuxTempoTimeOutClose     |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvAuxTempoAntirimbalzoFC   |  O  |
+CistTAG_Combustibile_Cisterna1..10_ValvAuxOpen_DI_Trigger       |  I  |
+CistTAG_Combustibile_Cisterna1..10_ValvAuxClose_DI_Trigger      |  I  |
+CistTAG_Combustibile_Cisterna1..10_ValvAuxAllarmeCodice         |  O  |
+CistTAG_Combustibile_Cisterna1..10_NumeroValvolePresenti        |  O  |
+CistTAG_Combustibile_Cisterna1..10_AbilitaOrizzontale           |  O  |
+CistTAG_Combustibile_Cisterna1..10_DiametroMm                   |  O  |
+CistTAG_Combustibile_Cisterna1..10_LunghezzaMm                  |  O  |
+CistTAG_Combustibile_Cisterna1..10_AbilitaValvolaMandata        |  O  |
+CistTAG_Combustibile_Cisterna1..10_AbilitaValvolaRitorno        |  O  |
+CistTAG_Combustibile_Cisterna1..10_AbilitaValvolaCarico         |  O  |
+CistTAG_Combustibile_Cisterna1..10_AbilitaValvolaAux            |  O  |
+CistTAG_AUX_RiscLineaCircBitume_CmdStart                        |  O  |
+CistTAG_AUX_RiscLineaCircBitume_DI_Termica                      |  I  |
+CistTAG_AUX_RiscLineaCaricoBitume_CmdStart                      |  O  |
+CistTAG_AUX_RiscLineaCaricoBitume_DI_Termica                    |  I  |
+CistTAG_AUX_RiscPompaCircBitume_CmdStart                        |  O  |
+CistTAG_AUX_RiscPompaCircBitume_DI_Termica                      |  I  |
+CistTAG_AUX_RiscLineaMixer_CmdStart                             |  O  |
+CistTAG_AUX_RiscLineaMixer_DI_Termica                           |  I  |
+CistTAG_AUX_RiscLineaCombustibile_CmdStart                      |  O  |
+CistTAG_AUX_RiscLineaCombustibile_DI_Termica                    |  I  |
+CistTAG_AUX_Scambiatore_CmdStart                                |  O  |
+CistTAG_AUX_Scambiatore_DI_Termica                              |  I  |
+CistTAG_AUX_RiscAdditivo_CmdStart                               |  O  |
+CistTAG_AUX_RiscAdditivo_DI_Termica                             |  I  |
+CistTAG_AUX_Agitatore_CmdStart                                  |  O  |
+CistTAG_AUX_Agitatore_DI_Termica                                |  I  |
+CistTAG_AUX_AlimentazioneCisterne_CmdStart                      |  O  |
+CistTAG_AUX_AlimentazioneCisterne_DI_Termica                    |  I  |
+CistTAG_AUX_RiscLinea1..4Emulsione_CmdStart                     |  O  |
+CistTAG_AUX_RiscLinea1..4Emulsione_DI_Termica                   |  I  |
 CistTAG_PUMPAUX1..3_Start                                       |  O  |
 CistTAG_PUMPAUX1..3_Ritorno                                     |  I  |
 CistTAG_PUMPAUX1..3_ErroriPresenti                              |  I  |
 CistTAG_PompaCaricoBitume_DI_Ritorno                            |  I  |
-CistTAG_PompaCaricoBitume_TempoTimeOutStart                     |     |
-CistTAG_PompaCaricoBitume_TempoTimeOutStop                      |     |
-CistTAG_PompaCaricoBitume_AllarmeCodice                         |     |
+CistTAG_PompaCaricoBitume_TempoTimeOutStart                     |  O  |
+CistTAG_PompaCaricoBitume_TempoTimeOutStop                      |  O  |
+CistTAG_PompaCaricoBitume_AllarmeCodice                         |  O  |
 CistTAG_PompaCaricoEmulsione_DI_Ritorno                         |  I  |
-CistTAG_PompaCaricoEmulsione_TempoTimeOutStart                  |     |
-CistTAG_PompaCaricoEmulsione_TempoTimeOutStop                   |     |
+CistTAG_PompaCaricoEmulsione_TempoTimeOutStart                  |  O  |
+CistTAG_PompaCaricoEmulsione_TempoTimeOutStop                   |  O  |
 CistTAG_PompaCaricoEmulsione_AllarmeCodice                      |  I  |
-CistTAG_PompaCaricoBitume2_TimeOutAvvio                         |     |
+CistTAG_PompaCaricoBitume2_TimeOutAvvio                         |  O  |
 CistTAG_PompaCaricoBitume2_ScattoTermica                        |  I  |
-CistTAG_SondaTuboCaricoBitume_UnitaLimiteInf                    |     |
-CistTAG_SondaTuboCaricoBitume_UnitaLimiteSup                    |     |
-CistTAG_SondaTuboCaricoBitume_GradiLimiteInf                    |     |
-CistTAG_SondaTuboCaricoBitume_GradiLimiteSup                    |     |
-CistTAG_SondaTuboCaricoBitume_TempGradiValore                   |     |
-CistTAG_Stato_OpCar_Bitume                                      |     |
-CistTAG_Stato_OpAlim_Bitume                                     |     |
-CistTAG_SelOperazionePompaCarico                                |     |
-CistTAG_SelOperazionePompaAlimentazione                         |     |
-CistTAG_SelCisternaCaricoPompaCarico                            |     |
-CistTAG_SelCisternaMandataPompaCarico                           |     |
-CistTAG_SelCisternaCaricoPompaAlimentazione                     |     |
-CistTAG_SelCisternaMandataPompaAlimentazione                    |     |
-CistTAG_SelAlimentazioneTorrePompaAlimentazione                 |     |
-CistTAG_OperazioneCaricoARegime                                 |     |
-CistTAG_OperazioneAlimentazioneARegime                          |     |
-CistTAG_OperazioneAlimentazioneTorreARegime                     |     |
-CistTAG_StatoErroreOperazioniCisterne                           |     |
-CistTAG_AttesaAlimentazioneTorre                                |     |
-CistTAG_Emulsione_Operazioni_Allarme0..10                       |     |
-CistTAG_CALDAIA1..2_ABILITAZIONE                                |     |
-CistTAG_CALDAIA1..2_EN_VALV_IN_OUT                              |     |
-CistTAG_CALDAIA1..2_BRUC_ON_CALDAIA_1                           |     |
-CistTAG_CALDAIA1..2_BRUC_2A_FIAMMA_ON                           |     |
-CistTAG_CALDAIA1..2_POMPA_CIRC_ON                               |     |
-CistTAG_CALDAIA1..2_ACK_ALLARMI                                 |     |
-CistTAG_CALDAIA1..2_START                                       |     |
-CistTAG_CALDAIA1..2_STOP_EMERGENZA                              |     |
-CistTAG_CALDAIA1..2_CARICAMENTO_OLIO_CIRC                       |     |
-CistTAG_CALDAIA1..2_TEMPERATURA_SET                             |     |
-CistTAG_CALDAIA1..2_DELTA_TEMPERATURA                           |     |
-CistTAG_CALDAIA1..2_TEMPO_ARR_P_CIRC                            |     |
-CistTAG_CALDAIA1..2_TEMPERATURA_CIRCUITO                        |     |
-CistTAG_SCATTO_TERMICA_GEN                                      |     |
-CistTAG_ALM_CALDAIA1..2_BloccoBruciatore                        |     |
-CistTAG_ALM_CALDAIA1..2_TemperaturaOlioOltreSicurezza           |     |
-CistTAG_ALM_CALDAIA1..2_ScattoTermicaPompaCircolazione          |     |
-CistTAG_ALM_CALDAIA1..2_ErrorePressostatoDifferenziale          |     |
-CistTAG_ALM_CALDAIA1..2_ErroriValvoleIN                         |     |
-CistTAG_ALM_CALDAIA1..2_ErroriValvoleOUT                        |     |
-CistTAG_ALM_CALDAIA1..2_TimeoutAvvioPompaCircolazione           |     |
-CistTAG_ALM_CALDAIA1..2_TimeoutArrestoPompaCircolazione         |     |
-CistTAG_ALM_CALDAIA1..2_MancatoRitornoPompaCircDuranteFunzioname|     |
-CistTAG_ALM_CALDAIA1..2_LivelloMinimoOlio                       |     |
-CistTAG_ALM_CALDAIA1..2_ValvoleChiuseConPompaCircInMoto         |     |
-CistTAG_ALM_CALDAIA1..2_12                                      |     |
-CistTAG_ALM_CALDAIA1..2_13                                      |     |
-CistTAG_ALM_CALDAIA1..2_14                                      |     |
-CistTAG_ALM_CALDAIA1..2_15                                      |     |
-CistTAG_ALM_CALDAIA1..2_16                                      |     |
-CistTAG_CALDAIA1..2_VALVOLA_APERTA_RITORNO                      |     |
-CistTAG_CALDAIA1..2_VALVOLA_CHIUSA_RITORNO                      |     |
-CistTAG_CALDAIA1..2_VALVOLA_APERTA_MANDATA                      |     |
-CistTAG_CALDAIA1..2_VALVOLA_CHIUSA_MANDATA                      |     |
-CistTAG_TURNO_1..7_ORA_SET                                      |     |
-CistTAG_TURNO_1..7_MINUTI_SET                                   |     |
-CistTAG_TURNO_1..7_SECONDI_SET                                  |     |
-CistTAG_TURNO_1..7_ORA_RESET                                    |     |
-CistTAG_TURNO_1..7_MINUTI_RESET                                 |     |
-CistTAG_TURNO_1..7_SECONDI_RESET                                |     |
-CistTAG_CONTALITRI_PULSE_RAPP                                   |     |
-CistTAG_CONTALITRI_NUMERO_IMPULSI                               |     |
-CistTAG_CONTALITRI_VALORE_LITRI                                 |     |
-CistTAG_CONTALITRI_RESET                                        |     |
+CistTAG_SondaTuboCaricoBitume_UnitaLimiteInf                    |  O  |
+CistTAG_SondaTuboCaricoBitume_UnitaLimiteSup                    |  O  |
+CistTAG_SondaTuboCaricoBitume_GradiLimiteInf                    |  O  |
+CistTAG_SondaTuboCaricoBitume_GradiLimiteSup                    |  O  |
+CistTAG_SondaTuboCaricoBitume_TempGradiValore                   |  O  |
+CistTAG_Stato_OpCar_Bitume                                      |  O  |
+CistTAG_Stato_OpAlim_Bitume                                     |  O  |
+CistTAG_SelOperazionePompaCarico                                |  O  |
+CistTAG_SelOperazionePompaAlimentazione                         |  O  |
+CistTAG_SelCisternaCaricoPompaCarico                            |  O  |
+CistTAG_SelCisternaMandataPompaCarico                           |  O  |
+CistTAG_SelCisternaCaricoPompaAlimentazione                     |  O  |
+CistTAG_SelCisternaMandataPompaAlimentazione                    |  O  |
+CistTAG_SelAlimentazioneTorrePompaAlimentazione                 |  O  |
+CistTAG_OperazioneCaricoARegime                                 |  O  |
+CistTAG_OperazioneAlimentazioneARegime                          |  O  |
+CistTAG_OperazioneAlimentazioneTorreARegime                     |  O  |
+CistTAG_StatoErroreOperazioniCisterne                           |  O  |
+CistTAG_AttesaAlimentazioneTorre                                |  O  |
+CistTAG_Emulsione_Operazioni_Allarme0..10                       |  O  |
+CistTAG_CALDAIA1..2_ABILITAZIONE                                |  O  |
+CistTAG_CALDAIA1..2_EN_VALV_IN_OUT                              |  O  |
+CistTAG_CALDAIA1..2_BRUC_ON_CALDAIA_1                           |  O  |
+CistTAG_CALDAIA1..2_BRUC_2A_FIAMMA_ON                           |  O  |
+CistTAG_CALDAIA1..2_POMPA_CIRC_ON                               |  O  |
+CistTAG_CALDAIA1..2_ACK_ALLARMI                                 |  O  |
+CistTAG_CALDAIA1..2_START                                       |  O  |
+CistTAG_CALDAIA1..2_STOP_EMERGENZA                              |  O  |
+CistTAG_CALDAIA1..2_CARICAMENTO_OLIO_CIRC                       |  O  |
+CistTAG_CALDAIA1..2_TEMPERATURA_SET                             |  O  |
+CistTAG_CALDAIA1..2_DELTA_TEMPERATURA                           |  O  |
+CistTAG_CALDAIA1..2_TEMPO_ARR_P_CIRC                            |  O  |
+CistTAG_CALDAIA1..2_TEMPERATURA_CIRCUITO                        |  O  |
+CistTAG_SCATTO_TERMICA_GEN                                      |  O  |
+CistTAG_ALM_CALDAIA1..2_BloccoBruciatore                        |  O  |
+CistTAG_ALM_CALDAIA1..2_TemperaturaOlioOltreSicurezza           |  O  |
+CistTAG_ALM_CALDAIA1..2_ScattoTermicaPompaCircolazione          |  O  |
+CistTAG_ALM_CALDAIA1..2_ErrorePressostatoDifferenziale          |  O  |
+CistTAG_ALM_CALDAIA1..2_ErroriValvoleIN                         |  O  |
+CistTAG_ALM_CALDAIA1..2_ErroriValvoleOUT                        |  O  |
+CistTAG_ALM_CALDAIA1..2_TimeoutAvvioPompaCircolazione           |  O  |
+CistTAG_ALM_CALDAIA1..2_TimeoutArrestoPompaCircolazione         |  O  |
+CistTAG_ALM_CALDAIA1..2_MancatoRitornoPompaCircDuranteFunzioname|  O  |
+CistTAG_ALM_CALDAIA1..2_LivelloMinimoOlio                       |  O  |
+CistTAG_ALM_CALDAIA1..2_ValvoleChiuseConPompaCircInMoto         |  O  |
+CistTAG_ALM_CALDAIA1..2_12                                      |  O  |
+CistTAG_ALM_CALDAIA1..2_13                                      |  O  |
+CistTAG_ALM_CALDAIA1..2_14                                      |  O  |
+CistTAG_ALM_CALDAIA1..2_15                                      |  O  |
+CistTAG_ALM_CALDAIA1..2_16                                      |  O  |
+CistTAG_CALDAIA1..2_VALVOLA_APERTA_RITORNO                      |  O  |
+CistTAG_CALDAIA1..2_VALVOLA_CHIUSA_RITORNO                      |  O  |
+CistTAG_CALDAIA1..2_VALVOLA_APERTA_MANDATA                      |  O  |
+CistTAG_CALDAIA1..2_VALVOLA_CHIUSA_MANDATA                      |  O  |
+CistTAG_TURNO_1..7_ORA_SET                                      |  O  |
+CistTAG_TURNO_1..7_MINUTI_SET                                   |  O  |
+CistTAG_TURNO_1..7_SECONDI_SET                                  |  O  |
+CistTAG_TURNO_1..7_ORA_RESET                                    |  O  |
+CistTAG_TURNO_1..7_MINUTI_RESET                                 |  O  |
+CistTAG_TURNO_1..7_SECONDI_RESET                                |  O  |
+CistTAG_CONTALITRI_PULSE_RAPP                                   |  O  |
+CistTAG_CONTALITRI_NUMERO_IMPULSI                               |  O  |
+CistTAG_CONTALITRI_VALORE_LITRI                                 |  O  |
+CistTAG_CONTALITRI_RESET                                        |  O  |
 ----------------------------------------------------------------+-----+-----------------------------------------------------------------------------------
 
