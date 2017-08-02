@@ -1,0 +1,248 @@
+AQUABTAG_AN_H2OPressure_AnalogIN_MAX                          plc5/db5.dbd26:REAL     H2O Pressure Parameter: AnalogIN MIN
+AQUABTAG_AN_H2OPressure_AnalogIN_MIN                          plc5/db5.dbd22:REAL     H2O Pressure Parameter: AnalogIN Max
+AQUABTAG_AN_H2OPressure_OUT_MAX                               plc5/db5.dbd34:REAL     H2O Pressure Parameter: OUT Min [bar]
+AQUABTAG_AN_H2OPressure_OUT_MIN                               plc5/db5.dbd30:REAL     H2O Pressure Parameter: OUT Max [bar]
+AQUABTAG_AN_H2OFlow_AnalogIN_MAX                              plc5/db5.dbd42:REAL     H2O Flow Parameter: AnalogIN MIN
+AQUABTAG_AN_H2OFlow_AnalogIN_MIN                              plc5/db5.dbd38:REAL     H2O Flow Parameter: AnalogIN Max
+AQUABTAG_AN_H2OFlow_OUT_MAX                                   plc5/db5.dbd50:REAL     H2O Flow Parameter: OUT Min [Kg/min]
+AQUABTAG_AN_H2OFlow_OUT_MIN                                   plc5/db5.dbd46:REAL     H2O Flow Parameter: OUT Max [Kg/min]
+AQUABTAG_AN_H2OINSpeed_AnalogIN_MAX                           plc5/db5.dbd58:REAL     H2O IN Speed Inverter Pump Parameter: AnalogIN_MIN
+AQUABTAG_AN_H2OINSpeed_AnalogIN_MIN                           plc5/db5.dbd54:REAL     H2O IN Speed Inverter Pump Parameter: AnalogIN_MAX
+AQUABTAG_AN_H2OINSpeed_OUT_MAX                                plc5/db5.dbd66:REAL     H2O IN Speed Inverter Pump Parameter: OUT MIN [rpm]
+AQUABTAG_AN_H2OINSpeed_OUT_MIN                                plc5/db5.dbd62:REAL     H2O IN Speed Inverter Pump Parameter: OUT MAX [rpm]
+AQUABTAG_AN_H2OOUTSpeed_AnalogIN_MAX                          plc5/db5.dbd74:REAL     H2O OUT Speed Inverter Pump Parameter: AnalogIN_MIN
+AQUABTAG_AN_H2OOUTSpeed_AnalogIN_MIN                          plc5/db5.dbd70:REAL     H2O OUT Speed Inverter Pump Parameter: AnalogIN_MAX
+AQUABTAG_AN_H2OOUTSpeed_OUT_MAX                               plc5/db5.dbd82:REAL     H2O OUT Speed Inverter Pump Parameter: OUT MIN [rpm]
+AQUABTAG_AN_H2OOUTSpeed_OUT_MIN                               plc5/db5.dbd78:REAL     H2O OUT Speed Inverter Pump Parameter: OUT MAX [rpm]
+AQUABTAG_AN_BitSpeedPum_AnalogIN_MAX                          plc5/db5.dbd90:REAL     Bitumen Inverter Speed Pump Parameter: AnalogIN_MIN
+AQUABTAG_AN_BitSpeedPum_AnalogIN_MIN                          plc5/db5.dbd86:REAL     Bitumen Inverter Speed Pump Parameter: AnalogIN_MAX
+AQUABTAG_AN_BitSpeedPum_OUT_MAX                               plc5/db5.dbd98:REAL     Bitumen Inverter Speed Pump Parameter: OUT_MIN [rpm]
+AQUABTAG_AN_BitSpeedPum_OUT_MIN                               plc5/db5.dbd94:REAL     Bitumen Inverter Speed Pump Parameter: OUT_MAX [rpm]
+AQUABTAG_AN_BitTemp_AnalogIN_MAX                              plc5/db5.dbd106:REAL    Bitumen Temperature Parameter: AnalogIN MIN
+AQUABTAG_AN_BitTemp_AnalogIN_MIN                              plc5/db5.dbd102:REAL    Bitumen Temperature Parameter: AnalogIN MAX
+AQUABTAG_AN_BitTemp_OUT_MAX                                   plc5/db5.dbd114:REAL    Bitumen Temperature Parameter: OUT MIN [C°]
+AQUABTAG_AN_BitTemp_OUT_MIN                                   plc5/db5.dbd110:REAL    Bitumen Temperature Parameter: OUT MAX [C°]
+AQUABTAG_AN_BitMassFlow_AnalogIN_MAX                          plc5/db5.dbd122:REAL    Bitumen Massic Flow Parameter: AnalogIN Min
+AQUABTAG_AN_BitMassFlow_AnalogIN_MIN                          plc5/db5.dbd118:REAL    Bitumen Massic Flow Parameter: AnalogIN Max
+AQUABTAG_AN_BitMassFlow_OUT_MAX                               plc5/db5.dbd130:REAL    Bitumen Massic Flow Parameter: OUT Min [Kg/sec]
+AQUABTAG_AN_BitMassFlow_OUT_MIN                               plc5/db5.dbd126:REAL    Bitumen Massic Flow Parameter: OUT Max [Kg/sec]
+AQUABTAG_AN_BitWeight_AnalogIN_MAX                            plc5/db5.dbd138:REAL    Bitumen Weight Parameter: AnalogIN_MIN
+AQUABTAG_AN_BitWeight_AnalogIN_MIN                            plc5/db5.dbd134:REAL    Bitumen Weight Parameter: AnalogIN_MAX
+AQUABTAG_AN_BitWeight_OUT_MAX                                 plc5/db5.dbd146:REAL    Bitumen Weight Parameter: OUT_MIN [Kg]
+AQUABTAG_AN_BitWeight_OUT_MIN                                 plc5/db5.dbd142:REAL    Bitumen Weight Parameter: OUT_MAX [Kg]
+AQUABTAG_AN_BitTare_AnalogIN_MAX                              plc5/db5.dbd154:REAL    Bitumen Tare Parameter: AnalogIN_MIN
+AQUABTAG_AN_BitTare_AnalogIN_MIN                              plc5/db5.dbd150:REAL    Bitumen Tare Parameter: AnalogIN_MAX
+AQUABTAG_AN_BitTare_OUT_MAX                                   plc5/db5.dbd162:REAL    Bitumen Tare Parameter: OUT_MIN [Kg]
+AQUABTAG_AN_BitTare_OUT_MIN                                   plc5/db5.dbd158:REAL    Bitumen Tare Parameter: OUT_MAX [Kg]
+AQUABTAG_AN_H2OFlowTransientCompens                           plc5/db5.dbd166:REAL    Compensation value for the transient of the H2O flow meter [kg]
+AQUABTAG_MAX_H2OValvDelayOnCloseBi                            plc5/db5.dbw208:INT     H2O Valve Delay on Open From Spraying Bitumen Parameter [sec]
+AQUABTAG_MAX_H2OValvDelayOnOpenBi                             plc5/db5.dbw206:INT     H2O Valve Delay on Close From Spraying Bitumen Parameter [sec]
+AQUABTAG_MAX_AlarmHighPressureH2O                             plc5/db5.dbd210:REAL    H20 Alarm Limit for High Pressure [bar]
+AQUABTAG_MAX_DelayAlarHighPressureH2                          plc5/db5.dbw214:INT     H20 Delay Alarm Limit for High Pressure [sec]
+AQUABTAG_MAX_PercentualCloseH20                               plc5/db5.dbd216:REAL    H20 Percentage of Bitumen to close H20 [%] (=0 disabled)
+AQUABTAG_MAX_MinH2OFlowAlarmDela                              plc5/db5.dbw220:INT     Delay check for minimum H2O flow alarm [sec]
+AQUABTAG_MAX_MinH2OFlow                                       plc5/db5.dbd222:REAL    Check for minimum H2O flow alarm [Kg/min]
+AQUABTAG_MAX_BitFlowOnH2OCloseDelay                           plc5/db5.dbd226:REAL    Bitumen flow value during the delay of the H2O valve close
+AQUABTAG_MAX_AlarmLowPressureH2O                              plc5/db5.dbd230:REAL    H20 Alarm Limit for Low Pressure [bar]
+AQUABTAG_MAX_DelayAlarLowPressureH2                           plc5/db5.dbd234:REAL    H20 Delay Alarm Limit for Low Pressure [sec]
+AQUABTAG_PUR_TimePurgeSecStep1                                plc5/db5.dbw244:INT     Purge H20 Step 1 Time Duration[sec]
+AQUABTAG_PUR_TimePurgeSecStep2                                plc5/db5.dbw246:INT     Purge H20 Step 2 Time Duration[sec]
+AQUABTAG_TRI_DelayOnStartTrickle                              plc5/db5.dbw266:INT     Trickle H2O Delay On Start[sec]
+AQUABTAG_TRI_DelayOnStopTrickle                               plc5/db5.dbw268:INT     Trickle H2O Delay On Stop[sec]
+AQUABTAG_PT_SelectBitFlowInputSource                          plc5/db5.dbw290:INT     Selection of Flow Input Source (1=Massic,2=LiterCounter,3=Scale,4=Speed Inv )
+AQUABTAG_PT_Batch_Type                                        plc5/db5.dbx292.0:BOOL  Type of Plant (0=Continuos,1=Batch)
+AQUABTAG_PT_Batch_Gravity                                     plc5/db5.dbx292.1:BOOL  Type of Plant Batch Gravity
+AQUABTAG_PT_ContinuousAcqTime                                 plc5/db5.dbd294:DINT    Time of periodic acquisition of totalization in Continuos Plant [msec]
+AQUABTAG_BIT_BitumenType                                      plc5/db5.dbw314:INT     BitumenType
+AQUABTAG_BIT_BitumenTempMinAlarm_1                            plc5/db5.dbd316:REAL    Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_BitumenTempMinAlarm_2                            plc5/db5.dbd320:REAL    Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_BitumenTempMinAlarm_3                            plc5/db5.dbd324:REAL    Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_BitumenTempMinAlarm_4                            plc5/db5.dbd328:REAL    Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_BitumenTempMaxAlarm_1                            plc5/db5.dbd332:REAL    Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_BitumenTempMaxAlarm_2                            plc5/db5.dbd336:REAL    Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_BitumenTempMaxAlarm_3                            plc5/db5.dbd340:REAL    Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_BitumenTempMaxAlarm_4                            plc5/db5.dbd344:REAL    Bitumen Limit Min Alarm Temperature [*C]
+AQUABTAG_BIT_LT_PulseLiter                                    plc5/db5.dbd348:REAL    Pulse/Liter
+AQUABTAG_BIT_LT_Density                                       plc5/db5.dbd352:REAL    Density [Kg/dm^3]
+AQUABTAG_BIT_LT_TimeBase                                      plc5/db5.dbd356:DINT    Resolution of output[msec]
+AQUABTAG_BIT_BS_NumberSamples                                 plc5/db5.dbw360:INT     Number of Samples for Average
+AQUABTAG_BIT_BS_TimeBase                                      plc5/db5.dbd362:DINT    Resolution of output[msec]
+AQUABTAG_BIT_PS_NumberOfPoint                                 plc5/db5.dbw366:INT     Bitumen Number Of Point for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsX_1                                     plc5/db5.dbd368:REAL    Bitumen X of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsX_2                                     plc5/db5.dbd372:REAL    Bitumen X of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsX_3                                     plc5/db5.dbd376:REAL    Bitumen X of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsX_4                                     plc5/db5.dbd380:REAL    Bitumen X of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsX_5                                     plc5/db5.dbd384:REAL    Bitumen X of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsY_1                                     plc5/db5.dbd388:REAL    Bitumen Y of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsY_2                                     plc5/db5.dbd392:REAL    Bitumen Y of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsY_3                                     plc5/db5.dbd396:REAL    Bitumen Y of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsY_4                                     plc5/db5.dbd400:REAL    Bitumen Y of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_PS_PointsY_5                                     plc5/db5.dbd404:REAL    Bitumen Y of Points for linear approssimation (Speed-Flow)
+AQUABTAG_BIT_STAB_START                                       plc5/db5.dbd408:REAL    Stabilization of Aggregates
+AQUABTAG_BIT_STAB_STOP                                        plc5/db5.dbd412:REAL    Stabilization of Bitumen
+AQUABTAG_BIT_Fixed_Bitumen_Tare                               plc5/db5.dbd416:REAL    Fixed value of bitumen tare for batch plant [Kg]
+AQUABTAG_BIT_Init_Flow_Hold_Delay                             plc5/db5.dbd420:DINT    Time to hold the previous flow value during when the discharge phase begin msec
+AQUABTAG_H20POND_Ponderal_Volumetric                          plc5/db5.dbx428.0:BOOL  0 Volumetric, =1 Ponderal
+AQUABTAG_H20POND_G                                            plc5/db5.dbd430:REAL    Gain PID Ponderal H20
+AQUABTAG_H20POND_TI                                           plc5/db5.dbd434:REAL    TI PID Ponderal H20
+AQUABTAG_H20POND_TD                                           plc5/db5.dbd438:REAL    TD PID Ponderal H20
+AQUABTAG_H20POND_DeadBand                                     plc5/db5.dbd442:REAL    Dead Band PID Ponderal H20 PID
+AQUABTAG_H20POND_Tc                                           plc5/db5.dbd446:DINT    Time of sample [msec] PID
+AQUABTAG_H20POND_MaxLimitOutput                               plc5/db5.dbd450:REAL    Max Limit of Output PID
+AQUABTAG_H20POND_MinLimitOutput                               plc5/db5.dbd454:REAL    Min Limit of Output PID
+AQUABTAG_H20POND_InitialTI                                    plc5/db5.dbd458:REAL    Initial Value of Integral (on rise up of ACTIVATE)
+AQUABTAG_H20POND_EnableP                                      plc5/db5.dbx462.0:BOOL  1 if Proportional is enabled
+AQUABTAG_H20POND_EnableI                                      plc5/db5.dbx462.1:BOOL  1 if Integral is enabled
+AQUABTAG_H20POND_EnableD                                      plc5/db5.dbx462.2:BOOL  1 if Derivative is enabled
+AQUABTAG_H20POND_EnableTheoriticalLimit                       plc5/db5.dbx462.3:BOOL  1 The output is limited on Theoretical Window
+AQUABTAG_H20PUMP_TheoreticalZone                              plc5/db5.dbd464:REAL    This value is used for determinate the Theoretical window that limit the output
+AQUABTAG_H20PUMP_H20SpeedPumpOnRecycle                        plc5/db5.dbd472:REAL    Speed Pump on Recycle [%]
+AQUABTAG_H20PUMP_H2OMaxSpeed                                  plc5/db5.dbd480:REAL    Max value of pump [% of Output Voltage]
+AQUABTAG_H20PUMP_StartTimeout                                 plc5/db5.dbw484:INT     Start timeout [sec]
+AQUABTAG_H20PUMP_StopTimeout                                  plc5/db5.dbw486:INT     Stop timeout [sec]
+AQUABTAG_H20PUMP_NumberOfPoint                                plc5/db5.dbw488:INT     H20 Number Of Point for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsX_1                                    plc5/db5.dbd490:REAL    H20 X of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsX_2                                    plc5/db5.dbd494:REAL    H20 X of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsX_3                                    plc5/db5.dbd498:REAL    H20 X of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsX_4                                    plc5/db5.dbd502:REAL    H20 X of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsX_5                                    plc5/db5.dbd506:REAL    H20 X of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsY_1                                    plc5/db5.dbd510:REAL    H20 Y of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsY_2                                    plc5/db5.dbd514:REAL    H20 Y of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsY_3                                    plc5/db5.dbd518:REAL    H20 Y of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsY_4                                    plc5/db5.dbd522:REAL    H20 Y of Points for linear approssimation (Flow-Speed)
+AQUABTAG_H20PUMP_PointsY_5                                    plc5/db5.dbd526:REAL    H20 Y of Points for linear approssimation (Flow-Speed)
+AQUABTAG_VALVE_H2O_TimeOut_Open                               plc5/db5.dbd558:DINT    Timeout Open
+AQUABTAG_VALVE_H2O_TimeOut_Close                              plc5/db5.dbd562:DINT    Timeout Close
+AQUABTAG_VALVE_H2O_Trigger                                    plc5/db5.dbd566:DINT    Trigger
+AQUABTAG_VALVE_H2O_Simulate                                   plc5/db5.dbx570.0:BOOL  Simulate Valve
+AQUABTAG_VALVE_H2O_Inverted                                   plc5/db5.dbx570.1:BOOL  Inverted Valve
+AQUABTAG_VALVE_H2O_3Ways                                      plc5/db5.dbx570.2:BOOL  Enable the three-way property
+AQUABTAG_VALVE_PURGE_TimeOut_Open                             plc5/db5.dbd576:DINT    Timeout Open
+AQUABTAG_VALVE_PURGE_TimeOut_Close                            plc5/db5.dbd580:DINT    Timeout Close
+AQUABTAG_VALVE_PURGE_Trigger                                  plc5/db5.dbd584:DINT    Trigger
+AQUABTAG_VALVE_PURGE_Simulate                                 plc5/db5.dbx588.0:BOOL  Simulate Valve
+AQUABTAG_VALVE_PURGE_Inverted                                 plc5/db5.dbx588.1:BOOL  Inverted Valve
+AQUABTAG_VALVE_TRICKLE_TimeOut_Open                           plc5/db5.dbd594:DINT    Timeout Open
+AQUABTAG_VALVE_TRICKLE_TimeOut_Close                          plc5/db5.dbd598:DINT    Timeout Close
+AQUABTAG_VALVE_TRICKLE_Trigger                                plc5/db5.dbd602:DINT    Trigger
+AQUABTAG_VALVE_TRICKLE_Simulate                               plc5/db5.dbx606.0:BOOL  Simulate Valve
+AQUABTAG_VALVE_TRICKLE_Inverted                               plc5/db5.dbx606.1:BOOL  Inverted Valve
+AQUABTAG_OPT_ManageH2OAndCycleRecipe                          plc5/db5.dbx612.0:BOOL  0 Management of H2O and Cycle Recipe Totalizator made by PLC, =1 made by HMI
+AQUABTAG_CUS_CloseTrickleDuringPurge                          plc5/db5.dbx618.0:BOOL  Enable Close Trickle During Purge
+AQUABTAG_CUS_AutoPurgeOnStopCycle                             plc5/db5.dbx618.1:BOOL  Enable Auto Purge On Stop Cycle
+AQUABTAG_AL_DELAY_TOLERANCE_ALARM                             plc5/db5.dbd620:DINT    Delay for Tolerance Alarm in Continuos Plant [msec]
+AQUABTAG_OPT_S7_Connection_Enable                             plc5/db5.dbx626.0:BOOL  S7 Connection is enabled
+AQUABTAG_OPT_S7_CYB500_Control                                plc5/db5.dbx626.1:BOOL  The control is managed from the Cybertronic 500
+AQUABTAG_AI_H2O_Pressure                                      plc5/db100.dbw0:INT     Analog Input: H20 Pressure [bar]
+AQUABTAG_AI_H2O_Flow                                          plc5/db100.dbw2:INT     Analog Input: H20 Flow [Kg/min]
+AQUABTAG_AI_Bit_Flow                                          plc5/db100.dbw4:INT     Analog Input: Bitumen Flow [Kg/min]
+AQUABTAG_AI_Bit_Temperature                                   plc5/db100.dbw6:INT     Analog Input: Bitumen_Temperature [C°]
+AQUABTAG_AI_Bit_Inverter_Pump_Speed                           plc5/db100.dbw8:INT     Analog Input: Bitumen Inverter Pump Speed [rpm]
+AQUABTAG_AI_H2O_Inverter_Pump_Speed                           plc5/db100.dbw10:INT    Analog Input: H20 Inverter Pump Speed [rpm]
+AQUABTAG_AI_Bit_Weight                                        plc5/db100.dbw12:INT    Analog Input: Bitumen Weight [Kg]
+AQUABTAG_AI_Bit_Tare                                          plc5/db100.dbw14:INT    Analog Input: Bitumen Tare [Kg]
+AQUABTAG_AO_H2O_Inverter_Pump_Speed                           plc5/db100.dbw26:INT    Analog Output: H20 Inverter Pump Speed [rpm]
+AQUABTAG_DI_H2O_Minimum_Level_Tank                            plc5/db100.dbx38.0:BOOL Digital Input: H2O_Minimum_Level_Tank
+AQUABTAG_DI_H2O_Pump_Return                                   plc5/db100.dbx38.1:BOOL Digital Input: H2O_Pump_Return
+AQUABTAG_DI_H2O_Pump_TripOverload                             plc5/db100.dbx38.2:BOOL Digital Input: H2O_Pump_TripOverload
+AQUABTAG_DI_Bit_InSpraying                                    plc5/db100.dbx38.3:BOOL Digital Input: Bitumen in Spraying
+AQUABTAG_DI_Bit_DosingEnd                                     plc5/db100.dbx38.4:BOOL Digital Input: Bitumen Ending Dosing
+AQUABTAG_DI_Bit_FlowMeter                                     plc5/db100.dbx38.5:BOOL Digital Input: Bitumen FlowMeter [pulse/liter]
+AQUABTAG_DI_Agg_DoorOpened                                    plc5/db100.dbx38.6:BOOL Digital Input: Aggregates Door Opened
+AQUABTAG_DI_Bit_Pump_Return                                   plc5/db100.dbx38.7:BOOL Digital Input: Bitumen Pump Return
+AQUABTAG_DI_EnableAquaBlackFromOut                            plc5/db100.dbx39.0:BOOL Digital Input: EnableAquaBlack from Out
+AQUABTAG_DO_H2O_OpenValve                                     plc5/db100.dbx42.0:BOOL Digital Output: H2O Open Valve
+AQUABTAG_DO_H2O_StartPump                                     plc5/db100.dbx42.1:BOOL Digital Output: H2O Start Pump
+AQUABTAG_DO_Air_OpenPurge                                     plc5/db100.dbx42.2:BOOL Digital Output: Air Open Purge of Injector
+AQUABTAG_DO_Air_CloseTrickleValv                              plc5/db100.dbx42.3:BOOL Digital Output: Air_CloseTrickleValv
+AQUABTAG_DO_Air_CloseBleedValv                                plc5/db100.dbx42.4:BOOL Digital Output: Air_CloseBleedValv
+AQUABTAG_DO_Auto_Dosing_Start                                 plc5/db100.dbx42.5:BOOL Digital Output: Dosing is started in automatic mode
+AQUABTAG_ALARM_H2O_PUMP_Start_Timeout                         plc5/db200.dbx1.0:BOOL
+AQUABTAG_ALARM_H2O_PUMP_FeedBack_Error                        plc5/db200.dbx1.1:BOOL
+AQUABTAG_ALARM_H2O_PUMP_Overload_Tripped                      plc5/db200.dbx1.2:BOOL
+AQUABTAG_ALARM_H2O_PUMP_Stop_Timeout                          plc5/db200.dbx1.3:BOOL
+AQUABTAG_ALARM_H2O_VALVE_BothClose                            plc5/db200.dbx13.0:BOOL
+AQUABTAG_ALARM_H2O_VALVE_BothOpen                             plc5/db200.dbx13.1:BOOL
+AQUABTAG_ALARM_H2O_VALVE_Open_Timeout                         plc5/db200.dbx13.2:BOOL
+AQUABTAG_ALARM_H2O_VALVE_Close_Timeout                        plc5/db200.dbx13.3:BOOL
+AQUABTAG_ALARM_H2O_VALVE_Incongrous_FeedBack                  plc5/db200.dbx13.4:BOOL
+AQUABTAG_ALARM_PURGE_VALVE_BothClose                          plc5/db200.dbx25.0:BOOL
+AQUABTAG_ALARM_PURGE_VALVE_BothOpen                           plc5/db200.dbx25.1:BOOL
+AQUABTAG_ALARM_PURGE_VALVE_Open_Timeout                       plc5/db200.dbx25.2:BOOL
+AQUABTAG_ALARM_PURGE_VALVE_Close_Timeout                      plc5/db200.dbx25.3:BOOL
+AQUABTAG_ALARM_PURGE_VALVE_Incongrous_FeedBack                plc5/db200.dbx25.4:BOOL
+AQUABTAG_ALARM_TRICKLE_VALVE_BothClose                        plc5/db200.dbx37.0:BOOL
+AQUABTAG_ALARM_TRICKLE_VALVE_BothOpen                         plc5/db200.dbx37.1:BOOL
+AQUABTAG_ALARM_TRICKLE_VALVE_Open_Timeout                     plc5/db200.dbx37.2:BOOL
+AQUABTAG_ALARM_TRICKLE_VALVE_Close_Timeout                    plc5/db200.dbx37.3:BOOL
+AQUABTAG_ALARM_TRICKLE_VALVE_Incongrous_FeedBack              plc5/db200.dbx37.4:BOOL
+AQUABTAG_ALARM_BITUMEN_TEMPERATURE                            plc5/db200.dbx48.0:BOOL
+AQUABTAG_ALARM_H2O_MINIMUM_LEVEL_TANK                         plc5/db200.dbx48.1:BOOL
+AQUABTAG_ALARM_H2O_FLOW_ERROR                                 plc5/db200.dbx48.2:BOOL
+AQUABTAG_ALARM_BITUMEN_INVALID_TYPE                           plc5/db200.dbx48.3:BOOL
+AQUABTAG_ALARM_BITUMEN_PULSE_FLOW_CONVERSION_ERROR            plc5/db200.dbx48.4:BOOL
+AQUABTAG_ALARM_H2O_MINIMUM_PRESSURE                           plc5/db200.dbx48.5:BOOL
+AQUABTAG_ALARM_H2O_MAX_PRESSURE                               plc5/db200.dbx48.6:BOOL
+AQUABTAG_ALARM_TOLERANCE_ERROR                                plc5/db200.dbx48.7:BOOL
+AQUABTAG_ALARM_S7_TIMEOUT                                     plc5/db200.dbx49.0:BOOL
+AQUABTAG_H2OValve_FeedBack                                    plc5/db210.dbx14.1:BOOL
+AQUABTAG_PURGEValve_FeedBack                                  plc5/db211.dbx14.1:BOOL
+AQUABTAG_TRICKLEValve_FeedBack                                plc5/db212.dbx14.1:BOOL
+AQUABTAG_FromPLC_H2O_Partial                                  plc5/db300.dbd0:REAL    Partial every cycle
+AQUABTAG_FromPLC_H2O_Partial_Recipe                           plc5/db300.dbd4:REAL    Partial every recipe
+AQUABTAG_FromPLC_H2O_Total                                    plc5/db300.dbd8:REAL    Total
+AQUABTAG_FromPLC_H2O_Flow                                     plc5/db300.dbd12:REAL   Flow [Kg/min]
+AQUABTAG_FromPLC_H2O_Pressure                                 plc5/db300.dbd16:REAL   Pressure [bar]
+AQUABTAG_FromPLC_BIT_Partial                                  plc5/db300.dbd20:REAL   Partial every cycle
+AQUABTAG_FromPLC_BIT_Partial_Recipe                           plc5/db300.dbd24:REAL   Partial every recipe
+AQUABTAG_FromPLC_BIT_Total                                    plc5/db300.dbd28:REAL   Total
+AQUABTAG_FromPLC_BIT_FlowCalculated                           plc5/db300.dbd32:REAL   Flow Calculated [kg/sec]
+AQUABTAG_FromPLC_BIT_Weight                                   plc5/db300.dbd36:REAL   Weight [kg]
+AQUABTAG_FromPLC_BIT_FlowMediumCalculated                     plc5/db300.dbd40:REAL   Flow Medium Calculated at the end of batch[kg/sec]
+AQUABTAG_FromPLC_BIT_TimeSpraying                             plc5/db300.dbd44:REAL   Time of Spraying at the end of batch [sec]
+AQUABTAG_FromPLC_Cycle_TotalCycle                             plc5/db300.dbw48:INT    Total of Cycle
+AQUABTAG_FromPLC_Cycle_RecipeCycle                            plc5/db300.dbw50:INT    Recipe Cycle
+AQUABTAG_FromPLC_ChangeAtFlight                               plc5/db300.dbx52.0:BOOL Pulse Change at Flight
+AQUABTAG_FromPLC_StartFromExternal                            plc5/db300.dbx52.1:BOOL HMI Start Dosing Command from External
+AQUABTAG_FromPLC_BIT_Recipe_Min_Temp                          plc5/db300.dbx52.2:BOOL BIT Recipe Min Temp
+AQUABTAG_FromPLC_BIT_Recipe_Max_Temp                          plc5/db300.dbx52.3:BOOL BIT Recipe Max Temp
+AQUABTAG_FromPLC_Istantaneous_H2OPartial                      plc5/db300.dbd54:REAL   H2O Istantaneous Partial
+AQUABTAG_FromPLC_Istantaneous_H2OPartial_Recipe               plc5/db300.dbd58:REAL   H2O Istantaneous Recipe
+AQUABTAG_FromPLC_Istantaneous_H2OTotal                        plc5/db300.dbd62:REAL   H2O Total
+AQUABTAG_FromPLC_Istantaneous_BIT                             plc5/db300.dbd66:REAL   BIT Istantaneous Partial
+AQUABTAG_FromPLC_Istantaneous_CYCLE_Recipe                    plc5/db300.dbw70:INT    CYCLE Recipe
+AQUABTAG_BitumenTemperature                                   plc5/db300.dbd72:REAL   Bitumen temperature [*C]
+AQUABTAG_H2OActualPumpSpeed                                   plc5/db300.dbd76:REAL   H2O Actual pump speed [%]
+AQUABTAG_IstantaneousTotalH2O_Ton                             plc5/db300.dbd80:REAL   Istantaneous Total H2O Ton
+AQUABTAG_TotalCycle_real                                      plc5/db300.dbd84:REAL   Total Cycle Real
+AQUABTAG_H2O_Press_Peak                                       plc5/db300.dbd88:REAL   H2O pressure peak [bar]
+AQUABTAG_H2O_Theor_Flow                                       plc5/db300.dbd92:REAL   H2O theoretical flow [Kg/min]
+AQUABTAG_FROM_HMI_Ack                                         plc5/db300.dbx136.0:BOOLAck from HMI
+AQUABTAG_FROM_HMI_Factory_Reset                               plc5/db300.dbx136.1:BOOLFactory Reset
+AQUABTAG_FROM_HMI_Start_Purge                                 plc5/db300.dbx136.2:BOOLHMI Manual Start Purge
+AQUABTAG_FROM_HMI_Start_Trickle                               plc5/db300.dbx136.3:BOOLHMI Manual Start Trickle
+AQUABTAG_FROM_HMI_Start_H2O_Valv                              plc5/db300.dbx136.4:BOOLHMI Manual Start H2O Valv
+AQUABTAG_FROM_HMI_Start_H2O_Pump                              plc5/db300.dbx136.5:BOOLHMI Manual Start H2O Pump
+AQUABTAG_FROM_HMI_Manual                                      plc5/db300.dbx136.6:BOOLHMI Manual Command
+AQUABTAG_FROM_HMI_Start                                       plc5/db300.dbx136.7:BOOLHMI Start Dosing Command
+AQUABTAG_FROM_HMI_Stop                                        plc5/db300.dbx137.0:BOOLHMI Stop Dosing Command
+AQUABTAG_FROM_HMI_Abort                                       plc5/db300.dbx137.1:BOOLHMI Abort Dosing Command
+AQUABTAG_FROM_HMI_ManualSpeedH2OPump                          plc5/db300.dbd138:REAL  HMI H2O Speed Pump on Manual mode [%]
+AQUABTAG_SW_VERSION_PLC_Major                                 plc5/db300.dbw162:INT
+AQUABTAG_SW_VERSION_PLC_Minor                                 plc5/db300.dbw164:INT
+AQUABTAG_SW_VERSION_PLC_Revision                              plc5/db300.dbw166:INT
+AQUABTAG_SW_VERSION_PLC_Fix                                   plc5/db300.dbw168:INT
+AQUABTAG_REC_ACT_ChangeAtFlight                               plc5/db1000.dbx0.0:BOOL ACTUAL Recipe: Reservation Change At Flight
+AQUABTAG_REC_ACT_PERCENTAGE_H2O                               plc5/db1000.dbd4:REAL   ACTUAL Recipe: Percentage Value of H2O respect Bitumen
+AQUABTAG_REC_ACT_BITUMEN_SELECTION                            plc5/db1000.dbw8:INT    ACTUAL Recipe: Selection of Bitumen
+AQUABTAG_REC_ACT_BIT_MIN_FLOW                                 plc5/db1000.dbd10:REAL  ACTUAL Recipe: Minimum Bitumen Flow [Kg/min]
+AQUABTAG_REC_ACT_TOLERANCE_H2O                                plc5/db1000.dbd14:REAL  ACTUAL Recipe: Tolerance on Error H20 Flow [%]
+AQUABTAG_REC_ACT_BITUMEN_DISCH_2_STEPS                        plc5/db1000.dbx18.0:BOOLACTUAL Recipe: Enable the unloading the bitumen in 2 steps
+AQUABTAG_NXT_ChangeAtFlight                                   plc5/db1001.dbx0.0:BOOL NEXT Recipe: Reservation Change At Flight
+AQUABTAG_NXT_PERCENTAGE_H2O                                   plc5/db1001.dbd4:REAL   NEXT Recipe: Percentage Value of H2O respect Bitumen
+AQUABTAG_NXT_BITUMEN_SELECTION                                plc5/db1001.dbw8:INT    NEXT Recipe: Selection of Bitumen
+AQUABTAG_NXT_BIT_MIN_FLOW                                     plc5/db1001.dbd10:REAL  NEXT Recipe: Minimum Bitumen Flow [Kg/min]
+AQUABTAG_NXT_TOLERANCE_H2O                                    plc5/db1001.dbd14:REAL  NEXT Recipe: Tolerance on Error H20 Flow [%]
+AQUABTAG_NXT_BITUMEN_DISCH_2_STEPS                            plc5/db1001.dbx18.0:BOOLNEXT Recipe: Enable the unloading the bitumen in 2 steps
+AQUABTAG_AUTO_DOSING_STATUS                                   plc5/db1500.dbx24.0:BOOLDosaggio in automatico attivo
+AQUABTAG_MANUAL_MODE_STATUS                                   plc5/db1500.dbx24.1:BOOLManual Mode stato attivo
