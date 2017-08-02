@@ -1,0 +1,3 @@
+- automazione nella preparazione macchine attraverso git / scripting / database
+- sviluppo nuova applicazione / sistema cyber500 come da specifiche contratto
+- studio e applicazione nuove tecnologie - embedded technology - open source tools - front end web -single page application
