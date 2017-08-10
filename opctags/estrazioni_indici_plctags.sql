@@ -1,3 +1,16 @@
+alter table lll_plctags
+add column basename1 text,
+add column    index1 text,
+add column      seq1 text,
+add column basename2 text,
+add column    index2 text,
+add column      seq2 text,
+add column basename3 text,
+add column    index3 text,
+add column      seq3 text;
+
+
+
 -- cerco il basename ovvero la stringa a partire dall'inizio fino al primo numero o la fine. Poi metto in basename1
 update lll_plctags set basename1=substring(name, '^[^1234567890]*');
 -- cerco un eventuale primo numero e lo metto in index1
@@ -15,7 +28,7 @@ update lll_plctags set seq1='S' where basename1 in (select distinct(basename1) f
 -- Problema: non tutti i numeri sono sequenze, quindi devo ridefinire il basename e rifare il giro sopra
 update lll_plctags set basename1=basename1||index1||substring(right(name, -(length(basename1||index1))),'^[^1234567890]*') where index1 is not null and seq1 is null;
 -- questa select mi fa vedere le righe ancora in gioco
-select name,basename1,index1,rest1,seq1, substring(right(name, -length(basename1)), '\d+') from lll_plctags  where index1 is not null and seq1 is null order by basename1,index1::int;
+select name,basename1,index1,seq1, substring(right(name, -length(basename1)), '\d+') from lll_plctags  where index1 is not null and seq1 is null order by basename1,index1::int;
 -- Sistemo questi che non sono vere sequenze -> gli metto il basename1=name1
 update lll_plctags set  basename1=name where name ~ 'DB'and index1 is not null and seq1 is null;
 -- Metto il nuovo indice in index1
@@ -29,11 +42,11 @@ update lll_plctags set index1=substring(right(name, -length(basename1)), '\d+') 
 
 
 --- Ora possiamo vedere come sarebbe il basename2 
-select name,basename1,index1,rest1,seq1, substring(right(name, -length(basename1||index1)), '^[^1234567890]*') from lll_plctags where seq1='S' order by basename1,index1::int;
+select name,basename1,index1,seq1, substring(right(name, -length(basename1||index1)), '^[^1234567890]*') from lll_plctags where seq1='S' order by basename1,index1::int;
 ---  Poi creo il basename2
 update lll_plctags set basename2=substring(right(name, -length(basename1||index1)), '^[^1234567890]*') where seq1='S';
 -- Poi vedo l'index2
-select name,basename1,index1,rest1,seq1, substring(right(name, -length(basename1||index1)), '\d+') from lll_plctags where seq1='S' order by basename1,index1::int;	
+select name,basename1,index1,seq1, substring(right(name, -length(basename1||index1)), '\d+') from lll_plctags where seq1='S' order by basename1,index1::int;	
 -- Poi creo l'index2
 update lll_plctags set index2=substring(right(name, -length(basename1||index1)), '\d+');
 
@@ -53,7 +66,7 @@ select name,basename1,index1,seq1,basename2,index2,seq2, basename2||index2||subs
 -- Con l'update allungo il basename2 al numero successivo, se presente, o alla fine del name
 update lll_plctags set basename2=basename2||index2||substring(right(name, -(length(basename1||index1||basename2||index2))),'^[^1234567890]*') where index2 is not null and seq2 is null;
 -- Vediamo le righe ancora in gioco
-select name,basename1,index1,rest1,seq1,basename2,index2,seq2, substring(right(name, -length(basename1||index1||basename2)), '\d+') from lll_plctags  where index2 is not null and seq2 is null order by basename1,index1::int,basename2,index2::int;
+select name,basename1,index1,seq1,basename2,index2,seq2, substring(right(name, -length(basename1||index1||basename2)), '\d+') from lll_plctags  where index2 is not null and seq2 is null order by basename1,index1::int,basename2,index2::int;
 -- metto il nuovo indice in index2
 update lll_plctags set index2= substring(right(name, -length(basename1||index1||basename2)), '\d+')  where index2 is not null and seq2 is null ;
 
