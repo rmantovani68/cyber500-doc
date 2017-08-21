@@ -1,0 +1,22 @@
+esportare la tab di excel come fixed size, attenzione alla larghezza colonne ...
+
+eseguire i seguenti comandi di sostituzione ...
+
+:1,$s/^/insert into plctags (name,address,description) values ('
+
+:1,$s/   */','/g
+
+:1,$s/\([a-z0-9]*\/[A-Za-z0-9]*$\|BOOL\|REAL\|INT\|DINT\|BYTE\|WORD\|TIME\|bool\|real\|int\|dint\|byte\|word\|time\)$/\1','');
+
+:1,$s/\([a-zA-Z0-9 \]\.\-%!)]\)$/\1');
+
+verifica ...
+
+(non deve trovare niente...)
+/^\(\();$\)\@!.\)*$
+
+(deve trovare tutto...)
+/^.*(.*,.*,.*).*(.*,.*,.*);$
+
+(Versione evoluta ...)
+/^.* ([A-Za-z0-9],[A-Za-z0-9],[A-Za-z0-9]) values ('[_A-Za-z0-9]*','[\/_A-Za-z0-9\.:]*','["+\[\]=\/_A-Za-z0-9\.;: %!,èéàòùì^()-\*°]*');$
