@@ -1,3 +1,9 @@
+
+
+
+
+create table lll_plctags as select * from plctags;
+
 alter table lll_plctags
 add column basename1 text,
 add column    index1 text,
