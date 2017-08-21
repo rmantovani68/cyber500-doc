@@ -15,6 +15,14 @@ add column basename3 text,
 add column    index3 text,
 add column      seq3 text;
 
+alter table lll_plctags add column count1 int default 0;
+alter table lll_plctags add column count2 int default 0;
+alter table lll_plctags add column count3 int default 0;
+alter table lll_plctags add column offset1 int default 0;
+alter table lll_plctags add column offset2 int default 0;
+alter table lll_plctags add column offset3 int default 0;
+
+
 
 
 -- cerco il basename ovvero la stringa a partire dall'inizio fino al primo numero o la fine. Poi metto in basename1
@@ -119,3 +127,6 @@ update lll_plctags set index3= substring(right(name, -length(basename1||index1||
 --Non ci sono piu basename, infatti se cerco un basename4 ottengo stringhe nulle
 select name,basename1,index1,seq1,basename2,index2,seq2,basename3,index3,seq3, substring(right(name, -length(basename1||index1||basename2||index2||basename2||index3)), '^[^1234567890]*') from  lll_plctags where seq3='S' order by basename1,basename2,basename3,index1::int,index2::int,index3::int;
 
+
+
+-- Ora riempio count1, offset1,  
