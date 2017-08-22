@@ -1,304 +1,304 @@
-LoPortataBitume_idx                           WamFoam/DB1.dbd0:real      Valore riferito allo 0 della portata del bitume (Kg/h)
-HiPortataBitume_idx                           WamFoam/DB1.dbd4:real      Valore riferito al max della portata del bitume (Kg/h)
-PortataBitume_idx                             WamFoam/DB1.dbd8:real      Valore letto portata bitume (Kg/h)
-LoPortataH2O_idx                              WamFoam/DB1.dbd14:real     Valore riferito allo 0 della portata dell'acqua (Kg/h)
-HiPortataH2O_idx                              WamFoam/DB1.dbd18:real     Valore riferito al max della portata dell'acqua (Kg/h)
-PortataH2O_idx                                WamFoam/DB1.dbd22:real     Valore letto portata dell'acqua (Kg/h)
-LoSetBitume_idx                               WamFoam/DB1.dbd28:real     Valore riferito allo 0 del riferimento del bitume (Kg/h)
-HiSetBitume_idx                               WamFoam/DB1.dbd32:real     Valore riferito al max del riferimento del bitume (Kg/h)
-SetPortataBitume_idx                          WamFoam/DB1.dbd36:real     Valore inviato al riferimento bitume (Kg/h)
-LoSetH2O_idx                                  WamFoam/DB1.dbd42:real     Valore riferito allo 0 del riferimento dell'acqua (Kg/h)
-HiSetH2O_idx                                  WamFoam/DB1.dbd46:real     Valore riferito al max del riferimento dell'acqua (Kg/h)
-SetPortataH2O_idx                             WamFoam/DB1.dbd50:real     Valore inviato al riferimento dell'acqua (Kg/h)
-LoSetAggregatiUNUSED_idx                      WamFoam/DB1.dbd56:real     Valore riferito allo 0 del riferimento degli aggregati (Kg)
-HiSetAggregatiUNUSED_idx                      WamFoam/DB1.dbd60:real     Valore riferito al max del riferimento degli aggregati (Kg)
-PesoAggregatiUNUSED_idx                       WamFoam/DB1.dbd64:real     Valore del peso degli aggregati (Kg)
-LoTempBitume_idx                              WamFoam/DB1.dbd70:real     Min di riferimento per la temperatura del bitume
-HiTempBitume_idx                              WamFoam/DB1.dbd74:real     Max di riferimento per la temperatura del bitume
-TemperaturaBitume_idx                         WamFoam/DB1.dbd78:real     Temperatura del bitume
-LoTempBitumeM_idx                             WamFoam/DB1.dbd84:real     Min di riferimento per la temperatura del bitume del massico
-HiTempBitumeM_idx                             WamFoam/DB1.dbd88:real     Max di riferimento per la temperatura del bitume del massico
-TemperaturaBitumeM_idx                        WamFoam/DB1.dbd92:real     Temperatura del bitume del massico
-LoTempOlio_idx                                WamFoam/DB1.dbd98:real     Min di riferimento per la temperatura olio
-HiTempOlio_idx                                WamFoam/DB1.dbd102:real    Max di riferimento per la temperatura olio
-TemperaturaOlio_idx                           WamFoam/DB1.dbd106:real    Temperatura olio
-LoTempRampa_idx                               WamFoam/DB1.dbd112:real    Min di riferimento per la temperatura della rampa
-HiTempRampa_idx                               WamFoam/DB1.dbd116:real    Max di riferimento per la temperatura della rampa
-TemperaturaRampa_idx                          WamFoam/DB1.dbd120:real    Temperatura della rampa
-LoLIBERO_idx                                  WamFoam/DB1.dbd126:real    LIBERO
-HiLIBERO_idx                                  WamFoam/DB1.dbd130:real    LIBERO
-LIBERO_idx                                    WamFoam/DB1.dbd134:real    LIBERO
-LoPressH2O_idx                                WamFoam/DB1.dbd140:real    Min di riferimento per la pressione acqua
-HiPressH2O_idx                                WamFoam/DB1.dbd144:real    Max di riferimento per la pressione acqua
-PressioneH2O_idx                              WamFoam/DB1.dbd148:real    Pressione acqua
-LoPressRampa_idx                              WamFoam/DB1.dbd154:real    Min di riferimento per la pressione della rampa
-HiPressRampa_idx                              WamFoam/DB1.dbd158:real    Max di riferimento per la pressione della rampa
-PressioneRampa_idx                            WamFoam/DB1.dbd162:real    Pressione della rampa
-LoSetPortataBSoft_idx                         WamFoam/DB1.dbd168:real    Valore riferito allo 0 della portata del bitume SOFT (Kg/h)
-HiSetPortataBSoft_idx                         WamFoam/DB1.dbd172:real    Valore riferito al max della portata del bitume SOFT (Kg/h)
-SetPortataBSoft_idx                           WamFoam/DB1.dbd176:real    Valore inviato al riferimento bitume SOFT (Kg/h)
-LoTempBSoftM_idx                              WamFoam/DB1.dbd182:real    Min di riferimento per la temperatura del bitume SOFT (massico)
-HiTempBSoftM_idx                              WamFoam/DB1.dbd186:real    Max di riferimento per la temperatura del bitume SOFT (massico)
-TemperaturaBSoftM_idx                         WamFoam/DB1.dbd190:real    Temperatura del bitume SOFT (massico)
-LoTempOlioBSoft_idx                           WamFoam/DB1.dbd196:real    Min di riferimento per la temperatura olio bitume SOFT
-HiTempOlioBSoft_idx                           WamFoam/DB1.dbd200:real    Max di riferimento per la temperatura olio bitume SOFT
-TemperaturaOlioBSoft_idx                      WamFoam/DB1.dbd204:real    Temperatura olio bitume SOFT
-PercentualeH2O_idx                            WamFoam/DB2.dbd4:real      Percentuale di H20 riferita al bitume
-TempoRegolatoreH2O_idx                        WamFoam/DB2.dbd8:dint      Tempo di scansione per regolare H2O (msec.)
-GuadagnoRegolatoreH2O_idx                     WamFoam/DB2.dbd14:real     Fattore moltiplicativo per aumento/riduzione acqua
-BandaMortaRegolatoreH2O_idx                   WamFoam/DB2.dbd18:real     Banda morta regolatore
-RitardoStabMisuraBitume_idx                   WamFoam/DB2.dbd22:dint     Ritardo stabilizzazione misura bitume
-VelocitaInverterH2O_idx                       WamFoam/DB2.dbw26:int      Velocità inverter
-AutomaticoCiclo_idx                           WamFoam/DB3.dbx0.0:bool    Gestione automatica del ciclo
-Emergenza_idx                                 WamFoam/DB3.dbx0.1:bool    Stato di emergenza
-AbilitaCiclo_idx                              WamFoam/DB3.dbx0.2:bool    Abilitazione al ciclo di schiumatura
-ScaricoAggregati_idx                          WamFoam/DB3.dbx0.3:bool    Scarico aggregati
-CollegamentoPC_idx                            WamFoam/DB3.dbx0.4:bool    Collegamento PC
-WatchDog_idx                                  WamFoam/DB3.dbx0.5:bool    Controllo comunicazione (connessione PC)
-AutomaticoMotori_Idx                          WamFoam/DB3.dbx0.6:bool    Gestione automatica dei motori
-PesoAggregati_idx                             WamFoam/DB3.dbd2:real      Peso degli aggregati
-MinPressioneRampa_idx                         WamFoam/DB4.dbd2:real      Minima pressione della rampa
-MaxPressioneRampa_idx                         WamFoam/DB4.dbd6:real      Massima pressione della rampa
-MinTemperaturaRampa_idx                       WamFoam/DB4.dbd10:real     Minima temperatura della rampa
-MaxTemperaturaRampa_idx                       WamFoam/DB4.dbd14:real     Massima temperatura della rampa
-TimeoutPressioneRampa_idx                     WamFoam/DB4.dbd18:dint     Timeout nel controllo della bassa pressione della rampa
-All_001_idx                                   WamFoam/DB6.dbx0.0:bool
-All_002_idx                                   WamFoam/DB6.dbx0.1:bool
-All_003_idx                                   WamFoam/DB6.dbx0.2:bool
-All_004_idx                                   WamFoam/DB6.dbx0.3:bool    Timeout accensione pompa bitume
-All_005_idx                                   WamFoam/DB6.dbx0.4:bool    Mancato ritorno accensione pompa bitume
-All_006_idx                                   WamFoam/DB6.dbx0.5:bool
-All_007_idx                                   WamFoam/DB6.dbx0.6:bool
-All_008_idx                                   WamFoam/DB6.dbx0.7:bool    Pompa bitume accesa avanti e indietro
-All_009_idx                                   WamFoam/DB6.dbx1.0:bool    Anomalia segnalata dalla pompa bitume
-All_010_idx                                   WamFoam/DB6.dbx1.1:bool    Timeout valvola bitume
-All_011_idx                                   WamFoam/DB6.dbx1.2:bool    Mancato ritorno valvola bitume
-All_012_idx                                   WamFoam/DB6.dbx1.3:bool    Apertura e chiusura valvola bitume
-All_013_idx                                   WamFoam/DB6.dbx1.4:bool    Timeout valvola immissione bitume
-All_014_idx                                   WamFoam/DB6.dbx1.5:bool    Mancato ritorno valvola immissione bitume
-All_015_idx                                   WamFoam/DB6.dbx1.6:bool    Apertura e chiusura valvola immissione bitume
-All_016_idx                                   WamFoam/DB6.dbx1.7:bool    Timeout accensione pompa H20
-All_017_idx                                   WamFoam/DB6.dbx2.0:bool    Mancato ritorno accensione pompa H20
-All_018_idx                                   WamFoam/DB6.dbx2.1:bool    Anomalia segnalata dalla pompa H2O
-All_019_idx                                   WamFoam/DB6.dbx2.2:bool    Timeout valvola H2O
-All_020_idx                                   WamFoam/DB6.dbx2.3:bool    Mancato ritorno valvola H20
-All_021_idx                                   WamFoam/DB6.dbx2.4:bool    Apertura e chiusura valvola H2O
-All_022_idx                                   WamFoam/DB6.dbx2.5:bool    Timeout impulsi bitume
-All_023_idx                                   WamFoam/DB6.dbx2.6:bool    Timeout apertura valvola solvente
-All_024_idx                                   WamFoam/DB6.dbx2.7:bool    Mancato ritorno apertura valvola solvente
-All_025_idx                                   WamFoam/DB6.dbx3.0:bool    Timeout valvola immissione H2O
-All_026_idx                                   WamFoam/DB6.dbx3.1:bool    Mancato ritorno valvola immissione H20
-All_027_idx                                   WamFoam/DB6.dbx3.2:bool    Apertura e chiusura valvola immissione H2O
-All_028_idx                                   WamFoam/DB6.dbx3.3:bool    Percentuale bitume errata
-All_029_idx                                   WamFoam/DB6.dbx3.4:bool    Peso aggregati errato
-All_030_idx                                   WamFoam/DB6.dbx3.5:bool    Ciclo interrotto
-All_031_idx                                   WamFoam/DB6.dbx3.6:bool    Fuori tolleranza bitume HARD
-All_032_idx                                   WamFoam/DB6.dbx3.7:bool
-All_033_idx                                   WamFoam/DB6.dbx4.0:bool    Pompa bitume spenta
-All_034_idx                                   WamFoam/DB6.dbx4.1:bool    Pompa H2O spenta
-All_035_idx                                   WamFoam/DB6.dbx4.2:bool
-All_036_idx                                   WamFoam/DB6.dbx4.3:bool    Valvola solvente aperta
-All_037_idx                                   WamFoam/DB6.dbx4.4:bool    Bassa temperatura bitume
-All_038_idx                                   WamFoam/DB6.dbx4.5:bool    Alta temperatura bitume
-All_039_idx                                   WamFoam/DB6.dbx4.6:bool    Bassa temperatura bitume (massico)
-All_040_idx                                   WamFoam/DB6.dbx4.7:bool    Alta temperatura bitume (massico)
-All_041_idx                                   WamFoam/DB6.dbx5.0:bool    Bassa temperatura olio
-All_042_idx                                   WamFoam/DB6.dbx5.1:bool    Alta temperatura olio
-All_043_idx                                   WamFoam/DB6.dbx5.2:bool
-All_044_idx                                   WamFoam/DB6.dbx5.3:bool
-All_045_idx                                   WamFoam/DB6.dbx5.4:bool    Bassa pressione acqua
-All_046_idx                                   WamFoam/DB6.dbx5.5:bool    Alta pressione acqua
-All_047_idx                                   WamFoam/DB6.dbx5.6:bool    Bassa pressione rampa
-All_048_idx                                   WamFoam/DB6.dbx5.7:bool    Alta pressione rampa
-All_049_idx                                   WamFoam/DB6.dbx6.0:bool    Bassa temperatura rampa
-All_050_idx                                   WamFoam/DB6.dbx6.1:bool    Alta temperatura rampa
-All_051_idx                                   WamFoam/DB6.dbx6.2:bool
-All_052_idx                                   WamFoam/DB6.dbx6.3:bool
-All_053_idx                                   WamFoam/DB6.dbx6.4:bool
-All_054_idx                                   WamFoam/DB6.dbx6.5:bool
-All_055_idx                                   WamFoam/DB6.dbx6.6:bool
-All_056_idx                                   WamFoam/DB6.dbx6.7:bool
-All_057_idx                                   WamFoam/DB6.dbx7.0:bool
-All_058_idx                                   WamFoam/DB6.dbx7.1:bool
-All_059_idx                                   WamFoam/DB6.dbx7.2:bool
-All_060_idx                                   WamFoam/DB6.dbx7.3:bool
-All_061_idx                                   WamFoam/DB6.dbx7.4:bool
-All_062_idx                                   WamFoam/DB6.dbx7.5:bool
-All_063_idx                                   WamFoam/DB6.dbx7.6:bool
-All_064_idx                                   WamFoam/DB6.dbx7.7:bool    Anomalia lettura analogica peso aggregati
-All_065_idx                                   WamFoam/DB6.dbx8.0:bool    Anomalia lettura analogica portata bitume
-All_066_idx                                   WamFoam/DB6.dbx8.1:bool    Anomalia lettura analogica temperatura bitume
-All_067_idx                                   WamFoam/DB6.dbx8.2:bool    Anomalia lettura analogica temperatura bitume (massico)
-All_068_idx                                   WamFoam/DB6.dbx8.3:bool    Anomalia lettura analogica temperatura olio
-All_069_idx                                   WamFoam/DB6.dbx8.4:bool
-All_070_idx                                   WamFoam/DB6.dbx8.5:bool    Anomalia lettura analogica pressione H2O
-All_071_idx                                   WamFoam/DB6.dbx8.6:bool    Anomalia lettura analogica portata H2O
-All_072_idx                                   WamFoam/DB6.dbx8.7:bool    Anomalia lettura analogica pressione rampa
-All_073_idx                                   WamFoam/DB6.dbx9.0:bool    Anomalia lettura analogica temperatura rampa
-All_074_idx                                   WamFoam/DB6.dbx9.1:bool
-All_075_idx                                   WamFoam/DB6.dbx9.2:bool
-All_076_idx                                   WamFoam/DB6.dbx9.3:bool
-All_077_idx                                   WamFoam/DB6.dbx9.4:bool
-All_078_idx                                   WamFoam/DB6.dbx9.5:bool
-All_079_idx                                   WamFoam/DB6.dbx9.6:bool
-All_080_idx                                   WamFoam/DB6.dbx9.7:bool    Timeout accensione pompa bitume SOFT
-All_081_idx                                   WamFoam/DB6.dbx10.0:bool   Mancato ritorno accensione pompa bitume SOFT
-All_082_idx                                   WamFoam/DB6.dbx10.1:bool   Pompa bitume SOFT accesa avanti e indietro
-All_083_idx                                   WamFoam/DB6.dbx10.2:bool   Anomalia segnalata dalla pompa bitume SOFT
-All_084_idx                                   WamFoam/DB6.dbx10.3:bool   Timeout valvola bitume SOFT
-All_085_idx                                   WamFoam/DB6.dbx10.4:bool   Mancato ritorno valvola bitume SOFT
-All_086_idx                                   WamFoam/DB6.dbx10.5:bool   Apertura e chiusura valvola bitume SOFT
-All_087_idx                                   WamFoam/DB6.dbx10.6:bool   Timeout valvola immissione bitume SOFT
-All_088_idx                                   WamFoam/DB6.dbx10.7:bool   Mancato ritorno valvola immissione bitume SOFT
-All_089_idx                                   WamFoam/DB6.dbx11.0:bool   Apertura e chiusura valvola immissione bitume SOFT
-All_090_idx                                   WamFoam/DB6.dbx11.1:bool   Timeout impulsi bitume SOFT
-All_091_idx                                   WamFoam/DB6.dbx11.2:bool   Percentuale bitume SOFT errata
-All_092_idx                                   WamFoam/DB6.dbx11.3:bool   Peso aggregati errato (SOFT)
-All_093_idx                                   WamFoam/DB6.dbx11.4:bool   Ciclo interrotto (SOFT)
-All_094_idx                                   WamFoam/DB6.dbx11.5:bool   Pompa bitume SOFT spenta
-All_095_idx                                   WamFoam/DB6.dbx11.6:bool   Fuori tolleranza bitume SOFT
-All_096_idx                                   WamFoam/DB6.dbx11.7:bool
-All_097_idx                                   WamFoam/DB6.dbx12.0:bool   Bassa temperatura bitume SOFT (massico)
-All_098_idx                                   WamFoam/DB6.dbx12.1:bool   Alta temperatura bitume SOFT (massico)
-All_099_idx                                   WamFoam/DB6.dbx12.2:bool
-All_100_idx                                   WamFoam/DB6.dbx12.3:bool
-All_101_idx                                   WamFoam/DB6.dbx12.4:bool
-All_102_idx                                   WamFoam/DB6.dbx12.5:bool
-All_103_idx                                   WamFoam/DB6.dbx12.6:bool
-All_104_idx                                   WamFoam/DB6.dbx12.7:bool
-All_105_idx                                   WamFoam/DB6.dbx13.0:bool
-All_106_idx                                   WamFoam/DB6.dbx13.1:bool
-All_107_idx                                   WamFoam/DB6.dbx13.2:bool
-All_108_idx                                   WamFoam/DB6.dbx13.3:bool
-All_109_idx                                   WamFoam/DB6.dbx13.4:bool
-All_110_idx                                   WamFoam/DB6.dbx13.5:bool
-All_111_idx                                   WamFoam/DB6.dbx13.6:bool
-All_112_idx                                   WamFoam/DB6.dbx13.7:bool
-All_113_idx                                   WamFoam/DB6.dbx14.0:bool
-All_114_idx                                   WamFoam/DB6.dbx14.1:bool
-All_115_idx                                   WamFoam/DB6.dbx14.2:bool
-All_116_idx                                   WamFoam/DB6.dbx14.3:bool
-All_117_idx                                   WamFoam/DB6.dbx14.4:bool
-All_118_idx                                   WamFoam/DB6.dbx14.5:bool
-All_119_idx                                   WamFoam/DB6.dbx14.6:bool
-All_120_idx                                   WamFoam/DB6.dbx14.7:bool
-All_121_idx                                   WamFoam/DB6.dbx15.0:bool
-All_122_idx                                   WamFoam/DB6.dbx15.1:bool
-All_123_idx                                   WamFoam/DB6.dbx15.2:bool
-All_124_idx                                   WamFoam/DB6.dbx15.3:bool
-All_125_idx                                   WamFoam/DB6.dbx15.4:bool
-All_126_idx                                   WamFoam/DB6.dbx15.5:bool
-All_127_idx                                   WamFoam/DB6.dbx15.6:bool
-All_128_idx                                   WamFoam/DB6.dbx15.7:bool
-horn_alarm_idx                                WamFoam/DB6.dbx46.0:bool   Segnale acustico
-lamp_alarm_idx                                WamFoam/DB6.dbx46.1:bool   Segnale luminoso
-alarm_on_idx                                  WamFoam/DB6.dbx46.2:bool   Allarme presente
-alarm_reset_idx                               WamFoam/DB6.dbx46.3:bool   Reset allarmi
-IvalvBitumeON_idx                             WamFoam/DB40.dbx1.4:bool   Stato della valvola del bitume: aperta
-IvalvBitumeOFF_idx                            WamFoam/DB40.dbx1.5:bool   Stato della valvola del bitume: chiusa (ricircolo)
-IpompaBitumeAvanti_idx                        WamFoam/DB40.dbx1.6:bool   Stato della pompa del bitume: accesa avanti
-IpompaBitumeIndietro_idx                      WamFoam/DB40.dbx1.7:bool   Stato della pompa del bitume: accesa indietro
-IvalvImmissBitumeON_idx                       WamFoam/DB40.dbx2.1:bool   Stato della valvola di immissione del bitume: aperta
-IvalvImmissBitumeOFF_idx                      WamFoam/DB40.dbx2.2:bool   Stato della valvola di immissione del bitume: chiusa
-IpompaAcquaON_idx                             WamFoam/DB40.dbx2.3:bool   Stato della pompa acqua: accesa
-IvalvAcquaON_idx                              WamFoam/DB40.dbx2.5:bool   Stato della valvola acqua: aperta (ricircolo)
-IvalvAcquaOFF_idx                             WamFoam/DB40.dbx2.6:bool   Stato della valvola acqua: chiusa
-IvalvImmissAcquaON_idx                        WamFoam/DB40.dbx2.7:bool   Stato della valvola di immissione acqua: aperta
-IvalvImmissAcquaOFF_idx                       WamFoam/DB40.dbx3.0:bool   Stato della valvola di immissione acqua: chiusa
-DosaggioInCorso_idx                           WamFoam/DB40.dbx50.1:bool  Procedura di dosaggio in corso
-ManValvBitume_idx                             WamFoam/DB40.dbx50.7:bool  Comando manuale della valvola bitume
-ManPompaBitume_idx                            WamFoam/DB40.dbx51.0:bool  Comando manuale della pompa bitume
-ManPompaBitumeIndietro_idx                    WamFoam/DB40.dbx51.1:bool  Comando manuale della pompa bitume indietro
-ManValvImmissioneBitume_idx                   WamFoam/DB40.dbx51.2:bool  Comando manuale della valvola immissione bitume
-ManPompaAcqua_idx                             WamFoam/DB40.dbx51.3:bool  Comando manuale della pompa acqua
-ManValvAcqua_idx                              WamFoam/DB40.dbx51.4:bool  Comando manuale della valvola acqua
-ManValvImmissSolvente_idx                     WamFoam/DB40.dbx51.5:bool  Comando manuale della valvola immissione solvente
-BitumeAperto_idx                              WamFoam/DB40.dbx57.1:bool  Segnalazione di bitume aperto
-AbortCicloBitume_idx                          WamFoam/DB40.dbx59.2:bool  Interruzione del ciclo
-StepBitume_idx                                WamFoam/DB40.dbw60:int     Passo di dosaggio del bitume
-PercentualeBitume_idx                         WamFoam/DB40.dbd66:real    Percentuale di dosaggio del bitume
-SetImpulsiBitume_idx                          WamFoam/DB40.dbd70:real    Numero di impulsi calcolati in base al peso inerti
-ConteggioImpulsiBitume_idx                    WamFoam/DB40.dbd78:real    Numero di impulsi conteggiati
-MinPesoAggregati_idx                          WamFoam/DB40.dbd82:real    Minimo peso degli aggregati (allarme se inferiore)
-MinTemperaturaBitume_idx                      WamFoam/DB40.dbd86:real    Minima temperatura del bitume (allarme se inferiore)
-MaxTemperaturaBitume_idx                      WamFoam/DB40.dbd90:real    Massima temperatura del bitume (allarme se superiore)
-DeltaTemperaturaOlio_idx                      WamFoam/DB40.dbd94:real    Differenza min/max fra temperatura bitume e olio
-MinPressioneAcqua_idx                         WamFoam/DB40.dbd106:real   Minima pressione dell'acqua (allarme se inferiore)
-MaxPressioneAcqua_idx                         WamFoam/DB40.dbd110:real   Massima pressione dell'acqua (allarme se superiore)
-RitardoAvvioCiclo_idx                         WamFoam/DB40.dbd116:dint   Ritardo all'avvio del ciclo (dallo scarico aggregati)
-RitardoAvvioCiclo_ET_idx                      WamFoam/DB40.dbd122:dint   Ritardo avvio ciclo tempo trascorso
-RitardoAvvioBitume_idx                        WamFoam/DB40.dbd138:dint   Ritardo all'avvio del bitume (dall'acqua)
-RitardoFineAcqua_idx                          WamFoam/DB40.dbd160:dint   Ritardo alla fine dell'acqua (dalla fine del bitume)
-TempoValvBitume_idx                           WamFoam/DB40.dbd204:dint   Timeout comando di apertura/chiusura della valvola del bitume
-TempoPompaBitume_idx                          WamFoam/DB40.dbd226:dint   Timeout accensione/spegnimento della pompa del bitume
-TempoValvImmissBitume_idx                     WamFoam/DB40.dbd248:dint   Timeout comando di apertura/chiusura valvola immissione bitume
-TempoBassaTempBitume_idx                      WamFoam/DB40.dbd270:dint   Timeout bassa temperatura del bitume
-TempoPompaAcqua_idx                           WamFoam/DB40.dbd292:dint   Timeout accensione/spegnimento della pompa acqua
-TempoValvAcqua_idx                            WamFoam/DB40.dbd314:dint   Timeout comando di apertura/chiusura valvola acqua
-TempoValvSolvente_idx                         WamFoam/DB40.dbd336:dint   Timeout comando di apertura/chiusura valvola del solvente
-TempoImpulsiBitume_idx                        WamFoam/DB40.dbd358:dint   Timeout nella sequenza degli impulsi del bitume
-TolleranzaHard_idx                            WamFoam/DB40.dbd400:real   Tolleranza sulla pesata
-NettoBitumeHard_idx                           WamFoam/DB40.dbd404:real   Netto bitume Hard in Kg
-NumeroImpulsiKgHard_idx                       WamFoam/DB40.dbd408:real   1/Numero di impulsi per Kg
-VelocitaInverterHard_idx                      WamFoam/DB40.dbw412:int    Velocità inverter
-IvalvBSoftON_idx                              WamFoam/DB41.dbx1.4:bool   Stato della valvola del bitume: aperta
-IvalvBSoftOFF_idx                             WamFoam/DB41.dbx1.5:bool   Stato della valvola del bitume: chiusa (ricircolo)
-IpompaBSoftAvanti_idx                         WamFoam/DB41.dbx1.6:bool   Stato della pompa del bitume: accesa avanti
-IpompaBSoftIndietro_idx                       WamFoam/DB41.dbx1.7:bool   Stato della pompa del bitume: accesa indietro
-IvalvImmissBSoftON_idx                        WamFoam/DB41.dbx2.1:bool   Stato della valvola di immissione del bitume: aperta
-IvalvImmissBSoftOFF_idx                       WamFoam/DB41.dbx2.2:bool   Stato della valvola di immissione del bitume: chiusa
-DosaggioInCorsoBSoft_idx                      WamFoam/DB41.dbx50.1:bool  Procedura di dosaggio in corso
-ManValvBSoft_idx                              WamFoam/DB41.dbx50.7:bool  Comando manuale della valvola bitume
-ManPompaBSoft_idx                             WamFoam/DB41.dbx51.0:bool  Comando manuale della pompa bitume
-ManPompaBSoftIndietro_idx                     WamFoam/DB41.dbx51.1:bool  Comando manuale della pompa bitume indietro
-ManValvImmissioneBSoft_idx                    WamFoam/DB41.dbx51.2:bool  Comando manuale della valvola immissione bitume
-BSoftAperto_idx                               WamFoam/DB41.dbx57.1:bool  Segnalazione di bitume aperto
-AbortCicloBsoft_idx                           WamFoam/DB41.dbx59.2:bool  Interruzione del ciclo
-abilitabitumesoft_idx                         WamFoam/DB41.dbx59.3:bool  Bitume SOFT gestito dal PLC Schiumato
-StepBSoft_idx                                 WamFoam/DB41.dbw60:int     Passo di dosaggio del bitume
-PercentualeBSoft_idx                          WamFoam/DB41.dbd66:real    Percentuale di dosaggio del bitume
-SetImpulsiBSoft_idx                           WamFoam/DB41.dbd70:real    Numero di impulsi calcolati in base al peso inerti
-ConteggioImpulsiBSoft_idx                     WamFoam/DB41.dbd78:real    Numero di impulsi conteggiati
-MinPesoAggregatiBSoft_idx                     WamFoam/DB41.dbd82:real    Minimo peso degli aggregati (allarme se inferiore)
-MinTemperaturaBSoft_idx                       WamFoam/DB41.dbd86:real    Minima temperatura del bitume (allarme se inferiore)
-MaxTemperaturaBSoft_idx                       WamFoam/DB41.dbd90:real    Massima temperatura del bitume (allarme se superiore)
-MinPressioneBSoft_idx                         WamFoam/DB41.dbd98:real    Minima pressione del bitume (allarme se inferiore)
-MaxPressioneBSoft_idx                         WamFoam/DB41.dbd102:real   Massima pressione del bitume (allarme se superiore)
-RitardoAvvioCicloBSoft_idx                    WamFoam/DB41.dbd116:dint   Ritardo all'avvio del ciclo (dallo scarico aggregati)
-RitardoAvvioCicloBSoft_ET_idx                 WamFoam/DB41.dbd122:dint   Ritardo avvio ciclo tempo trascorso
-TempoValvBSoft_idx                            WamFoam/DB41.dbd204:dint   Timeout comando di apertura/chiusura della valvola del bitume
-TempoPompaBSoft_idx                           WamFoam/DB41.dbd226:dint   Timeout accensione/spegnimento della pompa del bitume
-TempoValvImmissBSoft_idx                      WamFoam/DB41.dbd248:dint   Timeout comando di apertura/chiusura valvola immissione bitume
-TempoBassaTempBSoft_idx                       WamFoam/DB41.dbd270:dint   Timeout bassa temperatura del bitume
-TempoImpulsiBSoft_idx                         WamFoam/DB41.dbd358:dint   Timeout nella sequenza degli impulsi del bitume
-TolleranzaSoft_idx                            WamFoam/DB41.dbd400:real   Tolleranza sulla pesata
-NettoBitumeSoft_idx                           WamFoam/DB41.dbd404:real   Netto bitume Soft in Kg
-NumeroImpulsiKgSoft_idx                       WamFoam/DB41.dbd408:real   1/Numero di impulsi per Kg
-VelocitaInverterSoft_idx                      WamFoam/DB41.dbw412:int    Velocità inverter
-ValoreAnalogico0_idx                          WamFoam/DB246.dbw0:int
-ValoreAnalogico1_idx                          WamFoam/DB246.dbw2:int
-ValoreAnalogico2_idx                          WamFoam/DB246.dbw4:int
-ValoreAnalogico3_idx                          WamFoam/DB246.dbw6:int
-ValoreAnalogico4_idx                          WamFoam/DB246.dbw8:int
-ValoreAnalogico5_idx                          WamFoam/DB246.dbw10:int
-ValoreAnalogico6_idx                          WamFoam/DB246.dbw12:int
-ValoreAnalogico7_idx                          WamFoam/DB246.dbw14:int
-ValoreAnalogico8_idx                          WamFoam/DB246.dbw16:int
-ValoreAnalogico9_idx                          WamFoam/DB246.dbw18:int
-ValoreAnalogico10_idx                         WamFoam/DB246.dbw20:int
-ValoreAnalogico11_idx                         WamFoam/DB246.dbw22:int
-ValoreAnalogico12_idx                         WamFoam/DB246.dbw24:int
-ValoreAnalogico13_idx                         WamFoam/DB246.dbw26:int
-ValoreAnalogico14_idx                         WamFoam/DB246.dbw28:int
-ValoreAnalogico15_idx                         WamFoam/DB246.dbw30:int
-DO_Pompa_Soft_Comando_idx                     WamFoam/DB246.dbx60.0:bool
-DI_Pompa_Soft_Ritorno_idx                     WamFoam/DB246.dbx60.1:bool
-DI_Pompa_Soft_Termica_idx                     WamFoam/DB246.dbx60.2:bool
-DO_Pompa_Soft_Comando_Inversione_idx          WamFoam/DB246.dbx60.3:bool
-DI_Pompa_Soft_Ritorno_Inversione_idx          WamFoam/DB246.dbx60.4:bool
-ValoreDigitale0_idx                           WamFoam/AB0
-ValoreDigitale1_idx                           WamFoam/AB1
-ValoreDigitale2_idx                           WamFoam/EB2
-ValoreDigitale3_idx                           WamFoam/EB3
-ValoreDigitale4_idx                           WamFoam/EB4
-ValoreDigitale5_idx                           WamFoam/EB5
+insert into plctags (name,address,description) values ('LoPortataBitume_idx','WamFoam/DB1.dbd0:real','Valore riferito allo 0 della portata del bitume (Kg/h)');
+insert into plctags (name,address,description) values ('HiPortataBitume_idx','WamFoam/DB1.dbd4:real','Valore riferito al max della portata del bitume (Kg/h)');
+insert into plctags (name,address,description) values ('PortataBitume_idx','WamFoam/DB1.dbd8:real','Valore letto portata bitume (Kg/h)');
+insert into plctags (name,address,description) values ('LoPortataH2O_idx','WamFoam/DB1.dbd14:real','Valore riferito allo 0 della portata dell''acqua (Kg/h)');
+insert into plctags (name,address,description) values ('HiPortataH2O_idx','WamFoam/DB1.dbd18:real','Valore riferito al max della portata dell''acqua (Kg/h)');
+insert into plctags (name,address,description) values ('PortataH2O_idx','WamFoam/DB1.dbd22:real','Valore letto portata dell'acqua (Kg/h)');
+insert into plctags (name,address,description) values ('LoSetBitume_idx','WamFoam/DB1.dbd28:real','Valore riferito allo 0 del riferimento del bitume (Kg/h)');
+insert into plctags (name,address,description) values ('HiSetBitume_idx','WamFoam/DB1.dbd32:real','Valore riferito al max del riferimento del bitume (Kg/h)');
+insert into plctags (name,address,description) values ('SetPortataBitume_idx','WamFoam/DB1.dbd36:real','Valore inviato al riferimento bitume (Kg/h)');
+insert into plctags (name,address,description) values ('LoSetH2O_idx','WamFoam/DB1.dbd42:real','Valore riferito allo 0 del riferimento dell''acqua (Kg/h)');
+insert into plctags (name,address,description) values ('HiSetH2O_idx','WamFoam/DB1.dbd46:real','Valore riferito al max del riferimento dell''acqua (Kg/h)');
+insert into plctags (name,address,description) values ('SetPortataH2O_idx','WamFoam/DB1.dbd50:real','Valore inviato al riferimento dell''acqua (Kg/h)');
+insert into plctags (name,address,description) values ('LoSetAggregatiUNUSED_idx','WamFoam/DB1.dbd56:real','Valore riferito allo 0 del riferimento degli aggregati (Kg)');
+insert into plctags (name,address,description) values ('HiSetAggregatiUNUSED_idx','WamFoam/DB1.dbd60:real','Valore riferito al max del riferimento degli aggregati (Kg)');
+insert into plctags (name,address,description) values ('PesoAggregatiUNUSED_idx','WamFoam/DB1.dbd64:real','Valore del peso degli aggregati (Kg)');
+insert into plctags (name,address,description) values ('LoTempBitume_idx','WamFoam/DB1.dbd70:real','Min di riferimento per la temperatura del bitume');
+insert into plctags (name,address,description) values ('HiTempBitume_idx','WamFoam/DB1.dbd74:real','Max di riferimento per la temperatura del bitume');
+insert into plctags (name,address,description) values ('TemperaturaBitume_idx','WamFoam/DB1.dbd78:real','Temperatura del bitume');
+insert into plctags (name,address,description) values ('LoTempBitumeM_idx','WamFoam/DB1.dbd84:real','Min di riferimento per la temperatura del bitume del massico');
+insert into plctags (name,address,description) values ('HiTempBitumeM_idx','WamFoam/DB1.dbd88:real','Max di riferimento per la temperatura del bitume del massico');
+insert into plctags (name,address,description) values ('TemperaturaBitumeM_idx','WamFoam/DB1.dbd92:real','Temperatura del bitume del massico');
+insert into plctags (name,address,description) values ('LoTempOlio_idx','WamFoam/DB1.dbd98:real','Min di riferimento per la temperatura olio');
+insert into plctags (name,address,description) values ('HiTempOlio_idx','WamFoam/DB1.dbd102:real','Max di riferimento per la temperatura olio');
+insert into plctags (name,address,description) values ('TemperaturaOlio_idx','WamFoam/DB1.dbd106:real','Temperatura olio');
+insert into plctags (name,address,description) values ('LoTempRampa_idx','WamFoam/DB1.dbd112:real','Min di riferimento per la temperatura della rampa');
+insert into plctags (name,address,description) values ('HiTempRampa_idx','WamFoam/DB1.dbd116:real','Max di riferimento per la temperatura della rampa');
+insert into plctags (name,address,description) values ('TemperaturaRampa_idx','WamFoam/DB1.dbd120:real','Temperatura della rampa');
+insert into plctags (name,address,description) values ('LoLIBERO_idx','WamFoam/DB1.dbd126:real','LIBERO');
+insert into plctags (name,address,description) values ('HiLIBERO_idx','WamFoam/DB1.dbd130:real','LIBERO');
+insert into plctags (name,address,description) values ('LIBERO_idx','WamFoam/DB1.dbd134:real','LIBERO');
+insert into plctags (name,address,description) values ('LoPressH2O_idx','WamFoam/DB1.dbd140:real','Min di riferimento per la pressione acqua');
+insert into plctags (name,address,description) values ('HiPressH2O_idx','WamFoam/DB1.dbd144:real','Max di riferimento per la pressione acqua');
+insert into plctags (name,address,description) values ('PressioneH2O_idx','WamFoam/DB1.dbd148:real','Pressione acqua');
+insert into plctags (name,address,description) values ('LoPressRampa_idx','WamFoam/DB1.dbd154:real','Min di riferimento per la pressione della rampa');
+insert into plctags (name,address,description) values ('HiPressRampa_idx','WamFoam/DB1.dbd158:real','Max di riferimento per la pressione della rampa');
+insert into plctags (name,address,description) values ('PressioneRampa_idx','WamFoam/DB1.dbd162:real','Pressione della rampa');
+insert into plctags (name,address,description) values ('LoSetPortataBSoft_idx','WamFoam/DB1.dbd168:real','Valore riferito allo 0 della portata del bitume SOFT (Kg/h)');
+insert into plctags (name,address,description) values ('HiSetPortataBSoft_idx','WamFoam/DB1.dbd172:real','Valore riferito al max della portata del bitume SOFT (Kg/h)');
+insert into plctags (name,address,description) values ('SetPortataBSoft_idx','WamFoam/DB1.dbd176:real','Valore inviato al riferimento bitume SOFT (Kg/h)');
+insert into plctags (name,address,description) values ('LoTempBSoftM_idx','WamFoam/DB1.dbd182:real','Min di riferimento per la temperatura del bitume SOFT (massico)');
+insert into plctags (name,address,description) values ('HiTempBSoftM_idx','WamFoam/DB1.dbd186:real','Max di riferimento per la temperatura del bitume SOFT (massico)');
+insert into plctags (name,address,description) values ('TemperaturaBSoftM_idx','WamFoam/DB1.dbd190:real','Temperatura del bitume SOFT (massico)');
+insert into plctags (name,address,description) values ('LoTempOlioBSoft_idx','WamFoam/DB1.dbd196:real','Min di riferimento per la temperatura olio bitume SOFT');
+insert into plctags (name,address,description) values ('HiTempOlioBSoft_idx','WamFoam/DB1.dbd200:real','Max di riferimento per la temperatura olio bitume SOFT');
+insert into plctags (name,address,description) values ('TemperaturaOlioBSoft_idx','WamFoam/DB1.dbd204:real','Temperatura olio bitume SOFT');
+insert into plctags (name,address,description) values ('PercentualeH2O_idx','WamFoam/DB2.dbd4:real','Percentuale di H20 riferita al bitume');
+insert into plctags (name,address,description) values ('TempoRegolatoreH2O_idx','WamFoam/DB2.dbd8:dint','Tempo di scansione per regolare H2O (msec.)');
+insert into plctags (name,address,description) values ('GuadagnoRegolatoreH2O_idx','WamFoam/DB2.dbd14:real','Fattore moltiplicativo per aumento/riduzione acqua');
+insert into plctags (name,address,description) values ('BandaMortaRegolatoreH2O_idx','WamFoam/DB2.dbd18:real','Banda morta regolatore');
+insert into plctags (name,address,description) values ('RitardoStabMisuraBitume_idx','WamFoam/DB2.dbd22:dint','Ritardo stabilizzazione misura bitume');
+insert into plctags (name,address,description) values ('VelocitaInverterH2O_idx','WamFoam/DB2.dbw26:int','Velocità inverter');
+insert into plctags (name,address,description) values ('AutomaticoCiclo_idx','WamFoam/DB3.dbx0.0:bool','Gestione automatica del ciclo');
+insert into plctags (name,address,description) values ('Emergenza_idx','WamFoam/DB3.dbx0.1:bool','Stato di emergenza');
+insert into plctags (name,address,description) values ('AbilitaCiclo_idx','WamFoam/DB3.dbx0.2:bool','Abilitazione al ciclo di schiumatura');
+insert into plctags (name,address,description) values ('ScaricoAggregati_idx','WamFoam/DB3.dbx0.3:bool','Scarico aggregati');
+insert into plctags (name,address,description) values ('CollegamentoPC_idx','WamFoam/DB3.dbx0.4:bool','Collegamento PC');
+insert into plctags (name,address,description) values ('WatchDog_idx','WamFoam/DB3.dbx0.5:bool','Controllo comunicazione (connessione PC)');
+insert into plctags (name,address,description) values ('AutomaticoMotori_Idx','WamFoam/DB3.dbx0.6:bool','Gestione automatica dei motori');
+insert into plctags (name,address,description) values ('PesoAggregati_idx','WamFoam/DB3.dbd2:real','Peso degli aggregati');
+insert into plctags (name,address,description) values ('MinPressioneRampa_idx','WamFoam/DB4.dbd2:real','Minima pressione della rampa');
+insert into plctags (name,address,description) values ('MaxPressioneRampa_idx','WamFoam/DB4.dbd6:real','Massima pressione della rampa');
+insert into plctags (name,address,description) values ('MinTemperaturaRampa_idx','WamFoam/DB4.dbd10:real','Minima temperatura della rampa');
+insert into plctags (name,address,description) values ('MaxTemperaturaRampa_idx','WamFoam/DB4.dbd14:real','Massima temperatura della rampa');
+insert into plctags (name,address,description) values ('TimeoutPressioneRampa_idx','WamFoam/DB4.dbd18:dint','Timeout nel controllo della bassa pressione della rampa');
+insert into plctags (name,address,description) values ('All_001_idx','WamFoam/DB6.dbx0.0:bool','');
+insert into plctags (name,address,description) values ('All_002_idx','WamFoam/DB6.dbx0.1:bool','');
+insert into plctags (name,address,description) values ('All_003_idx','WamFoam/DB6.dbx0.2:bool','');
+insert into plctags (name,address,description) values ('All_004_idx','WamFoam/DB6.dbx0.3:bool','Timeout accensione pompa bitume');
+insert into plctags (name,address,description) values ('All_005_idx','WamFoam/DB6.dbx0.4:bool','Mancato ritorno accensione pompa bitume');
+insert into plctags (name,address,description) values ('All_006_idx','WamFoam/DB6.dbx0.5:bool','');
+insert into plctags (name,address,description) values ('All_007_idx','WamFoam/DB6.dbx0.6:bool','');
+insert into plctags (name,address,description) values ('All_008_idx','WamFoam/DB6.dbx0.7:bool','Pompa bitume accesa avanti e indietro');
+insert into plctags (name,address,description) values ('All_009_idx','WamFoam/DB6.dbx1.0:bool','Anomalia segnalata dalla pompa bitume');
+insert into plctags (name,address,description) values ('All_010_idx','WamFoam/DB6.dbx1.1:bool','Timeout valvola bitume');
+insert into plctags (name,address,description) values ('All_011_idx','WamFoam/DB6.dbx1.2:bool','Mancato ritorno valvola bitume');
+insert into plctags (name,address,description) values ('All_012_idx','WamFoam/DB6.dbx1.3:bool','Apertura e chiusura valvola bitume');
+insert into plctags (name,address,description) values ('All_013_idx','WamFoam/DB6.dbx1.4:bool','Timeout valvola immissione bitume');
+insert into plctags (name,address,description) values ('All_014_idx','WamFoam/DB6.dbx1.5:bool','Mancato ritorno valvola immissione bitume');
+insert into plctags (name,address,description) values ('All_015_idx','WamFoam/DB6.dbx1.6:bool','Apertura e chiusura valvola immissione bitume');
+insert into plctags (name,address,description) values ('All_016_idx','WamFoam/DB6.dbx1.7:bool','Timeout accensione pompa H20');
+insert into plctags (name,address,description) values ('All_017_idx','WamFoam/DB6.dbx2.0:bool','Mancato ritorno accensione pompa H20');
+insert into plctags (name,address,description) values ('All_018_idx','WamFoam/DB6.dbx2.1:bool','Anomalia segnalata dalla pompa H2O');
+insert into plctags (name,address,description) values ('All_019_idx','WamFoam/DB6.dbx2.2:bool','Timeout valvola H2O');
+insert into plctags (name,address,description) values ('All_020_idx','WamFoam/DB6.dbx2.3:bool','Mancato ritorno valvola H20');
+insert into plctags (name,address,description) values ('All_021_idx','WamFoam/DB6.dbx2.4:bool','Apertura e chiusura valvola H2O');
+insert into plctags (name,address,description) values ('All_022_idx','WamFoam/DB6.dbx2.5:bool','Timeout impulsi bitume');
+insert into plctags (name,address,description) values ('All_023_idx','WamFoam/DB6.dbx2.6:bool','Timeout apertura valvola solvente');
+insert into plctags (name,address,description) values ('All_024_idx','WamFoam/DB6.dbx2.7:bool','Mancato ritorno apertura valvola solvente');
+insert into plctags (name,address,description) values ('All_025_idx','WamFoam/DB6.dbx3.0:bool','Timeout valvola immissione H2O');
+insert into plctags (name,address,description) values ('All_026_idx','WamFoam/DB6.dbx3.1:bool','Mancato ritorno valvola immissione H20');
+insert into plctags (name,address,description) values ('All_027_idx','WamFoam/DB6.dbx3.2:bool','Apertura e chiusura valvola immissione H2O');
+insert into plctags (name,address,description) values ('All_028_idx','WamFoam/DB6.dbx3.3:bool','Percentuale bitume errata');
+insert into plctags (name,address,description) values ('All_029_idx','WamFoam/DB6.dbx3.4:bool','Peso aggregati errato');
+insert into plctags (name,address,description) values ('All_030_idx','WamFoam/DB6.dbx3.5:bool','Ciclo interrotto');
+insert into plctags (name,address,description) values ('All_031_idx','WamFoam/DB6.dbx3.6:bool','Fuori tolleranza bitume HARD');
+insert into plctags (name,address,description) values ('All_032_idx','WamFoam/DB6.dbx3.7:bool','');
+insert into plctags (name,address,description) values ('All_033_idx','WamFoam/DB6.dbx4.0:bool','Pompa bitume spenta');
+insert into plctags (name,address,description) values ('All_034_idx','WamFoam/DB6.dbx4.1:bool','Pompa H2O spenta');
+insert into plctags (name,address,description) values ('All_035_idx','WamFoam/DB6.dbx4.2:bool','');
+insert into plctags (name,address,description) values ('All_036_idx','WamFoam/DB6.dbx4.3:bool','Valvola solvente aperta');
+insert into plctags (name,address,description) values ('All_037_idx','WamFoam/DB6.dbx4.4:bool','Bassa temperatura bitume');
+insert into plctags (name,address,description) values ('All_038_idx','WamFoam/DB6.dbx4.5:bool','Alta temperatura bitume');
+insert into plctags (name,address,description) values ('All_039_idx','WamFoam/DB6.dbx4.6:bool','Bassa temperatura bitume (massico)');
+insert into plctags (name,address,description) values ('All_040_idx','WamFoam/DB6.dbx4.7:bool','Alta temperatura bitume (massico)');
+insert into plctags (name,address,description) values ('All_041_idx','WamFoam/DB6.dbx5.0:bool','Bassa temperatura olio');
+insert into plctags (name,address,description) values ('All_042_idx','WamFoam/DB6.dbx5.1:bool','Alta temperatura olio');
+insert into plctags (name,address,description) values ('All_043_idx','WamFoam/DB6.dbx5.2:bool','');
+insert into plctags (name,address,description) values ('All_044_idx','WamFoam/DB6.dbx5.3:bool','');
+insert into plctags (name,address,description) values ('All_045_idx','WamFoam/DB6.dbx5.4:bool','Bassa pressione acqua');
+insert into plctags (name,address,description) values ('All_046_idx','WamFoam/DB6.dbx5.5:bool','Alta pressione acqua');
+insert into plctags (name,address,description) values ('All_047_idx','WamFoam/DB6.dbx5.6:bool','Bassa pressione rampa');
+insert into plctags (name,address,description) values ('All_048_idx','WamFoam/DB6.dbx5.7:bool','Alta pressione rampa');
+insert into plctags (name,address,description) values ('All_049_idx','WamFoam/DB6.dbx6.0:bool','Bassa temperatura rampa');
+insert into plctags (name,address,description) values ('All_050_idx','WamFoam/DB6.dbx6.1:bool','Alta temperatura rampa');
+insert into plctags (name,address,description) values ('All_051_idx','WamFoam/DB6.dbx6.2:bool','');
+insert into plctags (name,address,description) values ('All_052_idx','WamFoam/DB6.dbx6.3:bool','');
+insert into plctags (name,address,description) values ('All_053_idx','WamFoam/DB6.dbx6.4:bool','');
+insert into plctags (name,address,description) values ('All_054_idx','WamFoam/DB6.dbx6.5:bool','');
+insert into plctags (name,address,description) values ('All_055_idx','WamFoam/DB6.dbx6.6:bool','');
+insert into plctags (name,address,description) values ('All_056_idx','WamFoam/DB6.dbx6.7:bool','');
+insert into plctags (name,address,description) values ('All_057_idx','WamFoam/DB6.dbx7.0:bool','');
+insert into plctags (name,address,description) values ('All_058_idx','WamFoam/DB6.dbx7.1:bool','');
+insert into plctags (name,address,description) values ('All_059_idx','WamFoam/DB6.dbx7.2:bool','');
+insert into plctags (name,address,description) values ('All_060_idx','WamFoam/DB6.dbx7.3:bool','');
+insert into plctags (name,address,description) values ('All_061_idx','WamFoam/DB6.dbx7.4:bool','');
+insert into plctags (name,address,description) values ('All_062_idx','WamFoam/DB6.dbx7.5:bool','');
+insert into plctags (name,address,description) values ('All_063_idx','WamFoam/DB6.dbx7.6:bool','');
+insert into plctags (name,address,description) values ('All_064_idx','WamFoam/DB6.dbx7.7:bool','Anomalia lettura analogica peso aggregati');
+insert into plctags (name,address,description) values ('All_065_idx','WamFoam/DB6.dbx8.0:bool','Anomalia lettura analogica portata bitume');
+insert into plctags (name,address,description) values ('All_066_idx','WamFoam/DB6.dbx8.1:bool','Anomalia lettura analogica temperatura bitume');
+insert into plctags (name,address,description) values ('All_067_idx','WamFoam/DB6.dbx8.2:bool','Anomalia lettura analogica temperatura bitume (massico)');
+insert into plctags (name,address,description) values ('All_068_idx','WamFoam/DB6.dbx8.3:bool','Anomalia lettura analogica temperatura olio');
+insert into plctags (name,address,description) values ('All_069_idx','WamFoam/DB6.dbx8.4:bool','');
+insert into plctags (name,address,description) values ('All_070_idx','WamFoam/DB6.dbx8.5:bool','Anomalia lettura analogica pressione H2O');
+insert into plctags (name,address,description) values ('All_071_idx','WamFoam/DB6.dbx8.6:bool','Anomalia lettura analogica portata H2O');
+insert into plctags (name,address,description) values ('All_072_idx','WamFoam/DB6.dbx8.7:bool','Anomalia lettura analogica pressione rampa');
+insert into plctags (name,address,description) values ('All_073_idx','WamFoam/DB6.dbx9.0:bool','Anomalia lettura analogica temperatura rampa');
+insert into plctags (name,address,description) values ('All_074_idx','WamFoam/DB6.dbx9.1:bool','');
+insert into plctags (name,address,description) values ('All_075_idx','WamFoam/DB6.dbx9.2:bool','');
+insert into plctags (name,address,description) values ('All_076_idx','WamFoam/DB6.dbx9.3:bool','');
+insert into plctags (name,address,description) values ('All_077_idx','WamFoam/DB6.dbx9.4:bool','');
+insert into plctags (name,address,description) values ('All_078_idx','WamFoam/DB6.dbx9.5:bool','');
+insert into plctags (name,address,description) values ('All_079_idx','WamFoam/DB6.dbx9.6:bool','');
+insert into plctags (name,address,description) values ('All_080_idx','WamFoam/DB6.dbx9.7:bool','Timeout accensione pompa bitume SOFT');
+insert into plctags (name,address,description) values ('All_081_idx','WamFoam/DB6.dbx10.0:bool','Mancato ritorno accensione pompa bitume SOFT');
+insert into plctags (name,address,description) values ('All_082_idx','WamFoam/DB6.dbx10.1:bool','Pompa bitume SOFT accesa avanti e indietro');
+insert into plctags (name,address,description) values ('All_083_idx','WamFoam/DB6.dbx10.2:bool','Anomalia segnalata dalla pompa bitume SOFT');
+insert into plctags (name,address,description) values ('All_084_idx','WamFoam/DB6.dbx10.3:bool','Timeout valvola bitume SOFT');
+insert into plctags (name,address,description) values ('All_085_idx','WamFoam/DB6.dbx10.4:bool','Mancato ritorno valvola bitume SOFT');
+insert into plctags (name,address,description) values ('All_086_idx','WamFoam/DB6.dbx10.5:bool','Apertura e chiusura valvola bitume SOFT');
+insert into plctags (name,address,description) values ('All_087_idx','WamFoam/DB6.dbx10.6:bool','Timeout valvola immissione bitume SOFT');
+insert into plctags (name,address,description) values ('All_088_idx','WamFoam/DB6.dbx10.7:bool','Mancato ritorno valvola immissione bitume SOFT');
+insert into plctags (name,address,description) values ('All_089_idx','WamFoam/DB6.dbx11.0:bool','Apertura e chiusura valvola immissione bitume SOFT');
+insert into plctags (name,address,description) values ('All_090_idx','WamFoam/DB6.dbx11.1:bool','Timeout impulsi bitume SOFT');
+insert into plctags (name,address,description) values ('All_091_idx','WamFoam/DB6.dbx11.2:bool','Percentuale bitume SOFT errata');
+insert into plctags (name,address,description) values ('All_092_idx','WamFoam/DB6.dbx11.3:bool','Peso aggregati errato (SOFT)');
+insert into plctags (name,address,description) values ('All_093_idx','WamFoam/DB6.dbx11.4:bool','Ciclo interrotto (SOFT)');
+insert into plctags (name,address,description) values ('All_094_idx','WamFoam/DB6.dbx11.5:bool','Pompa bitume SOFT spenta');
+insert into plctags (name,address,description) values ('All_095_idx','WamFoam/DB6.dbx11.6:bool','Fuori tolleranza bitume SOFT');
+insert into plctags (name,address,description) values ('All_096_idx','WamFoam/DB6.dbx11.7:bool','');
+insert into plctags (name,address,description) values ('All_097_idx','WamFoam/DB6.dbx12.0:bool','Bassa temperatura bitume SOFT (massico)');
+insert into plctags (name,address,description) values ('All_098_idx','WamFoam/DB6.dbx12.1:bool','Alta temperatura bitume SOFT (massico)');
+insert into plctags (name,address,description) values ('All_099_idx','WamFoam/DB6.dbx12.2:bool','');
+insert into plctags (name,address,description) values ('All_100_idx','WamFoam/DB6.dbx12.3:bool','');
+insert into plctags (name,address,description) values ('All_101_idx','WamFoam/DB6.dbx12.4:bool','');
+insert into plctags (name,address,description) values ('All_102_idx','WamFoam/DB6.dbx12.5:bool','');
+insert into plctags (name,address,description) values ('All_103_idx','WamFoam/DB6.dbx12.6:bool','');
+insert into plctags (name,address,description) values ('All_104_idx','WamFoam/DB6.dbx12.7:bool','');
+insert into plctags (name,address,description) values ('All_105_idx','WamFoam/DB6.dbx13.0:bool','');
+insert into plctags (name,address,description) values ('All_106_idx','WamFoam/DB6.dbx13.1:bool','');
+insert into plctags (name,address,description) values ('All_107_idx','WamFoam/DB6.dbx13.2:bool','');
+insert into plctags (name,address,description) values ('All_108_idx','WamFoam/DB6.dbx13.3:bool','');
+insert into plctags (name,address,description) values ('All_109_idx','WamFoam/DB6.dbx13.4:bool','');
+insert into plctags (name,address,description) values ('All_110_idx','WamFoam/DB6.dbx13.5:bool','');
+insert into plctags (name,address,description) values ('All_111_idx','WamFoam/DB6.dbx13.6:bool','');
+insert into plctags (name,address,description) values ('All_112_idx','WamFoam/DB6.dbx13.7:bool','');
+insert into plctags (name,address,description) values ('All_113_idx','WamFoam/DB6.dbx14.0:bool','');
+insert into plctags (name,address,description) values ('All_114_idx','WamFoam/DB6.dbx14.1:bool','');
+insert into plctags (name,address,description) values ('All_115_idx','WamFoam/DB6.dbx14.2:bool','');
+insert into plctags (name,address,description) values ('All_116_idx','WamFoam/DB6.dbx14.3:bool','');
+insert into plctags (name,address,description) values ('All_117_idx','WamFoam/DB6.dbx14.4:bool','');
+insert into plctags (name,address,description) values ('All_118_idx','WamFoam/DB6.dbx14.5:bool','');
+insert into plctags (name,address,description) values ('All_119_idx','WamFoam/DB6.dbx14.6:bool','');
+insert into plctags (name,address,description) values ('All_120_idx','WamFoam/DB6.dbx14.7:bool','');
+insert into plctags (name,address,description) values ('All_121_idx','WamFoam/DB6.dbx15.0:bool','');
+insert into plctags (name,address,description) values ('All_122_idx','WamFoam/DB6.dbx15.1:bool','');
+insert into plctags (name,address,description) values ('All_123_idx','WamFoam/DB6.dbx15.2:bool','');
+insert into plctags (name,address,description) values ('All_124_idx','WamFoam/DB6.dbx15.3:bool','');
+insert into plctags (name,address,description) values ('All_125_idx','WamFoam/DB6.dbx15.4:bool','');
+insert into plctags (name,address,description) values ('All_126_idx','WamFoam/DB6.dbx15.5:bool','');
+insert into plctags (name,address,description) values ('All_127_idx','WamFoam/DB6.dbx15.6:bool','');
+insert into plctags (name,address,description) values ('All_128_idx','WamFoam/DB6.dbx15.7:bool','');
+insert into plctags (name,address,description) values ('horn_alarm_idx','WamFoam/DB6.dbx46.0:bool','Segnale acustico');
+insert into plctags (name,address,description) values ('lamp_alarm_idx','WamFoam/DB6.dbx46.1:bool','Segnale luminoso');
+insert into plctags (name,address,description) values ('alarm_on_idx','WamFoam/DB6.dbx46.2:bool','Allarme presente');
+insert into plctags (name,address,description) values ('alarm_reset_idx','WamFoam/DB6.dbx46.3:bool','Reset allarmi');
+insert into plctags (name,address,description) values ('IvalvBitumeON_idx','WamFoam/DB40.dbx1.4:bool','Stato della valvola del bitume: aperta');
+insert into plctags (name,address,description) values ('IvalvBitumeOFF_idx','WamFoam/DB40.dbx1.5:bool','Stato della valvola del bitume: chiusa (ricircolo)');
+insert into plctags (name,address,description) values ('IpompaBitumeAvanti_idx','WamFoam/DB40.dbx1.6:bool','Stato della pompa del bitume: accesa avanti');
+insert into plctags (name,address,description) values ('IpompaBitumeIndietro_idx','WamFoam/DB40.dbx1.7:bool','Stato della pompa del bitume: accesa indietro');
+insert into plctags (name,address,description) values ('IvalvImmissBitumeON_idx','WamFoam/DB40.dbx2.1:bool','Stato della valvola di immissione del bitume: aperta');
+insert into plctags (name,address,description) values ('IvalvImmissBitumeOFF_idx','WamFoam/DB40.dbx2.2:bool','Stato della valvola di immissione del bitume: chiusa');
+insert into plctags (name,address,description) values ('IpompaAcquaON_idx','WamFoam/DB40.dbx2.3:bool','Stato della pompa acqua: accesa');
+insert into plctags (name,address,description) values ('IvalvAcquaON_idx','WamFoam/DB40.dbx2.5:bool','Stato della valvola acqua: aperta (ricircolo)');
+insert into plctags (name,address,description) values ('IvalvAcquaOFF_idx','WamFoam/DB40.dbx2.6:bool','Stato della valvola acqua: chiusa');
+insert into plctags (name,address,description) values ('IvalvImmissAcquaON_idx','WamFoam/DB40.dbx2.7:bool','Stato della valvola di immissione acqua: aperta');
+insert into plctags (name,address,description) values ('IvalvImmissAcquaOFF_idx','WamFoam/DB40.dbx3.0:bool','Stato della valvola di immissione acqua: chiusa');
+insert into plctags (name,address,description) values ('DosaggioInCorso_idx','WamFoam/DB40.dbx50.1:bool','Procedura di dosaggio in corso');
+insert into plctags (name,address,description) values ('ManValvBitume_idx','WamFoam/DB40.dbx50.7:bool','Comando manuale della valvola bitume');
+insert into plctags (name,address,description) values ('ManPompaBitume_idx','WamFoam/DB40.dbx51.0:bool','Comando manuale della pompa bitume');
+insert into plctags (name,address,description) values ('ManPompaBitumeIndietro_idx','WamFoam/DB40.dbx51.1:bool','Comando manuale della pompa bitume indietro');
+insert into plctags (name,address,description) values ('ManValvImmissioneBitume_idx','WamFoam/DB40.dbx51.2:bool','Comando manuale della valvola immissione bitume');
+insert into plctags (name,address,description) values ('ManPompaAcqua_idx','WamFoam/DB40.dbx51.3:bool','Comando manuale della pompa acqua');
+insert into plctags (name,address,description) values ('ManValvAcqua_idx','WamFoam/DB40.dbx51.4:bool','Comando manuale della valvola acqua');
+insert into plctags (name,address,description) values ('ManValvImmissSolvente_idx','WamFoam/DB40.dbx51.5:bool','Comando manuale della valvola immissione solvente');
+insert into plctags (name,address,description) values ('BitumeAperto_idx','WamFoam/DB40.dbx57.1:bool','Segnalazione di bitume aperto');
+insert into plctags (name,address,description) values ('AbortCicloBitume_idx','WamFoam/DB40.dbx59.2:bool','Interruzione del ciclo');
+insert into plctags (name,address,description) values ('StepBitume_idx','WamFoam/DB40.dbw60:int','Passo di dosaggio del bitume');
+insert into plctags (name,address,description) values ('PercentualeBitume_idx','WamFoam/DB40.dbd66:real','Percentuale di dosaggio del bitume');
+insert into plctags (name,address,description) values ('SetImpulsiBitume_idx','WamFoam/DB40.dbd70:real','Numero di impulsi calcolati in base al peso inerti');
+insert into plctags (name,address,description) values ('ConteggioImpulsiBitume_idx','WamFoam/DB40.dbd78:real','Numero di impulsi conteggiati');
+insert into plctags (name,address,description) values ('MinPesoAggregati_idx','WamFoam/DB40.dbd82:real','Minimo peso degli aggregati (allarme se inferiore)');
+insert into plctags (name,address,description) values ('MinTemperaturaBitume_idx','WamFoam/DB40.dbd86:real','Minima temperatura del bitume (allarme se inferiore)');
+insert into plctags (name,address,description) values ('MaxTemperaturaBitume_idx','WamFoam/DB40.dbd90:real','Massima temperatura del bitume (allarme se superiore)');
+insert into plctags (name,address,description) values ('DeltaTemperaturaOlio_idx','WamFoam/DB40.dbd94:real','Differenza min/max fra temperatura bitume e olio');
+insert into plctags (name,address,description) values ('MinPressioneAcqua_idx','WamFoam/DB40.dbd106:real','Minima pressione dell''acqua (allarme se inferiore)');
+insert into plctags (name,address,description) values ('MaxPressioneAcqua_idx','WamFoam/DB40.dbd110:real','Massima pressione dell''acqua (allarme se superiore)');
+insert into plctags (name,address,description) values ('RitardoAvvioCiclo_idx','WamFoam/DB40.dbd116:dint','Ritardo all''avvio del ciclo (dallo scarico aggregati)');
+insert into plctags (name,address,description) values ('RitardoAvvioCiclo_ET_idx','WamFoam/DB40.dbd122:dint','Ritardo avvio ciclo tempo trascorso');
+insert into plctags (name,address,description) values ('RitardoAvvioBitume_idx','WamFoam/DB40.dbd138:dint','Ritardo all''avvio del bitume (dall'acqua)');
+insert into plctags (name,address,description) values ('RitardoFineAcqua_idx','WamFoam/DB40.dbd160:dint','Ritardo alla fine dell''acqua (dalla fine del bitume)');
+insert into plctags (name,address,description) values ('TempoValvBitume_idx','WamFoam/DB40.dbd204:dint','Timeout comando di apertura/chiusura della valvola del bitume');
+insert into plctags (name,address,description) values ('TempoPompaBitume_idx','WamFoam/DB40.dbd226:dint','Timeout accensione/spegnimento della pompa del bitume');
+insert into plctags (name,address,description) values ('TempoValvImmissBitume_idx','WamFoam/DB40.dbd248:dint','Timeout comando di apertura/chiusura valvola immissione bitume');
+insert into plctags (name,address,description) values ('TempoBassaTempBitume_idx','WamFoam/DB40.dbd270:dint','Timeout bassa temperatura del bitume');
+insert into plctags (name,address,description) values ('TempoPompaAcqua_idx','WamFoam/DB40.dbd292:dint','Timeout accensione/spegnimento della pompa acqua');
+insert into plctags (name,address,description) values ('TempoValvAcqua_idx','WamFoam/DB40.dbd314:dint','Timeout comando di apertura/chiusura valvola acqua');
+insert into plctags (name,address,description) values ('TempoValvSolvente_idx','WamFoam/DB40.dbd336:dint','Timeout comando di apertura/chiusura valvola del solvente');
+insert into plctags (name,address,description) values ('TempoImpulsiBitume_idx','WamFoam/DB40.dbd358:dint','Timeout nella sequenza degli impulsi del bitume');
+insert into plctags (name,address,description) values ('TolleranzaHard_idx','WamFoam/DB40.dbd400:real','Tolleranza sulla pesata');
+insert into plctags (name,address,description) values ('NettoBitumeHard_idx','WamFoam/DB40.dbd404:real','Netto bitume Hard in Kg');
+insert into plctags (name,address,description) values ('NumeroImpulsiKgHard_idx','WamFoam/DB40.dbd408:real','1/Numero di impulsi per Kg');
+insert into plctags (name,address,description) values ('VelocitaInverterHard_idx','WamFoam/DB40.dbw412:int','Velocità inverter');
+insert into plctags (name,address,description) values ('IvalvBSoftON_idx','WamFoam/DB41.dbx1.4:bool','Stato della valvola del bitume: aperta');
+insert into plctags (name,address,description) values ('IvalvBSoftOFF_idx','WamFoam/DB41.dbx1.5:bool','Stato della valvola del bitume: chiusa (ricircolo)');
+insert into plctags (name,address,description) values ('IpompaBSoftAvanti_idx','WamFoam/DB41.dbx1.6:bool','Stato della pompa del bitume: accesa avanti');
+insert into plctags (name,address,description) values ('IpompaBSoftIndietro_idx','WamFoam/DB41.dbx1.7:bool','Stato della pompa del bitume: accesa indietro');
+insert into plctags (name,address,description) values ('IvalvImmissBSoftON_idx','WamFoam/DB41.dbx2.1:bool','Stato della valvola di immissione del bitume: aperta');
+insert into plctags (name,address,description) values ('IvalvImmissBSoftOFF_idx','WamFoam/DB41.dbx2.2:bool','Stato della valvola di immissione del bitume: chiusa');
+insert into plctags (name,address,description) values ('DosaggioInCorsoBSoft_idx','WamFoam/DB41.dbx50.1:bool','Procedura di dosaggio in corso');
+insert into plctags (name,address,description) values ('ManValvBSoft_idx','WamFoam/DB41.dbx50.7:bool','Comando manuale della valvola bitume');
+insert into plctags (name,address,description) values ('ManPompaBSoft_idx','WamFoam/DB41.dbx51.0:bool','Comando manuale della pompa bitume');
+insert into plctags (name,address,description) values ('ManPompaBSoftIndietro_idx','WamFoam/DB41.dbx51.1:bool','Comando manuale della pompa bitume indietro');
+insert into plctags (name,address,description) values ('ManValvImmissioneBSoft_idx','WamFoam/DB41.dbx51.2:bool','Comando manuale della valvola immissione bitume');
+insert into plctags (name,address,description) values ('BSoftAperto_idx','WamFoam/DB41.dbx57.1:bool','Segnalazione di bitume aperto');
+insert into plctags (name,address,description) values ('AbortCicloBsoft_idx','WamFoam/DB41.dbx59.2:bool','Interruzione del ciclo');
+insert into plctags (name,address,description) values ('abilitabitumesoft_idx','WamFoam/DB41.dbx59.3:bool','Bitume SOFT gestito dal PLC Schiumato');
+insert into plctags (name,address,description) values ('StepBSoft_idx','WamFoam/DB41.dbw60:int','Passo di dosaggio del bitume');
+insert into plctags (name,address,description) values ('PercentualeBSoft_idx','WamFoam/DB41.dbd66:real','Percentuale di dosaggio del bitume');
+insert into plctags (name,address,description) values ('SetImpulsiBSoft_idx','WamFoam/DB41.dbd70:real','Numero di impulsi calcolati in base al peso inerti');
+insert into plctags (name,address,description) values ('ConteggioImpulsiBSoft_idx','WamFoam/DB41.dbd78:real','Numero di impulsi conteggiati');
+insert into plctags (name,address,description) values ('MinPesoAggregatiBSoft_idx','WamFoam/DB41.dbd82:real','Minimo peso degli aggregati (allarme se inferiore)');
+insert into plctags (name,address,description) values ('MinTemperaturaBSoft_idx','WamFoam/DB41.dbd86:real','Minima temperatura del bitume (allarme se inferiore)');
+insert into plctags (name,address,description) values ('MaxTemperaturaBSoft_idx','WamFoam/DB41.dbd90:real','Massima temperatura del bitume (allarme se superiore)');
+insert into plctags (name,address,description) values ('MinPressioneBSoft_idx','WamFoam/DB41.dbd98:real','Minima pressione del bitume (allarme se inferiore)');
+insert into plctags (name,address,description) values ('MaxPressioneBSoft_idx','WamFoam/DB41.dbd102:real','Massima pressione del bitume (allarme se superiore)');
+insert into plctags (name,address,description) values ('RitardoAvvioCicloBSoft_idx','WamFoam/DB41.dbd116:dint','Ritardo all''avvio del ciclo (dallo scarico aggregati)');
+insert into plctags (name,address,description) values ('RitardoAvvioCicloBSoft_ET_idx','WamFoam/DB41.dbd122:dint','Ritardo avvio ciclo tempo trascorso');
+insert into plctags (name,address,description) values ('TempoValvBSoft_idx','WamFoam/DB41.dbd204:dint','Timeout comando di apertura/chiusura della valvola del bitume');
+insert into plctags (name,address,description) values ('TempoPompaBSoft_idx','WamFoam/DB41.dbd226:dint','Timeout accensione/spegnimento della pompa del bitume');
+insert into plctags (name,address,description) values ('TempoValvImmissBSoft_idx','WamFoam/DB41.dbd248:dint','Timeout comando di apertura/chiusura valvola immissione bitume');
+insert into plctags (name,address,description) values ('TempoBassaTempBSoft_idx','WamFoam/DB41.dbd270:dint','Timeout bassa temperatura del bitume');
+insert into plctags (name,address,description) values ('TempoImpulsiBSoft_idx','WamFoam/DB41.dbd358:dint','Timeout nella sequenza degli impulsi del bitume');
+insert into plctags (name,address,description) values ('TolleranzaSoft_idx','WamFoam/DB41.dbd400:real','Tolleranza sulla pesata');
+insert into plctags (name,address,description) values ('NettoBitumeSoft_idx','WamFoam/DB41.dbd404:real','Netto bitume Soft in Kg');
+insert into plctags (name,address,description) values ('NumeroImpulsiKgSoft_idx','WamFoam/DB41.dbd408:real','1/Numero di impulsi per Kg');
+insert into plctags (name,address,description) values ('VelocitaInverterSoft_idx','WamFoam/DB41.dbw412:int','Velocità inverter');
+insert into plctags (name,address,description) values ('ValoreAnalogico0_idx','WamFoam/DB246.dbw0:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico1_idx','WamFoam/DB246.dbw2:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico2_idx','WamFoam/DB246.dbw4:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico3_idx','WamFoam/DB246.dbw6:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico4_idx','WamFoam/DB246.dbw8:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico5_idx','WamFoam/DB246.dbw10:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico6_idx','WamFoam/DB246.dbw12:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico7_idx','WamFoam/DB246.dbw14:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico8_idx','WamFoam/DB246.dbw16:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico9_idx','WamFoam/DB246.dbw18:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico10_idx','WamFoam/DB246.dbw20:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico11_idx','WamFoam/DB246.dbw22:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico12_idx','WamFoam/DB246.dbw24:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico13_idx','WamFoam/DB246.dbw26:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico14_idx','WamFoam/DB246.dbw28:int','');
+insert into plctags (name,address,description) values ('ValoreAnalogico15_idx','WamFoam/DB246.dbw30:int','');
+insert into plctags (name,address,description) values ('DO_Pompa_Soft_Comando_idx','WamFoam/DB246.dbx60.0:bool','');
+insert into plctags (name,address,description) values ('DI_Pompa_Soft_Ritorno_idx','WamFoam/DB246.dbx60.1:bool','');
+insert into plctags (name,address,description) values ('DI_Pompa_Soft_Termica_idx','WamFoam/DB246.dbx60.2:bool','');
+insert into plctags (name,address,description) values ('DO_Pompa_Soft_Comando_Inversione_idx','WamFoam/DB246.dbx60.3:bool','');
+insert into plctags (name,address,description) values ('DI_Pompa_Soft_Ritorno_Inversione_idx','WamFoam/DB246.dbx60.4:bool','');
+insert into plctags (name,address,description) values ('ValoreDigitale0_idx','WamFoam/AB0','');
+insert into plctags (name,address,description) values ('ValoreDigitale1_idx','WamFoam/AB1','');
+insert into plctags (name,address,description) values ('ValoreDigitale2_idx','WamFoam/EB2','');
+insert into plctags (name,address,description) values ('ValoreDigitale3_idx','WamFoam/EB3','');
+insert into plctags (name,address,description) values ('ValoreDigitale4_idx','WamFoam/EB4','');
+insert into plctags (name,address,description) values ('ValoreDigitale5_idx','WamFoam/EB5','');

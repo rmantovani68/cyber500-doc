@@ -1,408 +1,408 @@
-CistRidTAG_Bitume_Cisterna1_TipoLivello                              plc4/db3101.dbx0.2:boo    CistRidTAG_Bitume_Cisterna1_TipoLivello = PLCTAG_COUNT
-CistRidTAG_Bitume_Cisterna1_BloccoValvoleBassaTemperatura            plc4/db3101.dbx0.4:boo    CistRidTAG_Bitume_Cisterna1_BloccoValvoleBassaTemperatura
-CistRidTAG_Bitume_Cisterna1_InclusioneAgitatore                      plc4/db3101.dbx0.7:boo    CistRidTAG_Bitume_Cisterna1_InclusioneAgitatore
-CistRidTAG_Bitume_Cisterna1_TempUnitaLimiteInf                       plc4/db3101.dbw6:int      CistRidTAG_Bitume_Cisterna1_TempUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna1_TempUnitaLimitesup                       plc4/db3101.dbw8:int      CistRidTAG_Bitume_Cisterna1_TempUnitaLimitesup
-CistRidTAG_Bitume_Cisterna1_LivelloUnitaLimiteInf                    plc4/db3101.dbw10:int     CistRidTAG_Bitume_Cisterna1_LivelloUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna1_LivelloUnitaLimiteSup                    plc4/db3101.dbw12:int     CistRidTAG_Bitume_Cisterna1_LivelloUnitaLimiteSup
-CistRidTAG_Bitume_Cisterna1_Densita                                  plc4/db3101.dbd14:real    CistRidTAG_Bitume_Cisterna1_Densita
-CistRidTAG_Bitume_Cisterna1_TempGradiLimiteInf                       plc4/db3101.dbd18:real    CistRidTAG_Bitume_Cisterna1_TempGradiLimiteInf
-CistRidTAG_Bitume_Cisterna1_TempGradiLimiteSup                       plc4/db3101.dbd22:real    CistRidTAG_Bitume_Cisterna1_TempGradiLimiteSup
-CistRidTAG_Bitume_Cisterna1_LivelloTonLimiteInf                      plc4/db3101.dbd26:real    CistRidTAG_Bitume_Cisterna1_LivelloTonLimiteInf
-CistRidTAG_Bitume_Cisterna1_LivelloTonLimiteSup                      plc4/db3101.dbd30:real    CistRidTAG_Bitume_Cisterna1_LivelloTonLimiteSup
-CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeMin                      plc4/db3101.dbd34:real    CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeMin
-CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeMax                      plc4/db3101.dbd38:real    CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeMax
-CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeMin                     plc4/db3101.dbd42:real    CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeMin
-CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeMax                     plc4/db3101.dbd46:real    CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeMax
-CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeZonaMorta               plc4/db3101.dbd50:real    CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeZonaMorta                plc4/db3101.dbd54:real    CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna1_LivelloMin_DI_Trigger                    plc4/db3101.dbx58.0:bo    CistRidTAG_Bitume_Cisterna1_LivelloMin_DI_Trigger
-CistRidTAG_Bitume_Cisterna1_LivelloMax_DI_Trigger                    plc4/db3101.dbx58.1:bo    CistRidTAG_Bitume_Cisterna1_LivelloMax_DI_Trigger
-CistRidTAG_Bitume_Cisterna1_LivelloSic_DI_Trigger                    plc4/db3101.dbx58.2:bo    CistRidTAG_Bitume_Cisterna1_LivelloSic_DI_Trigger
-CistRidTAG_Bitume_Cisterna1_LivelloPercentualeValore                 plc4/db3101.dbd60:real    CistRidTAG_Bitume_Cisterna1_LivelloPercentualeValore
-CistRidTAG_Bitume_Cisterna1_LivelloTonValore                         plc4/db3101.dbd64:real    CistRidTAG_Bitume_Cisterna1_LivelloTonValore
-CistRidTAG_Bitume_Cisterna1_TempGradiValore                          plc4/db3101.dbd68:real    CistRidTAG_Bitume_Cisterna1_TempGradiValore
-CistRidTAG_Bitume_Cisterna1_AllarmeCodiceGen                         plc4/db3101.dbw72:word    CistRidTAG_Bitume_Cisterna1_AllarmeCodiceGen
-CistRidTAG_Bitume_Cisterna1_ValvUscita1InverteComando                plc4/db3101.dbx74.5:bo    CistRidTAG_Bitume_Cisterna1_ValvUscita1InverteComando
-CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoTimeOutOpen              plc4/db3101.dbd76:time    CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoTimeOutClose             plc4/db3101.dbd80:time    CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoAntirimbalzoFC           plc4/db3101.dbd84:time    CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna1_ValvUscita1Open_DI_Trigger               plc4/db3101.dbx88.1:bo    CistRidTAG_Bitume_Cisterna1_ValvUscita1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna1_ValvUscita1Close_DI_Trigger              plc4/db3101.dbx88.2:bo    CistRidTAG_Bitume_Cisterna1_ValvUscita1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna1_ValvUscita1AllarmeCodice                 plc4/db3101.dbw90:word    CistRidTAG_Bitume_Cisterna1_ValvUscita1AllarmeCodice
-CistRidTAG_Bitume_Cisterna1_DI_ValvRitornoBloccoTemp                 plc4/db3101.dbx198.4:b    CistRidTAG_Bitume_Cisterna1_DI_ValvRitornoBloccoTemp
-CistRidTAG_Bitume_Cisterna1_ValvEntrata1InverteComando               plc4/db3101.dbx198.5:b    CistRidTAG_Bitume_Cisterna1_ValvEntrata1InverteComando
-CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoTimeOutOpen             plc4/db3101.dbd200:tim    CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoTimeOutClose            plc4/db3101.dbd204:tim    CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoAntirimbalzoFC          plc4/db3101.dbd208:tim    CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna1_ValvEntrata1Open_DI_Trigger              plc4/db3101.dbx212.1:b    CistRidTAG_Bitume_Cisterna1_ValvEntrata1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna1_ValvEntrata1Close_DI_Trigger             plc4/db3101.dbx212.2:b    CistRidTAG_Bitume_Cisterna1_ValvEntrata1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna1_ValvEntrata1AllarmeCodice                plc4/db3101.dbw214:wor    CistRidTAG_Bitume_Cisterna1_ValvEntrata1AllarmeCodice
-CistRidTAG_Bitume_Cisterna1_DI_ValvCaricoBloccoTemp                  plc4/db3101.dbx322.4:b    CistRidTAG_Bitume_Cisterna1_DI_ValvCaricoBloccoTemp
-CistRidTAG_Bitume_Cisterna1_ValvUscita2InverteComando                plc4/db3101.dbx322.5:b    CistRidTAG_Bitume_Cisterna1_ValvUscita2InverteComando
-CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoTimeOutOpen              plc4/db3101.dbd324:tim    CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoTimeOutClose             plc4/db3101.dbd328:tim    CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoAntirimbalzoFC           plc4/db3101.dbd332:tim    CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna1_ValvUscita2Open_DI_Trigger               plc4/db3101.dbx336.1:b    CistRidTAG_Bitume_Cisterna1_ValvUscita2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna1_ValvUscita2Close_DI_Trigger              plc4/db3101.dbx336.2:b    CistRidTAG_Bitume_Cisterna1_ValvUscita2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna1_ValvUscita2AllarmeCodice                 plc4/db3101.dbw338:wor    CistRidTAG_Bitume_Cisterna1_ValvUscita2AllarmeCodice
-CistRidTAG_Bitume_Cisterna1_DI_ValvAuxBloccoTemp                     plc4/db3101.dbx530.4:b    CistRidTAG_Bitume_Cisterna1_DI_ValvAuxBloccoTemp
-CistRidTAG_Bitume_Cisterna1_ValvEntrata2InverteComando               plc4/db3101.dbx530.5:b    CistRidTAG_Bitume_Cisterna1_ValvEntrata2InverteComando
-CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoTimeOutOpen             plc4/db3101.dbd532:tim    CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoTimeOutClose            plc4/db3101.dbd536:tim    CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoAntirimbalzoFC          plc4/db3101.dbd540:tim    CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna1_ValvEntrata2Open_DI_Trigger              plc4/db3101.dbx544.1:b    CistRidTAG_Bitume_Cisterna1_ValvEntrata2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna1_ValvEntrata2Close_DI_Trigger             plc4/db3101.dbx544.2:b    CistRidTAG_Bitume_Cisterna1_ValvEntrata2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna1_ValvEntrata2AllarmeCodice                plc4/db3101.dbw546:wor    CistRidTAG_Bitume_Cisterna1_ValvEntrata2AllarmeCodice
-CistRidTAG_Bitume_Cisterna1_NumeroValvolePresenti                    plc4/db3101.dbw654:int    CistRidTAG_Bitume_Cisterna1_NumeroValvolePresenti
-CistRidTAG_Bitume_Cisterna1_AbilitaOrizzontale                       plc4/db3101.dbx0.5:boo    CistRidTAG_Bitume_Cisterna1_AbilitaOrizzontale
-CistRidTAG_Bitume_Cisterna1_DiametroMm                               plc4/db3101.dbd656:rea    CistRidTAG_Bitume_Cisterna1_DiametroMm
-CistRidTAG_Bitume_Cisterna1_LunghezzaMm                              plc4/db3101.dbd660:rea    CistRidTAG_Bitume_Cisterna1_LunghezzaMm
-CistRidTAG_Bitume_Cisterna1_AbilitaValvolaMandata                    plc4/db3101.dbx74.6:bo    CistRidTAG_Bitume_Cisterna1_AbilitaValvolaMandata
-CistRidTAG_Bitume_Cisterna1_AbilitaValvolaRitorno                    plc4/db3101.dbx198.6:b    CistRidTAG_Bitume_Cisterna1_AbilitaValvolaRitorno
-CistRidTAG_Bitume_Cisterna1_AbilitaValvolaCarico                     plc4/db3101.dbx322.6:b    CistRidTAG_Bitume_Cisterna1_AbilitaValvolaCarico
-CistRidTAG_Bitume_Cisterna1_AbilitaValvolaAux                        plc4/db3101.dbx530.6:b    CistRidTAG_Bitume_Cisterna1_AbilitaValvolaAux
-CistRidTAG_Bitume_Cisterna2_TipoLivello                              plc4/db3102.dbx0.2:boo    CistRidTAG_Bitume_Cisterna2_TipoLivello
-CistRidTAG_Bitume_Cisterna2_BloccoValvoleBassaTemperatura            plc4/db3102.dbx0.4:boo    CistRidTAG_Bitume_Cisterna2_BloccoValvoleBassaTemperatura
-CistRidTAG_Bitume_Cisterna2_InclusioneAgitatore                      plc4/db3102.dbx0.7:boo    CistRidTAG_Bitume_Cisterna2_InclusioneAgitatore
-CistRidTAG_Bitume_Cisterna2_TempUnitaLimiteInf                       plc4/db3102.dbw6:int      CistRidTAG_Bitume_Cisterna2_TempUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna2_TempUnitaLimieSup                        plc4/db3102.dbw8:int      CistRidTAG_Bitume_Cisterna2_TempUnitaLimieSup
-CistRidTAG_Bitume_Cisterna2_LivelloUnitaLimiteInf                    plc4/db3102.dbw10:int     CistRidTAG_Bitume_Cisterna2_LivelloUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna2_LivelloUnitaLimiteSup                    plc4/db3102.dbw12:int     CistRidTAG_Bitume_Cisterna2_LivelloUnitaLimiteSup
-CistRidTAG_Bitume_Cisterna2_Densita                                  plc4/db3102.dbd14:real    CistRidTAG_Bitume_Cisterna2_Densita
-CistRidTAG_Bitume_Cisterna2_TempGradiLimiteInf                       plc4/db3102.dbd18:real    CistRidTAG_Bitume_Cisterna2_TempGradiLimiteInf
-CistRidTAG_Bitume_Cisterna2_TempGradiLimiteSup                       plc4/db3102.dbd22:real    CistRidTAG_Bitume_Cisterna2_TempGradiLimiteSup
-CistRidTAG_Bitume_Cisterna2_LivelloTonLimiteInf                      plc4/db3102.dbd26:real    CistRidTAG_Bitume_Cisterna2_LivelloTonLimiteInf
-CistRidTAG_Bitume_Cisterna2_LivelloTonLimiteSup                      plc4/db3102.dbd30:real    CistRidTAG_Bitume_Cisterna2_LivelloTonLimiteSup
-CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeMin                      plc4/db3102.dbd34:real    CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeMin
-CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeMax                      plc4/db3102.dbd38:real    CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeMax
-CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeMin                     plc4/db3102.dbd42:real    CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeMin
-CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeMax                     plc4/db3102.dbd46:real    CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeMax
-CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeZonaMorta               plc4/db3102.dbd50:real    CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeZonaMorta                plc4/db3102.dbd54:real    CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna2_LivelloMin_DI_Trigger                    plc4/db3102.dbx58.0:bo    CistRidTAG_Bitume_Cisterna2_LivelloMin_DI_Trigger
-CistRidTAG_Bitume_Cisterna2_LivelloMax_DI_Trigger                    plc4/db3102.dbx58.1:bo    CistRidTAG_Bitume_Cisterna2_LivelloMax_DI_Trigger
-CistRidTAG_Bitume_Cisterna2_LivelloSic_DI_Trigger                    plc4/db3102.dbx58.2:bo    CistRidTAG_Bitume_Cisterna2_LivelloSic_DI_Trigger
-CistRidTAG_Bitume_Cisterna2_LivelloPercentualeValore                 plc4/db3102.dbd60:real    CistRidTAG_Bitume_Cisterna2_LivelloPercentualeValore
-CistRidTAG_Bitume_Cisterna2_LivelloTonValore                         plc4/db3102.dbd64:real    CistRidTAG_Bitume_Cisterna2_LivelloTonValore
-CistRidTAG_Bitume_Cisterna2_TempGradiValore                          plc4/db3102.dbd68:real    CistRidTAG_Bitume_Cisterna2_TempGradiValore
-CistRidTAG_Bitume_Cisterna2_AllarmeCodiceGen                         plc4/db3102.dbw72:word    CistRidTAG_Bitume_Cisterna2_AllarmeCodiceGen
-CistRidTAG_Bitume_Cisterna2_ValvUscita1InverteComando                plc4/db3102.dbx74.5:bo    CistRidTAG_Bitume_Cisterna2_ValvUscita1InverteComando
-CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoTimeOutOpen              plc4/db3102.dbd76:time    CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoTimeOutClose             plc4/db3102.dbd80:time    CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoAntirimbalzoFC           plc4/db3102.dbd84:time    CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna2_ValvUscita1Open_DI_Trigger               plc4/db3102.dbx88.1:bo    CistRidTAG_Bitume_Cisterna2_ValvUscita1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna2_ValvUscita1Close_DI_Trigger              plc4/db3102.dbx88.2:bo    CistRidTAG_Bitume_Cisterna2_ValvUscita1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna2_ValvUscita1AllarmeCodice                 plc4/db3102.dbw90:word    CistRidTAG_Bitume_Cisterna2_ValvUscita1AllarmeCodice
-CistRidTAG_Bitume_Cisterna2_DI_ValvRitornoBloccoTemp                 plc4/db3102.dbx198.4:b    CistRidTAG_Bitume_Cisterna2_DI_ValvRitornoBloccoTemp
-CistRidTAG_Bitume_Cisterna2_ValvEntrata1InverteComando               plc4/db3102.dbx198.5:b    CistRidTAG_Bitume_Cisterna2_ValvEntrata1InverteComando
-CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoTimeOutOpen             plc4/db3102.dbd200:tim    CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoTimeOutClose            plc4/db3102.dbd204:tim    CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoAntirimbalzoFC          plc4/db3102.dbd208:tim    CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna2_ValvEntrata1Open_DI_Trigger              plc4/db3102.dbx212.1:b    CistRidTAG_Bitume_Cisterna2_ValvEntrata1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna2_ValvEntrata1Close_DI_Trigger             plc4/db3102.dbx212.2:b    CistRidTAG_Bitume_Cisterna2_ValvEntrata1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna2_ValvEntrata1AllarmeCodice                plc4/db3102.dbw214:wor    CistRidTAG_Bitume_Cisterna2_ValvEntrata1AllarmeCodice
-CistRidTAG_Bitume_Cisterna2_DI_ValvCaricoBloccoTemp                  plc4/db3102.dbx322.4:b    CistRidTAG_Bitume_Cisterna2_DI_ValvCaricoBloccoTemp
-CistRidTAG_Bitume_Cisterna2_ValvUscita2InverteComando                plc4/db3102.dbx322.5:b    CistRidTAG_Bitume_Cisterna2_ValvUscita2InverteComando
-CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoTimeOutOpen              plc4/db3102.dbd324:tim    CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoTimeOutClose             plc4/db3102.dbd328:tim    CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoAntirimbalzoFC           plc4/db3102.dbd332:tim    CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna2_ValvUscita2Open_DI_Trigger               plc4/db3102.dbx336.1:b    CistRidTAG_Bitume_Cisterna2_ValvUscita2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna2_ValvUscita2Close_DI_Trigger              plc4/db3102.dbx336.2:b    CistRidTAG_Bitume_Cisterna2_ValvUscita2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna2_ValvUscita2AllarmeCodice                 plc4/db3102.dbw338:wor    CistRidTAG_Bitume_Cisterna2_ValvUscita2AllarmeCodice
-CistRidTAG_Bitume_Cisterna2_DI_ValvAuxBloccoTemp                     plc4/db3102.dbx530.4:b    CistRidTAG_Bitume_Cisterna2_DI_ValvAuxBloccoTemp
-CistRidTAG_Bitume_Cisterna2_ValvEntrata2InverteComando               plc4/db3102.dbx530.5:b    CistRidTAG_Bitume_Cisterna2_ValvEntrata2InverteComando
-CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoTimeOutOpen             plc4/db3102.dbd532:tim    CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoTimeOutClose            plc4/db3102.dbd536:tim    CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoAntirimbalzoFC          plc4/db3102.dbd540:tim    CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna2_ValvEntrata2Open_DI_Trigger              plc4/db3102.dbx544.1:b    CistRidTAG_Bitume_Cisterna2_ValvEntrata2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna2_ValvEntrata2Close_DI_Trigger             plc4/db3102.dbx544.2:b    CistRidTAG_Bitume_Cisterna2_ValvEntrata2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna2_ValvEntrata2AllarmeCodice                plc4/db3102.dbw546:wor    CistRidTAG_Bitume_Cisterna2_ValvEntrata2AllarmeCodice
-CistRidTAG_Bitume_Cisterna2_NumeroValvolePresenti                    plc4/db3102.dbw654:int    CistRidTAG_Bitume_Cisterna2_NumeroValvolePresenti
-CistRidTAG_Bitume_Cisterna2_AbilitaOrizzontale                       plc4/db3102.dbx0.5:boo    CistRidTAG_Bitume_Cisterna2_AbilitaOrizzontale
-CistRidTAG_Bitume_Cisterna2_DiametroMm                               plc4/db3102.dbd656:rea    CistRidTAG_Bitume_Cisterna2_DiametroMm
-CistRidTAG_Bitume_Cisterna2_LunghezzaMm                              plc4/db3102.dbd660:rea    CistRidTAG_Bitume_Cisterna2_LunghezzaMm
-CistRidTAG_Bitume_Cisterna2_AbilitaValvolaMandata                    plc4/db3102.dbx74.6:bo    CistRidTAG_Bitume_Cisterna2_AbilitaValvolaMandata
-CistRidTAG_Bitume_Cisterna2_AbilitaValvolaRitorno                    plc4/db3102.dbx198.6:b    CistRidTAG_Bitume_Cisterna2_AbilitaValvolaRitorno
-CistRidTAG_Bitume_Cisterna2_AbilitaValvolaCarico                     plc4/db3102.dbx322.6:b    CistRidTAG_Bitume_Cisterna2_AbilitaValvolaCarico
-CistRidTAG_Bitume_Cisterna2_AbilitaValvolaAux                        plc4/db3102.dbx530.6:b    CistRidTAG_Bitume_Cisterna2_AbilitaValvolaAux
-CistRidTAG_Bitume_Cisterna3_TipoLivello                              plc4/db3103.dbx0.2:boo    CistRidTAG_Bitume_Cisterna3_TipoLivello
-CistRidTAG_Bitume_Cisterna3_BloccoValvoleBassaTemperatura            plc4/db3103.dbx0.4:boo    CistRidTAG_Bitume_Cisterna3_BloccoValvoleBassaTemperatura
-CistRidTAG_Bitume_Cisterna3_InclusioneAgitatore                      plc4/db3103.dbx0.7:boo    CistRidTAG_Bitume_Cisterna3_InclusioneAgitatore
-CistRidTAG_Bitume_Cisterna3_TempUnitaLimiteInf                       plc4/db3103.dbw6:int      CistRidTAG_Bitume_Cisterna3_TempUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna3_TempUnitaLimieSup                        plc4/db3103.dbw8:int      CistRidTAG_Bitume_Cisterna3_TempUnitaLimieSup
-CistRidTAG_Bitume_Cisterna3_LivelloUnitaLimiteInf                    plc4/db3103.dbw10:int     CistRidTAG_Bitume_Cisterna3_LivelloUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna3_LivelloUnitaLimiteSup                    plc4/db3103.dbw12:int     CistRidTAG_Bitume_Cisterna3_LivelloUnitaLimiteSup
-CistRidTAG_Bitume_Cisterna3_Densita                                  plc4/db3103.dbd14:real    CistRidTAG_Bitume_Cisterna3_Densita
-CistRidTAG_Bitume_Cisterna3_TempGradiLimiteInf                       plc4/db3103.dbd18:real    CistRidTAG_Bitume_Cisterna3_TempGradiLimiteInf
-CistRidTAG_Bitume_Cisterna3_TempGradiLimiteSup                       plc4/db3103.dbd22:real    CistRidTAG_Bitume_Cisterna3_TempGradiLimiteSup
-CistRidTAG_Bitume_Cisterna3_LivelloTonLimiteInf                      plc4/db3103.dbd26:real    CistRidTAG_Bitume_Cisterna3_LivelloTonLimiteInf
-CistRidTAG_Bitume_Cisterna3_LivelloTonLimiteSup                      plc4/db3103.dbd30:real    CistRidTAG_Bitume_Cisterna3_LivelloTonLimiteSup
-CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeMin                      plc4/db3103.dbd34:real    CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeMin
-CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeMax                      plc4/db3103.dbd38:real    CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeMax
-CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeMin                     plc4/db3103.dbd42:real    CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeMin
-CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeMax                     plc4/db3103.dbd46:real    CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeMax
-CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeZonaMorta               plc4/db3103.dbd50:real    CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeZonaMorta                plc4/db3103.dbd54:real    CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna3_LivelloMin_DI_Trigger                    plc4/db3103.dbx58.0:bo    CistRidTAG_Bitume_Cisterna3_LivelloMin_DI_Trigger
-CistRidTAG_Bitume_Cisterna3_LivelloMax_DI_Trigger                    plc4/db3103.dbx58.1:bo    CistRidTAG_Bitume_Cisterna3_LivelloMax_DI_Trigger
-CistRidTAG_Bitume_Cisterna3_LivelloSic_DI_Trigger                    plc4/db3103.dbx58.2:bo    CistRidTAG_Bitume_Cisterna3_LivelloSic_DI_Trigger
-CistRidTAG_Bitume_Cisterna3_LivelloPercentualeValore                 plc4/db3103.dbd60:real    CistRidTAG_Bitume_Cisterna3_LivelloPercentualeValore
-CistRidTAG_Bitume_Cisterna3_LivelloTonValore                         plc4/db3103.dbd64:real    CistRidTAG_Bitume_Cisterna3_LivelloTonValore
-CistRidTAG_Bitume_Cisterna3_TempGradiValore                          plc4/db3103.dbd68:real    CistRidTAG_Bitume_Cisterna3_TempGradiValore
-CistRidTAG_Bitume_Cisterna3_AllarmeCodiceGen                         plc4/db3103.dbw72:word    CistRidTAG_Bitume_Cisterna3_AllarmeCodiceGen
-CistRidTAG_Bitume_Cisterna3_ValvUscita1InverteComando                plc4/db3103.dbx74.5:bo    CistRidTAG_Bitume_Cisterna3_ValvUscita1InverteComando
-CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoTimeOutOpen              plc4/db3103.dbd76:time    CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoTimeOutClose             plc4/db3103.dbd80:time    CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoAntirimbalzoFC           plc4/db3103.dbd84:time    CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna3_ValvUscita1Open_DI_Trigger               plc4/db3103.dbx88.1:bo    CistRidTAG_Bitume_Cisterna3_ValvUscita1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna3_ValvUscita1Close_DI_Trigger              plc4/db3103.dbx88.2:bo    CistRidTAG_Bitume_Cisterna3_ValvUscita1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna3_ValvUscita1AllarmeCodice                 plc4/db3103.dbw90:word    CistRidTAG_Bitume_Cisterna3_ValvUscita1AllarmeCodice
-CistRidTAG_Bitume_Cisterna3_DI_ValvRitornoBloccoTemp                 plc4/db3103.dbx198.4:b    CistRidTAG_Bitume_Cisterna3_DI_ValvRitornoBloccoTemp
-CistRidTAG_Bitume_Cisterna3_ValvEntrata1InverteComando               plc4/db3103.dbx198.5:b    CistRidTAG_Bitume_Cisterna3_ValvEntrata1InverteComando
-CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoTimeOutOpen             plc4/db3103.dbd200:tim    CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoTimeOutClose            plc4/db3103.dbd204:tim    CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoAntirimbalzoFC          plc4/db3103.dbd208:tim    CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna3_ValvEntrata1Open_DI_Trigger              plc4/db3103.dbx212.1:b    CistRidTAG_Bitume_Cisterna3_ValvEntrata1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna3_ValvEntrata1Close_DI_Trigger             plc4/db3103.dbx212.2:b    CistRidTAG_Bitume_Cisterna3_ValvEntrata1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna3_ValvEntrata1AllarmeCodice                plc4/db3103.dbw214:wor    CistRidTAG_Bitume_Cisterna3_ValvEntrata1AllarmeCodice
-CistRidTAG_Bitume_Cisterna3_DI_ValvCaricoBloccoTemp                  plc4/db3103.dbx322.4:b    CistRidTAG_Bitume_Cisterna3_DI_ValvCaricoBloccoTemp
-CistRidTAG_Bitume_Cisterna3_ValvUscita2InverteComando                plc4/db3103.dbx322.5:b    CistRidTAG_Bitume_Cisterna3_ValvUscita2InverteComando
-CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoTimeOutOpen              plc4/db3103.dbd324:tim    CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoTimeOutClose             plc4/db3103.dbd328:tim    CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoAntirimbalzoFC           plc4/db3103.dbd332:tim    CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna3_ValvUscita2Open_DI_Trigger               plc4/db3103.dbx336.1:b    CistRidTAG_Bitume_Cisterna3_ValvUscita2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna3_ValvUscita2Close_DI_Trigger              plc4/db3103.dbx336.2:b    CistRidTAG_Bitume_Cisterna3_ValvUscita2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna3_ValvUscita2AllarmeCodice                 plc4/db3103.dbw338:wor    CistRidTAG_Bitume_Cisterna3_ValvUscita2AllarmeCodice
-CistRidTAG_Bitume_Cisterna3_DI_ValvAuxBloccoTemp                     plc4/db3103.dbx530.4:b    CistRidTAG_Bitume_Cisterna3_DI_ValvAuxBloccoTemp
-CistRidTAG_Bitume_Cisterna3_ValvEntrata2InverteComando               plc4/db3103.dbx530.5:b    CistRidTAG_Bitume_Cisterna3_ValvEntrata2InverteComando
-CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoTimeOutOpen             plc4/db3103.dbd532:tim    CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoTimeOutClose            plc4/db3103.dbd536:tim    CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoAntirimbalzoFC          plc4/db3103.dbd540:tim    CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna3_ValvEntrata2Open_DI_Trigger              plc4/db3103.dbx544.1:b    CistRidTAG_Bitume_Cisterna3_ValvEntrata2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna3_ValvEntrata2Close_DI_Trigger             plc4/db3103.dbx544.2:b    CistRidTAG_Bitume_Cisterna3_ValvEntrata2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna3_ValvEntrata2AllarmeCodice                plc4/db3103.dbw546:wor    CistRidTAG_Bitume_Cisterna3_ValvEntrata2AllarmeCodice
-CistRidTAG_Bitume_Cisterna3_NumeroValvolePresenti                    plc4/db3103.dbw654:int    CistRidTAG_Bitume_Cisterna3_NumeroValvolePresenti
-CistRidTAG_Bitume_Cisterna3_AbilitaOrizzontale                       plc4/db3103.dbx0.5:boo    CistRidTAG_Bitume_Cisterna3_AbilitaOrizzontale
-CistRidTAG_Bitume_Cisterna3_DiametroMm                               plc4/db3103.dbd656:rea    CistRidTAG_Bitume_Cisterna3_DiametroMm
-CistRidTAG_Bitume_Cisterna3_LunghezzaMm                              plc4/db3103.dbd660:rea    CistRidTAG_Bitume_Cisterna3_LunghezzaMm
-CistRidTAG_Bitume_Cisterna3_AbilitaValvolaMandata                    plc4/db3103.dbx74.6:bo    CistRidTAG_Bitume_Cisterna3_AbilitaValvolaMandata
-CistRidTAG_Bitume_Cisterna3_AbilitaValvolaRitorno                    plc4/db3103.dbx198.6:b    CistRidTAG_Bitume_Cisterna3_AbilitaValvolaRitorno
-CistRidTAG_Bitume_Cisterna3_AbilitaValvolaCarico                     plc4/db3103.dbx322.6:b    CistRidTAG_Bitume_Cisterna3_AbilitaValvolaCarico
-CistRidTAG_Bitume_Cisterna3_AbilitaValvolaAux                        plc4/db3103.dbx530.6:b    CistRidTAG_Bitume_Cisterna3_AbilitaValvolaAux
-CistRidTAG_Bitume_Cisterna4_TipoLivello                              plc4/db3104.dbx0.2:boo    CistRidTAG_Bitume_Cisterna4_TipoLivello = PLCTAG_COUNT
-CistRidTAG_Bitume_Cisterna4_BloccoValvoleBassaTemperatura            plc4/db3104.dbx0.4:boo    CistRidTAG_Bitume_Cisterna4_BloccoValvoleBassaTemperatura
-CistRidTAG_Bitume_Cisterna4_InclusioneAgitatore                      plc4/db3104.dbx0.7:boo    CistRidTAG_Bitume_Cisterna4_InclusioneAgitatore
-CistRidTAG_Bitume_Cisterna4_TempUnitaLimiteInf                       plc4/db3104.dbw6:int      CistRidTAG_Bitume_Cisterna4_TempUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna4_TempUnitaLimitesup                       plc4/db3104.dbw8:int      CistRidTAG_Bitume_Cisterna4_TempUnitaLimitesup
-CistRidTAG_Bitume_Cisterna4_LivelloUnitaLimiteInf                    plc4/db3104.dbw10:int     CistRidTAG_Bitume_Cisterna4_LivelloUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna4_LivelloUnitaLimiteSup                    plc4/db3104.dbw12:int     CistRidTAG_Bitume_Cisterna4_LivelloUnitaLimiteSup
-CistRidTAG_Bitume_Cisterna4_Densita                                  plc4/db3104.dbd14:real    CistRidTAG_Bitume_Cisterna4_Densita
-CistRidTAG_Bitume_Cisterna4_TempGradiLimiteInf                       plc4/db3104.dbd18:real    CistRidTAG_Bitume_Cisterna4_TempGradiLimiteInf
-CistRidTAG_Bitume_Cisterna4_TempGradiLimiteSup                       plc4/db3104.dbd22:real    CistRidTAG_Bitume_Cisterna4_TempGradiLimiteSup
-CistRidTAG_Bitume_Cisterna4_LivelloTonLimiteInf                      plc4/db3104.dbd26:real    CistRidTAG_Bitume_Cisterna4_LivelloTonLimiteInf
-CistRidTAG_Bitume_Cisterna4_LivelloTonLimiteSup                      plc4/db3104.dbd30:real    CistRidTAG_Bitume_Cisterna4_LivelloTonLimiteSup
-CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeMin                      plc4/db3104.dbd34:real    CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeMin
-CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeMax                      plc4/db3104.dbd38:real    CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeMax
-CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeMin                     plc4/db3104.dbd42:real    CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeMin
-CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeMax                     plc4/db3104.dbd46:real    CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeMax
-CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeZonaMorta               plc4/db3104.dbd50:real    CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeZonaMorta                plc4/db3104.dbd54:real    CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna4_LivelloMin_DI_Trigger                    plc4/db3104.dbx58.0:bo    CistRidTAG_Bitume_Cisterna4_LivelloMin_DI_Trigger
-CistRidTAG_Bitume_Cisterna4_LivelloMax_DI_Trigger                    plc4/db3104.dbx58.1:bo    CistRidTAG_Bitume_Cisterna4_LivelloMax_DI_Trigger
-CistRidTAG_Bitume_Cisterna4_LivelloSic_DI_Trigger                    plc4/db3104.dbx58.2:bo    CistRidTAG_Bitume_Cisterna4_LivelloSic_DI_Trigger
-CistRidTAG_Bitume_Cisterna4_LivelloPercentualeValore                 plc4/db3104.dbd60:real    CistRidTAG_Bitume_Cisterna4_LivelloPercentualeValore
-CistRidTAG_Bitume_Cisterna4_LivelloTonValore                         plc4/db3104.dbd64:real    CistRidTAG_Bitume_Cisterna4_LivelloTonValore
-CistRidTAG_Bitume_Cisterna4_TempGradiValore                          plc4/db3104.dbd68:real    CistRidTAG_Bitume_Cisterna4_TempGradiValore
-CistRidTAG_Bitume_Cisterna4_AllarmeCodiceGen                         plc4/db3104.dbw72:word    CistRidTAG_Bitume_Cisterna4_AllarmeCodiceGen
-CistRidTAG_Bitume_Cisterna4_ValvUscita1InverteComando                plc4/db3104.dbx74.5:bo    CistRidTAG_Bitume_Cisterna4_ValvUscita1InverteComando
-CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoTimeOutOpen              plc4/db3104.dbd76:time    CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoTimeOutClose             plc4/db3104.dbd80:time    CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoAntirimbalzoFC           plc4/db3104.dbd84:time    CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna4_ValvUscita1Open_DI_Trigger               plc4/db3104.dbx88.1:bo    CistRidTAG_Bitume_Cisterna4_ValvUscita1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna4_ValvUscita1Close_DI_Trigger              plc4/db3104.dbx88.2:bo    CistRidTAG_Bitume_Cisterna4_ValvUscita1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna4_ValvUscita1AllarmeCodice                 plc4/db3104.dbw90:word    CistRidTAG_Bitume_Cisterna4_ValvUscita1AllarmeCodice
-CistRidTAG_Bitume_Cisterna4_DI_ValvRitornoBloccoTemp                 plc4/db3104.dbx198.4:b    CistRidTAG_Bitume_Cisterna4_DI_ValvRitornoBloccoTemp
-CistRidTAG_Bitume_Cisterna4_ValvEntrata1InverteComando               plc4/db3104.dbx198.5:b    CistRidTAG_Bitume_Cisterna4_ValvEntrata1InverteComando
-CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoTimeOutOpen             plc4/db3104.dbd200:tim    CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoTimeOutClose            plc4/db3104.dbd204:tim    CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoAntirimbalzoFC          plc4/db3104.dbd208:tim    CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna4_ValvEntrata1Open_DI_Trigger              plc4/db3104.dbx212.1:b    CistRidTAG_Bitume_Cisterna4_ValvEntrata1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna4_ValvEntrata1Close_DI_Trigger             plc4/db3104.dbx212.2:b    CistRidTAG_Bitume_Cisterna4_ValvEntrata1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna4_ValvEntrata1AllarmeCodice                plc4/db3104.dbw214:wor    CistRidTAG_Bitume_Cisterna4_ValvEntrata1AllarmeCodice
-CistRidTAG_Bitume_Cisterna4_DI_ValvCaricoBloccoTemp                  plc4/db3104.dbx322.4:b    CistRidTAG_Bitume_Cisterna4_DI_ValvCaricoBloccoTemp
-CistRidTAG_Bitume_Cisterna4_ValvUscita2InverteComando                plc4/db3104.dbx322.5:b    CistRidTAG_Bitume_Cisterna4_ValvUscita2InverteComando
-CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoTimeOutOpen              plc4/db3104.dbd324:tim    CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoTimeOutClose             plc4/db3104.dbd328:tim    CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoAntirimbalzoFC           plc4/db3104.dbd332:tim    CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna4_ValvUscita2Open_DI_Trigger               plc4/db3104.dbx336.1:b    CistRidTAG_Bitume_Cisterna4_ValvUscita2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna4_ValvUscita2Close_DI_Trigger              plc4/db3104.dbx336.2:b    CistRidTAG_Bitume_Cisterna4_ValvUscita2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna4_ValvUscita2AllarmeCodice                 plc4/db3104.dbw338:wor    CistRidTAG_Bitume_Cisterna4_ValvUscita2AllarmeCodice
-CistRidTAG_Bitume_Cisterna4_DI_ValvAuxBloccoTemp                     plc4/db3104.dbx530.4:b    CistRidTAG_Bitume_Cisterna4_DI_ValvAuxBloccoTemp
-CistRidTAG_Bitume_Cisterna4_ValvEntrata2InverteComando               plc4/db3104.dbx530.5:b    CistRidTAG_Bitume_Cisterna4_ValvEntrata2InverteComando
-CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoTimeOutOpen             plc4/db3104.dbd532:tim    CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoTimeOutClose            plc4/db3104.dbd536:tim    CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoAntirimbalzoFC          plc4/db3104.dbd540:tim    CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna4_ValvEntrata2Open_DI_Trigger              plc4/db3104.dbx544.1:b    CistRidTAG_Bitume_Cisterna4_ValvEntrata2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna4_ValvEntrata2Close_DI_Trigger             plc4/db3104.dbx544.2:b    CistRidTAG_Bitume_Cisterna4_ValvEntrata2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna4_ValvEntrata2AllarmeCodice                plc4/db3104.dbw546:wor    CistRidTAG_Bitume_Cisterna4_ValvEntrata2AllarmeCodice
-CistRidTAG_Bitume_Cisterna4_NumeroValvolePresenti                    plc4/db3104.dbw654:int    CistRidTAG_Bitume_Cisterna4_NumeroValvolePresenti
-CistRidTAG_Bitume_Cisterna4_AbilitaOrizzontale                       plc4/db3104.dbx0.5:boo    CistRidTAG_Bitume_Cisterna4_AbilitaOrizzontale
-CistRidTAG_Bitume_Cisterna4_DiametroMm                               plc4/db3104.dbd656:rea    CistRidTAG_Bitume_Cisterna4_DiametroMm
-CistRidTAG_Bitume_Cisterna4_LunghezzaMm                              plc4/db3104.dbd660:rea    CistRidTAG_Bitume_Cisterna4_LunghezzaMm
-CistRidTAG_Bitume_Cisterna4_AbilitaValvolaMandata                    plc4/db3104.dbx74.6:bo    CistRidTAG_Bitume_Cisterna4_AbilitaValvolaMandata
-CistRidTAG_Bitume_Cisterna4_AbilitaValvolaRitorno                    plc4/db3104.dbx198.6:b    CistRidTAG_Bitume_Cisterna4_AbilitaValvolaRitorno
-CistRidTAG_Bitume_Cisterna4_AbilitaValvolaCarico                     plc4/db3104.dbx322.6:b    CistRidTAG_Bitume_Cisterna4_AbilitaValvolaCarico
-CistRidTAG_Bitume_Cisterna4_AbilitaValvolaAux                        plc4/db3104.dbx530.6:b    CistRidTAG_Bitume_Cisterna4_AbilitaValvolaAux
-CistRidTAG_Bitume_Cisterna5_TipoLivello                              plc4/db3105.dbx0.2:boo    CistRidTAG_Bitume_Cisterna5_TipoLivello
-CistRidTAG_Bitume_Cisterna5_BloccoValvoleBassaTemperatura            plc4/db3105.dbx0.4:boo    CistRidTAG_Bitume_Cisterna5_BloccoValvoleBassaTemperatura
-CistRidTAG_Bitume_Cisterna5_InclusioneAgitatore                      plc4/db3105.dbx0.7:boo    CistRidTAG_Bitume_Cisterna5_InclusioneAgitatore
-CistRidTAG_Bitume_Cisterna5_TempUnitaLimiteInf                       plc4/db3105.dbw6:int      CistRidTAG_Bitume_Cisterna5_TempUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna5_TempUnitaLimieSup                        plc4/db3105.dbw8:int      CistRidTAG_Bitume_Cisterna5_TempUnitaLimieSup
-CistRidTAG_Bitume_Cisterna5_LivelloUnitaLimiteInf                    plc4/db3105.dbw10:int     CistRidTAG_Bitume_Cisterna5_LivelloUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna5_LivelloUnitaLimiteSup                    plc4/db3105.dbw12:int     CistRidTAG_Bitume_Cisterna5_LivelloUnitaLimiteSup
-CistRidTAG_Bitume_Cisterna5_Densita                                  plc4/db3105.dbd14:real    CistRidTAG_Bitume_Cisterna5_Densita
-CistRidTAG_Bitume_Cisterna5_TempGradiLimiteInf                       plc4/db3105.dbd18:real    CistRidTAG_Bitume_Cisterna5_TempGradiLimiteInf
-CistRidTAG_Bitume_Cisterna5_TempGradiLimiteSup                       plc4/db3105.dbd22:real    CistRidTAG_Bitume_Cisterna5_TempGradiLimiteSup
-CistRidTAG_Bitume_Cisterna5_LivelloTonLimiteInf                      plc4/db3105.dbd26:real    CistRidTAG_Bitume_Cisterna5_LivelloTonLimiteInf
-CistRidTAG_Bitume_Cisterna5_LivelloTonLimiteSup                      plc4/db3105.dbd30:real    CistRidTAG_Bitume_Cisterna5_LivelloTonLimiteSup
-CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeMin                      plc4/db3105.dbd34:real    CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeMin
-CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeMax                      plc4/db3105.dbd38:real    CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeMax
-CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeMin                     plc4/db3105.dbd42:real    CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeMin
-CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeMax                     plc4/db3105.dbd46:real    CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeMax
-CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeZonaMorta               plc4/db3105.dbd50:real    CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeZonaMorta                plc4/db3105.dbd54:real    CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna5_LivelloMin_DI_Trigger                    plc4/db3105.dbx58.0:bo    CistRidTAG_Bitume_Cisterna5_LivelloMin_DI_Trigger
-CistRidTAG_Bitume_Cisterna5_LivelloMax_DI_Trigger                    plc4/db3105.dbx58.1:bo    CistRidTAG_Bitume_Cisterna5_LivelloMax_DI_Trigger
-CistRidTAG_Bitume_Cisterna5_LivelloSic_DI_Trigger                    plc4/db3105.dbx58.2:bo    CistRidTAG_Bitume_Cisterna5_LivelloSic_DI_Trigger
-CistRidTAG_Bitume_Cisterna5_LivelloPercentualeValore                 plc4/db3105.dbd60:real    CistRidTAG_Bitume_Cisterna5_LivelloPercentualeValore
-CistRidTAG_Bitume_Cisterna5_LivelloTonValore                         plc4/db3105.dbd64:real    CistRidTAG_Bitume_Cisterna5_LivelloTonValore
-CistRidTAG_Bitume_Cisterna5_TempGradiValore                          plc4/db3105.dbd68:real    CistRidTAG_Bitume_Cisterna5_TempGradiValore
-CistRidTAG_Bitume_Cisterna5_AllarmeCodiceGen                         plc4/db3105.dbw72:word    CistRidTAG_Bitume_Cisterna5_AllarmeCodiceGen
-CistRidTAG_Bitume_Cisterna5_ValvUscita1InverteComando                plc4/db3105.dbx74.5:bo    CistRidTAG_Bitume_Cisterna5_ValvUscita1InverteComando
-CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoTimeOutOpen              plc4/db3105.dbd76:time    CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoTimeOutClose             plc4/db3105.dbd80:time    CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoAntirimbalzoFC           plc4/db3105.dbd84:time    CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna5_ValvUscita1Open_DI_Trigger               plc4/db3105.dbx88.1:bo    CistRidTAG_Bitume_Cisterna5_ValvUscita1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna5_ValvUscita1Close_DI_Trigger              plc4/db3105.dbx88.2:bo    CistRidTAG_Bitume_Cisterna5_ValvUscita1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna5_ValvUscita1AllarmeCodice                 plc4/db3105.dbw90:word    CistRidTAG_Bitume_Cisterna5_ValvUscita1AllarmeCodice
-CistRidTAG_Bitume_Cisterna5_DI_ValvRitornoBloccoTemp                 plc4/db3105.dbx198.4:b    CistRidTAG_Bitume_Cisterna5_DI_ValvRitornoBloccoTemp
-CistRidTAG_Bitume_Cisterna5_ValvEntrata1InverteComando               plc4/db3105.dbx198.5:b    CistRidTAG_Bitume_Cisterna5_ValvEntrata1InverteComando
-CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoTimeOutOpen             plc4/db3105.dbd200:tim    CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoTimeOutClose            plc4/db3105.dbd204:tim    CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoAntirimbalzoFC          plc4/db3105.dbd208:tim    CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna5_ValvEntrata1Open_DI_Trigger              plc4/db3105.dbx212.1:b    CistRidTAG_Bitume_Cisterna5_ValvEntrata1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna5_ValvEntrata1Close_DI_Trigger             plc4/db3105.dbx212.2:b    CistRidTAG_Bitume_Cisterna5_ValvEntrata1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna5_ValvEntrata1AllarmeCodice                plc4/db3105.dbw214:wor    CistRidTAG_Bitume_Cisterna5_ValvEntrata1AllarmeCodice
-CistRidTAG_Bitume_Cisterna5_DI_ValvCaricoBloccoTemp                  plc4/db3105.dbx322.4:b    CistRidTAG_Bitume_Cisterna5_DI_ValvCaricoBloccoTemp
-CistRidTAG_Bitume_Cisterna5_ValvUscita2InverteComando                plc4/db3105.dbx322.5:b    CistRidTAG_Bitume_Cisterna5_ValvUscita2InverteComando
-CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoTimeOutOpen              plc4/db3105.dbd324:tim    CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoTimeOutClose             plc4/db3105.dbd328:tim    CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoAntirimbalzoFC           plc4/db3105.dbd332:tim    CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna5_ValvUscita2Open_DI_Trigger               plc4/db3105.dbx336.1:b    CistRidTAG_Bitume_Cisterna5_ValvUscita2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna5_ValvUscita2Close_DI_Trigger              plc4/db3105.dbx336.2:b    CistRidTAG_Bitume_Cisterna5_ValvUscita2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna5_ValvUscita2AllarmeCodice                 plc4/db3105.dbw338:wor    CistRidTAG_Bitume_Cisterna5_ValvUscita2AllarmeCodice
-CistRidTAG_Bitume_Cisterna5_DI_ValvAuxBloccoTemp                     plc4/db3105.dbx530.4:b    CistRidTAG_Bitume_Cisterna5_DI_ValvAuxBloccoTemp
-CistRidTAG_Bitume_Cisterna5_ValvEntrata2InverteComando               plc4/db3105.dbx530.5:b    CistRidTAG_Bitume_Cisterna5_ValvEntrata2InverteComando
-CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoTimeOutOpen             plc4/db3105.dbd532:tim    CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoTimeOutClose            plc4/db3105.dbd536:tim    CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoAntirimbalzoFC          plc4/db3105.dbd540:tim    CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna5_ValvEntrata2Open_DI_Trigger              plc4/db3105.dbx544.1:b    CistRidTAG_Bitume_Cisterna5_ValvEntrata2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna5_ValvEntrata2Close_DI_Trigger             plc4/db3105.dbx544.2:b    CistRidTAG_Bitume_Cisterna5_ValvEntrata2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna5_ValvEntrata2AllarmeCodice                plc4/db3105.dbw546:wor    CistRidTAG_Bitume_Cisterna5_ValvEntrata2AllarmeCodice
-CistRidTAG_Bitume_Cisterna5_NumeroValvolePresenti                    plc4/db3105.dbw654:int    CistRidTAG_Bitume_Cisterna5_NumeroValvolePresenti
-CistRidTAG_Bitume_Cisterna5_AbilitaOrizzontale                       plc4/db3105.dbx0.5:boo    CistRidTAG_Bitume_Cisterna5_AbilitaOrizzontale
-CistRidTAG_Bitume_Cisterna5_DiametroMm                               plc4/db3105.dbd656:rea    CistRidTAG_Bitume_Cisterna5_DiametroMm
-CistRidTAG_Bitume_Cisterna5_LunghezzaMm                              plc4/db3105.dbd660:rea    CistRidTAG_Bitume_Cisterna5_LunghezzaMm
-CistRidTAG_Bitume_Cisterna5_AbilitaValvolaMandata                    plc4/db3105.dbx74.6:bo    CistRidTAG_Bitume_Cisterna5_AbilitaValvolaMandata
-CistRidTAG_Bitume_Cisterna5_AbilitaValvolaRitorno                    plc4/db3105.dbx198.6:b    CistRidTAG_Bitume_Cisterna5_AbilitaValvolaRitorno
-CistRidTAG_Bitume_Cisterna5_AbilitaValvolaCarico                     plc4/db3105.dbx322.6:b    CistRidTAG_Bitume_Cisterna5_AbilitaValvolaCarico
-CistRidTAG_Bitume_Cisterna5_AbilitaValvolaAux                        plc4/db3105.dbx530.6:b    CistRidTAG_Bitume_Cisterna5_AbilitaValvolaAux
-CistRidTAG_Bitume_Cisterna6_TipoLivello                              plc4/db3106.dbx0.2:boo    CistRidTAG_Bitume_Cisterna6_TipoLivello
-CistRidTAG_Bitume_Cisterna6_BloccoValvoleBassaTemperatura            plc4/db3106.dbx0.4:boo    CistRidTAG_Bitume_Cisterna6_BloccoValvoleBassaTemperatura
-CistRidTAG_Bitume_Cisterna6_InclusioneAgitatore                      plc4/db3106.dbx0.7:boo    CistRidTAG_Bitume_Cisterna6_InclusioneAgitatore
-CistRidTAG_Bitume_Cisterna6_TempUnitaLimiteInf                       plc4/db3106.dbw6:int      CistRidTAG_Bitume_Cisterna6_TempUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna6_TempUnitaLimieSup                        plc4/db3106.dbw8:int      CistRidTAG_Bitume_Cisterna6_TempUnitaLimieSup
-CistRidTAG_Bitume_Cisterna6_LivelloUnitaLimiteInf                    plc4/db3106.dbw10:int     CistRidTAG_Bitume_Cisterna6_LivelloUnitaLimiteInf
-CistRidTAG_Bitume_Cisterna6_LivelloUnitaLimiteSup                    plc4/db3106.dbw12:int     CistRidTAG_Bitume_Cisterna6_LivelloUnitaLimiteSup
-CistRidTAG_Bitume_Cisterna6_Densita                                  plc4/db3106.dbd14:real    CistRidTAG_Bitume_Cisterna6_Densita
-CistRidTAG_Bitume_Cisterna6_TempGradiLimiteInf                       plc4/db3106.dbd18:real    CistRidTAG_Bitume_Cisterna6_TempGradiLimiteInf
-CistRidTAG_Bitume_Cisterna6_TempGradiLimiteSup                       plc4/db3106.dbd22:real    CistRidTAG_Bitume_Cisterna6_TempGradiLimiteSup
-CistRidTAG_Bitume_Cisterna6_LivelloTonLimiteInf                      plc4/db3106.dbd26:real    CistRidTAG_Bitume_Cisterna6_LivelloTonLimiteInf
-CistRidTAG_Bitume_Cisterna6_LivelloTonLimiteSup                      plc4/db3106.dbd30:real    CistRidTAG_Bitume_Cisterna6_LivelloTonLimiteSup
-CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeMin                      plc4/db3106.dbd34:real    CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeMin
-CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeMax                      plc4/db3106.dbd38:real    CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeMax
-CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeMin                     plc4/db3106.dbd42:real    CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeMin
-CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeMax                     plc4/db3106.dbd46:real    CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeMax
-CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeZonaMorta               plc4/db3106.dbd50:real    CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeZonaMorta                plc4/db3106.dbd54:real    CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeZonaMorta
-CistRidTAG_Bitume_Cisterna6_LivelloMin_DI_Trigger                    plc4/db3106.dbx58.0:bo    CistRidTAG_Bitume_Cisterna6_LivelloMin_DI_Trigger
-CistRidTAG_Bitume_Cisterna6_LivelloMax_DI_Trigger                    plc4/db3106.dbx58.1:bo    CistRidTAG_Bitume_Cisterna6_LivelloMax_DI_Trigger
-CistRidTAG_Bitume_Cisterna6_LivelloSic_DI_Trigger                    plc4/db3106.dbx58.2:bo    CistRidTAG_Bitume_Cisterna6_LivelloSic_DI_Trigger
-CistRidTAG_Bitume_Cisterna6_LivelloPercentualeValore                 plc4/db3106.dbd60:real    CistRidTAG_Bitume_Cisterna6_LivelloPercentualeValore
-CistRidTAG_Bitume_Cisterna6_LivelloTonValore                         plc4/db3106.dbd64:real    CistRidTAG_Bitume_Cisterna6_LivelloTonValore
-CistRidTAG_Bitume_Cisterna6_TempGradiValore                          plc4/db3106.dbd68:real    CistRidTAG_Bitume_Cisterna6_TempGradiValore
-CistRidTAG_Bitume_Cisterna6_AllarmeCodiceGen                         plc4/db3106.dbw72:word    CistRidTAG_Bitume_Cisterna6_AllarmeCodiceGen
-CistRidTAG_Bitume_Cisterna6_ValvUscita1InverteComando                plc4/db3106.dbx74.5:bo    CistRidTAG_Bitume_Cisterna6_ValvUscita1InverteComando
-CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoTimeOutOpen              plc4/db3106.dbd76:time    CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoTimeOutClose             plc4/db3106.dbd80:time    CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoAntirimbalzoFC           plc4/db3106.dbd84:time    CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna6_ValvUscita1Open_DI_Trigger               plc4/db3106.dbx88.1:bo    CistRidTAG_Bitume_Cisterna6_ValvUscita1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna6_ValvUscita1Close_DI_Trigger              plc4/db3106.dbx88.2:bo    CistRidTAG_Bitume_Cisterna6_ValvUscita1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna6_ValvUscita1AllarmeCodice                 plc4/db3106.dbw90:word    CistRidTAG_Bitume_Cisterna6_ValvUscita1AllarmeCodice
-CistRidTAG_Bitume_Cisterna6_DI_ValvRitornoBloccoTemp                 plc4/db3106.dbx198.4:b    CistRidTAG_Bitume_Cisterna6_DI_ValvRitornoBloccoTemp
-CistRidTAG_Bitume_Cisterna6_ValvEntrata1InverteComando               plc4/db3106.dbx198.5:b    CistRidTAG_Bitume_Cisterna6_ValvEntrata1InverteComando
-CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoTimeOutOpen             plc4/db3106.dbd200:tim    CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoTimeOutClose            plc4/db3106.dbd204:tim    CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoAntirimbalzoFC          plc4/db3106.dbd208:tim    CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna6_ValvEntrata1Open_DI_Trigger              plc4/db3106.dbx212.1:b    CistRidTAG_Bitume_Cisterna6_ValvEntrata1Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna6_ValvEntrata1Close_DI_Trigger             plc4/db3106.dbx212.2:b    CistRidTAG_Bitume_Cisterna6_ValvEntrata1Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna6_ValvEntrata1AllarmeCodice                plc4/db3106.dbw214:wor    CistRidTAG_Bitume_Cisterna6_ValvEntrata1AllarmeCodice
-CistRidTAG_Bitume_Cisterna6_DI_ValvCaricoBloccoTemp                  plc4/db3106.dbx322.4:b    CistRidTAG_Bitume_Cisterna6_DI_ValvCaricoBloccoTemp
-CistRidTAG_Bitume_Cisterna6_ValvUscita2InverteComando                plc4/db3106.dbx322.5:b    CistRidTAG_Bitume_Cisterna6_ValvUscita2InverteComando
-CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoTimeOutOpen              plc4/db3106.dbd324:tim    CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoTimeOutClose             plc4/db3106.dbd328:tim    CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoAntirimbalzoFC           plc4/db3106.dbd332:tim    CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna6_ValvUscita2Open_DI_Trigger               plc4/db3106.dbx336.1:b    CistRidTAG_Bitume_Cisterna6_ValvUscita2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna6_ValvUscita2Close_DI_Trigger              plc4/db3106.dbx336.2:b    CistRidTAG_Bitume_Cisterna6_ValvUscita2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna6_ValvUscita2AllarmeCodice                 plc4/db3106.dbw338:wor    CistRidTAG_Bitume_Cisterna6_ValvUscita2AllarmeCodice
-CistRidTAG_Bitume_Cisterna6_DI_ValvAuxBloccoTemp                     plc4/db3106.dbx530.4:b    CistRidTAG_Bitume_Cisterna6_DI_ValvAuxBloccoTemp
-CistRidTAG_Bitume_Cisterna6_ValvEntrata2InverteComando               plc4/db3106.dbx530.5:b    CistRidTAG_Bitume_Cisterna6_ValvEntrata2InverteComando
-CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoTimeOutOpen             plc4/db3106.dbd532:tim    CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoTimeOutOpen
-CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoTimeOutClose            plc4/db3106.dbd536:tim    CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoTimeOutClose
-CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoAntirimbalzoFC          plc4/db3106.dbd540:tim    CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoAntirimbalzoFC
-CistRidTAG_Bitume_Cisterna6_ValvEntrata2Open_DI_Trigger              plc4/db3106.dbx544.1:b    CistRidTAG_Bitume_Cisterna6_ValvEntrata2Open_DI_Trigger
-CistRidTAG_Bitume_Cisterna6_ValvEntrata2Close_DI_Trigger             plc4/db3106.dbx544.2:b    CistRidTAG_Bitume_Cisterna6_ValvEntrata2Close_DI_Trigger
-CistRidTAG_Bitume_Cisterna6_ValvEntrata2AllarmeCodice                plc4/db3106.dbw546:wor    CistRidTAG_Bitume_Cisterna6_ValvEntrata2AllarmeCodice
-CistRidTAG_Bitume_Cisterna6_NumeroValvolePresenti                    plc4/db3106.dbw654:int    CistRidTAG_Bitume_Cisterna6_NumeroValvolePresenti
-CistRidTAG_Bitume_Cisterna6_AbilitaOrizzontale                       plc4/db3106.dbx0.5:boo    CistRidTAG_Bitume_Cisterna6_AbilitaOrizzontale
-CistRidTAG_Bitume_Cisterna6_DiametroMm                               plc4/db3106.dbd656:rea    CistRidTAG_Bitume_Cisterna6_DiametroMm
-CistRidTAG_Bitume_Cisterna6_LunghezzaMm                              plc4/db3106.dbd660:rea    CistRidTAG_Bitume_Cisterna6_LunghezzaMm
-CistRidTAG_Bitume_Cisterna6_AbilitaValvolaMandata                    plc4/db3106.dbx74.6:bo    CistRidTAG_Bitume_Cisterna6_AbilitaValvolaMandata
-CistRidTAG_Bitume_Cisterna6_AbilitaValvolaRitorno                    plc4/db3106.dbx198.6:b    CistRidTAG_Bitume_Cisterna6_AbilitaValvolaRitorno
-CistRidTAG_Bitume_Cisterna6_AbilitaValvolaCarico                     plc4/db3106.dbx322.6:b    CistRidTAG_Bitume_Cisterna6_AbilitaValvolaCarico
-CistRidTAG_Bitume_Cisterna6_AbilitaValvolaAux                        plc4/db3106.dbx530.6:b    CistRidTAG_Bitume_Cisterna6_AbilitaValvolaAux
-CistRidTAG_Bitume_Cisterna1_Selezionata_PCL1                         plc4/db512.dbx0.0:bool    CistRidTAG_Bitume_Cisterna1_Selezionata_PCL1
-CistRidTAG_Bitume_Cisterna2_Selezionata_PCL1                         plc4/db512.dbx0.1:bool    CistRidTAG_Bitume_Cisterna2_Selezionata_PCL1
-CistRidTAG_Bitume_Cisterna3_Selezionata_PCL1                         plc4/db512.dbx0.2:bool    CistRidTAG_Bitume_Cisterna3_Selezionata_PCL1
-CistRidTAG_Bitume_Cisterna4_Selezionata_PCL1                         plc4/db512.dbx0.3:bool    CistRidTAG_Bitume_Cisterna4_Selezionata_PCL1
-CistRidTAG_Bitume_Cisterna5_Selezionata_PCL1                         plc4/db512.dbx0.4:bool    CistRidTAG_Bitume_Cisterna5_Selezionata_PCL1
-CistRidTAG_Bitume_Cisterna6_Selezionata_PCL1                         plc4/db512.dbx0.5:bool    CistRidTAG_Bitume_Cisterna6_Selezionata_PCL1
-CistRidTAG_Bitume_Cisterna7_Selezionata_PCL1                         plc4/db512.dbx0.6:bool    CistRidTAG_Bitume_Cisterna7_Selezionata_PCL1
-CistRidTAG_Bitume_Cisterna8_Selezionata_PCL1                         plc4/db512.dbx0.7:bool    CistRidTAG_Bitume_Cisterna8_Selezionata_PCL1
-CistRidTAG_Selezione_Cisterna_Bitume_PCL1                            plc4/db15.dbw90:int       CistRidTAG_Selezione_Cisterna_Bitume_PCL1
-CistRidTAG_Tempo_Timeout_Cambio_Cisterna_PCL1                        plc4/db512.dbw4:int       CistRidTAG_Tempo_Timeout_Cambio_Cisterna_PCL1
-CistRidTAG_Timeout_Selezione_PCL1                                    plc4/db512.dbx7.0:bool    CistRidTAG_Timeout_Selezione_PCL1
-CistRidTAG_Attesa_Selezione_PCL1                                     plc4/db512.dbx7.1:bool    CistRidTAG_Attesa_Selezione_PCL1
-CistRidTAG_Bitume_Cisterna1_Selezionata_PCL2                         plc4/db513.dbx0.0:bool    CistRidTAG_Bitume_Cisterna1_Selezionata_PCL2
-CistRidTAG_Bitume_Cisterna2_Selezionata_PCL2                         plc4/db513.dbx0.1:bool    CistRidTAG_Bitume_Cisterna2_Selezionata_PCL2
-CistRidTAG_Bitume_Cisterna3_Selezionata_PCL2                         plc4/db513.dbx0.2:bool    CistRidTAG_Bitume_Cisterna3_Selezionata_PCL2
-CistRidTAG_Bitume_Cisterna4_Selezionata_PCL2                         plc4/db513.dbx0.3:bool    CistRidTAG_Bitume_Cisterna4_Selezionata_PCL2
-CistRidTAG_Bitume_Cisterna5_Selezionata_PCL2                         plc4/db513.dbx0.4:bool    CistRidTAG_Bitume_Cisterna5_Selezionata_PCL2
-CistRidTAG_Bitume_Cisterna6_Selezionata_PCL2                         plc4/db513.dbx0.5:bool    CistRidTAG_Bitume_Cisterna6_Selezionata_PCL2
-CistRidTAG_Bitume_Cisterna7_Selezionata_PCL2                         plc4/db513.dbx0.6:bool    CistRidTAG_Bitume_Cisterna7_Selezionata_PCL2
-CistRidTAG_Bitume_Cisterna8_Selezionata_PCL2                         plc4/db513.dbx0.7:bool    CistRidTAG_Bitume_Cisterna8_Selezionata_PCL2
-CistRidTAG_Selezione_Cisterna_Bitume_PCL2                            plc4/db15.dbw92:int       CistRidTAG_Selezione_Cisterna_Bitume_PCL2
-CistRidTAG_Tempo_Timeout_Cambio_Cisterna_PCL2                        plc4/db513.dbw4:int       CistRidTAG_Tempo_Timeout_Cambio_Cisterna_PCL2
-CistRidTAG_Timeout_Selezione_PCL2                                    plc4/db513.dbx7.0:bool    CistRidTAG_Timeout_Selezione_PCL2
-CistRidTAG_Attesa_Selezione_PCL2                                     plc4/db513.dbx7.1:bool    CistRidTAG_Attesa_Selezione_PCL2
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_TipoLivello','plc4/db3101.dbx0.2:boo','CistRidTAG_Bitume_Cisterna1_TipoLivello = PLCTAG_COUNT');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_BloccoValvoleBassaTemperatura','plc4/db3101.dbx0.4:boo','CistRidTAG_Bitume_Cisterna1_BloccoValvoleBassaTemperatura');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_InclusioneAgitatore','plc4/db3101.dbx0.7:boo','CistRidTAG_Bitume_Cisterna1_InclusioneAgitatore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_TempUnitaLimiteInf','plc4/db3101.dbw6:int','CistRidTAG_Bitume_Cisterna1_TempUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_TempUnitaLimitesup','plc4/db3101.dbw8:int','CistRidTAG_Bitume_Cisterna1_TempUnitaLimitesup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloUnitaLimiteInf','plc4/db3101.dbw10:int','CistRidTAG_Bitume_Cisterna1_LivelloUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloUnitaLimiteSup','plc4/db3101.dbw12:int','CistRidTAG_Bitume_Cisterna1_LivelloUnitaLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_Densita','plc4/db3101.dbd14:real','CistRidTAG_Bitume_Cisterna1_Densita');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_TempGradiLimiteInf','plc4/db3101.dbd18:real','CistRidTAG_Bitume_Cisterna1_TempGradiLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_TempGradiLimiteSup','plc4/db3101.dbd22:real','CistRidTAG_Bitume_Cisterna1_TempGradiLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloTonLimiteInf','plc4/db3101.dbd26:real','CistRidTAG_Bitume_Cisterna1_LivelloTonLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloTonLimiteSup','plc4/db3101.dbd30:real','CistRidTAG_Bitume_Cisterna1_LivelloTonLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeMin','plc4/db3101.dbd34:real','CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeMax','plc4/db3101.dbd38:real','CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeMin','plc4/db3101.dbd42:real','CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeMax','plc4/db3101.dbd46:real','CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeZonaMorta','plc4/db3101.dbd50:real','CistRidTAG_Bitume_Cisterna1_LivelloTonAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeZonaMorta','plc4/db3101.dbd54:real','CistRidTAG_Bitume_Cisterna1_TempGradiAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloMin_DI_Trigger','plc4/db3101.dbx58.0:bo','CistRidTAG_Bitume_Cisterna1_LivelloMin_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloMax_DI_Trigger','plc4/db3101.dbx58.1:bo','CistRidTAG_Bitume_Cisterna1_LivelloMax_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloSic_DI_Trigger','plc4/db3101.dbx58.2:bo','CistRidTAG_Bitume_Cisterna1_LivelloSic_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloPercentualeValore','plc4/db3101.dbd60:real','CistRidTAG_Bitume_Cisterna1_LivelloPercentualeValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LivelloTonValore','plc4/db3101.dbd64:real','CistRidTAG_Bitume_Cisterna1_LivelloTonValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_TempGradiValore','plc4/db3101.dbd68:real','CistRidTAG_Bitume_Cisterna1_TempGradiValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_AllarmeCodiceGen','plc4/db3101.dbw72:word','CistRidTAG_Bitume_Cisterna1_AllarmeCodiceGen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita1InverteComando','plc4/db3101.dbx74.5:bo','CistRidTAG_Bitume_Cisterna1_ValvUscita1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoTimeOutOpen','plc4/db3101.dbd76:time','CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoTimeOutClose','plc4/db3101.dbd80:time','CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoAntirimbalzoFC','plc4/db3101.dbd84:time','CistRidTAG_Bitume_Cisterna1_ValvUscita1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita1Open_DI_Trigger','plc4/db3101.dbx88.1:bo','CistRidTAG_Bitume_Cisterna1_ValvUscita1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita1Close_DI_Trigger','plc4/db3101.dbx88.2:bo','CistRidTAG_Bitume_Cisterna1_ValvUscita1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita1AllarmeCodice','plc4/db3101.dbw90:word','CistRidTAG_Bitume_Cisterna1_ValvUscita1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_DI_ValvRitornoBloccoTemp','plc4/db3101.dbx198.4:b','CistRidTAG_Bitume_Cisterna1_DI_ValvRitornoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata1InverteComando','plc4/db3101.dbx198.5:b','CistRidTAG_Bitume_Cisterna1_ValvEntrata1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoTimeOutOpen','plc4/db3101.dbd200:tim','CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoTimeOutClose','plc4/db3101.dbd204:tim','CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoAntirimbalzoFC','plc4/db3101.dbd208:tim','CistRidTAG_Bitume_Cisterna1_ValvEntrata1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata1Open_DI_Trigger','plc4/db3101.dbx212.1:b','CistRidTAG_Bitume_Cisterna1_ValvEntrata1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata1Close_DI_Trigger','plc4/db3101.dbx212.2:b','CistRidTAG_Bitume_Cisterna1_ValvEntrata1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata1AllarmeCodice','plc4/db3101.dbw214:wor','CistRidTAG_Bitume_Cisterna1_ValvEntrata1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_DI_ValvCaricoBloccoTemp','plc4/db3101.dbx322.4:b','CistRidTAG_Bitume_Cisterna1_DI_ValvCaricoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita2InverteComando','plc4/db3101.dbx322.5:b','CistRidTAG_Bitume_Cisterna1_ValvUscita2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoTimeOutOpen','plc4/db3101.dbd324:tim','CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoTimeOutClose','plc4/db3101.dbd328:tim','CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoAntirimbalzoFC','plc4/db3101.dbd332:tim','CistRidTAG_Bitume_Cisterna1_ValvUscita2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita2Open_DI_Trigger','plc4/db3101.dbx336.1:b','CistRidTAG_Bitume_Cisterna1_ValvUscita2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita2Close_DI_Trigger','plc4/db3101.dbx336.2:b','CistRidTAG_Bitume_Cisterna1_ValvUscita2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvUscita2AllarmeCodice','plc4/db3101.dbw338:wor','CistRidTAG_Bitume_Cisterna1_ValvUscita2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_DI_ValvAuxBloccoTemp','plc4/db3101.dbx530.4:b','CistRidTAG_Bitume_Cisterna1_DI_ValvAuxBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata2InverteComando','plc4/db3101.dbx530.5:b','CistRidTAG_Bitume_Cisterna1_ValvEntrata2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoTimeOutOpen','plc4/db3101.dbd532:tim','CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoTimeOutClose','plc4/db3101.dbd536:tim','CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoAntirimbalzoFC','plc4/db3101.dbd540:tim','CistRidTAG_Bitume_Cisterna1_ValvEntrata2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata2Open_DI_Trigger','plc4/db3101.dbx544.1:b','CistRidTAG_Bitume_Cisterna1_ValvEntrata2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata2Close_DI_Trigger','plc4/db3101.dbx544.2:b','CistRidTAG_Bitume_Cisterna1_ValvEntrata2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_ValvEntrata2AllarmeCodice','plc4/db3101.dbw546:wor','CistRidTAG_Bitume_Cisterna1_ValvEntrata2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_NumeroValvolePresenti','plc4/db3101.dbw654:int','CistRidTAG_Bitume_Cisterna1_NumeroValvolePresenti');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_AbilitaOrizzontale','plc4/db3101.dbx0.5:boo','CistRidTAG_Bitume_Cisterna1_AbilitaOrizzontale');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_DiametroMm','plc4/db3101.dbd656:rea','CistRidTAG_Bitume_Cisterna1_DiametroMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_LunghezzaMm','plc4/db3101.dbd660:rea','CistRidTAG_Bitume_Cisterna1_LunghezzaMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_AbilitaValvolaMandata','plc4/db3101.dbx74.6:bo','CistRidTAG_Bitume_Cisterna1_AbilitaValvolaMandata');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_AbilitaValvolaRitorno','plc4/db3101.dbx198.6:b','CistRidTAG_Bitume_Cisterna1_AbilitaValvolaRitorno');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_AbilitaValvolaCarico','plc4/db3101.dbx322.6:b','CistRidTAG_Bitume_Cisterna1_AbilitaValvolaCarico');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_AbilitaValvolaAux','plc4/db3101.dbx530.6:b','CistRidTAG_Bitume_Cisterna1_AbilitaValvolaAux');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_TipoLivello','plc4/db3102.dbx0.2:boo','CistRidTAG_Bitume_Cisterna2_TipoLivello');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_BloccoValvoleBassaTemperatura','plc4/db3102.dbx0.4:boo','CistRidTAG_Bitume_Cisterna2_BloccoValvoleBassaTemperatura');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_InclusioneAgitatore','plc4/db3102.dbx0.7:boo','CistRidTAG_Bitume_Cisterna2_InclusioneAgitatore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_TempUnitaLimiteInf','plc4/db3102.dbw6:int','CistRidTAG_Bitume_Cisterna2_TempUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_TempUnitaLimieSup','plc4/db3102.dbw8:int','CistRidTAG_Bitume_Cisterna2_TempUnitaLimieSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloUnitaLimiteInf','plc4/db3102.dbw10:int','CistRidTAG_Bitume_Cisterna2_LivelloUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloUnitaLimiteSup','plc4/db3102.dbw12:int','CistRidTAG_Bitume_Cisterna2_LivelloUnitaLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_Densita','plc4/db3102.dbd14:real','CistRidTAG_Bitume_Cisterna2_Densita');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_TempGradiLimiteInf','plc4/db3102.dbd18:real','CistRidTAG_Bitume_Cisterna2_TempGradiLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_TempGradiLimiteSup','plc4/db3102.dbd22:real','CistRidTAG_Bitume_Cisterna2_TempGradiLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloTonLimiteInf','plc4/db3102.dbd26:real','CistRidTAG_Bitume_Cisterna2_LivelloTonLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloTonLimiteSup','plc4/db3102.dbd30:real','CistRidTAG_Bitume_Cisterna2_LivelloTonLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeMin','plc4/db3102.dbd34:real','CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeMax','plc4/db3102.dbd38:real','CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeMin','plc4/db3102.dbd42:real','CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeMax','plc4/db3102.dbd46:real','CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeZonaMorta','plc4/db3102.dbd50:real','CistRidTAG_Bitume_Cisterna2_LivelloTonAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeZonaMorta','plc4/db3102.dbd54:real','CistRidTAG_Bitume_Cisterna2_TempGradiAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloMin_DI_Trigger','plc4/db3102.dbx58.0:bo','CistRidTAG_Bitume_Cisterna2_LivelloMin_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloMax_DI_Trigger','plc4/db3102.dbx58.1:bo','CistRidTAG_Bitume_Cisterna2_LivelloMax_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloSic_DI_Trigger','plc4/db3102.dbx58.2:bo','CistRidTAG_Bitume_Cisterna2_LivelloSic_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloPercentualeValore','plc4/db3102.dbd60:real','CistRidTAG_Bitume_Cisterna2_LivelloPercentualeValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LivelloTonValore','plc4/db3102.dbd64:real','CistRidTAG_Bitume_Cisterna2_LivelloTonValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_TempGradiValore','plc4/db3102.dbd68:real','CistRidTAG_Bitume_Cisterna2_TempGradiValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_AllarmeCodiceGen','plc4/db3102.dbw72:word','CistRidTAG_Bitume_Cisterna2_AllarmeCodiceGen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita1InverteComando','plc4/db3102.dbx74.5:bo','CistRidTAG_Bitume_Cisterna2_ValvUscita1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoTimeOutOpen','plc4/db3102.dbd76:time','CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoTimeOutClose','plc4/db3102.dbd80:time','CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoAntirimbalzoFC','plc4/db3102.dbd84:time','CistRidTAG_Bitume_Cisterna2_ValvUscita1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita1Open_DI_Trigger','plc4/db3102.dbx88.1:bo','CistRidTAG_Bitume_Cisterna2_ValvUscita1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita1Close_DI_Trigger','plc4/db3102.dbx88.2:bo','CistRidTAG_Bitume_Cisterna2_ValvUscita1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita1AllarmeCodice','plc4/db3102.dbw90:word','CistRidTAG_Bitume_Cisterna2_ValvUscita1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_DI_ValvRitornoBloccoTemp','plc4/db3102.dbx198.4:b','CistRidTAG_Bitume_Cisterna2_DI_ValvRitornoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata1InverteComando','plc4/db3102.dbx198.5:b','CistRidTAG_Bitume_Cisterna2_ValvEntrata1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoTimeOutOpen','plc4/db3102.dbd200:tim','CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoTimeOutClose','plc4/db3102.dbd204:tim','CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoAntirimbalzoFC','plc4/db3102.dbd208:tim','CistRidTAG_Bitume_Cisterna2_ValvEntrata1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata1Open_DI_Trigger','plc4/db3102.dbx212.1:b','CistRidTAG_Bitume_Cisterna2_ValvEntrata1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata1Close_DI_Trigger','plc4/db3102.dbx212.2:b','CistRidTAG_Bitume_Cisterna2_ValvEntrata1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata1AllarmeCodice','plc4/db3102.dbw214:wor','CistRidTAG_Bitume_Cisterna2_ValvEntrata1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_DI_ValvCaricoBloccoTemp','plc4/db3102.dbx322.4:b','CistRidTAG_Bitume_Cisterna2_DI_ValvCaricoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita2InverteComando','plc4/db3102.dbx322.5:b','CistRidTAG_Bitume_Cisterna2_ValvUscita2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoTimeOutOpen','plc4/db3102.dbd324:tim','CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoTimeOutClose','plc4/db3102.dbd328:tim','CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoAntirimbalzoFC','plc4/db3102.dbd332:tim','CistRidTAG_Bitume_Cisterna2_ValvUscita2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita2Open_DI_Trigger','plc4/db3102.dbx336.1:b','CistRidTAG_Bitume_Cisterna2_ValvUscita2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita2Close_DI_Trigger','plc4/db3102.dbx336.2:b','CistRidTAG_Bitume_Cisterna2_ValvUscita2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvUscita2AllarmeCodice','plc4/db3102.dbw338:wor','CistRidTAG_Bitume_Cisterna2_ValvUscita2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_DI_ValvAuxBloccoTemp','plc4/db3102.dbx530.4:b','CistRidTAG_Bitume_Cisterna2_DI_ValvAuxBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata2InverteComando','plc4/db3102.dbx530.5:b','CistRidTAG_Bitume_Cisterna2_ValvEntrata2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoTimeOutOpen','plc4/db3102.dbd532:tim','CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoTimeOutClose','plc4/db3102.dbd536:tim','CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoAntirimbalzoFC','plc4/db3102.dbd540:tim','CistRidTAG_Bitume_Cisterna2_ValvEntrata2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata2Open_DI_Trigger','plc4/db3102.dbx544.1:b','CistRidTAG_Bitume_Cisterna2_ValvEntrata2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata2Close_DI_Trigger','plc4/db3102.dbx544.2:b','CistRidTAG_Bitume_Cisterna2_ValvEntrata2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_ValvEntrata2AllarmeCodice','plc4/db3102.dbw546:wor','CistRidTAG_Bitume_Cisterna2_ValvEntrata2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_NumeroValvolePresenti','plc4/db3102.dbw654:int','CistRidTAG_Bitume_Cisterna2_NumeroValvolePresenti');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_AbilitaOrizzontale','plc4/db3102.dbx0.5:boo','CistRidTAG_Bitume_Cisterna2_AbilitaOrizzontale');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_DiametroMm','plc4/db3102.dbd656:rea','CistRidTAG_Bitume_Cisterna2_DiametroMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_LunghezzaMm','plc4/db3102.dbd660:rea','CistRidTAG_Bitume_Cisterna2_LunghezzaMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_AbilitaValvolaMandata','plc4/db3102.dbx74.6:bo','CistRidTAG_Bitume_Cisterna2_AbilitaValvolaMandata');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_AbilitaValvolaRitorno','plc4/db3102.dbx198.6:b','CistRidTAG_Bitume_Cisterna2_AbilitaValvolaRitorno');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_AbilitaValvolaCarico','plc4/db3102.dbx322.6:b','CistRidTAG_Bitume_Cisterna2_AbilitaValvolaCarico');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_AbilitaValvolaAux','plc4/db3102.dbx530.6:b','CistRidTAG_Bitume_Cisterna2_AbilitaValvolaAux');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_TipoLivello','plc4/db3103.dbx0.2:boo','CistRidTAG_Bitume_Cisterna3_TipoLivello');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_BloccoValvoleBassaTemperatura','plc4/db3103.dbx0.4:boo','CistRidTAG_Bitume_Cisterna3_BloccoValvoleBassaTemperatura');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_InclusioneAgitatore','plc4/db3103.dbx0.7:boo','CistRidTAG_Bitume_Cisterna3_InclusioneAgitatore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_TempUnitaLimiteInf','plc4/db3103.dbw6:int','CistRidTAG_Bitume_Cisterna3_TempUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_TempUnitaLimieSup','plc4/db3103.dbw8:int','CistRidTAG_Bitume_Cisterna3_TempUnitaLimieSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloUnitaLimiteInf','plc4/db3103.dbw10:int','CistRidTAG_Bitume_Cisterna3_LivelloUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloUnitaLimiteSup','plc4/db3103.dbw12:int','CistRidTAG_Bitume_Cisterna3_LivelloUnitaLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_Densita','plc4/db3103.dbd14:real','CistRidTAG_Bitume_Cisterna3_Densita');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_TempGradiLimiteInf','plc4/db3103.dbd18:real','CistRidTAG_Bitume_Cisterna3_TempGradiLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_TempGradiLimiteSup','plc4/db3103.dbd22:real','CistRidTAG_Bitume_Cisterna3_TempGradiLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloTonLimiteInf','plc4/db3103.dbd26:real','CistRidTAG_Bitume_Cisterna3_LivelloTonLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloTonLimiteSup','plc4/db3103.dbd30:real','CistRidTAG_Bitume_Cisterna3_LivelloTonLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeMin','plc4/db3103.dbd34:real','CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeMax','plc4/db3103.dbd38:real','CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeMin','plc4/db3103.dbd42:real','CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeMax','plc4/db3103.dbd46:real','CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeZonaMorta','plc4/db3103.dbd50:real','CistRidTAG_Bitume_Cisterna3_LivelloTonAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeZonaMorta','plc4/db3103.dbd54:real','CistRidTAG_Bitume_Cisterna3_TempGradiAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloMin_DI_Trigger','plc4/db3103.dbx58.0:bo','CistRidTAG_Bitume_Cisterna3_LivelloMin_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloMax_DI_Trigger','plc4/db3103.dbx58.1:bo','CistRidTAG_Bitume_Cisterna3_LivelloMax_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloSic_DI_Trigger','plc4/db3103.dbx58.2:bo','CistRidTAG_Bitume_Cisterna3_LivelloSic_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloPercentualeValore','plc4/db3103.dbd60:real','CistRidTAG_Bitume_Cisterna3_LivelloPercentualeValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LivelloTonValore','plc4/db3103.dbd64:real','CistRidTAG_Bitume_Cisterna3_LivelloTonValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_TempGradiValore','plc4/db3103.dbd68:real','CistRidTAG_Bitume_Cisterna3_TempGradiValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_AllarmeCodiceGen','plc4/db3103.dbw72:word','CistRidTAG_Bitume_Cisterna3_AllarmeCodiceGen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita1InverteComando','plc4/db3103.dbx74.5:bo','CistRidTAG_Bitume_Cisterna3_ValvUscita1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoTimeOutOpen','plc4/db3103.dbd76:time','CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoTimeOutClose','plc4/db3103.dbd80:time','CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoAntirimbalzoFC','plc4/db3103.dbd84:time','CistRidTAG_Bitume_Cisterna3_ValvUscita1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita1Open_DI_Trigger','plc4/db3103.dbx88.1:bo','CistRidTAG_Bitume_Cisterna3_ValvUscita1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita1Close_DI_Trigger','plc4/db3103.dbx88.2:bo','CistRidTAG_Bitume_Cisterna3_ValvUscita1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita1AllarmeCodice','plc4/db3103.dbw90:word','CistRidTAG_Bitume_Cisterna3_ValvUscita1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_DI_ValvRitornoBloccoTemp','plc4/db3103.dbx198.4:b','CistRidTAG_Bitume_Cisterna3_DI_ValvRitornoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata1InverteComando','plc4/db3103.dbx198.5:b','CistRidTAG_Bitume_Cisterna3_ValvEntrata1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoTimeOutOpen','plc4/db3103.dbd200:tim','CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoTimeOutClose','plc4/db3103.dbd204:tim','CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoAntirimbalzoFC','plc4/db3103.dbd208:tim','CistRidTAG_Bitume_Cisterna3_ValvEntrata1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata1Open_DI_Trigger','plc4/db3103.dbx212.1:b','CistRidTAG_Bitume_Cisterna3_ValvEntrata1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata1Close_DI_Trigger','plc4/db3103.dbx212.2:b','CistRidTAG_Bitume_Cisterna3_ValvEntrata1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata1AllarmeCodice','plc4/db3103.dbw214:wor','CistRidTAG_Bitume_Cisterna3_ValvEntrata1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_DI_ValvCaricoBloccoTemp','plc4/db3103.dbx322.4:b','CistRidTAG_Bitume_Cisterna3_DI_ValvCaricoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita2InverteComando','plc4/db3103.dbx322.5:b','CistRidTAG_Bitume_Cisterna3_ValvUscita2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoTimeOutOpen','plc4/db3103.dbd324:tim','CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoTimeOutClose','plc4/db3103.dbd328:tim','CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoAntirimbalzoFC','plc4/db3103.dbd332:tim','CistRidTAG_Bitume_Cisterna3_ValvUscita2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita2Open_DI_Trigger','plc4/db3103.dbx336.1:b','CistRidTAG_Bitume_Cisterna3_ValvUscita2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita2Close_DI_Trigger','plc4/db3103.dbx336.2:b','CistRidTAG_Bitume_Cisterna3_ValvUscita2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvUscita2AllarmeCodice','plc4/db3103.dbw338:wor','CistRidTAG_Bitume_Cisterna3_ValvUscita2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_DI_ValvAuxBloccoTemp','plc4/db3103.dbx530.4:b','CistRidTAG_Bitume_Cisterna3_DI_ValvAuxBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata2InverteComando','plc4/db3103.dbx530.5:b','CistRidTAG_Bitume_Cisterna3_ValvEntrata2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoTimeOutOpen','plc4/db3103.dbd532:tim','CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoTimeOutClose','plc4/db3103.dbd536:tim','CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoAntirimbalzoFC','plc4/db3103.dbd540:tim','CistRidTAG_Bitume_Cisterna3_ValvEntrata2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata2Open_DI_Trigger','plc4/db3103.dbx544.1:b','CistRidTAG_Bitume_Cisterna3_ValvEntrata2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata2Close_DI_Trigger','plc4/db3103.dbx544.2:b','CistRidTAG_Bitume_Cisterna3_ValvEntrata2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_ValvEntrata2AllarmeCodice','plc4/db3103.dbw546:wor','CistRidTAG_Bitume_Cisterna3_ValvEntrata2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_NumeroValvolePresenti','plc4/db3103.dbw654:int','CistRidTAG_Bitume_Cisterna3_NumeroValvolePresenti');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_AbilitaOrizzontale','plc4/db3103.dbx0.5:boo','CistRidTAG_Bitume_Cisterna3_AbilitaOrizzontale');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_DiametroMm','plc4/db3103.dbd656:rea','CistRidTAG_Bitume_Cisterna3_DiametroMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_LunghezzaMm','plc4/db3103.dbd660:rea','CistRidTAG_Bitume_Cisterna3_LunghezzaMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_AbilitaValvolaMandata','plc4/db3103.dbx74.6:bo','CistRidTAG_Bitume_Cisterna3_AbilitaValvolaMandata');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_AbilitaValvolaRitorno','plc4/db3103.dbx198.6:b','CistRidTAG_Bitume_Cisterna3_AbilitaValvolaRitorno');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_AbilitaValvolaCarico','plc4/db3103.dbx322.6:b','CistRidTAG_Bitume_Cisterna3_AbilitaValvolaCarico');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_AbilitaValvolaAux','plc4/db3103.dbx530.6:b','CistRidTAG_Bitume_Cisterna3_AbilitaValvolaAux');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_TipoLivello','plc4/db3104.dbx0.2:boo','CistRidTAG_Bitume_Cisterna4_TipoLivello = PLCTAG_COUNT');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_BloccoValvoleBassaTemperatura','plc4/db3104.dbx0.4:boo','CistRidTAG_Bitume_Cisterna4_BloccoValvoleBassaTemperatura');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_InclusioneAgitatore','plc4/db3104.dbx0.7:boo','CistRidTAG_Bitume_Cisterna4_InclusioneAgitatore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_TempUnitaLimiteInf','plc4/db3104.dbw6:int','CistRidTAG_Bitume_Cisterna4_TempUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_TempUnitaLimitesup','plc4/db3104.dbw8:int','CistRidTAG_Bitume_Cisterna4_TempUnitaLimitesup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloUnitaLimiteInf','plc4/db3104.dbw10:int','CistRidTAG_Bitume_Cisterna4_LivelloUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloUnitaLimiteSup','plc4/db3104.dbw12:int','CistRidTAG_Bitume_Cisterna4_LivelloUnitaLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_Densita','plc4/db3104.dbd14:real','CistRidTAG_Bitume_Cisterna4_Densita');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_TempGradiLimiteInf','plc4/db3104.dbd18:real','CistRidTAG_Bitume_Cisterna4_TempGradiLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_TempGradiLimiteSup','plc4/db3104.dbd22:real','CistRidTAG_Bitume_Cisterna4_TempGradiLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloTonLimiteInf','plc4/db3104.dbd26:real','CistRidTAG_Bitume_Cisterna4_LivelloTonLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloTonLimiteSup','plc4/db3104.dbd30:real','CistRidTAG_Bitume_Cisterna4_LivelloTonLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeMin','plc4/db3104.dbd34:real','CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeMax','plc4/db3104.dbd38:real','CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeMin','plc4/db3104.dbd42:real','CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeMax','plc4/db3104.dbd46:real','CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeZonaMorta','plc4/db3104.dbd50:real','CistRidTAG_Bitume_Cisterna4_LivelloTonAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeZonaMorta','plc4/db3104.dbd54:real','CistRidTAG_Bitume_Cisterna4_TempGradiAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloMin_DI_Trigger','plc4/db3104.dbx58.0:bo','CistRidTAG_Bitume_Cisterna4_LivelloMin_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloMax_DI_Trigger','plc4/db3104.dbx58.1:bo','CistRidTAG_Bitume_Cisterna4_LivelloMax_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloSic_DI_Trigger','plc4/db3104.dbx58.2:bo','CistRidTAG_Bitume_Cisterna4_LivelloSic_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloPercentualeValore','plc4/db3104.dbd60:real','CistRidTAG_Bitume_Cisterna4_LivelloPercentualeValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LivelloTonValore','plc4/db3104.dbd64:real','CistRidTAG_Bitume_Cisterna4_LivelloTonValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_TempGradiValore','plc4/db3104.dbd68:real','CistRidTAG_Bitume_Cisterna4_TempGradiValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_AllarmeCodiceGen','plc4/db3104.dbw72:word','CistRidTAG_Bitume_Cisterna4_AllarmeCodiceGen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita1InverteComando','plc4/db3104.dbx74.5:bo','CistRidTAG_Bitume_Cisterna4_ValvUscita1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoTimeOutOpen','plc4/db3104.dbd76:time','CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoTimeOutClose','plc4/db3104.dbd80:time','CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoAntirimbalzoFC','plc4/db3104.dbd84:time','CistRidTAG_Bitume_Cisterna4_ValvUscita1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita1Open_DI_Trigger','plc4/db3104.dbx88.1:bo','CistRidTAG_Bitume_Cisterna4_ValvUscita1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita1Close_DI_Trigger','plc4/db3104.dbx88.2:bo','CistRidTAG_Bitume_Cisterna4_ValvUscita1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita1AllarmeCodice','plc4/db3104.dbw90:word','CistRidTAG_Bitume_Cisterna4_ValvUscita1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_DI_ValvRitornoBloccoTemp','plc4/db3104.dbx198.4:b','CistRidTAG_Bitume_Cisterna4_DI_ValvRitornoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata1InverteComando','plc4/db3104.dbx198.5:b','CistRidTAG_Bitume_Cisterna4_ValvEntrata1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoTimeOutOpen','plc4/db3104.dbd200:tim','CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoTimeOutClose','plc4/db3104.dbd204:tim','CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoAntirimbalzoFC','plc4/db3104.dbd208:tim','CistRidTAG_Bitume_Cisterna4_ValvEntrata1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata1Open_DI_Trigger','plc4/db3104.dbx212.1:b','CistRidTAG_Bitume_Cisterna4_ValvEntrata1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata1Close_DI_Trigger','plc4/db3104.dbx212.2:b','CistRidTAG_Bitume_Cisterna4_ValvEntrata1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata1AllarmeCodice','plc4/db3104.dbw214:wor','CistRidTAG_Bitume_Cisterna4_ValvEntrata1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_DI_ValvCaricoBloccoTemp','plc4/db3104.dbx322.4:b','CistRidTAG_Bitume_Cisterna4_DI_ValvCaricoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita2InverteComando','plc4/db3104.dbx322.5:b','CistRidTAG_Bitume_Cisterna4_ValvUscita2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoTimeOutOpen','plc4/db3104.dbd324:tim','CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoTimeOutClose','plc4/db3104.dbd328:tim','CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoAntirimbalzoFC','plc4/db3104.dbd332:tim','CistRidTAG_Bitume_Cisterna4_ValvUscita2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita2Open_DI_Trigger','plc4/db3104.dbx336.1:b','CistRidTAG_Bitume_Cisterna4_ValvUscita2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita2Close_DI_Trigger','plc4/db3104.dbx336.2:b','CistRidTAG_Bitume_Cisterna4_ValvUscita2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvUscita2AllarmeCodice','plc4/db3104.dbw338:wor','CistRidTAG_Bitume_Cisterna4_ValvUscita2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_DI_ValvAuxBloccoTemp','plc4/db3104.dbx530.4:b','CistRidTAG_Bitume_Cisterna4_DI_ValvAuxBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata2InverteComando','plc4/db3104.dbx530.5:b','CistRidTAG_Bitume_Cisterna4_ValvEntrata2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoTimeOutOpen','plc4/db3104.dbd532:tim','CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoTimeOutClose','plc4/db3104.dbd536:tim','CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoAntirimbalzoFC','plc4/db3104.dbd540:tim','CistRidTAG_Bitume_Cisterna4_ValvEntrata2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata2Open_DI_Trigger','plc4/db3104.dbx544.1:b','CistRidTAG_Bitume_Cisterna4_ValvEntrata2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata2Close_DI_Trigger','plc4/db3104.dbx544.2:b','CistRidTAG_Bitume_Cisterna4_ValvEntrata2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_ValvEntrata2AllarmeCodice','plc4/db3104.dbw546:wor','CistRidTAG_Bitume_Cisterna4_ValvEntrata2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_NumeroValvolePresenti','plc4/db3104.dbw654:int','CistRidTAG_Bitume_Cisterna4_NumeroValvolePresenti');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_AbilitaOrizzontale','plc4/db3104.dbx0.5:boo','CistRidTAG_Bitume_Cisterna4_AbilitaOrizzontale');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_DiametroMm','plc4/db3104.dbd656:rea','CistRidTAG_Bitume_Cisterna4_DiametroMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_LunghezzaMm','plc4/db3104.dbd660:rea','CistRidTAG_Bitume_Cisterna4_LunghezzaMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_AbilitaValvolaMandata','plc4/db3104.dbx74.6:bo','CistRidTAG_Bitume_Cisterna4_AbilitaValvolaMandata');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_AbilitaValvolaRitorno','plc4/db3104.dbx198.6:b','CistRidTAG_Bitume_Cisterna4_AbilitaValvolaRitorno');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_AbilitaValvolaCarico','plc4/db3104.dbx322.6:b','CistRidTAG_Bitume_Cisterna4_AbilitaValvolaCarico');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_AbilitaValvolaAux','plc4/db3104.dbx530.6:b','CistRidTAG_Bitume_Cisterna4_AbilitaValvolaAux');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_TipoLivello','plc4/db3105.dbx0.2:boo','CistRidTAG_Bitume_Cisterna5_TipoLivello');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_BloccoValvoleBassaTemperatura','plc4/db3105.dbx0.4:boo','CistRidTAG_Bitume_Cisterna5_BloccoValvoleBassaTemperatura');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_InclusioneAgitatore','plc4/db3105.dbx0.7:boo','CistRidTAG_Bitume_Cisterna5_InclusioneAgitatore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_TempUnitaLimiteInf','plc4/db3105.dbw6:int','CistRidTAG_Bitume_Cisterna5_TempUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_TempUnitaLimieSup','plc4/db3105.dbw8:int','CistRidTAG_Bitume_Cisterna5_TempUnitaLimieSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloUnitaLimiteInf','plc4/db3105.dbw10:int','CistRidTAG_Bitume_Cisterna5_LivelloUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloUnitaLimiteSup','plc4/db3105.dbw12:int','CistRidTAG_Bitume_Cisterna5_LivelloUnitaLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_Densita','plc4/db3105.dbd14:real','CistRidTAG_Bitume_Cisterna5_Densita');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_TempGradiLimiteInf','plc4/db3105.dbd18:real','CistRidTAG_Bitume_Cisterna5_TempGradiLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_TempGradiLimiteSup','plc4/db3105.dbd22:real','CistRidTAG_Bitume_Cisterna5_TempGradiLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloTonLimiteInf','plc4/db3105.dbd26:real','CistRidTAG_Bitume_Cisterna5_LivelloTonLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloTonLimiteSup','plc4/db3105.dbd30:real','CistRidTAG_Bitume_Cisterna5_LivelloTonLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeMin','plc4/db3105.dbd34:real','CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeMax','plc4/db3105.dbd38:real','CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeMin','plc4/db3105.dbd42:real','CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeMax','plc4/db3105.dbd46:real','CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeZonaMorta','plc4/db3105.dbd50:real','CistRidTAG_Bitume_Cisterna5_LivelloTonAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeZonaMorta','plc4/db3105.dbd54:real','CistRidTAG_Bitume_Cisterna5_TempGradiAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloMin_DI_Trigger','plc4/db3105.dbx58.0:bo','CistRidTAG_Bitume_Cisterna5_LivelloMin_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloMax_DI_Trigger','plc4/db3105.dbx58.1:bo','CistRidTAG_Bitume_Cisterna5_LivelloMax_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloSic_DI_Trigger','plc4/db3105.dbx58.2:bo','CistRidTAG_Bitume_Cisterna5_LivelloSic_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloPercentualeValore','plc4/db3105.dbd60:real','CistRidTAG_Bitume_Cisterna5_LivelloPercentualeValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LivelloTonValore','plc4/db3105.dbd64:real','CistRidTAG_Bitume_Cisterna5_LivelloTonValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_TempGradiValore','plc4/db3105.dbd68:real','CistRidTAG_Bitume_Cisterna5_TempGradiValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_AllarmeCodiceGen','plc4/db3105.dbw72:word','CistRidTAG_Bitume_Cisterna5_AllarmeCodiceGen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita1InverteComando','plc4/db3105.dbx74.5:bo','CistRidTAG_Bitume_Cisterna5_ValvUscita1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoTimeOutOpen','plc4/db3105.dbd76:time','CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoTimeOutClose','plc4/db3105.dbd80:time','CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoAntirimbalzoFC','plc4/db3105.dbd84:time','CistRidTAG_Bitume_Cisterna5_ValvUscita1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita1Open_DI_Trigger','plc4/db3105.dbx88.1:bo','CistRidTAG_Bitume_Cisterna5_ValvUscita1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita1Close_DI_Trigger','plc4/db3105.dbx88.2:bo','CistRidTAG_Bitume_Cisterna5_ValvUscita1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita1AllarmeCodice','plc4/db3105.dbw90:word','CistRidTAG_Bitume_Cisterna5_ValvUscita1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_DI_ValvRitornoBloccoTemp','plc4/db3105.dbx198.4:b','CistRidTAG_Bitume_Cisterna5_DI_ValvRitornoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata1InverteComando','plc4/db3105.dbx198.5:b','CistRidTAG_Bitume_Cisterna5_ValvEntrata1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoTimeOutOpen','plc4/db3105.dbd200:tim','CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoTimeOutClose','plc4/db3105.dbd204:tim','CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoAntirimbalzoFC','plc4/db3105.dbd208:tim','CistRidTAG_Bitume_Cisterna5_ValvEntrata1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata1Open_DI_Trigger','plc4/db3105.dbx212.1:b','CistRidTAG_Bitume_Cisterna5_ValvEntrata1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata1Close_DI_Trigger','plc4/db3105.dbx212.2:b','CistRidTAG_Bitume_Cisterna5_ValvEntrata1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata1AllarmeCodice','plc4/db3105.dbw214:wor','CistRidTAG_Bitume_Cisterna5_ValvEntrata1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_DI_ValvCaricoBloccoTemp','plc4/db3105.dbx322.4:b','CistRidTAG_Bitume_Cisterna5_DI_ValvCaricoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita2InverteComando','plc4/db3105.dbx322.5:b','CistRidTAG_Bitume_Cisterna5_ValvUscita2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoTimeOutOpen','plc4/db3105.dbd324:tim','CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoTimeOutClose','plc4/db3105.dbd328:tim','CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoAntirimbalzoFC','plc4/db3105.dbd332:tim','CistRidTAG_Bitume_Cisterna5_ValvUscita2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita2Open_DI_Trigger','plc4/db3105.dbx336.1:b','CistRidTAG_Bitume_Cisterna5_ValvUscita2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita2Close_DI_Trigger','plc4/db3105.dbx336.2:b','CistRidTAG_Bitume_Cisterna5_ValvUscita2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvUscita2AllarmeCodice','plc4/db3105.dbw338:wor','CistRidTAG_Bitume_Cisterna5_ValvUscita2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_DI_ValvAuxBloccoTemp','plc4/db3105.dbx530.4:b','CistRidTAG_Bitume_Cisterna5_DI_ValvAuxBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata2InverteComando','plc4/db3105.dbx530.5:b','CistRidTAG_Bitume_Cisterna5_ValvEntrata2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoTimeOutOpen','plc4/db3105.dbd532:tim','CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoTimeOutClose','plc4/db3105.dbd536:tim','CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoAntirimbalzoFC','plc4/db3105.dbd540:tim','CistRidTAG_Bitume_Cisterna5_ValvEntrata2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata2Open_DI_Trigger','plc4/db3105.dbx544.1:b','CistRidTAG_Bitume_Cisterna5_ValvEntrata2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata2Close_DI_Trigger','plc4/db3105.dbx544.2:b','CistRidTAG_Bitume_Cisterna5_ValvEntrata2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_ValvEntrata2AllarmeCodice','plc4/db3105.dbw546:wor','CistRidTAG_Bitume_Cisterna5_ValvEntrata2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_NumeroValvolePresenti','plc4/db3105.dbw654:int','CistRidTAG_Bitume_Cisterna5_NumeroValvolePresenti');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_AbilitaOrizzontale','plc4/db3105.dbx0.5:boo','CistRidTAG_Bitume_Cisterna5_AbilitaOrizzontale');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_DiametroMm','plc4/db3105.dbd656:rea','CistRidTAG_Bitume_Cisterna5_DiametroMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_LunghezzaMm','plc4/db3105.dbd660:rea','CistRidTAG_Bitume_Cisterna5_LunghezzaMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_AbilitaValvolaMandata','plc4/db3105.dbx74.6:bo','CistRidTAG_Bitume_Cisterna5_AbilitaValvolaMandata');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_AbilitaValvolaRitorno','plc4/db3105.dbx198.6:b','CistRidTAG_Bitume_Cisterna5_AbilitaValvolaRitorno');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_AbilitaValvolaCarico','plc4/db3105.dbx322.6:b','CistRidTAG_Bitume_Cisterna5_AbilitaValvolaCarico');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_AbilitaValvolaAux','plc4/db3105.dbx530.6:b','CistRidTAG_Bitume_Cisterna5_AbilitaValvolaAux');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_TipoLivello','plc4/db3106.dbx0.2:boo','CistRidTAG_Bitume_Cisterna6_TipoLivello');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_BloccoValvoleBassaTemperatura','plc4/db3106.dbx0.4:boo','CistRidTAG_Bitume_Cisterna6_BloccoValvoleBassaTemperatura');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_InclusioneAgitatore','plc4/db3106.dbx0.7:boo','CistRidTAG_Bitume_Cisterna6_InclusioneAgitatore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_TempUnitaLimiteInf','plc4/db3106.dbw6:int','CistRidTAG_Bitume_Cisterna6_TempUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_TempUnitaLimieSup','plc4/db3106.dbw8:int','CistRidTAG_Bitume_Cisterna6_TempUnitaLimieSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloUnitaLimiteInf','plc4/db3106.dbw10:int','CistRidTAG_Bitume_Cisterna6_LivelloUnitaLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloUnitaLimiteSup','plc4/db3106.dbw12:int','CistRidTAG_Bitume_Cisterna6_LivelloUnitaLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_Densita','plc4/db3106.dbd14:real','CistRidTAG_Bitume_Cisterna6_Densita');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_TempGradiLimiteInf','plc4/db3106.dbd18:real','CistRidTAG_Bitume_Cisterna6_TempGradiLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_TempGradiLimiteSup','plc4/db3106.dbd22:real','CistRidTAG_Bitume_Cisterna6_TempGradiLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloTonLimiteInf','plc4/db3106.dbd26:real','CistRidTAG_Bitume_Cisterna6_LivelloTonLimiteInf');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloTonLimiteSup','plc4/db3106.dbd30:real','CistRidTAG_Bitume_Cisterna6_LivelloTonLimiteSup');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeMin','plc4/db3106.dbd34:real','CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeMax','plc4/db3106.dbd38:real','CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeMin','plc4/db3106.dbd42:real','CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeMin');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeMax','plc4/db3106.dbd46:real','CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeMax');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeZonaMorta','plc4/db3106.dbd50:real','CistRidTAG_Bitume_Cisterna6_LivelloTonAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeZonaMorta','plc4/db3106.dbd54:real','CistRidTAG_Bitume_Cisterna6_TempGradiAllarmeZonaMorta');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloMin_DI_Trigger','plc4/db3106.dbx58.0:bo','CistRidTAG_Bitume_Cisterna6_LivelloMin_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloMax_DI_Trigger','plc4/db3106.dbx58.1:bo','CistRidTAG_Bitume_Cisterna6_LivelloMax_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloSic_DI_Trigger','plc4/db3106.dbx58.2:bo','CistRidTAG_Bitume_Cisterna6_LivelloSic_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloPercentualeValore','plc4/db3106.dbd60:real','CistRidTAG_Bitume_Cisterna6_LivelloPercentualeValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LivelloTonValore','plc4/db3106.dbd64:real','CistRidTAG_Bitume_Cisterna6_LivelloTonValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_TempGradiValore','plc4/db3106.dbd68:real','CistRidTAG_Bitume_Cisterna6_TempGradiValore');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_AllarmeCodiceGen','plc4/db3106.dbw72:word','CistRidTAG_Bitume_Cisterna6_AllarmeCodiceGen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita1InverteComando','plc4/db3106.dbx74.5:bo','CistRidTAG_Bitume_Cisterna6_ValvUscita1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoTimeOutOpen','plc4/db3106.dbd76:time','CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoTimeOutClose','plc4/db3106.dbd80:time','CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoAntirimbalzoFC','plc4/db3106.dbd84:time','CistRidTAG_Bitume_Cisterna6_ValvUscita1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita1Open_DI_Trigger','plc4/db3106.dbx88.1:bo','CistRidTAG_Bitume_Cisterna6_ValvUscita1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita1Close_DI_Trigger','plc4/db3106.dbx88.2:bo','CistRidTAG_Bitume_Cisterna6_ValvUscita1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita1AllarmeCodice','plc4/db3106.dbw90:word','CistRidTAG_Bitume_Cisterna6_ValvUscita1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_DI_ValvRitornoBloccoTemp','plc4/db3106.dbx198.4:b','CistRidTAG_Bitume_Cisterna6_DI_ValvRitornoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata1InverteComando','plc4/db3106.dbx198.5:b','CistRidTAG_Bitume_Cisterna6_ValvEntrata1InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoTimeOutOpen','plc4/db3106.dbd200:tim','CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoTimeOutClose','plc4/db3106.dbd204:tim','CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoAntirimbalzoFC','plc4/db3106.dbd208:tim','CistRidTAG_Bitume_Cisterna6_ValvEntrata1TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata1Open_DI_Trigger','plc4/db3106.dbx212.1:b','CistRidTAG_Bitume_Cisterna6_ValvEntrata1Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata1Close_DI_Trigger','plc4/db3106.dbx212.2:b','CistRidTAG_Bitume_Cisterna6_ValvEntrata1Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata1AllarmeCodice','plc4/db3106.dbw214:wor','CistRidTAG_Bitume_Cisterna6_ValvEntrata1AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_DI_ValvCaricoBloccoTemp','plc4/db3106.dbx322.4:b','CistRidTAG_Bitume_Cisterna6_DI_ValvCaricoBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita2InverteComando','plc4/db3106.dbx322.5:b','CistRidTAG_Bitume_Cisterna6_ValvUscita2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoTimeOutOpen','plc4/db3106.dbd324:tim','CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoTimeOutClose','plc4/db3106.dbd328:tim','CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoAntirimbalzoFC','plc4/db3106.dbd332:tim','CistRidTAG_Bitume_Cisterna6_ValvUscita2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita2Open_DI_Trigger','plc4/db3106.dbx336.1:b','CistRidTAG_Bitume_Cisterna6_ValvUscita2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita2Close_DI_Trigger','plc4/db3106.dbx336.2:b','CistRidTAG_Bitume_Cisterna6_ValvUscita2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvUscita2AllarmeCodice','plc4/db3106.dbw338:wor','CistRidTAG_Bitume_Cisterna6_ValvUscita2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_DI_ValvAuxBloccoTemp','plc4/db3106.dbx530.4:b','CistRidTAG_Bitume_Cisterna6_DI_ValvAuxBloccoTemp');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata2InverteComando','plc4/db3106.dbx530.5:b','CistRidTAG_Bitume_Cisterna6_ValvEntrata2InverteComando');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoTimeOutOpen','plc4/db3106.dbd532:tim','CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoTimeOutOpen');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoTimeOutClose','plc4/db3106.dbd536:tim','CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoTimeOutClose');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoAntirimbalzoFC','plc4/db3106.dbd540:tim','CistRidTAG_Bitume_Cisterna6_ValvEntrata2TempoAntirimbalzoFC');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata2Open_DI_Trigger','plc4/db3106.dbx544.1:b','CistRidTAG_Bitume_Cisterna6_ValvEntrata2Open_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata2Close_DI_Trigger','plc4/db3106.dbx544.2:b','CistRidTAG_Bitume_Cisterna6_ValvEntrata2Close_DI_Trigger');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_ValvEntrata2AllarmeCodice','plc4/db3106.dbw546:wor','CistRidTAG_Bitume_Cisterna6_ValvEntrata2AllarmeCodice');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_NumeroValvolePresenti','plc4/db3106.dbw654:int','CistRidTAG_Bitume_Cisterna6_NumeroValvolePresenti');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_AbilitaOrizzontale','plc4/db3106.dbx0.5:boo','CistRidTAG_Bitume_Cisterna6_AbilitaOrizzontale');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_DiametroMm','plc4/db3106.dbd656:rea','CistRidTAG_Bitume_Cisterna6_DiametroMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_LunghezzaMm','plc4/db3106.dbd660:rea','CistRidTAG_Bitume_Cisterna6_LunghezzaMm');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_AbilitaValvolaMandata','plc4/db3106.dbx74.6:bo','CistRidTAG_Bitume_Cisterna6_AbilitaValvolaMandata');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_AbilitaValvolaRitorno','plc4/db3106.dbx198.6:b','CistRidTAG_Bitume_Cisterna6_AbilitaValvolaRitorno');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_AbilitaValvolaCarico','plc4/db3106.dbx322.6:b','CistRidTAG_Bitume_Cisterna6_AbilitaValvolaCarico');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_AbilitaValvolaAux','plc4/db3106.dbx530.6:b','CistRidTAG_Bitume_Cisterna6_AbilitaValvolaAux');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_Selezionata_PCL1','plc4/db512.dbx0.0:bool','CistRidTAG_Bitume_Cisterna1_Selezionata_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_Selezionata_PCL1','plc4/db512.dbx0.1:bool','CistRidTAG_Bitume_Cisterna2_Selezionata_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_Selezionata_PCL1','plc4/db512.dbx0.2:bool','CistRidTAG_Bitume_Cisterna3_Selezionata_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_Selezionata_PCL1','plc4/db512.dbx0.3:bool','CistRidTAG_Bitume_Cisterna4_Selezionata_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_Selezionata_PCL1','plc4/db512.dbx0.4:bool','CistRidTAG_Bitume_Cisterna5_Selezionata_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_Selezionata_PCL1','plc4/db512.dbx0.5:bool','CistRidTAG_Bitume_Cisterna6_Selezionata_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna7_Selezionata_PCL1','plc4/db512.dbx0.6:bool','CistRidTAG_Bitume_Cisterna7_Selezionata_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna8_Selezionata_PCL1','plc4/db512.dbx0.7:bool','CistRidTAG_Bitume_Cisterna8_Selezionata_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Selezione_Cisterna_Bitume_PCL1','plc4/db15.dbw90:int','CistRidTAG_Selezione_Cisterna_Bitume_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Tempo_Timeout_Cambio_Cisterna_PCL1','plc4/db512.dbw4:int','CistRidTAG_Tempo_Timeout_Cambio_Cisterna_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Timeout_Selezione_PCL1','plc4/db512.dbx7.0:bool','CistRidTAG_Timeout_Selezione_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Attesa_Selezione_PCL1','plc4/db512.dbx7.1:bool','CistRidTAG_Attesa_Selezione_PCL1');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna1_Selezionata_PCL2','plc4/db513.dbx0.0:bool','CistRidTAG_Bitume_Cisterna1_Selezionata_PCL2');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna2_Selezionata_PCL2','plc4/db513.dbx0.1:bool','CistRidTAG_Bitume_Cisterna2_Selezionata_PCL2');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna3_Selezionata_PCL2','plc4/db513.dbx0.2:bool','CistRidTAG_Bitume_Cisterna3_Selezionata_PCL2');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna4_Selezionata_PCL2','plc4/db513.dbx0.3:bool','CistRidTAG_Bitume_Cisterna4_Selezionata_PCL2');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna5_Selezionata_PCL2','plc4/db513.dbx0.4:bool','CistRidTAG_Bitume_Cisterna5_Selezionata_PCL2');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna6_Selezionata_PCL2','plc4/db513.dbx0.5:bool','CistRidTAG_Bitume_Cisterna6_Selezionata_PCL2');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna7_Selezionata_PCL2','plc4/db513.dbx0.6:bool','CistRidTAG_Bitume_Cisterna7_Selezionata_PCL2');
+insert into plctags (name,address,description) values ('CistRidTAG_Bitume_Cisterna8_Selezionata_PCL2','plc4/db513.dbx0.7:bool','CistRidTAG_Bitume_Cisterna8_Selezionata_PCL2');
+insert into plctags (name,address,description) values ('CistRidTAG_Selezione_Cisterna_Bitume_PCL2','plc4/db15.dbw92:int','CistRidTAG_Selezione_Cisterna_Bitume_PCL2');
+insert into plctags (name,address,description) values ('CistRidTAG_Tempo_Timeout_Cambio_Cisterna_PCL2','plc4/db513.dbw4:int','CistRidTAG_Tempo_Timeout_Cambio_Cisterna_PCL2');
+insert into plctags (name,address,description) values ('CistRidTAG_Timeout_Selezione_PCL2','plc4/db513.dbx7.0:bool','CistRidTAG_Timeout_Selezione_PCL2');
+insert into plctags (name,address,description) values ('CistRidTAG_Attesa_Selezione_PCL2','plc4/db513.dbx7.1:bool','CistRidTAG_Attesa_Selezione_PCL2');
