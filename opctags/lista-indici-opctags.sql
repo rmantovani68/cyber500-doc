@@ -4,7 +4,7 @@ select
 	basename2,
 	basename3,
 	null::int as NUM ,
-	null::int as START2 , null::int as END2,
+	null::int as START1 , null::int as END1,
 	null::int as START2 , null::int as END2,
 	null::int as START3 , null::int as END3
 
