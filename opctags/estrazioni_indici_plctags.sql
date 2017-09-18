@@ -1,6 +1,15 @@
+--
+--
+--
+--
+-- Estrazione indici plctags
+-- L'obiettivo della procedura è di individuare i vettori e le matrici presenti nella tablela opctags
+-- e creare una tabella derivata in cui sono definiti i vettori o le matrici e i relativi indici 
+--
+-- Note
+--
 
-
-
+drop table  lll_plctags;
 
 create table lll_plctags as select * from plctags;
 
@@ -58,7 +67,7 @@ update lll_plctags set index1=substring(right(name, -length(basename1)), '\d+') 
 -- Con questa verifico i gruppi di un solo elemento
 select plcname, basename1, basename2, basename3, count(index1) as NUM , min(index1::int) as START1 ,max(index1::int) as END1, null::int as START2 , null::int as END2, null::int as START3 , null::int as END3 from lll_plctags where seq1='S'  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3;
 --verifichiamo quanto sono grandi questi raggruppamenti. Notiamo che ci sono gruppi con num=1!!! Ma come? Succede perche' basename1 e' uguale ad altri baseh=name 1 che avevano un index sequenziale corretto, ma che non sono nello stesso gruppo perche' hanno un index1 e un basename2 che li rendono non appartenenti al gruppo stesso. Con la seguente query verifico i raggruppamenti con 1 elemento
-select  basename1||min(index1::int)||basename2 as id, plcname, basename1, basename2, basename3, count(index1) as NUM , min(index1::int) as START1 ,max(index1::int) as END1, null::int as START 2 , null::int as END2, null::int as START3 , null::int as END3,seq1,seq2,seq3 from lll_plctags where seq1='S'  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3,seq1,seq2 ,seq3 having count(index1)=1;
+select  basename1||min(index1::int)||basename2 as id, plcname, basename1, basename2, basename3, count(index1) as NUM , min(index1::int) as START1 ,max(index1::int) as END1, null::int as START2 , null::int as END2, null::int as START3 , null::int as END3,seq1,seq2,seq3 from lll_plctags where seq1='S'  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3,seq1,seq2 ,seq3 having count(index1)=1;
 -- con questa tolgo la S in SEQ1 e metto basename1=basename1||index1|basename2
 update lll_plctags set basename1=basename1||index1||basename2, seq1=null  where basename1||index1||basename2 in (select  basename1||min(index1::int)||basename2 from lll_plctags where seq1='S'  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3,seq1,seq2,seq3 having count(index1)=1);
 

@@ -28,8 +28,8 @@ problematiche relative al nostro impegno in Marini
       (plcserver / manager / ui), poi siamo stati utilizzati per documentare il software esistente (codice visual basic 6).
 - RM: non abbiamo praticamente contatti con i componenti dell'ufficio software, tutti impegnati in attività di assistenza, sviluppo nuove funzioni o di supporto ai collaudi o alla produzione, e quasi sempre in emergenza.
 
-pensieri sparsi
----------------
+RM - pensieri sparsi
+--------------------
 Si fanno configurare le macchine (pc) di produzione all'ufficio software, tale operazione è interamente manuale e molto dispendiosa in termini di tempo:
 - si prende l'immagine e si scrive il disco
 - si 'installano' tutte gli aggiornamenti relativi alla commessa
@@ -38,5 +38,35 @@ Si fanno configurare le macchine (pc) di produzione all'ufficio software, tale o
 Generalmente si verificano problemi ed eccezioni, le configurazioni non sono ben formalizzate, le immagini sono registrate su hd portatili in dotazione all'ufficio software, a volte non si leggono/copiano correttamente.
 Meglio sarebbe implementare un sistema di generazione macchine automatico, dato il codice commessa reperisce tutte le informazioni necessarie in un database ben strutturato ed esegue tutte le oprazioni necessarie senza necessità di intervento.
 
+RM - Situazione Settembre 2017
+------------------------------
+Nuovo sistema B&R
+- basato su linux 
+- programmabile in C e Python
+Lo fa Betti ...
 
+Nuovo Sistema Cybertronic
+- Basato su Windows
+- programmato in C# e XML e XSD
+Lo facciamo Io Luca e il Criceto ...
+
+Si nota un certo pressapochismo nella gestione dei progetti e una mancanza di oculatezza nella scelta delle risorse da assegnare alle varie attività di sviluppo.
+
+RM - Storia della nostra attività in Marini
+-------------------------------------------
+All'inizio dovevamo fornire consulenza per : FRT - Impianto evoluto per la produzione di conglomerati bituminosi da materiale riciclato, ma questo solo sulla carta...
+Poi abbiamo affiancato il personale dell'ufficio software nell'attività di configurazione macchine, produzione chiavette, collaudi
+Poi abbiamo iniziato lo sviluppo del nuovo sistema - modulare - basato su C# e application message broker e XML
+Poi siamo stati passati a documentare il sistema attuale in vista dello sviluppo su B&R
+Poi siamo stati ripassati alla analisi e sviluppo ...
+
+
+RM - Alcune proposte di futuri sviluppi
+---------------------------------------
+- continuare sviluppo nuova applicazione / sistema cyber500 come da specifiche contratto
+- automazione nella preparazione macchine attraverso git / scripting / database / file server
+- studio e applicazione nuove tecnologie - embedded technology - open source tools - front end web - single page application
+- separare il configuratore dalla applicazione principale C#
+- separare il gestione reports dalla applicazione principale C#
+- aggiungere un editor di reports
 
