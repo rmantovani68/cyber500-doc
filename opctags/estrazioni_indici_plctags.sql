@@ -1,3 +1,13 @@
+--
+--
+--
+--
+-- Estrazione indici plctags
+-- L'obiettivo della procedura è di individuare i vettori e le matrici presenti nella tablela opctags
+-- e creare una tabella derivata in cui sono definiti i vettori o le matrici e i relativi indici 
+--
+-- Note
+--
 
 CREATE OR REPLACE FUNCTION estrazione_indici() RETURNS void AS
 $BODY$

@@ -5,6 +5,11 @@
 # il file prn viene prodotto con uno script di poswershell (estrazione-opctags-from-xls.ps1)
 #
 
+#
+# successivamente lanciare il seguente comando
+# rm insert_plctags.sql; for i in _extract_*.prn ; do echo $i; ./compose_insert_sq.awk $i >> insert_plctags.sql; done
+#
+
 function rindex( str, search,     pos, res )
 {
     do
