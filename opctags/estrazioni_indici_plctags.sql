@@ -9,8 +9,18 @@
 -- Note
 --
 
+<<<<<<< HEAD
 drop table  lll_plctags;
 
+=======
+CREATE OR REPLACE FUNCTION estrazione_indici() RETURNS void AS
+$BODY$
+--DECLARE
+--    r foo%rowtype;
+BEGIN
+
+drop table if exists lll_plctags;
+>>>>>>> master
 create table lll_plctags as select * from plctags;
 
 alter table lll_plctags
@@ -45,8 +55,11 @@ update lll_plctags set basename1=substring(name, '^[^1234567890]*');
 update lll_plctags set index1=substring(name, '\d+');
 
 
----- CICLO
+---- Ciclo 1
+<< CICLO1 >>
+FOR r in 1..4 LOOP
 
+<<<<<<< HEAD
 -- cerco i soli record che sono sequenze. In questo caso faccio due query. Con la prima cerco i tag che hanno un tag con basename1 omonimo e un index1 precedente. Poi
 -- metto la 'S' anche al precedente, che dall'update prima non poteva essere settato
 update lll_plctags set seq1='S' where basename1||index1 in (with bq as (select basename1||(index1::int+1)::text from lll_plctags where index1 is not null) select distinct(basename1||index1) from lll_plctags where basename1||index1::int in (select * from bq) and index1 is not null);
@@ -76,8 +89,40 @@ update lll_plctags set basename1=basename1||index1||basename2, seq1=null  where 
 select plcname, basename1, basename2, basename3, count(index1) as NUM , min(index1::int) as START1 ,max(index1::int) as END1, null::int as START2 , null::int as END2, null::int as START3 , null::int as END3 from lll_plctags where seq1='S'  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3 having count(index1)!=max(index1::int)-min(index1::int)+1;
 -- Forse qui e' il caso di spagnoccarli a manazza???? Per esempio qui ho solo il 21 che e' fuori scala!
 select name,basename1,index1,basename2,index2,basename3,index3, seq1,seq2,seq3 from lll_plctags where basename1='PLCTAG_SILI_HMI_Peso_'     order by plcname,basename1,index1::int,basename2,basename3,index2::int,index3::int;
+=======
+
+	-- cerco i soli record che sono sequenze. In questo caso faccio due query. Con la prima cerco i tag che hanno un tag con basename1 omonimo e un index1 precedente. Poi
+	-- metto la 'S' anche al precedente, che dall'update prima non poteva essere settato
+	update lll_plctags set seq1='S' where basename1||index1 in (with bq as (select basename1||(index1::int+1)::text from lll_plctags where index1 is not null) select distinct(basename1||index1) from lll_plctags where basename1||index1::int in (select * from bq) and index1 is not null);
+	update lll_plctags set seq1='S' where basename1 in (select distinct(basename1) from lll_plctags where seq1='S') ;
+	-- metto la 'F' (FINE) nei tags che hanno finito l'analisi
+	--update  lll_plctags set seq1='F' where index1 is null and seq1 is null;
+	-- Problema: non tutti i numeri sono sequenze, quindi devo ridefinire il basename e rifare il giro sopra
+	update lll_plctags set basename1=basename1||index1||substring(right(name, -(length(basename1||index1))),'^[^1234567890]*') where index1 is not null and seq1 is null;
+	-- questa select mi fa vedere le righe ancora in gioco
+--	select name,basename1,index1,seq1, substring(right(name, -length(basename1)), '\d+') from lll_plctags  where index1 is not null and seq1 is null order by basename1,index1::int;
+	-- Sistemo questi che non sono vere sequenze -> gli metto il basename1=name1
+	update lll_plctags set  basename1=name where name ~ 'DB'and index1 is not null and seq1 is null;
+	-- Metto il nuovo indice in index1
+	update lll_plctags set index1=substring(right(name, -length(basename1)), '\d+') where index1 is not null and seq1 is null;
+>>>>>>> master
 
 
+
+	-- Con questa verifico i gruppi di un solo elemento
+--	select plcname, basename1, basename2, basename3, count(index1) as NUM , min(index1::int) as START1 ,max(index1::int) as END1, null::int as START2 , null::int as END2, null::int as START3 , null::int as END3 from lll_plctags where seq1='S'  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3;
+	--verifichiamo quanto sono grandi questi raggruppamenti. Notiamo che ci sono gruppi con num=1!!! Ma come? Succede perche' basename1 e' uguale ad altri baseh=name 1 che avevano un index sequenziale corretto, ma che non sono nello stesso gruppo perche' hanno un index1 e un basename2 che li rendono non appartenenti al gruppo stesso. Con la seguente query verifico i raggruppamenti con 1 elemento
+--	select  basename1||min(index1::int)||basename2 as id, plcname, basename1, basename2, basename3, count(index1) as NUM , min(index1::int) as START1 ,max(index1::int) as END1, null::int as START2 , null::int as END2, null::int as START3 , null::int as END3,seq1,seq2,seq3 from lll_plctags where seq1='S'  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3,seq1,seq2 ,seq3 having count(index1)=1;
+	-- con questa tolgo la S in SEQ1 e metto basename1=basename1||index1|basename2
+	update lll_plctags set basename1=basename1||index1||basename2, seq1=null  where basename1||index1||basename2 in (select  basename1||min(index1::int)||basename2 from lll_plctags where seq1='S'  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3,seq1,seq2,seq3 having count(index1)=1);
+
+	--CONTINUARE DA QUI!!!!
+	-- Non basta ancora: ci sono delle serie che non sono complete, dove (max - min +1)  dell'indice non corrisponde al numero degli elementi
+--	select plcname, basename1, basename2, basename3, count(index1) as NUM , min(index1::int) as START1 ,max(index1::int) as END1, null::int as START2 , null::int as END2, null::int as START3 , null::int as END3 from lll_plctags where seq1='S'  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3 having count(index1)!=max(index1::int)-min(index1::int)+1;
+	-- Forse qui e' il caso di spagnoccarli a manazza???? Per esempio qui ho solo il 21 che e' fuori scala!
+--	select name,basename1,index1,basename2,index2,basename3,index3, seq1,seq2,seq3 from lll_plctags where basename1='PLCTAG_SILI_HMI_Peso_'     order by plcname,basename1,index1::int,basename2,basename3,index2::int,index3::int;
+
+END LOOP CICLO1;
 ---- FINE CICLO
 
 
@@ -85,19 +130,21 @@ select name,basename1,index1,basename2,index2,basename3,index3, seq1,seq2,seq3 f
 
 
 --- Ora possiamo vedere come sarebbe il basename2 
-select name,basename1,index1,seq1, substring(right(name, -length(basename1||index1)), '^[^1234567890]*') from lll_plctags where seq1='S' order by basename1,index1::int;
+--select name,basename1,index1,seq1, substring(right(name, -length(basename1||index1)), '^[^1234567890]*') from lll_plctags where seq1='S' order by basename1,index1::int;
 ---  Poi creo il basename2
 update lll_plctags set basename2=substring(right(name, -length(basename1||index1)), '^[^1234567890]*') where seq1='S';
 -- Poi vedo l'index2
-select name,basename1,index1,seq1, substring(right(name, -length(basename1||index1)), '\d+') from lll_plctags where seq1='S' order by basename1,index1::int;	
+--select name,basename1,index1,seq1, substring(right(name, -length(basename1||index1)), '\d+') from lll_plctags where seq1='S' order by basename1,index1::int;	
 -- Poi creo l'index2
 update lll_plctags set index2=substring(right(name, -length(basename1||index1)), '\d+');
 
 
 
 ---- CICLO 2
+<< CICLO2 >>
+FOR r in 1..4 LOOP
 -- Vedo quali sono i susseguenti in una seq2
-select 'SS',* from lll_plctags  where basename1||index1||basename2||index2 in (with bq as (select basename1||index1||basename2||(index2::int+1)::text from lll_plctags where index2 is not null) select distinct(basename1||index1||basename2||index2) from lll_plctags where basename1||index1||basename2||index2::int in (select * from bq) and index2 is not null);
+--select 'SS',* from lll_plctags  where basename1||index1||basename2||index2 in (with bq as (select basename1||index1||basename2||(index2::int+1)::text from lll_plctags where index2 is not null) select distinct(basename1||index1||basename2||index2) from lll_plctags where basename1||index1||basename2||index2::int in (select * from bq) and index2 is not null);
 -- cerco i soli record che sono sequenze di livello 2. In questo caso faccio due query. Con la prima cerco i tag che hanno un tag con basename1||index1||basename2 omonimo e un index2 precedente. Poi
 -- metto la 'S' anche al precedente, che dall'update prima non poteva essere settato
 update lll_plctags set seq2='S' where basename1||index1||basename2||index2 in (with bq as (select basename1||index1||basename2||(index2::int+1)::text from lll_plctags where index2 is not null) select distinct(basename1||index1||basename2||index2) from lll_plctags where basename1||index1||basename2||index2::int in (select * from bq) and index2 is not null);
@@ -105,16 +152,17 @@ update lll_plctags set seq2='S' where basename1||index1||basename2 in (select di
 
 -- Problema: non tutti i numeri sono sequenze, quindi devo ridefinire il basename2 e rifare il giro sopra.
 -- Infatti con la select evidenzio gli index 2 che non erano serie e aggancio il numero successivo
-select name,basename1,index1,seq1,basename2,index2,seq2, basename2||index2||substring(right(name, -(length(basename1||index1||basename2||index2))),'^[^1234567890]*') from lll_plctags where index2 is not null and seq2 is null order by basename1, basename2, index1::int,index2::int;
+--select name,basename1,index1,seq1,basename2,index2,seq2, basename2||index2||substring(right(name, -(length(basename1||index1||basename2||index2))),'^[^1234567890]*') from lll_plctags where index2 is not null and seq2 is null order by basename1, basename2, index1::int,index2::int;
 -- Con l'update allungo il basename2 al numero successivo, se presente, o alla fine del name
 update lll_plctags set basename2=basename2||index2||substring(right(name, -(length(basename1||index1||basename2||index2))),'^[^1234567890]*') where index2 is not null and seq2 is null;
 -- Vediamo le righe ancora in gioco
-select name,basename1,index1,seq1,basename2,index2,seq2, substring(right(name, -length(basename1||index1||basename2)), '\d+') from lll_plctags  where index2 is not null and seq2 is null order by basename1,index1::int,basename2,index2::int;
+--select name,basename1,index1,seq1,basename2,index2,seq2, substring(right(name, -length(basename1||index1||basename2)), '\d+') from lll_plctags  where index2 is not null and seq2 is null order by basename1,index1::int,basename2,index2::int;
 -- metto il nuovo indice in index2
 update lll_plctags set index2= substring(right(name, -length(basename1||index1||basename2)), '\d+')  where index2 is not null and seq2 is null ;
 
 
 
+END LOOP CICLO2;
 ---- FINE CICLO 2
 
 
@@ -123,50 +171,55 @@ update lll_plctags set index2= substring(right(name, -length(basename1||index1||
 
 
 --- Ora possiamo vedere come sarebbe il basename3
-select name,basename1,index1,seq1,basename2,index2,seq2, substring(right(name, -length(basename1||index1||basename2||index2)), '^[^1234567890]*') from lll_plctags where seq2='S' order by basename1,basename2,index1::int,index2::int;
+--select name,basename1,index1,seq1,basename2,index2,seq2, substring(right(name, -length(basename1||index1||basename2||index2)), '^[^1234567890]*') from lll_plctags where seq2='S' order by basename1,basename2,index1::int,index2::int;
 ---  Poi creo il basename3
 update lll_plctags set basename3=substring(right(name, -length(basename1||index1||basename2||index2)), '^[^1234567890]*') where seq2='S';
 -- Poi vedo l'index3
-select name,basename1,index1,seq1,basename2,index2,seq2, substring(right(name, -length(basename1||index1||basename2||index2)), '\d+') from lll_plctags where seq2='S' order by basename1,basename2,index1::int,index2::int;
+--select name,basename1,index1,seq1,basename2,index2,seq2, substring(right(name, -length(basename1||index1||basename2||index2)), '\d+') from lll_plctags where seq2='S' order by basename1,basename2,index1::int,index2::int;
 -- Poi creo l'index3
 update lll_plctags set index3=substring(right(name, -length(basename1||index1||basename2||index2)), '\d+');
 
 
 ---- CICLO 3
+<< CICLO3 >>
+FOR r in 1..4 LOOP
 -- Vedo quali sono i susseguenti in una seq3
-select 'SS',* from lll_plctags   where basename1||index1||basename2||index2||basename3||index3 in (with bq as (select basename1||index1||basename2||index2||basename3||(index3::int+1)::text from lll_plctags where index3 is not null) select distinct(basename1||index1||basename2||index2||basename3||index3) from lll_plctags where basename1||index1||basename2||index2||basename3||index3::int in (select * from bq) and index3 is not null) order by basename1,basename2,basename3,index1::int,index2::int,index3::int;
+--select 'SS',* from lll_plctags   where basename1||index1||basename2||index2||basename3||index3 in (with bq as (select basename1||index1||basename2||index2||basename3||(index3::int+1)::text from lll_plctags where index3 is not null) select distinct(basename1||index1||basename2||index2||basename3||index3) from lll_plctags where basename1||index1||basename2||index2||basename3||index3::int in (select * from bq) and index3 is not null) order by basename1,basename2,basename3,index1::int,index2::int,index3::int;
 -- cerco i soli record che sono sequenze di livello 3. In questo caso faccio due query. Con la prima cerco i tag che hanno un tag con basename1||index1||basename2||basename3||index3 omonimo e un index3 precedente. Poi
 -- metto la 'S' anche al precedente, che dall'update prima non poteva essere settato
-update lll_plctags set seq3='S'  where basename1||index1||basename2||index2||basename3||index3 in (with bq as (select basename1||index1||basename2||index2||basename3||(index3::int+1)::text from lll_plctags where index3 is not null) select distinct(basename1||index1||basename2||index2||basename3||index3) from lll_plctags where basename1||index1||basename2||index2||basename3||index3::int in (select * from bq) and index3 is not null) order by basename1,basename2,basename3,index1::int,index2::int,index3::int;
+update lll_plctags set seq3='S'  where basename1||index1||basename2||index2||basename3||index3 in (with bq as (select basename1||index1||basename2||index2||basename3||(index3::int+1)::text from lll_plctags where index3 is not null) select distinct(basename1||index1||basename2||index2||basename3||index3) from lll_plctags where basename1||index1||basename2||index2||basename3||index3::int in (select * from bq) and index3 is not null) ;
 update lll_plctags set seq3='S' where basename1||index1||basename2||index2||basename3 in (select distinct(basename1||index1||basename2||index2||basename3) from lll_plctags where seq3='S') ;
 
 -- Problema: non tutti i numeri sono sequenze, quindi devo ridefinire il basename3 e rifare il giro sopra.
 -- Infatti con la select evidenzio gli index 3 che non erano serie e aggancio il numero successivo (in verita' nessuno!!! Ho quasi finito)
 -- Anche se non trovo nulla la faccio lo stesso, cosi' per sicurezza
-select name,basename1,index1,seq1,basename2,index2,seq2,basename3,index3,seq3, basename3||index3||substring(right(name, -(length(basename1||index1||basename2||index2||basename3||index3))),'^[^1234567890]*') from lll_plctags where index3 is not null and seq3 is null order by basename1, basename2,basename3, index1::int,index2::int,index3::int;
+--select name,basename1,index1,seq1,basename2,index2,seq2,basename3,index3,seq3, basename3||index3||substring(right(name, -(length(basename1||index1||basename2||index2||basename3||index3))),'^[^1234567890]*') from lll_plctags where index3 is not null and seq3 is null order by basename1, basename2,basename3, index1::int,index2::int,index3::int;
 -- Con l'update allungo il basename3 al numero successivo, se presente, o alla fine del name (nessuna riga!)
 update lll_plctags set basename3=basename3||index3||substring(right(name, -(length(basename1||index1||basename2||index2||basename3||index3))),'^[^1234567890]*') where index3 is not null and seq3 is null;
 -- Vediamo le righe ancora in gioco (nessuna riga!)
-select name,basename1,index1,seq1,basename2,index2,seq2,basename3,index3,seq3, substring(right(name, -length(basename1||index1||basename2||index2||basename3)), '\d+') from lll_plctags  where index3 is not null and seq3 is null order by basename1, basename2,basename3, index1::int,index2::int,index3::int;
+--select name,basename1,index1,seq1,basename2,index2,seq2,basename3,index3,seq3, substring(right(name, -length(basename1||index1||basename2||index2||basename3)), '\d+') from lll_plctags  where index3 is not null and seq3 is null order by basename1, basename2,basename3, index1::int,index2::int,index3::int;
 -- metto il nuovo indice in index3  (nessuna riga!)
 update lll_plctags set index3= substring(right(name, -length(basename1||index1||basename2||index2||basename3)), '\d+')  where index3 is not null and seq3 is null ;
 
+END LOOP CICLO3;
 ---- FINE CICLO 3
 
 
 --Non ci sono piu basename, infatti se cerco un basename4 ottengo stringhe nulle
-select name,basename1,index1,seq1,basename2,index2,seq2,basename3,index3,seq3, substring(right(name, -length(basename1||index1||basename2||index2||basename2||index3)), '^[^1234567890]*') from  lll_plctags where seq3='S' order by basename1,basename2,basename3,index1::int,index2::int,index3::int;
+--select name,basename1,index1,seq1,basename2,index2,seq2,basename3,index3,seq3, substring(right(name, -length(basename1||index1||basename2||index2||basename2||index3)), '^[^1234567890]*') from  lll_plctags where seq3='S' order by basename1,basename2,basename3,index1::int,index2::int,index3::int;
 
 
 
 -- Ora riempio count1, offset1, .... 
 -- Questa select mi fa vedere i plctags senza alcun indice
-select plcname,basename1, basename2, basename3, null::int as NUM ,null::int as START2 , null::int as END2, null::int as START2 , null::int as END2, null::int as START3 , null::int as END3 from lll_plctags where seq1 is null  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3;
+--select plcname,basename1, basename2, basename3, null::int as NUM ,null::int as START2 , null::int as END2, null::int as START2 , null::int as END2, null::int as START3 , null::int as END3 from lll_plctags where seq1 is null  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3;
 -- Questa mi fa vedere i plctags con un solo indice e ne calcola quantiyta di record, minore e maggiore di ogni sottogruppo;
-select plcname, basename1, basename2, basename3, count(index1) as NUM , min(index1::int) as START1 ,max(index1::int) as END1, null::int as START2 , null::int as END2, null::int as START3 , null::int as END3 from lll_plctags where seq1='S'  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3;
+--select plcname, basename1, basename2, basename3, count(index1) as NUM , min(index1::int) as START1 ,max(index1::int) as END1, null::int as START2 , null::int as END2, null::int as START3 , null::int as END3 from lll_plctags where seq1='S'  and seq2 is null and seq3 is null group by plcname,basename1,basename2,basename3;
 
 
-
+END
+$BODY$
+LANGUAGE plpgsql;
 
 --select 
 --	plcname,
