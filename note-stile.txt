@@ -1,11 +1,16 @@
 Note per la redazione di documentazione tecnica
 -----------------------------------------------
-- Non usare la prima persona per descrivere il funzionamento di una procedura, es. : se sono in start allora controllo .. se il sistema è in start viene controllato....
-- Evitare se possibile di umanizzare le funzioni (questa funzione manda , scrive, cancella), usare forme impersonali (tramite questa fuzione viene inviato, scritto, cancellato)
+- Non usare la prima persona per descrivere il funzionamento di una procedura, 
+  es. : 
+  se sono in start allora controllo - diventa : se il sistema è in start viene controllato....
+- Evitare se possibile di umanizzare le funzioni (questa funzione manda , scrive, cancella), usare forme impersonali 
+  (tramite questa fuzione viene inviato, scritto, cancellato)
 
 alcuni sinonimi di parole poco adatte ad un testo tecnico formale.
 
-sapere - conoscere, ricavare
-manda - invia
-prende - legge, rileva
-fa - esegue
+Parola  Sinonimo
+------  -------------------
+sapere  conoscere, ricavare
+manda   invia
+prende  legge, rileva
+fa      esegue
